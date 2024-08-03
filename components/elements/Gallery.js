@@ -55,25 +55,25 @@ const GalleryComponent = ({ data }) => {
         />
 
         <img
-          src="/assets/images/kprmill-images/Products/Garment/gallery-4.jpg"
+          src="/assets/images/kprmill-images/Products/Garment/gallery-8.jpg"
           className="deskdop-gallery-images"
           style={{ width: "20%", height: "700px" }}
         />
 
         <img
-          src="/assets/images/kprmill-images/Products/Garment/gallery-2.jpg"
+          src="/assets/images/kprmill-images/Products/Garment/gallery-6.jpg"
           className="deskdop-gallery-images"
           style={{ width: "15%", height: "700px" }}
         />
 
         <img
-          src="/assets/images/kprmill-images/Products/Garment/gallery-3.jpg"
+          src="/assets/images/kprmill-images/Products/Garment/gallery-7.jpg"
           className="deskdop-gallery-images"
           style={{ width: "15%", height: "700px" }}
         />
 
         <img
-          src="/assets/images/kprmill-images/Products/Garment/gallery-1.jpg"
+          src="/assets/images/kprmill-images/Products/Garment/gallery-5.jpg"
           className="deskdop-gallery-images"
           style={{ width: "50%", height: "700px" }}
         />
