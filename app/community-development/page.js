@@ -55,7 +55,7 @@ export default function CommunityDevelopment() {
                 <div class="image-box pl-3">
                   <figure class="image">
                     <img
-                      src="/assets/images/kprmill/csr/community-development-1.jpg"
+                      src="/assets/images/kprmill-images/CSR/Community-Development/community-development-1.png"
                       alt=""
                     />
                   </figure>
@@ -107,7 +107,7 @@ export default function CommunityDevelopment() {
                 <div className="image-box pl_3">
                   <figure className="image">
                     <img
-                      src="/assets/images/kprmill/csr/community-development-2.jpg"
+                      src="/assets/images/kprmill-images/CSR/Community-Development/community-development-2.png"
                       alt=""
                     />
                   </figure>
@@ -184,7 +184,7 @@ export default function CommunityDevelopment() {
                 <div class="image-box pl-3">
                   <figure class="image">
                     <img
-                      src="/assets/images/kprmill/csr/community-development-3.jpg"
+                      src="/assets/images/kprmill-images/CSR/Community-Development/community-development-3.png"
                       alt=""
                     />
                   </figure>
@@ -246,7 +246,7 @@ export default function CommunityDevelopment() {
                 <div className="image-box pl_3">
                   <figure className="image">
                     <img
-                      src="/assets/images/kprmill/csr/community-development-4.jpg"
+                      src="/assets/images/kprmill-images/CSR/Community-Development/community-development-4.png"
                       alt=""
                     />
                   </figure>

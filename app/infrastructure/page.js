@@ -489,7 +489,7 @@ export default function Infrastructure() {
                 <div class="image-box pl-3">
                   <figure class="image" style={{ borderRadius: "none" }}>
                     <img
-                      src="/assets/images/kprmill-images/Infrastructure/manufacturing-capacity.jpg"
+                      src="/assets/images/kprmill-images/Infrastructure/last-img.png"
                       alt=""
                     />
                   </figure>

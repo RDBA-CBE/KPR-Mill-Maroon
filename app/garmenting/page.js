@@ -110,7 +110,7 @@ export default function Garmenting() {
                 <div className="image-box pl_3">
                   <figure className="image">
                     <img
-                      src="/assets/images/kprmill-images/Infrastructure/Garmenting/garmenting-2.jpg"
+                      src="/assets/images/kprmill-images/Infrastructure/Garmenting/img.png"
                       alt=""
                     />
                   </figure>

@@ -77,7 +77,7 @@ export default function PreintingAndEmbroidery() {
                 <div class="image-box pl-3">
                   <figure class="image">
                     <img
-                      src="/assets/images/kprmill-images/Infrastructure/Printing-And-Embroidery/printing-1.jpg"
+                      src="/assets/images/kprmill-images/Infrastructure/Printing-And-Embroidery/img-1.png"
                       alt=""
                     />
                   </figure>
@@ -175,7 +175,7 @@ export default function PreintingAndEmbroidery() {
                 <div class="image-box pl-3">
                   <figure class="image">
                     <img
-                      src="/assets/images/kprmill-images/Infrastructure/Printing-And-Embroidery/printing-3.jpg"
+                      src="/assets/images/kprmill-images/Infrastructure/Printing-And-Embroidery/img-2.png"
                       alt=""
                     />
                   </figure>

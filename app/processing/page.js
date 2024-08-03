@@ -105,7 +105,7 @@ export default function Processing() {
                 <div className="image-box pl_3">
                   <figure className="image">
                     <img
-                      src="/assets/images/kprmill/infrastructure/Process-2.jpg"
+                      src="/assets/images/kprmill-images/Infrastructure/Processing/img.png"
                       alt=""
                     />
                   </figure>
@@ -156,7 +156,7 @@ export default function Processing() {
                 <div class="image-box pl-3">
                   <figure class="image">
                     <img style={{ height: "400px" }}
-                      src="/assets/images/kprmill/infrastructure/Process-3.jpg"
+                      src="/assets/images/kprmill-images/Infrastructure/Processing/img-2.jpg"
                       alt=""
                     />
                   </figure>

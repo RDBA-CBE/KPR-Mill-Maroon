@@ -28,7 +28,7 @@ export default function SugarMill() {
 
                     <div className="text mb_25">
                       <h5 style={{ paddingBottom: "10px", fontWeight: "600" }}>
-                        SUGAR
+                        Sugar
                       </h5>
                       <p>
                         KPR has been proactively exploring new avenues for green
@@ -68,7 +68,7 @@ export default function SugarMill() {
                 <div class="image-box pl-3">
                   <figure class="image">
                     <img
-                      src="/assets/images/kprmill/infrastructure/sugar.jpg"
+                      src="/assets/images/kprmill-images/Infrastructure/Sugarmill/img.png"
                       alt=""
                     />
                   </figure>

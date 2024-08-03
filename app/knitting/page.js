@@ -83,7 +83,7 @@ export default function Knitting() {
                   <figure className="image">
                     <img
                       style={{ height: "400px" }}
-                      src="/assets/images/kprmill-images/Infrastructure/Kintting/knitting-2.jpg"
+                      src="/assets/images/kprmill-images/Infrastructure/Kintting/knitting-1.jpg"
                       alt=""
                     />
                   </figure>
