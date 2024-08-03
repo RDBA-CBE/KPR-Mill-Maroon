@@ -1,0 +1,247 @@
+.help-section {
+  background: #daad19 ;
+  padding: 60px 0px;
+}
+
+.help-section .sec-title.light .sub-title:before {
+  background: #965232;
+}
+
+.help-section .sec-title.light .sub-title:after {
+  background: #daad19 ;
+}
+
+.help-section .single-item .inner-box {
+  position: relative;
+  padding-left: 125px;
+}
+
+.help-section .single-item .inner-box .icon-box {
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  width: 80px;
+  text-align: center;
+}
+
+.help-section .single-item .inner-box .icon-box:before {
+  position: absolute;
+  content: '';
+  background: rgba(180, 196, 217, 0.1);
+  width: 1px;
+  height: 125px;
+  top: 0px;
+  left: 95px;
+}
+
+.help-section .single-item .inner-box .icon-box .icon {
+  position: relative;
+  display: block;
+  font-size: 65px;
+  color: var(--white-color);
+}
+
+.help-section .single-item .inner-box .icon-box .count-text {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 12px;
+  color: var(--white-color);
+  background: rgba(255, 255, 255, 0.20);
+}
+
+.help-section .single-item .inner-box .icon-box .count-text:before {
+  position: absolute;
+  content: '';
+  border: 1px solid #B4C4D9;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  left: -2px;
+  top: -2px;
+}
+
+.help-section .single-item .inner-box h3 {
+  display: block;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.help-section .single-item .inner-box h3 a {
+  display: inline-block;
+  color: var(--white-color);
+}
+
+.help-section .single-item .inner-box h3 a:hover {
+  color: var(--secondary-color);
+}
+
+.help-section .single-item .inner-box p {
+  font-size: 18px;
+  color: var(--white-color);
+}
+
+.help-section .pattern-layer .pattern-1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 627px;
+  height: 593px;
+  background-repeat: no-repeat;
+}
+
+.help-section .pattern-layer .pattern-2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 471px;
+  height: 510px;
+  background-repeat: no-repeat;
+  -webkit-animation: zoom-fade 7s infinite linear;
+  animation: zoom-fade 7s infinite linear;
+}
+
+.help-section .pattern-layer .pattern-3 {
+  position: absolute;
+  left: 0px;
+  bottom: 15px;
+  width: 100%;
+  height: 263px;
+  background-repeat: no-repeat;
+}
+
+
+.help-section.alternat-2 {
+  background: var(--white-color);
+}
+
+.help-section.alternat-2 .single-item .inner-box .icon-box .icon {
+  color: var(--secondary-color);
+}
+
+.help-section.alternat-2 .single-item .inner-box .icon-box .count-text {
+  background: var(--main-color);
+}
+
+.help-section.alternat-2 .single-item .inner-box h3 a,
+.help-section.alternat-2 .single-item .inner-box p {
+  color: var(--main-color);
+}
+
+.help-section.alternat-2 .single-item .inner-box .icon-box:before {
+  background: #B4C4D9;
+}
+
+.help-section.alternat-2 .single-item .inner-box h3 a:hover {
+  color: var(--secondary-color);
+}
+
+
+
+
+.esg_content p {
+  color: black !important;
+  font-size: 16px;
+}
+
+.help-list-style-one li {
+  position: relative;
+  display: block;
+  font-size: 16px;
+  padding-left: 30px;
+  margin-bottom: 8px;
+  color: black;
+}
+
+
+
+.help-list-style-one li:last-child {
+  margin-bottom: 0px;
+}
+
+.help-list-style-one li:before {
+  position: absolute;
+  content: '';
+  font-family: 'icomoon';
+  font-size: 20px;
+  left: 0px;
+  top: 0px;
+  color: #5a1d00 ;
+  width: 20px;
+  height: 20px;
+  background: url('../../images/kprmill/home/list-icon.png') no-repeat center center;
+  background-size: contain;
+}
+
+
+.about-list-style li {
+  position: relative;
+  display: block;
+  font-size: 16px;
+  padding-left: 30px;
+  margin-bottom: 8px;
+  color: black;
+}
+
+
+
+.about-list-style li:last-child {
+  margin-bottom: 0px;
+}
+
+.about-list-style li:before {
+  position: absolute;
+  content: '';
+  font-family: 'icomoon';
+  font-size: 20px;
+  left: 2px;
+  top: 7px;
+  color: #5a1d00 ;
+  width: 20px;
+height: 20px;
+background: url(../../images/kprmill/home/list-icon.png) no-repeat center center;
+background-size: contain;
+}
+
+
+.code-list-style li {
+  position: relative;
+  display: block;
+  font-size: 16px;
+  padding-left: 30px;
+  margin-bottom: 8px;
+  color: #888888;
+}
+
+
+
+.code-list-style li:last-child {
+  margin-bottom: 0px;
+}
+
+.code-list-style li:before {
+  position: absolute;
+  content: '';
+  font-family: 'icomoon';
+  font-size: 20px;
+  left: 2px;
+  top: 5px;
+  color: #888888;
+  width: 20px;
+height: 20px;
+background: url(../../images/kprmill/home/star.png) no-repeat center center;
+background-size: contain;
+}
+
+
+.esg_image-box {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+}
