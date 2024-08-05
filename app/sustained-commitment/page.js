@@ -61,7 +61,7 @@ export default function SustainedCommitment() {
                 <div class="image-box pl-3">
                   <figure class="image">
                     <img
-                      src="/assets/images/kprmill/csr/sustainability-1.jpg"
+                      src="/assets/images/kprmill-images/CSR/Sustained-Commitment/sustainability-1.png"
                       alt=""
                     />
                   </figure>
@@ -133,7 +133,7 @@ export default function SustainedCommitment() {
                 <div className="image-box pl_3">
                   <figure className="image">
                     <img
-                      src="/assets/images/kprmill/csr/sustainability-2.jpg"
+                      src="/assets/images/kprmill-images/CSR/Sustained-Commitment/sustainability-2.png"
                       alt=""
                     />
                   </figure>
@@ -210,7 +210,7 @@ export default function SustainedCommitment() {
                 <div class="image-box pl-3">
                   <figure class="image">
                     <img
-                      src="/assets/images/kprmill/csr/sustainability-3.jpg"
+                      src="/assets/images/kprmill-images/CSR/Sustained-Commitment/sustainability-3.png"
                       alt=""
                     />
                   </figure>

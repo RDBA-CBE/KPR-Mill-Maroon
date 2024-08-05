@@ -119,7 +119,7 @@ export default function GreenInitiatives() {
               <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                 <div className="image-box pl_3">
                   <figure className="image">
-                    <img src="/assets/images/kprmill-images/CSR/Green-Initiatives/green-2.jpg" alt="" />
+                    <img src="/assets/images/kprmill-images/CSR/Green-Initiatives/green-2.png" alt="" />
                   </figure>
                 </div>
               </div>
@@ -174,7 +174,7 @@ export default function GreenInitiatives() {
                 <div class="image-box pl-3">
                   <figure class="image">
                     <img
-                      src="/assets/images/kprmill-images/CSR/Green-Initiatives/green-3.jpg"
+                      src="/assets/images/kprmill-images/CSR/Green-Initiatives/green-3.png"
                       alt=""
                     />
                   </figure>
@@ -218,7 +218,7 @@ export default function GreenInitiatives() {
                 <div className="image-box pl_3">
                   <figure className="image">
                     <img
-                      src="/assets/images/kprmill-images/CSR/Green-Initiatives/green-4.jpg"
+                      src="/assets/images/kprmill-images/CSR/Green-Initiatives/green-4.png"
                       alt=""
                     />
                   </figure>
@@ -262,7 +262,7 @@ export default function GreenInitiatives() {
                 <div class="image-box pl-3">
                   <figure class="image">
                     <img
-                      src="/assets/images/kprmill-images/CSR/Green-Initiatives/green-5.jpg"
+                      src="/assets/images/kprmill-images/CSR/Green-Initiatives/green-5.png"
                       alt=""
                     />
                   </figure>
