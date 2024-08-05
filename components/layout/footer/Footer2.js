@@ -239,7 +239,7 @@ export default function Footer2() {
                         <div>
                           <ul className="post-info list-unstyled  footer-list">
                             <li>
-                              <Link href="/overview" style={{ color: "white" }}>
+                              <Link href="/infrastructure" style={{ color: "white" }}>
                                 Overview
                               </Link>
                             </li>

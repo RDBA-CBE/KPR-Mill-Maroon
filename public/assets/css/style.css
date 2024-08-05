@@ -8474,6 +8474,17 @@
    height: 700px
  }
 
+ .spinningBottomImage {
+   height: 400px;
+ }
+
+ .knittingBottomImage {
+   height: 400px;
+ }
+ .processingBottomImage{
+  height: 400px;
+}
+
  @media(max-width:992px) {
    .Gallery-image-1 {
      width: 50%;
@@ -8529,7 +8540,7 @@
 
    .Gallery-image-3 {
      width: 100%;
-     height: 400px
+     height: 400px;
    }
 
    .Gallery-image-4 {
@@ -8556,4 +8567,21 @@
      width: 100%;
      height: 400px
    }
+
+
+   .spinningBottomImage {
+     height: 250px;
+   }
+
+   .knittingBottomImage {
+     height: 250px;
+   }
+
+   .processingBottomImage{
+     height: 250px;
+   }
+
+   .printing-title-outer {
+    margin-bottom: 30px;
+  }
  }

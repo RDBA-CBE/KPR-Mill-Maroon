@@ -19,7 +19,7 @@ export default function PreintingAndEmbroidery() {
               PRINTING & EMBROIDERY
               </span> */}
               {/* <h2>PRINTING & EMBROIDERY</h2> */}
-              <p className="printing-title">
+              <p className="printing-title mb-0">
                 As the pioneer in the embroidery market, KPR continues to design
                 the highest quality embroidery job works using latest
                 technology. Our printing and embroidery capabilities can create
@@ -132,7 +132,7 @@ export default function PreintingAndEmbroidery() {
           </div>
         </section> */}
 
-        <section className="dream-style-three p_relative">
+        <section className="dream-style-three p_relative pt-0" >
           <div className="auto-container">
             {/* <div className="sec-title  mb_30 text-center">
               <span className="sub-title" style={{ color: "black" }}>

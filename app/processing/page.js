@@ -155,7 +155,7 @@ export default function Processing() {
               <div class="col-lg-12 col-md-12 col-sm-12 order-lg-1 image-column">
                 <div class="image-box pl-3">
                   <figure class="image">
-                    <img style={{ height: "400px" }}
+                    <img className="processingBottomImage"
                       src="/assets/images/kprmill-images/Infrastructure/Processing/img-2.jpg"
                       alt=""
                     />

@@ -168,7 +168,7 @@ export default function Garments() {
                     className="col-lg-5 col-md-5 col-sm-12 order-lg-1  content-column"
                     style={{ display: "flex", alignItems: "center" }}
                   >
-                    <div className="image-box pl_3">
+                    <div className="image-box pl_3 w-100">
                       <figure className="image">
                         <img
                           style={{ height: "400px" }}

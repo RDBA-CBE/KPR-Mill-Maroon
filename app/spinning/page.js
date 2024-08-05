@@ -194,7 +194,7 @@ export default function Spinning() {
                   <figure class="image">
                     <img
                       src="/assets/images/kprmill-images/Infrastructure/Spinning/spinning-3.jpg"
-                      alt=""  style={{height:"400px"}}
+                      alt="" className="spinningBottomImage" 
                     />
                   </figure>
                 </div>

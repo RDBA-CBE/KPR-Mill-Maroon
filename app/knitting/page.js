@@ -82,9 +82,9 @@ export default function Knitting() {
                 <div className="image-box pl_3">
                   <figure className="image">
                     <img
-                      style={{ height: "400px" }}
+                    
                       src="/assets/images/kprmill-images/Infrastructure/Kintting/knitting-1.jpg"
-                      alt=""
+                      alt="" className="knittingBottomImage"
                     />
                   </figure>
                 </div>
