@@ -78,33 +78,34 @@
  @import url(./rtl.css);
 
  @font-face {
-   font-family: 'sancoale_slabnorm_thin';
-   src: url('/fonts/sancoale_slab_norm_thin-webfont.woff2') format('woff2'),
-     url('/fonts/sancoale_slab_norm_thin-webfont.woff') format('woff');
-   font-weight: normal;
-   font-style: normal;
+  font-family: 'Amazing-Grotesk';
+  src:url('../fonts/Amazing-Grotesk.ttf.woff') format('woff'),
+      url('../fonts/Amazing-Grotesk.ttf.svg#Amazing-Grotesk') format('svg'),
+      url('../fonts/Amazing-Grotesk.ttf.eot'),
+      url('../fonts/Amazing-Grotesk.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
 
- }
+@font-face {
+  font-family: 'LibreFranklin-Light';
+  src:url('../fonts/LibreFranklin-Light.ttf.woff') format('woff'),
+      url('../fonts/LibreFranklin-Light.ttf.svg#LibreFranklin-Light') format('svg'),
+      url('../fonts/LibreFranklin-Light.ttf.eot'),
+      url('../fonts/LibreFranklin-Light.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
 
-
- @font-face {
-   font-family: 'orgon_slablight';
-   src: url('/fonts/orgon_slab_light-webfont.woff2') format('woff2'),
-     url('/fonts/orgon_slab_light-webfont.woff') format('woff');
-   font-weight: normal;
-   font-style: normal;
-
- }
-
- @font-face {
-   font-family: 'pf_centro_slab_proextrathin';
-   src: url('/fonts/pfcentroslabpro-xthin-webfont.woff2') format('woff2'),
-     url('/fonts/pfcentroslabpro-xthin-webfont.woff') format('woff');
-   font-weight: normal;
-   font-style: normal;
-
- }
-
+@font-face {
+  font-family: 'Overpass-Light';
+  src:url('../fonts/Overpass-Light.ttf.woff') format('woff'),
+      url('../fonts/Overpass-Light.ttf.svg#Overpass-Light') format('svg'),
+      url('../fonts/Overpass-Light.ttf.eot'),
+      url('../fonts/Overpass-Light.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
 
  /*** 
 
@@ -141,12 +142,12 @@
 
 
  body {
-   font-size: 16px;
+   font-size: 15px;
    color: var(--text-color);
    line-height: 24px;
    font-weight: 400;
    background: #ffffff;
-   /* font-family: var(--heebo); */
+   font-family: 'Overpass-Light';
    /* font-family: 'interFace'; */
 
    background-size: cover;
@@ -154,7 +155,9 @@
    background-position: center top;
    -webkit-font-smoothing: antialiased;
  }
-
+p{
+  font-family: 'Overpass-Light';
+}
  @media (min-width:1200px) {
    .container {
      max-width: 1200px;
@@ -264,7 +267,7 @@
  h5,
  h6 {
    position: relative;
-   font-family: "orgon_slablight !important";
+   font-family: "Amazing-Grotesk !important";
    font-weight: 400;
    color: var(--title-color);
    margin: 0px;
@@ -738,14 +741,14 @@
  .sec-title .sub-title {
    position: relative;
    display: inline-block;
-   font-size: 16px;
+   font-size: 17px;
    line-height: 26px;
    color: #5a1d00;
    font-weight: 500;
    padding-bottom: 10px;
    margin-bottom: 20px;
    text-transform: uppercase;
-   font-family: "orgon_slablight";
+   font-family: 'Amazing-Grotesk';
  }
 
  .sec-title .sub-title:before {
@@ -787,7 +790,7 @@
    line-height: 50px;
    /* font-weight: 700; */
    color: #daad19;
-   font-family: "orgon_slablight";
+   font-family: 'Amazing-Grotesk';
  }
 
  .sec-title h3 {
@@ -796,12 +799,12 @@
    line-height: 50px;
    /* font-weight: 700; */
    color: #daad19;
-   font-family: "orgon_slablight";
+   font-family: 'Amazing-Grotesk';
    /* text-decoration: underline; */
  }
 
  th {
-   font-family: "orgon_slablight";
+   font-family: 'Amazing-Grotesk';
    padding: 20px 20px 20px 10px !important;
  }
 
@@ -1213,7 +1216,7 @@
  }
 
  .main-menu .navigation>li>a {
-   font-family: "orgon_slablight";
+   font-family: 'Amazing-Grotesk';
    /* font-weight: 600; */
    position: relative;
    display: block;
@@ -1278,7 +1281,7 @@
    padding: 10px 30px;
    line-height: 24px;
    /* font-weight: 500; */
-   font-size: 18px;
+   font-size: 16px;
    text-transform: capitalize;
    /* font-family: var(--heebo); */
    color: var(--white-color);
@@ -1288,7 +1291,7 @@
    -webkit-transition: all 500ms ease;
    -ms-transition: all 500ms ease;
    -o-transition: all 500ms ease;
-   font-family: "orgon_slablight !important";
+   font-family: 'Amazing-Grotesk' !important;
    /* font-weight: 600; */
  }
 
@@ -1372,7 +1375,7 @@
    font-weight: 500;
    font-size: 16px;
    text-transform: capitalize;
-   font-family: var(--white-color);
+   font-family: 'Amazing-Grotesk';
    color: var(--white-color);
    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
    text-align: left;
@@ -2188,7 +2191,7 @@
  .header-style-two .header-lower .main-menu .navigation>li>a {
    padding-top: 20px;
    padding-bottom: 20px;
-   font-family: "orgon_slablight !important";
+   font-family: "Amazing-Grotesk !important";
    /* font-weight: 600; */
  }
 
@@ -8107,7 +8110,7 @@
    font-size: 30px;
    font-weight: bold;
    color: #5a1d00 !important;
-   font-family: "orgon_slablight !important";
+   font-family: "Amazing-Grotesk !important";
  }
 
 
@@ -8119,7 +8122,7 @@
    /* Optionally adjust font weight */
    margin-top: 10px;
    color: #5a1d00 !important;
-   font-family: "orgon_slablight";
+   font-family: 'Amazing-Grotesk';
 
  }
 
@@ -8129,7 +8132,7 @@
    color: #666;
    /* Optionally adjust color */
    margin-top: 10px;
-   font-family: "orgon_slablight";
+   font-family: 'Amazing-Grotesk';
  }
 
 
@@ -8211,7 +8214,7 @@
 
  .footer-title {
    font-size: 18px;
-   font-family: "orgon_slablight";
+   font-family: 'Amazing-Grotesk';
    color: white;
    padding-bottom: 10px;
  }

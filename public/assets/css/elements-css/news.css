@@ -246,9 +246,9 @@
   display: block;
   font-size: 24px;
   line-height: 34px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 15px;
-  font-family: "orgon_slablight";
+  font-family: 'Amazing-Grotesk';
 }
 
 .news-block-two .inner-box .content-box h3 a{
