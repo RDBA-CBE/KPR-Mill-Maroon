@@ -40,7 +40,7 @@ export default function Home() {
                     <div className="text mb_30">
                       <p>
                         <b> Mr. P. Kandaswamy</b> – Company Secretary Mail Id:{" "}
-                        <Link href="mailto:kandaswamy@kprmill.com">
+                        <Link href="mailto:kandaswamy@kprmill.com" style={{color:"#5a1d00"}}>
                           kandaswamy@kprmill.com
                         </Link>
                       </p>
