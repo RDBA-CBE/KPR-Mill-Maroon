@@ -25,7 +25,7 @@ export default function Garmenting() {
             <div class="row clearfix">
               <div class="col-lg-12 col-md-12 col-sm-12 text-center content-column">
                 <div className="content_block_two">
-                  <div className="content-box p_relative d_block">
+                  <div className="content-box p_relative d_block mb-0">
                     {/* <div className="sec-title mb_5">
                       <span className="sub-title">Reach Your Dream</span>
                       <h3>GARMENTS</h3>
