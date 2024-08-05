@@ -72,7 +72,7 @@ export default function HigherStudiesAndCarrerPlacement() {
                 <div class="image-box pl-3">
                   <figure class="image">
                     <img
-                      src="/assets/images/kprmill/csr/higher-studies-1.jpg"
+                      src="/assets/images/kprmill-images/CSR/Higher-Studies-and-Carrer-Placement/higher-studies-1.png"
                       alt=""
                     />
                   </figure>
@@ -151,7 +151,7 @@ export default function HigherStudiesAndCarrerPlacement() {
                 <div className="image-box pl_3">
                   <figure className="image">
                     <img
-                      src="/assets/images/kprmill/csr/higher-studies-2.jpg"
+                      src="/assets/images/kprmill-images/CSR/Higher-Studies-and-Carrer-Placement/higher-studies-2.png"
                       alt=""
                     />
                   </figure>
@@ -247,7 +247,7 @@ export default function HigherStudiesAndCarrerPlacement() {
                 <div class="image-box pl-3">
                   <figure class="image">
                     <img
-                      src="/assets/images/kprmill/csr/higher-studies-3.jpg"
+                      src="/assets/images/kprmill-images/CSR/Higher-Studies-and-Carrer-Placement/higher-studies-3.png"
                       alt=""
                     />
                   </figure>
@@ -309,7 +309,7 @@ export default function HigherStudiesAndCarrerPlacement() {
                 <div className="image-box pl_3">
                   <figure className="image">
                     <img
-                      src="/assets/images/kprmill/csr/higher-studies-4.jpg"
+                      src="/assets/images/kprmill-images/CSR/Higher-Studies-and-Carrer-Placement/higher-studies-4.png"
                       alt=""
                     />
                   </figure>

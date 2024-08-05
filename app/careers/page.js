@@ -50,7 +50,7 @@ export default function Careers() {
                 <div class="image-box pl-3">
                   <figure class="image">
                     <img
-                      src="/assets/images/kprmill-images/Careers/careers-1.jpg"
+                      src="/assets/images/kprmill-images/Careers/careers-1.png"
                       alt=""
                     />
                   </figure>
@@ -121,7 +121,7 @@ export default function Careers() {
                 <div className="image-box pl_3">
                   <figure className="image">
                     <img
-                      src="/assets/images/kprmill-images/Careers/careers-2.jpg"
+                      src="/assets/images/kprmill-images/Careers/careers-2.png"
                       alt=""
                     />
                   </figure>
