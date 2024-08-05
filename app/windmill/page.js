@@ -23,7 +23,7 @@ export default function Windmill() {
                   <div className="content-box p_relative d_block">
                     <div className="sec-title mb_5">
                       {/* <span className="sub-title">Reach Your Dream</span> */}
-                      <h3>ALTERNATIVE ENERGY</h3>
+                      <h3>Alternative Energy</h3>
                     </div>
 
                     <div className="text mb_25">

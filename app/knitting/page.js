@@ -45,9 +45,9 @@ export default function Knitting() {
                     </div>
                     <div className="text">
                       <h5 style={{ fontWeight: "600", marginBottom: "10px" }}>
-                        Housing the contemporary imported knitting machines
-                        (Mayer & Cie), we roll out quality fabrics that suit the
-                        international garment needs.
+                        Housing The Contemporary Imported Knitting Machines
+                        (Mayer & Cie), We Roll Out Quality Fabrics That Suit The
+                        International Garment Needs.
                       </h5>
                     </div>
                     {/* <div className="btn-box">

@@ -23,7 +23,7 @@ export default function Fabric() {
                   <div className="content-box p_relative d_block">
                     <div className="sec-title mb_5">
                       {/* <span className="sub-title">Reach Your Dream</span> */}
-                      <h3>FABRIC</h3>
+                      <h3>Fabric</h3>
                     </div>
 
                     <div className="text mb_25">
@@ -90,7 +90,7 @@ export default function Fabric() {
                   <div className="content-box p_relative d_block">
                     <div className="sec-title mb_5">
                       {/* <span className="sub-title">Reach Your Dream</span> */}
-                      <h3>Special finishes:</h3>
+                      <h3>Special Finishes:</h3>
                     </div>
                     <div className="text">
                       <p>

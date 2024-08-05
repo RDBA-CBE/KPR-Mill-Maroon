@@ -149,7 +149,7 @@ export default function PreintingAndEmbroidery() {
                     <div className="sec-title mb_5">
                       {/* <span className="sub-title">Reach Your Dream</span> */}
                       <h3>
-                        Our modern printing & embroidery machinery includes:
+                        Our Modern Printing & Embroidery Machinery Includes:
                       </h3>
                     </div>
 

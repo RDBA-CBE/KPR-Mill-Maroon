@@ -32,7 +32,7 @@ export default function About() {
                     <span className="sub-title" style={{ color: "black" }}>
                       WELCOME TO KPR
                     </span>
-                    <h2>About the Company</h2>
+                    <h2>About The Company</h2>
                   </div>
                   <div className="text mb_30">
                     <p className="aboutus-content">

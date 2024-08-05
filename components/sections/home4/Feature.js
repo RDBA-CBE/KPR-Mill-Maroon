@@ -6,7 +6,7 @@ export default function Feature() {
     <section className="feature-style-two sec-pad pt-0 centred">
       <div className="auto-container">
         <div className="sec-title centred mb_30">
-          <h2>KPR has multiple awards to his credit</h2>
+          <h2>KPR Has Multiple Awards To His Credit</h2>
         </div>
         <div className="row clearfix mt_30">
           <div className="col-lg-4 col-md-6 col-sm-12 mb_20 feature-block">

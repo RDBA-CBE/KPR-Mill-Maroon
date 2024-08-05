@@ -179,7 +179,7 @@ export default function Home() {
                   <div className="content-box p_relative d_block">
                     <div className="sec-title mb_20">
                       {/* <span className="sub-title">Reach Your Dream</span> */}
-                      <h3>MISSION</h3>
+                      <h3>Mission</h3>
                     </div>
                     <div className="text">
                       <ul className="about-list-style clearfix">

@@ -177,7 +177,7 @@ export default function HigherStudiesAndCarrerPlacement() {
                   <div className="content-box p_relative d_block">
                     <div className="sec-title mb_5">
                       {/* <span className="sub-title">Reach Your Dream</span> */}
-                      <h3>Employees higher education</h3>
+                      <h3>Employees Higher Education</h3>
                     </div>
 
                     <div className="text mb_25">

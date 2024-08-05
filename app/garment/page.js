@@ -77,7 +77,7 @@ export default function Garments() {
                               >
                                 <h3>
                                   <Link href="/#">
-                                    Garment manufacturing capacity
+                                    Garment Manufacturing Capacity
                                   </Link>
                                 </h3>
                                 <p style={{ fontSize: "18px" }}>

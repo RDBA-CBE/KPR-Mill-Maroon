@@ -17,7 +17,7 @@ export default function Countries() {
             <span className="sub-title" style={{ color: "black" }}>
               Our strategic capabilities
             </span>
-            <h2>Infusing Fashion Trends with Distinctive Style</h2>
+            <h2>Infusing Fashion Trends With Distinctive Style</h2>
           </div>
           <div className="tabs-box">
             {/* <div className="tab-btn-box mb_60">

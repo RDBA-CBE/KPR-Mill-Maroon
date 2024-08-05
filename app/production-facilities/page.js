@@ -16,8 +16,8 @@ const page = () => {
         <div className="auto-container">
           <div className="sec-title  mb_30 text-center">
             <h2 style={{ fontSize: "30px" }}>
-              The Company has ‘State-of-the-Art’ production facilities in the
-              State of Tamil Nadu, India.
+              The Company Has ‘State-of-the-Art’ Production Facilities In The
+              State Of Tamil Nadu, India.
             </h2>
           </div>
           <div class="row clearfix p_relative">
@@ -38,7 +38,7 @@ const page = () => {
             <div className="facility-box-1">
               <div className="text facility-box-1-content">
                 <div className="sec-title mb_5 text">
-                  <h3 className="mb-2">The Yarn division</h3>
+                  <h3 className="mb-2">The Yarn Division</h3>
                 </div>
                 <p>
                   The Yarn division has 3, 70,000 spindles with a production
@@ -74,7 +74,7 @@ const page = () => {
             <div className="facility-box-2">
               <div className="text facility-box-2-content">
                 <div className="sec-title mb_5 text">
-                  <h3 className="mb-2">Fabric division</h3>
+                  <h3 className="mb-2">Fabric Division</h3>
                 </div>
                 <p>
                   Fabric division is equipped with high speed automatic circular
@@ -108,7 +108,7 @@ const page = () => {
             <div className="facility-box-1">
               <div className="text facility-box-1-content">
                 <div className="sec-title mb_5 text">
-                  <h3 className="mb-2">The Garment manufacturing facility</h3>
+                  <h3 className="mb-2">The Garment Manufacturing Facility</h3>
                 </div>
                 <p>
                   The Garment manufacturing facility is one of the largest in
@@ -144,7 +144,7 @@ const page = () => {
               <div className="text facility-box-2-content">
                 <div className="sec-title mb_5 text">
                   <h3 className="mb-2" style={{ color: "white" }}>
-                    Vertical integration
+                    Vertical Integration
                   </h3>
                 </div>
                 <p style={{ color: "white" }}>

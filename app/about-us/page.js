@@ -249,7 +249,7 @@ export default function Home() {
                       <span className="sub-title">
                         Setting benchmarks for quality
                       </span>
-                      <h2>Get the Right Help</h2>
+                      <h2>Get The Right Help</h2>
                     </div>
                     <div className="text mb_25">
                       <p>

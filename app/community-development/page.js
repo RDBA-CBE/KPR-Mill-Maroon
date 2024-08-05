@@ -76,7 +76,7 @@ export default function CommunityDevelopment() {
                   <div className="content-box p_relative d_block">
                     <div className="sec-title mb_5">
                       {/* <span className="sub-title">Reach Your Dream</span> */}
-                      <h3>Employee-friendly workplace</h3>
+                      <h3>Employee-friendly Workplace</h3>
                     </div>
                     <div className="text mb_25">
                       <p>

@@ -27,7 +27,7 @@ export default function GreenInitiatives() {
                   <div className="content-box p_relative d_block">
                     <div className="sec-title mb_5">
                       {/* <span className="sub-title">Reach Your Dream</span> */}
-                      <h3>Gree Initiatives</h3>
+                      <h3>Green Initiatives</h3>
                     </div>
 
                     <div className="text mb_25">
