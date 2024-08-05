@@ -111,7 +111,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="feature-section about-page alternat-3 pb_60">
+        <section className="feature-section about-page alternat-3">
           <div className="auto-container">
             <div className="inner-container">
               <div
@@ -170,7 +170,6 @@ export default function Home() {
 
         <section
           className="dream-style-three p_relative"
-          style={{ paddingTop: "0px" }}
         >
           <div className="auto-container">
             <div className="row clearfix">
