@@ -23,7 +23,7 @@ export default function Help() {
                 Corporate Social Responsibility
               </span>
               <h2 style={{ color: "black" }}>
-                Environmental, social and
+                Environmental, Social and
                 <br /> Governance
               </h2>
             </div>

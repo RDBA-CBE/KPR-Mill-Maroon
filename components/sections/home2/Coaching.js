@@ -15,7 +15,7 @@ export default function Coaching() {
           <span className="sub-title" style={{ color: "black" }}>
             Awards and Accolades
           </span>
-          <h2>Recognition for sustaining excellence in the industry</h2>
+          <h2>Recognition For Sustaining Excellence In The Industry</h2>
         </div>
         <div className="row clearfix">
           <div className="col-lg-3 col-md-6 col-sm-12 coaching-block">

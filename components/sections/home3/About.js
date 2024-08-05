@@ -46,7 +46,7 @@ export default function About() {
                     </p>
                   </div>
                   <div className="inner-box mb_40">
-                  <h3 className="title mb_20">Future-focussed initiatives:</h3>
+                  <h3 className="title mb_20">Future-focussed Initiatives:</h3>
 
                     <div className="single-item">
                       <div className="icon-box">

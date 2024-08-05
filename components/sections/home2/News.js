@@ -9,7 +9,7 @@ export default function News() {
           <span className="sub-title" style={{ color: "black" }}>
             Latest updates and insights
           </span>
-          <h2>News and Events</h2>
+          <h2>News And Events</h2>
         </div>
         <div className="content-box">
           {/*Theme Carousel*/}
