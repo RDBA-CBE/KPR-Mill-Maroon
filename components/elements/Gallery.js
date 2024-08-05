@@ -32,50 +32,42 @@ const GalleryComponent = ({ data }) => {
       <SlideshowLightbox>
         <img
           src="/assets/images/kprmill-images/Products/Garment/gallery-1.jpg"
-          className="deskdop-gallery-images"
-          style={{ width: "50%", height: "700px" }}
+          className="Gallery-image-1"
         />
 
         <img
           src="/assets/images/kprmill-images/Products/Garment/gallery-2.jpg"
-          className="deskdop-gallery-images"
-          style={{ width: "15%", height: "700px" }}
+          className="Gallery-image-2"
         />
 
         <img
           src="/assets/images/kprmill-images/Products/Garment/gallery-3.jpg"
-          className="deskdop-gallery-images"
-          style={{ width: "15%", height: "700px" }}
+          className="Gallery-image-3"
         />
 
         <img
           src="/assets/images/kprmill-images/Products/Garment/gallery-4.jpg"
-          className="deskdop-gallery-images"
-          style={{ width: "20%", height: "700px" }}
+          className="Gallery-image-4"
         />
 
         <img
           src="/assets/images/kprmill-images/Products/Garment/gallery-8.jpg"
-          className="deskdop-gallery-images"
-          style={{ width: "20%", height: "700px" }}
+          className="Gallery-image-5"
         />
 
         <img
           src="/assets/images/kprmill-images/Products/Garment/gallery-6.jpg"
-          className="deskdop-gallery-images"
-          style={{ width: "15%", height: "700px" }}
+          className="Gallery-image-6"
         />
 
         <img
           src="/assets/images/kprmill-images/Products/Garment/gallery-7.jpg"
-          className="deskdop-gallery-images"
-          style={{ width: "15%", height: "700px" }}
+          className="Gallery-image-7"
         />
 
         <img
           src="/assets/images/kprmill-images/Products/Garment/gallery-5.jpg"
-          className="deskdop-gallery-images"
-          style={{ width: "50%", height: "700px" }}
+          className="Gallery-image-8"
         />
       </SlideshowLightbox>
     </>

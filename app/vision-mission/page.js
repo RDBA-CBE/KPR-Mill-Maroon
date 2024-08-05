@@ -111,7 +111,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="feature-section about-page alternat-3">
+        <section className="feature-section about-page alternat-3 pb-0">
           <div className="auto-container">
             <div className="inner-container">
               <div

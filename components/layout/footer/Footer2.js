@@ -172,7 +172,7 @@ export default function Footer2() {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/garments" style={{ color: "white" }}>
+                              <Link href="/garment" style={{ color: "white" }}>
                                 Garments
                               </Link>
                             </li>

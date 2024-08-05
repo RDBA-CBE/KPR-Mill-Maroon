@@ -134,7 +134,7 @@
    --main-color: #5a1d00;
    --secondary-color: #965232;
    --text-color: #888888;
-   --title-color: #5a1d00 ;
+   --title-color: #5a1d00;
    --white-color: #ffffff;
 
  }
@@ -786,7 +786,7 @@
    font-size: 40px;
    line-height: 50px;
    /* font-weight: 700; */
-   color: #daad19 ;
+   color: #daad19;
    font-family: "orgon_slablight";
  }
 
@@ -8095,7 +8095,7 @@
  }
 
  .vertical-timeline::before {
-   background: #5a1d00  !important;
+   background: #5a1d00 !important;
  }
 
 
@@ -8315,7 +8315,7 @@
  .printing-title {
    font-size: 18px !important;
    width: 80%;
-   color: #5a1d00 ;
+   color: #5a1d00;
    line-height: 24px;
  }
 
@@ -8331,7 +8331,7 @@
  .garmenting-title {
    font-size: 18px !important;
    width: 80%;
-   color: #5a1d00 ;
+   color: #5a1d00;
    line-height: 24px;
  }
 
@@ -8426,5 +8426,134 @@
  @media(max-width:350px) {
    .facility-img-outer {
      height: 130px;
+   }
+ }
+
+
+
+
+ /* Gallery Section */
+
+ .Gallery-image-1 {
+   width: 50%;
+   height: 700px
+ }
+
+ .Gallery-image-2 {
+   width: 15%;
+   height: 700px
+ }
+
+ .Gallery-image-3 {
+   width: 15%;
+   height: 700px
+ }
+
+ .Gallery-image-4 {
+   width: 20%;
+   height: 700px
+ }
+
+ .Gallery-image-5 {
+   width: 20%;
+   height: 700px
+ }
+
+ .Gallery-image-6 {
+   width: 15%;
+   height: 700px
+ }
+
+ .Gallery-image-7 {
+   width: 15%;
+   height: 700px
+ }
+
+ .Gallery-image-8 {
+   width: 50%;
+   height: 700px
+ }
+
+ @media(max-width:992px) {
+   .Gallery-image-1 {
+     width: 50%;
+     height: 700px
+   }
+
+   .Gallery-image-2 {
+     width: 50%;
+     height: 700px
+   }
+
+   .Gallery-image-3 {
+     width: 50%;
+     height: 700px
+   }
+
+   .Gallery-image-4 {
+     width: 50%;
+     height: 700px
+   }
+
+   .Gallery-image-5 {
+     width: 50%;
+     height: 700px
+   }
+
+   .Gallery-image-6 {
+     width: 50%;
+     height: 700px
+   }
+
+   .Gallery-image-7 {
+     width: 50%;
+     height: 700px
+   }
+
+   .Gallery-image-8 {
+     width: 50%;
+     height: 700px
+   }
+ }
+
+ @media(max-width:500px) {
+   .Gallery-image-1 {
+     width: 100%;
+     height: 400px
+   }
+
+   .Gallery-image-2 {
+     width: 100%;
+     height: 400px
+   }
+
+   .Gallery-image-3 {
+     width: 100%;
+     height: 400px
+   }
+
+   .Gallery-image-4 {
+     width: 100%;
+     height: 400px
+   }
+
+   .Gallery-image-5 {
+     width: 100%;
+     height: 400px
+   }
+
+   .Gallery-image-6 {
+     width: 100%;
+     height: 400px
+   }
+
+   .Gallery-image-7 {
+     width: 100%;
+     height: 400px
+   }
+
+   .Gallery-image-8 {
+     width: 100%;
+     height: 400px
    }
  }
