@@ -2191,7 +2191,7 @@ p{
  .header-style-two .header-lower .main-menu .navigation>li>a {
    padding-top: 20px;
    padding-bottom: 20px;
-   font-family: "Amazing-Grotesk !important";
+   font-family: 'Amazing-Grotesk' !important;
    /* font-weight: 600; */
  }
 
