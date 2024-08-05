@@ -24,7 +24,7 @@ export default function Products() {
                 <div className="content_block_two">
                   <div className="content-box p_relative d_block">
                     <div className="text text-center">
-                      <p><Link href="/yarn">YARN</Link></p>
+                      <h3><Link href="/yarn" style={{color:"#5a1d00"}}>YARN</Link></h3>
                     </div>
                   </div>
                 </div>
@@ -38,7 +38,7 @@ export default function Products() {
                 <div className="content_block_two">
                   <div className="content-box p_relative d_block">
                     <div className="text text-center">
-                      <p><Link href="/fabric">FABRIC</Link></p>
+                      <h3><Link href="/fabric" style={{color:"#5a1d00"}}>FABRIC</Link></h3>
                     </div>
                   </div>
                 </div>
@@ -62,7 +62,7 @@ export default function Products() {
                 <div className="content_block_two">
                   <div className="content-box p_relative d_block">
                     <div className="text text-center">
-                      <p><Link href="/garment">GARMENT</Link></p>
+                      <h3><Link href="/garment" style={{color:"#5a1d00"}}>GARMENT</Link></h3>
                     </div>
                   </div>
                 </div>
@@ -76,7 +76,7 @@ export default function Products() {
                 <div className="content_block_two">
                   <div className="content-box p_relative d_block">
                     <div className="text text-center ">
-                      <p><Link href="/sugar">SUGAR</Link></p>
+                      <h3><Link href="/sugar" style={{color:"#5a1d00"}}>SUGAR</Link></h3>
                     </div>
                   </div>
                 </div>

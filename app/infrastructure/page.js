@@ -76,11 +76,11 @@ export default function Infrastructure() {
                         government officials and internationa delegates have
                         visited KPR.
                       </p>
-                      <div className="link-btn">
+                      {/* <div className="link-btn">
                         <Link href="#">
                           <span>Read More</span>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -121,11 +121,11 @@ export default function Infrastructure() {
                         flexibility, shorter lead time and processing orders of
                         any quantity to our customers.
                       </p>
-                      <div className="link-btn">
+                      {/* <div className="link-btn">
                         <Link href="#">
                           <span>Read More</span>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -164,11 +164,11 @@ export default function Infrastructure() {
                         Spectrum, Uster AFIS Pro-2, Uster Zweigle Hairiness
                         Tester –G566 and UsterClassimate Quantum.
                       </p>
-                      <div className="link-btn">
+                      {/* <div className="link-btn">
                         <Link href="#">
                           <span>Read More</span>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -220,11 +220,11 @@ export default function Infrastructure() {
                         handling costs and facilitates immediate feedback on the
                         product quality.
                       </p>
-                      <div className="link-btn">
+                      {/* <div className="link-btn">
                         <Link href="#">
                           <span>Read More</span>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -264,11 +264,11 @@ export default function Infrastructure() {
                         the art machinery helps us to produce garments on par
                         with international standards.
                       </p>
-                      <div className="link-btn">
+                      {/* <div className="link-btn">
                         <Link href="#">
                           <span>Read More</span>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -307,11 +307,11 @@ export default function Infrastructure() {
                         strategy has ensured a smooth and seamless flow of
                         operations across the company.
                       </p>
-                      <div className="link-btn">
+                      {/* <div className="link-btn">
                         <Link href="#">
                           <span>Read More</span>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -387,11 +387,11 @@ export default function Infrastructure() {
                         production and enhance the Fabric quality with excellent
                         colour uniformity.
                       </p>
-                      <div className="link-box">
+                      {/* <div className="link-box">
                         <Link href="coaching-details-2">
                           <span>Read More</span>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

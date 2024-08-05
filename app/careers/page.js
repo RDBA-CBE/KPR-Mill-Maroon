@@ -108,7 +108,7 @@ export default function Careers() {
                     <div className="text mb_25">
                       <p>
                         <b>Email:</b>
-                        <a href="mailto:corporate@kprmill.com">
+                        <a href="mailto:corporate@kprmill.com" style={{ color: "#5a1d00" }}>
                           {""} corporate@kprmill.com
                         </a>
                       </p>

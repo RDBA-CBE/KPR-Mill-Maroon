@@ -38,7 +38,7 @@ export default function ListComponents(props) {
                               className="font-semibold text-gray-700 "
                               style={{
                                 fontSize: "14px",
-                                color: "darkgrey",
+                                color: "#5a1d00",
                                 fontWeight: "bold",
                               }}
                             >
@@ -48,7 +48,7 @@ export default function ListComponents(props) {
                               className="text-gray-400"
                               style={{
                                 fontSize: "14px",
-                                color: "darkgrey",
+                                color: "#5a1d00",
                                 fontWeight: "normal",
                               }}
                             >
@@ -63,7 +63,7 @@ export default function ListComponents(props) {
                               className="font-semibold text-gray-700 "
                               style={{
                                 fontSize: "14px",
-                                color: "darkgrey",
+                                color: "#5a1d00",
                                 fontWeight: "bold",
                               }}
                             >
@@ -73,7 +73,7 @@ export default function ListComponents(props) {
                               className="text-gray-400"
                               style={{
                                 fontSize: "14px",
-                                color: "darkgrey",
+                                color: "#5a1d00",
                                 fontWeight: "normal",
                               }}
                             >
@@ -92,20 +92,21 @@ export default function ListComponents(props) {
                                   target="_blank"
                                 >
                                   <div
-                                    className="icon-shape text-center"
+                                    className="icon-shape "
                                     style={{
                                       display: "flex",
                                       alignItems: "center",
-                                      justifyContent: "center",
+                                      justifyContent: "end",
                                       gap:"5px",
                                     }}
                                   >
-                                    <img
+                                    {/* <img
                                       src="assets/images/mp3.png"
                                       alt=""
                                       height={22}
                                       width={22}
-                                    />
+                                    /> */}
+                                      <i className="fa fa-music" style={{paddingRight:"3px", fontSize:"14px"}}></i>
                                     <p
                                       className="flex gap-5"
                                       style={{
@@ -124,11 +125,11 @@ export default function ListComponents(props) {
                                   target="_blank"
                                 >
                                   <div
-                                    className="icon-shape text-center"
+                                    className="icon-shape"
                                     style={{
                                       display: "flex",
                                       alignItems: "center",
-                                      justifyContent: "center",
+                                      justifyContent: "end",
                                     }}
                                   >
                                     <i
