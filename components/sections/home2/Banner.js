@@ -47,8 +47,8 @@ export default function Banner() {
               <div className="content-box p_relative d_block">
                 {/* <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-27.png)" }}></div> */}
                 <h2>
-                  One of the largest<span> vertically integrated </span>textile
-                  mill
+                  One Of The Largest<span> Vertically Integrated </span>Textile
+                  Mill
                 </h2>
                 <p>
                   Over 40 years of experience in textile and apparel
@@ -79,7 +79,7 @@ export default function Banner() {
               <div className="content-box p_relative d_block">
                 {/* <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-27.png)" }}></div> */}
                 <h2>
-                  “FASO” - <span>our flagship</span> brand
+                  “FASO” - <span>Our Flagship</span> Brand
                 </h2>
                 <p>
                   Revolutionizing the Indian market segment with high-quality,
@@ -109,7 +109,7 @@ export default function Banner() {
               <div className="content-box p_relative d_block">
                 {/* <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-27.png)" }}></div> */}
                 <h2>
-                  Driven by <span>a dynamic</span> leadership team
+                  Driven By <span>A Dynamic</span> Leadership Team
                 </h2>
                 <p>
                   With rich experience in textile and apparel manufacturing, who
