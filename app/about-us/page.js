@@ -516,7 +516,7 @@ export default function Home() {
             </div>
             <div className="row clearfix">
               <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                <div className="content_block_two">
+                <div className="content_block_two  spinning-right-pad">
                   <div className="content-box p_relative d_block">
                     <div className="text mb_25">
                       <p className="mb_5" style={{ fontWeight: "bold" }}>

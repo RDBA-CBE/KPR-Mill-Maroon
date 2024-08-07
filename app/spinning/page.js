@@ -67,7 +67,7 @@ export default function Spinning() {
           <div className="auto-container">
             <div className="row clearfix">
               <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                <div className="content_block_two">
+                <div className="content_block_two  spinning-right-pad">
                   <div className="content-box p_relative d_block">
                     {/* <div className="sec-title mb_5">
                       <span className="sub-title">Reach Your Dream</span>
@@ -75,7 +75,7 @@ export default function Spinning() {
                     </div> */}
                     <div className="text mb_25">
                       <ul className="about-list-style clearfix">
-                        <h5 style={{ fontWeight: "600", marginBottom: "10px" }}>
+                        <h5 style={{ fontWeight: "600", marginBottom: "15px" }}>
                           We house the best machineries from all over the world
                           and have a highly automated facility:
                         </h5>
@@ -124,7 +124,7 @@ export default function Spinning() {
 
                     <div className="text mb_25">
                       <ul className="about-list-style clearfix">
-                        <h5 style={{ fontWeight: "600", marginBottom: "10px" }}>
+                        <h5 style={{ fontWeight: "600", marginBottom: "15px" }}>
                           Some of the sophisticated Machinery in Spinning
                           Division includes:
                         </h5>

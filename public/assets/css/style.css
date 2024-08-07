@@ -8346,6 +8346,11 @@
    line-height: 24px;
  }
 
+ 
+ .spinning-right-pad{
+  padding-right: 50px;
+ }
+
  @media(max-width:992px) {
    .countries-style-five {
      top: -80px !important;
@@ -8369,6 +8374,11 @@
    .printing-title {
      margin-bottom: 30px;
    }
+
+   .spinning-right-pad{
+    padding-right: 0px;
+   }
+   
  }
 
  @media(max-width:500px) {
