@@ -1,5 +1,5 @@
 .page-title {
-  padding: 174px 0px 156px 0px;
+  padding: 80px 0px 80px 0px;
 }
 
 .page-title .bg-layer {
@@ -42,6 +42,7 @@
   border-radius: 5px;
   padding: 18px 50px;
   margin-top: 37px;
+  display: none;
 }
 
 .page-title .content-box .bread-crumb li {

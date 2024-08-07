@@ -479,10 +479,10 @@ p{
    overflow: hidden;
    vertical-align: middle;
    font-size: 18px;
-   line-height: 28px;
+   line-height: 20px;
    /* font-weight: 500; */
    text-align: center;
-   padding: 20.5px 57px;
+   padding: 10px 20px;
    text-transform: capitalize;
    /* font-family: var(--heebo); */
    color: var(--white-color) !important;
@@ -3817,7 +3817,7 @@ p{
    }
 
    .page-title {
-     padding: 90px 0px 100px 0px;
+     padding: 80px 0px 80px 0px;
    }
 
    .page-title .content-box .bread-crumb {
@@ -5114,7 +5114,7 @@ p{
    }
 
    .page-title {
-     padding: 90px 0px 100px 0px;
+     padding: 80px 0px 80px 0px;
    }
 
    .page-title .content-box .bread-crumb {
@@ -6401,7 +6401,7 @@ p{
    }
 
    .page-title {
-     padding: 90px 0px 100px 0px;
+     padding: 80px 0px 80px 0px;
    }
 
    .page-title .content-box .bread-crumb {
@@ -7684,7 +7684,7 @@ p{
    }
 
    .page-title {
-     padding: 90px 0px 100px 0px;
+     padding: 80px 0px 80px 0px;
    }
 
    .page-title .content-box .bread-crumb {
@@ -8340,7 +8340,7 @@ p{
 
  @media(max-width:992px) {
    .countries-style-five {
-     top: -58px !important;
+     top: -80px !important;
    }
 
 
