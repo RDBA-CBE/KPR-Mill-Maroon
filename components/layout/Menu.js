@@ -114,6 +114,76 @@ export default function Menu() {
        
         {/* Projects */}
 
+
+        <li className="dropdown">
+          <Link href="/infrastructure">Infrastructure</Link>
+          <ul>
+            <li>
+              <Link href="/infrastructure">Overview</Link>
+            </li>
+            <li>
+              <Link href="/spinning">Spinning</Link>
+            </li>
+            <li>
+              <Link href="/knitting">Knitting</Link>
+            </li>
+            <li>
+              <Link href="/processing">Processing</Link>
+            </li>
+            <li>
+              <Link href="/printing-and-embroidery">Printing & Embroidery</Link>
+            </li>
+            <li>
+              <Link href="/garmenting">Garmenting</Link>
+            </li>
+            <li>
+              <Link href="/windmill">Wind Mill</Link>
+            </li>
+            <li>
+              <Link href="/sugarmill">Sugar Mill</Link>
+            </li>
+            {/* <li>
+              <Link href="/visa-details">Business Visa</Link>
+            </li>
+            <li>
+              <Link href="/visa-details-2">Working Visas</Link>
+            </li>
+            <li>
+              <Link href="/visa-details-3">Residence Visas</Link>
+            </li>
+            <li>
+              <Link href="/visa-details-4">Student Visas</Link>
+            </li>
+            <li>
+              <Link href="/visa-details-5">Spouse/Family Visas</Link>
+            </li>
+            <li>
+              <Link href="/visa-details-6">Tourist Visas</Link>
+            </li> */}
+          </ul>
+        </li>
+
+        <li className="dropdown">
+          <Link href="/community-development">CSR</Link>
+          <ul>
+            <li>
+              <Link href="/community-development">Community Development</Link>
+            </li>
+            <li>
+              <Link href="/sustained-commitment">sustained Commitment</Link>
+            </li>
+            <li>
+              <Link href="/green-initiative">Green Initiative</Link>
+            </li>
+            <li>
+              <Link href="/higher-studies-and-career-placement">
+                Higher Studies And Career Placement
+              </Link>
+            </li>
+          </ul>
+        </li>
+
+        
         <li className="dropdown">
           <Link href="/regulation-46-of-the-lodr">Investors</Link>
           <ul>
@@ -207,74 +277,6 @@ export default function Menu() {
                   <Link href="/information">Information</Link>
                 </li>
               </ul>
-            </li>
-          </ul>
-        </li>
-
-        <li className="dropdown">
-          <Link href="/infrastructure">Infrastructure</Link>
-          <ul>
-            <li>
-              <Link href="/infrastructure">Overview</Link>
-            </li>
-            <li>
-              <Link href="/spinning">Spinning</Link>
-            </li>
-            <li>
-              <Link href="/knitting">Knitting</Link>
-            </li>
-            <li>
-              <Link href="/processing">Processing</Link>
-            </li>
-            <li>
-              <Link href="/printing-and-embroidery">Printing & Embroidery</Link>
-            </li>
-            <li>
-              <Link href="/garmenting">Garmenting</Link>
-            </li>
-            <li>
-              <Link href="/windmill">Wind Mill</Link>
-            </li>
-            <li>
-              <Link href="/sugarmill">Sugar Mill</Link>
-            </li>
-            {/* <li>
-              <Link href="/visa-details">Business Visa</Link>
-            </li>
-            <li>
-              <Link href="/visa-details-2">Working Visas</Link>
-            </li>
-            <li>
-              <Link href="/visa-details-3">Residence Visas</Link>
-            </li>
-            <li>
-              <Link href="/visa-details-4">Student Visas</Link>
-            </li>
-            <li>
-              <Link href="/visa-details-5">Spouse/Family Visas</Link>
-            </li>
-            <li>
-              <Link href="/visa-details-6">Tourist Visas</Link>
-            </li> */}
-          </ul>
-        </li>
-
-        <li className="dropdown">
-          <Link href="/community-development">CSR</Link>
-          <ul>
-            <li>
-              <Link href="/community-development">Community Development</Link>
-            </li>
-            <li>
-              <Link href="/sustained-commitment">sustained Commitment</Link>
-            </li>
-            <li>
-              <Link href="/green-initiative">Green Initiative</Link>
-            </li>
-            <li>
-              <Link href="/higher-studies-and-career-placement">
-                Higher Studies And Career Placement
-              </Link>
             </li>
           </ul>
         </li>

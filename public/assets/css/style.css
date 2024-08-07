@@ -78,34 +78,34 @@
  @import url(./rtl.css);
 
  @font-face {
-  font-family: 'Amazing-Grotesk';
-  src:url('../fonts/Amazing-Grotesk.ttf.woff') format('woff'),
-      url('../fonts/Amazing-Grotesk.ttf.svg#Amazing-Grotesk') format('svg'),
-      url('../fonts/Amazing-Grotesk.ttf.eot'),
-      url('../fonts/Amazing-Grotesk.ttf.eot?#iefix') format('embedded-opentype'); 
-  font-weight: normal;
-  font-style: normal;
-}
+   font-family: 'Amazing-Grotesk';
+   src: url('../fonts/Amazing-Grotesk.ttf.woff') format('woff'),
+     url('../fonts/Amazing-Grotesk.ttf.svg#Amazing-Grotesk') format('svg'),
+     url('../fonts/Amazing-Grotesk.ttf.eot'),
+     url('../fonts/Amazing-Grotesk.ttf.eot?#iefix') format('embedded-opentype');
+   font-weight: normal;
+   font-style: normal;
+ }
 
-@font-face {
-  font-family: 'LibreFranklin-Light';
-  src:url('../fonts/LibreFranklin-Light.ttf.woff') format('woff'),
-      url('../fonts/LibreFranklin-Light.ttf.svg#LibreFranklin-Light') format('svg'),
-      url('../fonts/LibreFranklin-Light.ttf.eot'),
-      url('../fonts/LibreFranklin-Light.ttf.eot?#iefix') format('embedded-opentype'); 
-  font-weight: normal;
-  font-style: normal;
-}
+ @font-face {
+   font-family: 'LibreFranklin-Light';
+   src: url('../fonts/LibreFranklin-Light.ttf.woff') format('woff'),
+     url('../fonts/LibreFranklin-Light.ttf.svg#LibreFranklin-Light') format('svg'),
+     url('../fonts/LibreFranklin-Light.ttf.eot'),
+     url('../fonts/LibreFranklin-Light.ttf.eot?#iefix') format('embedded-opentype');
+   font-weight: normal;
+   font-style: normal;
+ }
 
-@font-face {
-  font-family: 'Overpass-Light';
-  src:url('../fonts/Overpass-Light.ttf.woff') format('woff'),
-      url('../fonts/Overpass-Light.ttf.svg#Overpass-Light') format('svg'),
-      url('../fonts/Overpass-Light.ttf.eot'),
-      url('../fonts/Overpass-Light.ttf.eot?#iefix') format('embedded-opentype'); 
-  font-weight: normal;
-  font-style: normal;
-}
+ @font-face {
+   font-family: 'Overpass-Light';
+   src: url('../fonts/Overpass-Light.ttf.woff') format('woff'),
+     url('../fonts/Overpass-Light.ttf.svg#Overpass-Light') format('svg'),
+     url('../fonts/Overpass-Light.ttf.eot'),
+     url('../fonts/Overpass-Light.ttf.eot?#iefix') format('embedded-opentype');
+   font-weight: normal;
+   font-style: normal;
+ }
 
  /*** 
 
@@ -155,9 +155,11 @@
    background-position: center top;
    -webkit-font-smoothing: antialiased;
  }
-p{
-  font-family: 'Overpass-Light';
-}
+
+ p {
+   font-family: 'Overpass-Light';
+ }
+
  @media (min-width:1200px) {
    .container {
      max-width: 1200px;
@@ -1337,7 +1339,7 @@ p{
 
  .main-menu .navigation>li>ul>li>ul {
    position: absolute;
-   left: 100%;
+   right: 100%;
    top: 0%;
    margin-top: 15px;
    width: 230px;
@@ -3039,6 +3041,12 @@ p{
 
  }
 
+
+ @media(max-width:1300px) {
+   .main-menu .navigation>li {
+     margin: 0px 10px;
+   }
+ }
 
 
  @media only screen and (max-width: 1200px) {
@@ -8484,9 +8492,10 @@ p{
  .knittingBottomImage {
    height: 400px;
  }
- .processingBottomImage{
-  height: 400px;
-}
+
+ .processingBottomImage {
+   height: 400px;
+ }
 
  @media(max-width:992px) {
    .Gallery-image-1 {
@@ -8580,11 +8589,11 @@ p{
      height: 250px;
    }
 
-   .processingBottomImage{
+   .processingBottomImage {
      height: 250px;
    }
 
    .printing-title-outer {
-    margin-bottom: 30px;
-  }
+     margin-bottom: 30px;
+   }
  }
