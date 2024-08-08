@@ -118,7 +118,7 @@ export default function Garments() {
                         <h3>Men’s Wear</h3>
                       </div>
                       <div className="text ">
-                        <p>
+                        <p style={{color:"black"}}>
                           KPR produces Men’s garment wear made from best quality
                           fabric. We have a wide ranging collection of men’s
                           wear available in contemporary designs and diversified
@@ -155,7 +155,7 @@ export default function Garments() {
                         <h3>Women’s Wear</h3>
                       </div>
                       <div className="text ">
-                        <p>
+                        <p style={{color:"black"}}>
                           KPR presents a unique collection of trendy Ladies Knit
                           Wear in special as well as modern designs and vibrant
                           colour combinations. Made from soft fabric, these
