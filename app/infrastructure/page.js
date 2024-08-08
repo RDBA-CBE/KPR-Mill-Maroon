@@ -22,11 +22,312 @@ export default function Infrastructure() {
         breadcrumbTitle="Infrastructure"
         imageUrl={BackgroundImage}
       >
-        <section className="news-section sec-pad">
-          {/* <div className="pattern-layer">
-                <div className="pattern-1" style={{ backgroundImage: "url(assets/images/shape/shape-23.png)" }}></div>
-                <div className="pattern-2" style={{ backgroundImage: "url(assets/images/shape/shape-24.png)" }}></div>
-              </div> */}
+        <section className="dream-style-three p_relative">
+          <div className="auto-container">
+            <div className="sec-title centred mb_50">
+              <span className="sub-title">
+                Advanced Facilities for superior outcomes
+              </span>
+              <h2 style={{ fontSize: "18px", lineHeight: "30px" }}>
+                Whether it is our finest yarn, functional fabric, the unparallel
+                detailing, or the vibrant garments; every KPR product has
+                something special to offer. The three quintessential elements
+                that contribute significantly to bring you the supreme quality
+                KPR collection is the unified efforts of material, men and
+                machine.
+              </h2>
+            </div>
+            <div class="row clearfix p_relative">
+              <div class="col-lg-12 col-md-12 col-sm-12 order-lg-1 image-column">
+                <div
+                  class="image-box pl-3"
+                  style={{ display: "flex", justifyContent: "center" }}
+                >
+                  <figure className="image facility-img-outer">
+                    <img
+                      src="/assets/images/kprmill-images/Infrastructure/infrastructure-1.jpg"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
+
+              <div className="facility-box-1">
+                <div className="text facility-box-1-content">
+                  <div className="sec-title mb_5 text">
+                    <h3 className="mb-2">Model Factory</h3>
+                  </div>
+                  <p>
+                    We are proud and happy that our facility is a ‘Model
+                    Factory’ and many industry stalwarts, senior executives,
+                    government officials and internationa delegates have visited
+                    KPR.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="dream-style-three p_relative section-extrapad-top">
+          <div className="auto-container">
+            <div class="row clearfix" style={{ position: "relative" }}>
+              <div class="col-lg-12 col-md-12 col-sm-12 order-lg-1 image-column">
+                <div
+                  class="image-box pl-3"
+                  style={{ display: "flex", justifyContent: "center" }}
+                >
+                  <figure className="image facility-img-outer">
+                    <img
+                      src="/assets/images/kprmill-images/Infrastructure/infrastructure-2.jpg"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
+
+              <div className="facility-box-2">
+                <div className="text facility-box-2-content">
+                  <div className="sec-title mb_5 text">
+                    <h3 className="mb-2">Quality Focus</h3>
+                  </div>
+                  <p>
+                    We source only the best raw materials and rope in extremely
+                    talented individuals and deploy sophisticated as well as
+                    modern machines across all departments. Our agile
+                    infrastructure has enabled us to offer flexibility, shorter
+                    lead time and processing orders of any quantity to our
+                    customers.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="dream-style-three p_relative section-extrapad-top">
+          <div className="auto-container">
+            <div class="row clearfix" style={{ position: "relative" }}>
+              <div class="col-lg-12 col-md-12 col-sm-12 order-lg-1 image-column">
+                <div
+                  class="image-box pl-3"
+                  style={{ display: "flex", justifyContent: "center" }}
+                >
+                  <figure className="image facility-img-outer">
+                    <img
+                      src="/assets/images/kprmill-images/Infrastructure/infrastructure-3.jpg"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
+
+              <div className="facility-box-1">
+                <div className="text facility-box-1-content">
+                  <div className="sec-title mb_5 text">
+                    <h3 className="mb-2">Testing Equipment</h3>
+                  </div>
+                  <p>
+                    We have installed high-tech quality control and testing
+                    equipment such as Uster Tester-5, Uster HVI 1000 Spectrum,
+                    Uster AFIS Pro-2, Uster Zweigle Hairiness Tester –G566 and
+                    UsterClassimate Quantum.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="dream-style-three p_relative section-extrapad-top">
+          <div className="auto-container">
+            <div class="row clearfix p_relative">
+              <div class="col-lg-12 col-md-12 col-sm-12 order-lg-1 image-column">
+                <div
+                  class="image-box pl-3"
+                  style={{ display: "flex", justifyContent: "center" }}
+                >
+                  <figure className="image facility-img-outer">
+                    <img
+                      src="/assets/images/kprmill-images/Infrastructure/infrastructure-4.jpg"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
+
+              <div className="facility-box-2">
+                <div className="text facility-box-2-content">
+                  <div className="sec-title mb_5 text">
+                    <h3 className="mb-2" style={{ color: "white" }}>
+                      Location Advantage
+                    </h3>
+                  </div>
+                  <p style={{ color: "white" }}>
+                    Entire operations of the Company are strategically located
+                    around 50km radius from Tirupur & Coimbatore – one of the
+                    Asia’s largest apparel manufacturing clusters. The close
+                    proximity to buyers reduces material handling costs and
+                    facilitates immediate feedback on the product quality.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="dream-style-three p_relative section-extrapad-top">
+          <div className="auto-container">
+            <div class="row clearfix" style={{ position: "relative" }}>
+              <div class="col-lg-12 col-md-12 col-sm-12 order-lg-1 image-column">
+                <div
+                  class="image-box pl-3"
+                  style={{ display: "flex", justifyContent: "center" }}
+                >
+                  <figure className="image facility-img-outer">
+                    <img
+                      src="/assets/images/kprmill-images/Infrastructure/infrastructure-5.jpg"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
+
+              <div className="facility-box-1">
+                <div className="text facility-box-1-content">
+                  <div className="sec-title mb_5 text">
+                    <h3 className="mb-2">Leading-edge Technology</h3>
+                  </div>
+                  <p>
+                    We have deployed modern as well as sophisticated machines
+                    across all departments. The high speed imported machines
+                    ensure precision and efficiency. Our state of the art
+                    machinery helps us to produce garments on par with
+                    international standards.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="dream-style-three p_relative section-extrapad-top">
+          <div className="auto-container">
+            <div class="row clearfix p_relative">
+              <div class="col-lg-12 col-md-12 col-sm-12 order-lg-1 image-column">
+                <div
+                  class="image-box pl-3"
+                  style={{ display: "flex", justifyContent: "center" }}
+                >
+                  <figure className="image facility-img-outer">
+                    <img
+                      src="/assets/images/kprmill-images/Infrastructure/infrastructure-6.jpg"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
+
+              <div className="facility-box-2">
+                <div className="text facility-box-2-content">
+                  <div className="sec-title mb_5 text">
+                    <h3 className="mb-2" style={{ color: "white" }}>
+                      Vertical Integration
+                    </h3>
+                  </div>
+                  <p style={{ color: "white" }}>
+                    KPR Mill is one the largest vertical integrated textile
+                    companies in Asia. Our careful vertical integration strategy
+                    has ensured a smooth and seamless flow of operations across
+                    the company.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="dream-style-three p_relative section-extrapad-top">
+          <div className="auto-container">
+            <div class="row clearfix" style={{ position: "relative" }}>
+              <div class="col-lg-12 col-md-12 col-sm-12 order-lg-1 image-column">
+                <div
+                  class="image-box pl-3"
+                  style={{ display: "flex", justifyContent: "center" }}
+                >
+                  <figure className="image facility-img-outer">
+                    <img
+                      src="/assets/images/kprmill-images/Infrastructure/infrastructure-7.jpg"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
+
+              <div className="facility-box-1">
+                <div className="text facility-box-1-content">
+                  <div className="sec-title mb_5 text">
+                    <h3 className="mb-2">Active Automation</h3>
+                  </div>
+                  <p>
+                    Automation through advanced machines has helped us to
+                    achieve precision, high quality and timely delivery. Our
+                    autoconers are sensor-enabled to ensure faster and better
+                    production. Our Automatic Motorized Bobbin Transport System
+                    is the most advanced and enables us to speed up production
+                    efficiently. While we could improve production efficiency,
+                    thus the labor cost is highly economised. Spinbike Plus.
+                    Introduction of Spinbike Plus at our facility has increased
+                    the comfort level of our workforce by reducing walking by
+                    95%. Moreover, we are able to deploy minimum workforce and
+                    increase efficiency better.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="dream-style-three p_relative section-extrapad">
+          <div className="auto-container">
+            <div class="row clearfix p_relative">
+              <div class="col-lg-12 col-md-12 col-sm-12 order-lg-1 image-column">
+                <div
+                  class="image-box pl-3"
+                  style={{ display: "flex", justifyContent: "center" }}
+                >
+                  <figure className="image facility-img-outer">
+                    <img
+                      src="/assets/images/kprmill-images/Infrastructure/infrastructure-8.jpg"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
+
+              <div className="facility-box-2">
+                <div className="text facility-box-2-content">
+                  <div className="sec-title mb_5 text">
+                    <h3 className="mb-2" style={{ color: "white" }}>
+                      New Processing Capacity
+                    </h3>
+                  </div>
+                  <p style={{ color: "white" }}>
+                    We have also commenced operations in the state of the art
+                    Processing Unit II, which will add value to the Garment
+                    Division. The advanced technology of cold processing adopted
+                    therein reduces the water consumption by 30% and eliminates
+                    the usage of salt completely. This eco - friendly facility
+                    will economise the cost of production and enhance the Fabric
+                    quality with excellent colour uniformity.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* <section className="news-section sec-pad">
           <div className="auto-container">
             <div className="sec-title centred mb_50">
               <span className="sub-title">
@@ -58,15 +359,7 @@ export default function Infrastructure() {
                       </Link>
                     </figure>
                     <div className="lower-content">
-                      {/* <ul className="post-info clearfix">
-                        <li>
-                          <i className="icon-27"></i>
-                          <Link href="blog-details">By author</Link>
-                        </li>
-                        <li>
-                          <i className="icon-28"></i>Feb 6, 2022{" "}
-                        </li>
-                      </ul> */}
+                   
                       <h3>
                         <Link href="#">Model Factory</Link>
                       </h3>
@@ -76,11 +369,7 @@ export default function Infrastructure() {
                         government officials and internationa delegates have
                         visited KPR.
                       </p>
-                      {/* <div className="link-btn">
-                        <Link href="#">
-                          <span>Read More</span>
-                        </Link>
-                      </div> */}
+                    
                     </div>
                   </div>
                 </div>
@@ -101,15 +390,7 @@ export default function Infrastructure() {
                       </Link>
                     </figure>
                     <div className="lower-content">
-                      {/* <ul className="post-info clearfix">
-                        <li>
-                          <i className="icon-27"></i>
-                          <Link href="blog-details">By author</Link>
-                        </li>
-                        <li>
-                          <i className="icon-28"></i>Feb 5, 2022{" "}
-                        </li>
-                      </ul> */}
+                     
                       <h3>
                         <Link href="#">Quality Focus</Link>
                       </h3>
@@ -121,11 +402,7 @@ export default function Infrastructure() {
                         flexibility, shorter lead time and processing orders of
                         any quantity to our customers.
                       </p>
-                      {/* <div className="link-btn">
-                        <Link href="#">
-                          <span>Read More</span>
-                        </Link>
-                      </div> */}
+                     
                     </div>
                   </div>
                 </div>
@@ -146,15 +423,7 @@ export default function Infrastructure() {
                       </Link>
                     </figure>
                     <div className="lower-content">
-                      {/* <ul className="post-info clearfix">
-                        <li>
-                          <i className="icon-27"></i>
-                          <Link href="blog-details">By author</Link>
-                        </li>
-                        <li>
-                          <i className="icon-28"></i>Feb 4, 2022{" "}
-                        </li>
-                      </ul> */}
+                   
                       <h3>
                         <Link href="#">Testing Equipment</Link>
                       </h3>
@@ -164,11 +433,7 @@ export default function Infrastructure() {
                         Spectrum, Uster AFIS Pro-2, Uster Zweigle Hairiness
                         Tester –G566 and UsterClassimate Quantum.
                       </p>
-                      {/* <div className="link-btn">
-                        <Link href="#">
-                          <span>Read More</span>
-                        </Link>
-                      </div> */}
+                     
                     </div>
                   </div>
                 </div>
@@ -178,10 +443,6 @@ export default function Infrastructure() {
         </section>
 
         <section className="news-section sec-pad " style={{ padding: "0px" }}>
-          {/* <div className="pattern-layer">
-                <div className="pattern-1" style={{ backgroundImage: "url(assets/images/shape/shape-23.png)" }}></div>
-                <div className="pattern-2" style={{ backgroundImage: "url(assets/images/shape/shape-24.png)" }}></div>
-              </div> */}
           <div className="auto-container">
             <div className="row clearfix">
               <div className="col-lg-4 col-md-6 col-sm-12 news-block">
@@ -200,15 +461,7 @@ export default function Infrastructure() {
                       </Link>
                     </figure>
                     <div className="lower-content">
-                      {/* <ul className="post-info clearfix">
-                        <li>
-                          <i className="icon-27"></i>
-                          <Link href="blog-details">By author</Link>
-                        </li>
-                        <li>
-                          <i className="icon-28"></i>Feb 6, 2022{" "}
-                        </li>
-                      </ul> */}
+                     
                       <h3>
                         <Link href="#">Location Advantage</Link>
                       </h3>
@@ -220,11 +473,7 @@ export default function Infrastructure() {
                         handling costs and facilitates immediate feedback on the
                         product quality.
                       </p>
-                      {/* <div className="link-btn">
-                        <Link href="#">
-                          <span>Read More</span>
-                        </Link>
-                      </div> */}
+                    
                     </div>
                   </div>
                 </div>
@@ -245,15 +494,7 @@ export default function Infrastructure() {
                       </Link>
                     </figure>
                     <div className="lower-content">
-                      {/* <ul className="post-info clearfix">
-                        <li>
-                          <i className="icon-27"></i>
-                          <Link href="blog-details">By author</Link>
-                        </li>
-                        <li>
-                          <i className="icon-28"></i>Feb 5, 2022{" "}
-                        </li>
-                      </ul> */}
+                    
                       <h3>
                         <Link href="#">Leading-edge Technology</Link>
                       </h3>
@@ -264,11 +505,7 @@ export default function Infrastructure() {
                         the art machinery helps us to produce garments on par
                         with international standards.
                       </p>
-                      {/* <div className="link-btn">
-                        <Link href="#">
-                          <span>Read More</span>
-                        </Link>
-                      </div> */}
+                     
                     </div>
                   </div>
                 </div>
@@ -289,15 +526,7 @@ export default function Infrastructure() {
                       </Link>
                     </figure>
                     <div className="lower-content">
-                      {/* <ul className="post-info clearfix">
-                        <li>
-                          <i className="icon-27"></i>
-                          <Link href="blog-details">By author</Link>
-                        </li>
-                        <li>
-                          <i className="icon-28"></i>Feb 4, 2022{" "}
-                        </li>
-                      </ul> */}
+                    
                       <h3>
                         <Link href="#">Vertical Integration</Link>
                       </h3>
@@ -307,21 +536,17 @@ export default function Infrastructure() {
                         strategy has ensured a smooth and seamless flow of
                         operations across the company.
                       </p>
-                      {/* <div className="link-btn">
-                        <Link href="#">
-                          <span>Read More</span>
-                        </Link>
-                      </div> */}
+                      
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* coaching-section */}
-        <section className="coaching-section">
+        {/* <section className="coaching-section">
           <div className="auto-container">
             <div className="row clearfix">
               <div className="col-lg-6 col-md-6 col-sm-12 coaching-block">
@@ -353,11 +578,7 @@ export default function Infrastructure() {
                         able to deploy minimum workforce and increase efficiency
                         better.
                       </p>
-                      {/* <div className="link-box">
-                        <Link href="coaching-details-3">
-                          <span>Read More</span>
-                        </Link>
-                      </div> */}
+                     
                     </div>
                   </div>
                 </div>
@@ -387,18 +608,14 @@ export default function Infrastructure() {
                         production and enhance the Fabric quality with excellent
                         colour uniformity.
                       </p>
-                      {/* <div className="link-box">
-                        <Link href="coaching-details-2">
-                          <span>Read More</span>
-                        </Link>
-                      </div> */}
+                     
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* coaching-section end */}
 
         <section

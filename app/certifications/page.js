@@ -25,6 +25,436 @@ export default function Certifications() {
                 upgradation garnered International accreditation’s:
               </p>
             </div>
+
+            <div class="row clearfix certification-row-1">
+              <div className="col-lg-8 col-md-8 col-sm-12 certification-main-col-1  content-column ">
+                <div class="pl-3 mb_10 certification-image-outer-1">
+                  <figure class="image">
+                    <img
+                      src="/assets/images/kprmill-images/About/Certifications/cert-img-1.png"
+                      alt="certification-1"
+                    />
+                  </figure>
+                </div>
+
+                <div className="certification-content-outer-1">
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text mb_10">
+                        <p style={{ fontWeight: "bold", color: "white" }}>
+                          Certification/Organization : Worldwide Responsible
+                          Apparel Production Certificate (WRAP)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text ">
+                        <p style={{ color: "white" }}>
+                          <b>Initiative :</b> Awarded for ensuring apparel
+                          production under lawful, humane and ethical
+                          conditions.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row clearfix  certification-row-common">
+              <div className="col-lg-8 col-md-8 col-sm-12 certification-main-col-2 content-column">
+                <div class="pl-3 mb_10 certification-image-outer-2">
+                  <figure class="image">
+                    <img
+                      src="/assets/images/kprmill-images/About/Certifications/cert-img-2.png"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+
+                <div className="certification-content-outer-2">
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text mb_10">
+                        <p style={{ fontWeight: "bold", color: "white" }}>
+                          Certification/Organization : Ethical Trade Initiative
+                          (ETI)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text ">
+                        <p style={{ color: "white" }}>
+                          <b>Initiative :</b> For good working conditions of
+                          workers.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row clearfix certification-row-common">
+              <div className="col-lg-8 col-md-8 col-sm-12 certification-main-col-1  content-column ">
+                <div class="pl-3 mb_10 certification-image-outer-1">
+                  <figure class="image">
+                    <img
+                      src="/assets/images/kprmill-images/About/Certifications/cert-img-3.png"
+                      alt=""
+                      style={{ backgroundColor: "#f5f6f5" }}
+                    />
+                  </figure>
+                </div>
+
+                <div className="certification-content-outer-1">
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text mb_10">
+                        <p style={{ fontWeight: "bold", color: "white" }}>
+                          Certification/Organization : Global Organic Textile
+                          Standard (GOTS)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text ">
+                        <p style={{ color: "white" }}>
+                          <b>Initiative :</b> For organic cotton products.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row clearfix  certification-row-common">
+              <div className="col-lg-8 col-md-8 col-sm-12 certification-main-col-2 content-column">
+                <div class="pl-3 mb_10 certification-image-outer-2">
+                  <figure class="image">
+                    <img
+                      src="/assets/images/kprmill-images/About/Certifications/cert-img-4.png"
+                      alt=""
+                      style={{ backgroundColor: "#f5f6f5" }}
+                    />
+                  </figure>
+                </div>
+
+                <div className="certification-content-outer-2">
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text mb_10">
+                        <p style={{ fontWeight: "bold", color: "white" }}>
+                          Certification/Organization: OEKO-TEX – Certification
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text ">
+                        <p style={{ color: "white" }}>
+                          <b>Initiative :</b> For raw, semi-finished as well as
+                          finished textile products at all processing levels and
+                          accessory materials utilised.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row clearfix certification-row-common">
+              <div className="col-lg-8 col-md-8 col-sm-12 certification-main-col-1  content-column ">
+                <div class="pl-3 mb_10 certification-image-outer-1">
+                  <figure class="image">
+                    <img
+                      src="/assets/images/kprmill-images/About/Certifications/cert-img-5.png"
+                      alt=""
+                      style={{ backgroundColor: "#f5f6f5" }}
+                    />
+                  </figure>
+                </div>
+
+                <div className="certification-content-outer-1">
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text mb_10">
+                        <p style={{ fontWeight: "bold", color: "white" }}>
+                          Certification/Organization : International Association
+                          for Research and Testing
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text ">
+                        <p style={{ color: "white" }}>
+                          <b>Initiative :</b> Certified in the field of Textile
+                          Ecology for apparel manufacturing operations.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row clearfix  certification-row-common">
+              <div className="col-lg-8 col-md-8 col-sm-12 certification-main-col-2 content-column">
+                <div class="pl-3 mb_10 certification-image-outer-2">
+                  <figure class="image">
+                    <img
+                      src="/assets/images/kprmill-images/About/Certifications/cert-img-6.png"
+                      alt=""
+                      style={{ backgroundColor: "#f5f6f5" }}
+                    />
+                  </figure>
+                </div>
+
+                <div className="certification-content-outer-2">
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text mb_10">
+                        <p style={{ fontWeight: "bold", color: "white" }}>
+                          Certification/Organization: Ministry of Commerce and
+                          Trade
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text ">
+                        <p style={{ color: "white" }}>
+                          <b>Initiative :</b> Certified and recognized as a
+                          Trading House.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row clearfix certification-row-common">
+              <div className="col-lg-8 col-md-8 col-sm-12 certification-main-col-1  content-column ">
+                <div class="pl-3 mb_10 certification-image-outer-1">
+                  <figure class="image">
+                    <img
+                      src="/assets/images/kprmill-images/About/Certifications/cert-img-7.png"
+                      alt=""
+                      style={{ backgroundColor: "#f5f6f5" }}
+                    />
+                  </figure>
+                </div>
+
+                <div className="certification-content-outer-1">
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text mb_10">
+                        <p style={{ fontWeight: "bold", color: "white" }}>
+                          Certification/Organization: International Organization
+                          for Standardization (ISO)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text ">
+                        <p style={{ color: "white" }}>
+                          <b>Initiative :</b> ISO 14001 : 2004 Certifications
+                          for Environment Management Systems.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row clearfix  certification-row-common">
+              <div className="col-lg-8 col-md-8 col-sm-12 certification-main-col-2 content-column">
+                <div class="pl-3 mb_10 certification-image-outer-2">
+                  <figure class="image">
+                    <img
+                      src="/assets/images/kprmill-images/About/Certifications/cert-img-8.png"
+                      alt=""
+                      style={{ backgroundColor: "#f5f6f5" }}
+                    />
+                  </figure>
+                </div>
+
+                <div className="certification-content-outer-2">
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text mb_10">
+                        <p style={{ fontWeight: "bold", color: "white" }}>
+                          Certification/Organization: TUV-SIMA (The Southern
+                          India Mill’s Association)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text ">
+                        <p style={{ color: "white" }}>
+                          <b>Initiative :</b> Awarded with 5 star categories for
+                          ‘Excellence in code of discipline of providing Women
+                          Employment.’
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row clearfix certification-row-common">
+              <div className="col-lg-8 col-md-8 col-sm-12 certification-main-col-1  content-column ">
+                <div class="pl-3 mb_10 certification-image-outer-1">
+                  <figure class="image">
+                    <img
+                      src="/assets/images/kprmill-images/About/Certifications/cert-img-9.png"
+                      alt=""
+                      style={{ backgroundColor: "#f5f6f5" }}
+                    />
+                  </figure>
+                </div>
+
+                <div className="certification-content-outer-1">
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text mb_10">
+                        <p style={{ fontWeight: "bold", color: "white" }}>
+                          Certification/Organization: Social Accountability
+                          International (SAI)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text ">
+                        <p style={{ color: "white" }}>
+                          <b>Initiative :</b> SA 8000: 2001 for Social
+                          Accountability Management System.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row clearfix  certification-row-common">
+              <div className="col-lg-8 col-md-8 col-sm-12 certification-main-col-2 content-column">
+                <div class="pl-3 mb_10 certification-image-outer-2">
+                  <figure class="image">
+                    <img
+                      src="/assets/images/kprmill-images/About/Certifications/cert-img-10.jpg"
+                      alt=""
+                      style={{ backgroundColor: "#f5f6f5" }}
+                    />
+                  </figure>
+                </div>
+
+                <div className="certification-content-outer-2">
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text mb_10">
+                        <p style={{ fontWeight: "bold", color: "white" }}>
+                          HIGG INDEX CERTIFICATE FOR ENVIRONMENTAL IMPACT
+                          ASSESSMENT
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row clearfix certification-row-common">
+              <div className="col-lg-8 col-md-8 col-sm-12 certification-main-col-1  content-column ">
+                <div class="pl-3 mb_10 certification-image-outer-1">
+                  <figure class="image">
+                    <img
+                      src="/assets/images/kprmill-images/About/Certifications/cert-img-11.jpg"
+                      alt=""
+                      style={{ backgroundColor: "#f5f6f5" }}
+                    />
+                  </figure>
+                </div>
+
+                <div className="certification-content-outer-1 ">
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text mb_10">
+                        <p style={{ fontWeight: "bold", color: "white" }}>
+                          HIGG INDEX CERTIFICATE FOR ENVIRONMENTAL IMPACT
+                          ASSESSMENT
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row clearfix  certification-row-common">
+              <div className="col-lg-8 col-md-8 col-sm-12 certification-main-col-2 content-column">
+                <div class="pl-3 mb_10 certification-image-outer-2">
+                  <figure class="image">
+                    <img
+                      src="/assets/images/kprmill-images/About/Certifications/cert-img-12.jpg"
+                      alt=""
+                      style={{ backgroundColor: "#f5f6f5" }}
+                    />
+                  </figure>
+                </div>
+
+                <div className="certification-content-outer-2">
+                  <div className="content_block_two">
+                    <div className="content-box p_relative d_block">
+                      <div className="text mb_10">
+                        <p style={{ fontWeight: "bold", color: "white" }}>
+                          HIGG INDEX CERTIFICATE FOR ENVIRONMENTAL IMPACT
+                          ASSESSMENT
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* 
+        <section className="certification-style-three p_relative">
+          <div className="auto-container">
+            <div className="sec-title text-center mb_20">
+              <span className="sub-title">
+                Being recognized for our impeccable quality standards
+              </span>
+              <h2>International Accreditations</h2>
+              <p>
+                End-to-end quality initiatives and consistent technology
+                upgradation garnered International accreditation’s:
+              </p>
+            </div>
             <div class="row clearfix">
               <div class="col-lg-4 col-md-12 col-sm-12 mb_30 mb-md-0  content-column">
                 <div class="image-box pl-3 mb_10">
@@ -121,9 +551,9 @@ export default function Certifications() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section
+        {/* <section
           className="certification-style-three p_relative"
           style={{ padding: "0px" }}
         >
@@ -224,9 +654,9 @@ export default function Certifications() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section className="certification-style-three p_relative">
+        {/* <section className="certification-style-three p_relative">
           <div className="auto-container">
             <div class="row clearfix">
               <div class="col-lg-4 col-md-12 col-sm-12 mb_30 mb-md-0   content-column">
@@ -326,9 +756,9 @@ export default function Certifications() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section
+        {/* <section
           className="certification-style-three p_relative"
           style={{ paddingTop: "0px" }}
         >
@@ -403,7 +833,7 @@ export default function Certifications() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </Layout>
     </>
   );

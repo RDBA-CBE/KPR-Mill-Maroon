@@ -68,7 +68,7 @@ export default function Awards() {
                   <div className="image-box award-image-outer">
                     <figure className="image">
                       <img
-                        src="/assets/images/kprmill-images/About/awards.webp"
+                        src="/assets/images/kprmill/about/award-2022.jpg"
                         alt="2022 Award Image"
                       />
                     </figure>
@@ -100,10 +100,10 @@ export default function Awards() {
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-12 content-column no-gutters image-col">
                   <div className="image-box award-image-outer">
-                    <figure className="image">
+                  <figure className="image">
                       <img
-                        src="/assets/images/kprmill-images/About/awards.webp"
-                        alt="2020 Award Image"
+                        src="/assets/images/kprmill/about/award-2020.jpg"
+                        alt=""
                       />
                     </figure>
                   </div>
@@ -160,48 +160,12 @@ export default function Awards() {
 
                 <div className="col-lg-3 col-md-6 col-sm-12 content-column no-gutters image-col order-md-1">
                   <div className="image-box award-image-outer">
-                    <div class="image-box pl-3">
-                      <div className="row">
-                        <div className="col-6">
-                          <figure class="image">
-                            <img
-                              src="/assets/images/kprmill/about/award-img-1.jpg"
-                              alt=""
-                              style={{ width: "50%" }}
-                            />
-                          </figure>
-                        </div>
-                        <div className="col-6">
-                          <figure class="image">
-                            <img
-                              src="/assets/images/kprmill/about/award-img-2.jpg"
-                              alt=""
-                              style={{ width: "50%" }}
-                            />
-                          </figure>
-                        </div>
-                      </div>
-                      <div className="row mt_10">
-                        <div className="col-6">
-                          <figure class="image">
-                            <img
-                              src="/assets/images/kprmill/about/award-img-3.jpg"
-                              alt=""
-                              style={{ width: "50%" }}
-                            />
-                          </figure>
-                        </div>
-                        <div className="col-6">
-                          <figure class="image">
-                            <img
-                              src="/assets/images/kprmill/about/award-img-4.jpg"
-                              alt=""
-                              style={{ width: "50%" }}
-                            />
-                          </figure>
-                        </div>
-                      </div>
-                    </div>
+                  <figure className="image">
+                      <img
+                        src="/assets/images/kprmill/about/award-2019.jpg"
+                        alt=""
+                      />
+                    </figure>
                   </div>
                 </div>
 
@@ -249,7 +213,7 @@ export default function Awards() {
                   <div className="image-box award-image-outer">
                     <figure className="image">
                       <img
-                        src="/assets/images/kprmill-images/About/awards.webp"
+                        src="/assets/images/kprmill/about/award-2017.jpg"
                         alt=""
                       />
                     </figure>
@@ -296,7 +260,7 @@ export default function Awards() {
                   <div className="image-box award-image-outer">
                     <figure class="image">
                       <img
-                        src="/assets/images/kprmill-images/About/awards.webp"
+                        src="/assets/images/kprmill/about/award-2016.jpg"
                         alt=""
                       />
                     </figure>
@@ -352,7 +316,7 @@ export default function Awards() {
                   <div className="image-box award-image-outer">
                     <figure className="image">
                       <img
-                        src="/assets/images/kprmill-images/About/awards.webp"
+                        src="/assets/images/kprmill/about/award-2015.jpg"
                         alt="2015 Award Image"
                       />
                     </figure>
