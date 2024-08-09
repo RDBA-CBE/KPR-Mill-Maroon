@@ -3,7 +3,11 @@ import Link from "next/link";
 import Layout from "@/components/layout/Layout";
 
 import { useState } from "react";
-import { Inverstors1_Data, Inverstors2_Data, Regulation_62 } from "@/utils/constant.utils";
+import {
+  Inverstors1_Data,
+  Inverstors2_Data,
+  Regulation_62,
+} from "@/utils/constant.utils";
 export default function Regulation62() {
   const backgroundImage =
     "/assets/images/kprmill-images/Investors/Disclosures-under-Regulation-62-of-the-LODR/banner.jpg";
@@ -136,10 +140,16 @@ export default function Regulation62() {
                     <div className=" table-responsive-sm">
                       <table class="table big-table table-striped ">
                         <thead>
-                          <tr  style={{backgroundColor:"#daad19", color:"white", fontSize:"18px"}}>
+                          <tr
+                            style={{
+                              backgroundColor: "#daad19",
+                              color: "white",
+                              fontSize: "18px",
+                            }}
+                          >
                             <th>S.No</th>
                             <th>PARTICULARS AS PER LODR</th>
-                            <th style={{width:"150px"}}>PAGE</th>
+                            <th style={{ width: "150px" }}>PAGE</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -163,19 +173,19 @@ export default function Regulation62() {
                                                 style={{
                                                   display: "flex",
                                                   alignItems: "center",
-                                                  justifyContent: "center",
+                                                  justifyContent: "end",
                                                   marginBottom: "10px",
                                                 }}
                                               >
-                                               <i
-                                      className="fa fa-download"
-                                      style={{
-                                        fontSize: "14px",
-                                        paddingRight: "5px",
-                                        color:"#5a1d00"
-                                      }}
-                                    ></i>
-                                                <p
+                                                <i
+                                                  className="fa fa-download"
+                                                  style={{
+                                                    fontSize: "20px",
+                                                    paddingRight: "5px",
+                                                    color: "#5a1d00",
+                                                  }}
+                                                ></i>
+                                                {/* <p
                                                   style={{
                                                     fontSize: "14px",
                                                     paddingTop: "5px",
@@ -183,7 +193,7 @@ export default function Regulation62() {
                                                   }}
                                                 >
                                                   Click Here
-                                                </p>
+                                                </p> */}
                                               </div>
                                             </Link>
                                           );

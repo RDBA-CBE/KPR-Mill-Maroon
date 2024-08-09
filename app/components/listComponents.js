@@ -11,7 +11,7 @@ export default function ListComponents(props) {
             {data?.map((item) => (
               <table
                 key={item.title}
-                className="table big-table table-striped "
+                className="table big-table table-striped mb_30 "
               >
                 <thead>
                   <tr>
@@ -97,7 +97,7 @@ export default function ListComponents(props) {
                                       display: "flex",
                                       alignItems: "center",
                                       justifyContent: "end",
-                                      gap:"5px",
+                                      gap: "5px",
                                     }}
                                   >
                                     {/* <img
@@ -106,17 +106,24 @@ export default function ListComponents(props) {
                                       height={22}
                                       width={22}
                                     /> */}
-                                      <i className="fa fa-music" style={{paddingRight:"3px", fontSize:"14px"}}></i>
+
                                     <p
                                       className="flex gap-5"
                                       style={{
                                         fontSize: "14px",
                                         paddingTop: "5px",
+                                        paddingRight: "5px",
                                         color: "#5a1d00",
                                       }}
                                     >
                                       {link?.list}
                                     </p>
+                                    <i
+                                      className="fa fa-music"
+                                      style={{
+                                        fontSize: "14px", color: "#5a1d00",
+                                      }}
+                                    ></i>
                                   </div>
                                 </Link>
                               ) : (
@@ -132,23 +139,44 @@ export default function ListComponents(props) {
                                       justifyContent: "end",
                                     }}
                                   >
-                                    <i
-                                      className="fa fa-download"
-                                      style={{
-                                        fontSize: "14px",
-                                        paddingRight: "5px",
-                                        color: "#5a1d00",
-                                      }}
-                                    ></i>
-                                    <p
-                                      style={{
-                                        fontSize: "14px",
-                                        paddingTop: "5px",
-                                        color: "#5a1d00",
-                                      }}
-                                    >
-                                      {link?.list}
-                                    </p>
+                                    {link?.list &&
+                                      link?.list !== "Click Here" &&
+                                      link?.list !== "Click Here To Download" &&
+                                      link?.list !==
+                                        "Click Here to Download" && (
+                                        <p
+                                          style={{
+                                            fontSize: "14px",
+                                            paddingTop: "5px",
+                                            paddingRight: "5px",
+                                            color: "#5a1d00",
+                                          }}
+                                        >
+                                          {link?.list}
+                                        </p>
+                                      )}
+
+                                    {link?.list &&
+                                    link?.list !== "Click Here" &&
+                                    link?.list !== "Click Here To Download" &&
+                                    link?.list !== "Click Here to Download" ? (
+                                      <i
+                                        className="fa fa-download"
+                                        style={{
+                                          fontSize: "14px",
+
+                                          color: "#5a1d00",
+                                        }}
+                                      ></i>
+                                    ) : (
+                                      <i
+                                        className="fa fa-download"
+                                        style={{
+                                          fontSize: "22px",
+                                          color: "#5a1d00",
+                                        }}
+                                      ></i>
+                                    )}
                                   </div>
                                 </Link>
                               )}

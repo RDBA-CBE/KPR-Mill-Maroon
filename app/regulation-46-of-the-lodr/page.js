@@ -170,18 +170,18 @@ export default function Regulation46() {
                                                 style={{
                                                   display: "flex",
                                                   alignItems: "center",
-                                                  justifyContent: "center",
+                                                  justifyContent: "end",
                                                   marginBottom: "10px",
                                                 }}
                                               >
                                                 <i
                                                   className="fa fa-download"
                                                   style={{
-                                                    fontSize: "14px",
-                                                    paddingRight: "5px", color:"#5a1d00"
+                                                    fontSize: "20px",
+                                                    color:"#5a1d00"
                                                   }}
                                                 ></i>
-                                                <p
+                                                {/* <p
                                                   style={{
                                                     fontSize: "14px",
                                                     paddingTop: "5px",
@@ -189,7 +189,7 @@ export default function Regulation46() {
                                                   }}
                                                 >
                                                   Click Here
-                                                </p>
+                                                </p> */}
                                               </div>
                                             </Link>
                                           );
