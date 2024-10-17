@@ -78,8 +78,8 @@ export default function Coaching() {
                   <Link href="/fabric">FABRIC</Link>
                 </h3>
                 <p>
-                  KPR Mill produces and supplies high-quality and comfortable
-                  clothing for men, women and kids
+                Our fabrics are crafted innovatively and are tailored to
+                customer specification
                 </p>
               </div>
             </div>
@@ -97,8 +97,8 @@ export default function Coaching() {
                   <Link href="garments">GARMENT</Link>
                 </h3>
                 <p>
-                  We choose the best quality Sugarcane to manufacture
-                  best-in-class White Crystal Sugar
+                KPR offers high quality knitted garments for men, women and
+                children.
                 </p>
               </div>
             </div>
@@ -132,7 +132,7 @@ export default function Coaching() {
                 </h3>
                 <p>
                   White Crystal Sugar manufactured from the best quality
-                  Sugarcane Co-gen facilitates and Ethanol.
+                  Sugarcane Co-gen facilitates.
                 </p>
               </div>
             </div>
@@ -147,7 +147,7 @@ export default function Coaching() {
                 </h3>
                 <p>
                   White Crystal Sugar manufactured from the best quality
-                  Sugarcane Co-gen facilitates and Ethanol.
+                  Sugarcane Co-gen facilitates.
                 </p>
               </div>
             </div>
