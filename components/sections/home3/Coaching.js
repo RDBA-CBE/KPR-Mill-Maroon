@@ -153,6 +153,35 @@ export default function Coaching() {
             </div>
           </div>
         </div>
+
+        <div className="coaching-block-three">
+          <div className="inner-box">
+            <div className="static-content">
+              <figure className="image-box">
+                <img src="assets/images/kprmill/home/sugar.jpg" alt="" />
+              </figure>
+              <div className="content-box">
+                {/* <div className="icon-box"><i className="icon-41"></i></div> */}
+                <h3>
+                  <Link href="/sugar">ETHANOL & POWER</Link>
+                </h3>
+                <p>Capacity: 90 MW power and 360 KLPD of Ethanol</p>
+              </div>
+            </div>
+            <div className="overlay-content">
+              <figure className="image-box">
+                <img src="assets/images/kprmill/home/sugar.jpg" alt="" />
+              </figure>
+              <div className="content-box">
+                {/* <div className="icon-box"><i className="icon-41"></i></div> */}
+                <h3>
+                  <Link href="/sugar">ETHANOL & POWER</Link>
+                </h3>
+                <p>Capacity: 90 MW power and 360 KLPD of Ethanol</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

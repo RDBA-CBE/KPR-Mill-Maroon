@@ -71,7 +71,7 @@ export default function Banner() {
               className="bg-layer"
               style={{
                 backgroundImage:
-                  "url(/assets/images/kprmill-images/Home-Page/banner-2.jpg)",
+                  "url(/assets/images/kprmill-images/Home-Page/banner-4.jpg)",
               }}
             ></div>
             {/* <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-26.png)" }}></div> */}
@@ -131,7 +131,7 @@ export default function Banner() {
               className="bg-layer"
               style={{
                 backgroundImage:
-                  "url(/assets/images/kprmill-images/Home-Page/banner-4.jpg)",
+                  "url(/assets/images/kprmill-images/Home-Page/banner-2.jpg)",
               }}
             ></div>
             {/* <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-26.png)" }}></div> */}
