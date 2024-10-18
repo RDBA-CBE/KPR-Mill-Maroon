@@ -35,13 +35,12 @@ export default function Coaching() {
                   {/* <span className="count-text">01</span> */}
                 </div>
                 <h3>
-                  <Link href="/#">BW – 19 October 2015</Link>
+                  <Link href="/#">Forbes Asia - 2023</Link>
                 </h3>
                 <p>
-                  KPR Mill features on Business World magazine’s 500 Definitive
-                  Ranking of India’s Largest Companies survey conducted jointly
-                  with KPMG – global network of professional firms providing
-                  Audit, Tax and Advisory services.
+                  KPR has made its prestigious entry in the list of ‘India’s Top
+                  100 Richest’ with a net worth of US $ 2.3 billion as per the
+                  reputed Business Magazine ‘Forbes Asia’.
                 </p>
               </div>
             </div>
@@ -63,13 +62,14 @@ export default function Coaching() {
                   {/* <span className="count-text">02</span> */}
                 </div>
                 <h3>
-                  <Link href="/#">BT – 1 January 2016</Link>
+                  <Link href="/#">
+                    First Generation Entrepreneur Award - 2018
+                  </Link>
                 </h3>
                 <p>
-                  Our Chairman K.P. Ramasamy features as one of the India’s Best
-                  CEOs in a survey published on 1 January 2016, conducted
-                  jointly by Business Today magazine and PricewaterhouseCoopers
-                  – a leading assurance, tax, and consulting services provider.
+                  Honoured by the ‘Cotton Association of India - Mumbai’ with
+                  the ‘First Generation Entrepreneur Award for Textile Company
+                  in 2018.
                 </p>
               </div>
             </div>
@@ -91,13 +91,13 @@ export default function Coaching() {
                   {/* <span className="count-text">03</span> */}
                 </div>
                 <h3>
-                  <Link href="/#">Financial Express – February 2016</Link>
+                  <Link href="/#">
+                    Established Entrepreneur of the Year - 2017
+                  </Link>
                 </h3>
                 <p>
-                  KPR Mill has find place in Financial Express Magazine’s
-                  India’s Finest 500 Companies List published in February 2016.
-                  The company has got special mention in the category ‘Readymade
-                  Garments/Apparel.’
+                  Awarded ‘Established Entrepreneur of the Year’ by the
+                  Entrepreneur Organisation Coimbatore during 2017.
                 </p>
               </div>
             </div>
@@ -119,14 +119,13 @@ export default function Coaching() {
                   {/* <span className="count-text">04</span> */}
                 </div>
                 <h3>
-                  <Link href="/#">BT – 1 January 2017</Link>
+                  <Link href="/#">
+                    Business Today - India's Best CEO's - 2016
+                  </Link>
                 </h3>
                 <p>
-                  Our Chairman K P Ramasamy features yet again as one of the
-                  India’s Best CEOs in a survey published on 1 January 2017,
-                  conducted jointly by Business Today magazine and
-                  PricewaterhouseCoopers – a leading assurance, tax, and
-                  consulting services provider.
+                  Our Chairman K.P. Ramasamy features as one of the India’s Best
+                  CEOs in a survey published on 1 January 2016.
                 </p>
               </div>
             </div>
