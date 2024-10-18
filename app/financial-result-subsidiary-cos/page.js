@@ -46,7 +46,7 @@ export default function SubSidiaryCos() {
       <Layout
         headerStyle={2}
         footerStyle={2}
-        breadcrumbTitle="Financial Results"
+        breadcrumbTitle="Financials – Subsidiary Cos"
         imageUrl={backgroundImage}
       >
         {/* visa details section */}

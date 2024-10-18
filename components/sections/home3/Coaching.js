@@ -158,7 +158,7 @@ export default function Coaching() {
           <div className="inner-box">
             <div className="static-content">
               <figure className="image-box">
-                <img src="assets/images/kprmill/home/sugar.jpg" alt="" />
+                <img src="assets/images/kprmill/home/ethanol-power.jpg" alt="" />
               </figure>
               <div className="content-box">
                 {/* <div className="icon-box"><i className="icon-41"></i></div> */}
@@ -170,7 +170,7 @@ export default function Coaching() {
             </div>
             <div className="overlay-content">
               <figure className="image-box">
-                <img src="assets/images/kprmill/home/sugar.jpg" alt="" />
+                <img src="assets/images/kprmill/home/ethanol-power.jpg" alt="" />
               </figure>
               <div className="content-box">
                 {/* <div className="icon-box"><i className="icon-41"></i></div> */}
