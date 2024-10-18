@@ -73,7 +73,7 @@ export default function GreenInitiatives() {
               <div class="col-lg-6 col-md-12 col-sm-12 order-lg-1 image-column">
                 <div class="image-box pl-3">
                   <figure class="image">
-                    <img src="/assets/images/kprmill-images/CSR/Green-Initiatives/green-1.jpg" alt="" />
+                    <img src="/assets/images/kprmill-images/CSR/Green-Initiatives/green-1.png" alt="" />
                   </figure>
                 </div>
               </div>
