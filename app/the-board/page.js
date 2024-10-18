@@ -201,7 +201,7 @@ const page = () => {
                           Since then, he has been contributing his talented
                           efforts for the growth of the Group.He has widely
                           traveled across the world for choosing suitable
-                          technology and machinery for textile mills. He visited
+                          technology and machinery for textile Companys. He visited
                           Srilanka for studying the large scale garment
                           manufacturing process.Under his able administration,
                           KPR’s prestigious Textile Processing Unit was

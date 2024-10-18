@@ -183,7 +183,7 @@ export default function MrPNadaraj() {
                       <Link href="/#">
                         Honoured by the ‘Cotton Association of India - Mumbai’
                         with the ‘First Generation Entrepreneur Award for
-                        Textile Mills‘in 2018.
+                        Textile Company‘in 2018.
                       </Link>
                     </h3>
                   </div>
