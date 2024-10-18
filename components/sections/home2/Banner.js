@@ -48,7 +48,7 @@ export default function Banner() {
                 {/* <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-27.png)" }}></div> */}
                 <h2>
                   One Of The Largest<span> Vertically Integrated </span>Textile
-                  Mill
+                  Company
                 </h2>
                 <p>
                   Over 40 years of experience in textile and apparel
