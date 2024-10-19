@@ -163,7 +163,7 @@ export default function Coaching() {
               <div className="content-box">
                 {/* <div className="icon-box"><i className="icon-41"></i></div> */}
                 <h3>
-                  <Link href="/#">ETHANOL & POWER</Link>
+                  <Link href="/ethanol-power">ETHANOL & POWER</Link>
                 </h3>
                 <p>Capacity: 90 MW power and 360 KLPD of Ethanol</p>
               </div>
@@ -175,7 +175,7 @@ export default function Coaching() {
               <div className="content-box">
                 {/* <div className="icon-box"><i className="icon-41"></i></div> */}
                 <h3>
-                  <Link href="/#">ETHANOL & POWER</Link>
+                  <Link href="/ethanol-power">ETHANOL & POWER</Link>
                 </h3>
                 <p>Capacity: 90 MW power and 360 KLPD of Ethanol</p>
               </div>
