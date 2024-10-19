@@ -84,6 +84,9 @@ export default function Menu() {
             <li>
               <Link href="/sugar">Sugar</Link>
             </li>
+            <li>
+              <Link href="/ethanol-power">Ethanol & Power</Link>
+            </li>
             {/* <li>
               <Link href="/coaching">Coaching Overview</Link>
             </li>

@@ -3,7 +3,7 @@ import Layout from "@/components/layout/Layout";
 
 export default function Yarn() {
 
-  const backgroundImage = "/assets/images/kprmill-images/Products/Sugar/banner.jpg";
+  const backgroundImage = "/assets/images/kprmill-images/Products/ethanol/ethonal-banner.jpg";
   return (
     <>
       <Layout headerStyle={2} footerStyle={2} breadcrumbTitle="Ethanol & Power" imageUrl= {backgroundImage}>
@@ -48,7 +48,7 @@ export default function Yarn() {
               <div class="col-lg-6 col-md-12 col-sm-12 order-lg-1 image-column">
                 <div class="image-box pl-3">
                   <figure class="image">
-                    <img src="/assets/images/kprmill-images/Products/Sugar/sugar.png" alt="sugar" />
+                    <img src="/assets/images/kprmill-images/Products/ethanol/ethonal-img.png" alt="sugar" />
                   </figure>
                 </div>
               </div>
