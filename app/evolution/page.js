@@ -15,16 +15,21 @@ const EducationIcon = () => <FaUserGraduate />;
 const StarIcon = () => <FaStar />;
 
 export default function Evolution() {
-
-  const BackgroundImage = "/assets/images/kprmill-images/About/evolution-banner-img.jpg"
+  const BackgroundImage =
+    "/assets/images/kprmill-images/About/evolution-banner-img.jpg";
   return (
     <>
-      <Layout headerStyle={2} footerStyle={2} breadcrumbTitle="Evolution" imageUrl= {BackgroundImage}>
+      <Layout
+        headerStyle={2}
+        footerStyle={2}
+        breadcrumbTitle="Evolution"
+        imageUrl={BackgroundImage}
+      >
         <section className="dream-style-three p_relative">
           <div className="auto-container">
             <div className="sec-title  mb_30 centred">
               <span className="sub-title" style={{ color: "black" }}>
-              Our significant breakthroughs
+                Our significant breakthroughs
               </span>
               <h2 style={{ fontSize: "18px", lineHeight: "30px" }}>
                 The fore vision and enterprising efforts of KPR leaders has
@@ -454,7 +459,6 @@ export default function Evolution() {
                 />
               </VerticalTimelineElement>
 
-
               <VerticalTimelineElement
                 visible={true}
                 className="vertical-timeline-element--work"
@@ -475,7 +479,6 @@ export default function Evolution() {
                   height={300}
                 />
               </VerticalTimelineElement>
-
 
               <VerticalTimelineElement
                 visible={true}
@@ -553,14 +556,14 @@ export default function Evolution() {
                 iconStyle={{ background: "#daad19", color: "#fff" }}
                 icon={<WorkIcon />}
               >
-                <div style={{textAlign: "end"}}>
-                {
-                  <CustomDate
-                    date="2020"
-                    firstLine="Expansion"
-                    secondLine="Sugar cum Ethanol Business in Karnataka :with Sugar - 10,000 TCD :47.50 MW :230 KLPD , Garment Capacity Expansion in Tamil Nadu with 42 million Garments per Annum"
-                  />
-                }
+                <div className="text-lg-end  text-start">
+                  {
+                    <CustomDate
+                      date="2020"
+                      firstLine="Expansion"
+                      secondLine="Sugar cum Ethanol Business in Karnataka :with Sugar - 10,000 TCD :47.50 MW :230 KLPD , Garment Capacity Expansion in Tamil Nadu with 42 million Garments per Annum"
+                    />
+                  }
                 </div>
                 {/* <Image
                   src="/assets/images/kprmill/evolution/evolution22.png"
@@ -584,13 +587,13 @@ export default function Evolution() {
                 icon={<WorkIcon />}
               >
                 <div>
-                {
-                  <CustomDate
-                    date="2021"
-                    firstLine="Expansion"
-                    secondLine="Processing Unit Capacity increased by 3000 MT"
-                  />
-                }
+                  {
+                    <CustomDate
+                      date="2021"
+                      firstLine="Expansion"
+                      secondLine="Processing Unit Capacity increased by 3000 MT"
+                    />
+                  }
                 </div>
                 {/* <Image
                   src="/assets/images/kprmill/evolution/evolution22.png"
@@ -641,7 +644,6 @@ export default function Evolution() {
                   height={300}
                 />
               </VerticalTimelineElement>
-
 
               <VerticalTimelineElement
                 visible={true}
