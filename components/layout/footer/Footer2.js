@@ -542,7 +542,7 @@ export default function Footer2() {
                     <div className="footer-widget post-widget">
                       <div>
                         <h5 className="footer-title">
-                          <Link href="/contact-us" style={{ color: "white" }}>
+                          <Link href="/contact" style={{ color: "white" }}>
                             Contact Us
                           </Link>
                         </h5>
