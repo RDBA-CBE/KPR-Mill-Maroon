@@ -147,7 +147,7 @@ export default function Regulation62() {
                       <h2 style={{ color: "#5a1d00" }}>Policy Info:</h2>
                     </div>
 
-                    <div className="row clearfix mb_100">
+                    <div className="row clearfix mb-lg-5 mb-0">
                       <div className="col-lg-3 col-md-12 col-sm-12 sidebar-side text-center">
                         <div className="clients-logo mb_10">
                           <Link href="/policy">

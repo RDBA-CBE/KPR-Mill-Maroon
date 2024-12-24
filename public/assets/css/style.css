@@ -8526,6 +8526,10 @@
      top: -60px;
      right: 75px;
    }
+
+   .default-sidebar .category-widget .category-list li a {
+     font-size: 16px;
+   }
  }
 
  @media(max-width:450px) {
