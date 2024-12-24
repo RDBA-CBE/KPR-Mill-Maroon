@@ -32,12 +32,14 @@ export default function Countries() {
             >
               <div className="inner-box">
                 <div className="image-box">
-                  <figure className="image">
-                    <img
-                      src="/assets/images/kprmill-images/Home-Page/whats-new.png"
-                      alt=""
-                    />
-                  </figure>
+                  <Link href="/our-brand" style={{ cursor: "pointer" }}>
+                    <figure className="image">
+                      <img
+                        src="/assets/images/kprmill-images/Home-Page/whats-new.png"
+                        alt=""
+                      />
+                    </figure>
+                  </Link>
                 </div>
                 {/* <div className="lower-content">
                   <h5><Link href="index-4">China <span>Visa</span></Link></h5>
@@ -54,7 +56,7 @@ export default function Countries() {
             >
               <div className="inner-box">
                 <div className="image-box">
-                  <Link href="/about-us" style={{cursor: "pointer"}}>
+                  <Link href="/about-us" style={{ cursor: "pointer" }}>
                     <figure className="image">
                       <img
                         src="/assets/images/kprmill-images/Home-Page/about-us.png"
@@ -78,7 +80,7 @@ export default function Countries() {
             >
               <div className="inner-box">
                 <div className="image-box">
-                  <Link href="/awards" style={{cursor: "pointer"}}>
+                  <Link href="/awards" style={{ cursor: "pointer" }}>
                     <figure className="image">
                       <img
                         src="/assets/images/kprmill-images/Home-Page/awards.png"
@@ -102,13 +104,13 @@ export default function Countries() {
             >
               <div className="inner-box">
                 <div className="image-box">
-                  <Link href="/certifications" style={{cursor: "pointer"}}>
-                  <figure className="image">
-                    <img
-                      src="/assets/images/kprmill-images/Home-Page/cert.png"
-                      alt=""
-                    />
-                  </figure>
+                  <Link href="/certifications" style={{ cursor: "pointer" }}>
+                    <figure className="image">
+                      <img
+                        src="/assets/images/kprmill-images/Home-Page/cert.png"
+                        alt=""
+                      />
+                    </figure>
                   </Link>
                 </div>
                 {/* <div className="lower-content">
