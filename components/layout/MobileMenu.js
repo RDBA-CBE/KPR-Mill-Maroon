@@ -589,9 +589,9 @@ export default function MobileMenu({
               <li>
                 <Link href="tel:+91-422-2207777">+91-422-2207777</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="mailto:info@example.com">info@example.com</Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           {/*Social Links*/}
