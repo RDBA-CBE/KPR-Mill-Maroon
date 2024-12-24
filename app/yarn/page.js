@@ -67,7 +67,7 @@ export default function Yarn() {
               <div class="col-lg-6 col-md-12 col-sm-12 order-lg-1 image-column">
                 <div class="image-box pl-3">
                   <figure class="image">
-                    <img src="/assets/images/kprmill-images/Products/Yarn/yarn-1.png" alt="" />
+                    <img src="/assets/images/kprmill-images/Products/Yarn/yarn.jpg" alt="" />
                   </figure>
                 </div>
               </div>

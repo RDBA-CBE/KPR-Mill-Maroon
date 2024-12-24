@@ -34,7 +34,7 @@ export default function Clients() {
             <div className="col-lg-4 col-md-4 col-sm-12 count-section">
               <div className="text-center">
                 <div className="count-outer">
-                  <CounterUp end={25000} />
+                  <CounterUp end={30000} />
                   <span> MT</span>
                 </div>
                 <p className="count-content">
@@ -46,7 +46,7 @@ export default function Clients() {
             <div className="col-lg-4 col-md-4 col-sm-12 ">
               <div className="text-center">
                 <div className="count-outer">
-                  <CounterUp end={147} />
+                  <CounterUp end={175} />
                   <span> M+</span>
                 </div>
                 <p className="count-content">
