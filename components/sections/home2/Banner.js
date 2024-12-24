@@ -56,7 +56,7 @@ export default function Banner() {
                   Yarn, Fabrics, Garments, and White Crystal Sugar
                 </p>
                 <div className="btn-box ">
-                  <Link href="/" className="theme-btn btn-two">
+                  <Link href="/about-us" className="theme-btn btn-two">
                     <span>Know More</span>
                   </Link>
                 </div>
@@ -86,7 +86,7 @@ export default function Banner() {
                   comfortable and 100% organic innerwear and athleisure wear
                 </p>
                 <div className="btn-box responsive-margin">
-                  <Link href="/" className="theme-btn btn-two">
+                  <Link href="/our-brand" className="theme-btn btn-two">
                     <span>Know More</span>
                   </Link>
                 </div>
@@ -116,7 +116,7 @@ export default function Banner() {
                   provides the necessary thought leadership to take us forward
                 </p>
                 <div className="btn-box responsive-margin">
-                  <Link href="/" className="theme-btn btn-two">
+                  <Link href="/products" className="theme-btn btn-two">
                     <span>Know More</span>
                   </Link>
                 </div>
@@ -148,7 +148,7 @@ export default function Banner() {
                   comfort
                 </p>
                 <div className="btn-box">
-                  <Link href="/" className="theme-btn btn-two">
+                  <Link href="/infrastructure" className="theme-btn btn-two">
                     <span>Know More</span>
                   </Link>
                 </div>
