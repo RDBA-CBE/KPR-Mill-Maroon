@@ -81,7 +81,7 @@ export default function Garments() {
                                   </Link>
                                 </h3>
                                 <p style={{ fontSize: "18px" }}>
-                                  147 million garments per annum
+                                  177 million garments per annum
                                 </p>
                               </div>
                             </div>

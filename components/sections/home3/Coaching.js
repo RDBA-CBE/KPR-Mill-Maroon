@@ -165,7 +165,7 @@ export default function Coaching() {
                 <h3>
                   <Link href="/ethanol-power">ETHANOL & POWER</Link>
                 </h3>
-                <p>Capacity: 90 MW power and 360 KLPD of Ethanol</p>
+                <p>Capacity: 90 MW power and 470 KLPD of Ethanol</p>
               </div>
             </div>
             <div className="overlay-content">
@@ -177,7 +177,7 @@ export default function Coaching() {
                 <h3>
                   <Link href="/ethanol-power">ETHANOL & POWER</Link>
                 </h3>
-                <p>Capacity: 90 MW power and 360 KLPD of Ethanol</p>
+                <p>Capacity: 90 MW power and 470 KLPD of Ethanol</p>
               </div>
             </div>
           </div>

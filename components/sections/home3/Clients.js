@@ -23,18 +23,18 @@ export default function Clients() {
             <div className="col-lg-4 col-md-4 col-sm-12 md-mb-30 count-section">
               <div className="text-center">
                 <div className="count-outer">
-                  <CounterUp end={370000} />
+                  <CounterUp end={400000} />
                 </div>
                 <p className="count-content">
                   Spindles with a Production capacity
-                  <br /> of 1,00,000 MT per annum
+                  <br /> of 1,20,000 MT per annum
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 count-section">
               <div className="text-center">
                 <div className="count-outer">
-                  <CounterUp end={30000} />
+                  <CounterUp end={40000} />
                   <span> MT</span>
                 </div>
                 <p className="count-content">
@@ -46,7 +46,7 @@ export default function Clients() {
             <div className="col-lg-4 col-md-4 col-sm-12 ">
               <div className="text-center">
                 <div className="count-outer">
-                  <CounterUp end={175} />
+                  <CounterUp end={177} />
                   <span> M+</span>
                 </div>
                 <p className="count-content">

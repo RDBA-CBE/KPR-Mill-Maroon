@@ -125,8 +125,8 @@ export default function Countries() {
                         <Link href="index-3">United Kingdom</Link>
                       </h3> */}
                       <p>
-                        With a capacity of 3,70,000 spindles, we can produce
-                        approximately 1,00,000 MT of high-quality and durable
+                        With a capacity of 4,00,000 spindles, we can produce
+                        approximately 1,20,000 MT of high-quality and durable
                         cotton yarn per annum of counts ranging from 10s to 40s.
                       </p>
                       <Link href="/spinning">Know More</Link>
@@ -410,7 +410,7 @@ export default function Countries() {
                       <p>
                         Our exclusive garmenting centre, which is ranked one of
                         the largest garment manufacturing facilities in India
-                        can manufacture 147 million garments per annum
+                        can manufacture 177 million garments per annum
                       </p>
                       <Link href="/garmenting">Know More</Link>
                     </div>
