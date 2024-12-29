@@ -38,8 +38,10 @@ export default function Clients() {
                   <span> MT</span>
                 </div>
                 <p className="count-content">
-                  Capacity to Process per annum with
-                  <br /> Trendsetter ETP
+                  {/* Capacity to produce fabrics   <br /> per annum with
+                Knitting Facility */}
+              Capacity to produce fabrics <br />per annum through knitting
+                
                 </p>
               </div>
             </div>
