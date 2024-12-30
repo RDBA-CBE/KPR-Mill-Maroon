@@ -175,6 +175,11 @@ export default function MobileMenu({
                         Sugar
                       </Link>
                     </li>
+                    <li>
+                      <Link href="/ethanol-power" onClick={handleMobileMenu}>
+                      Ethanol & Power
+                      </Link>
+                    </li>
                   </ul>
                   <div
                     className={
