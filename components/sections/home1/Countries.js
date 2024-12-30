@@ -118,7 +118,7 @@ export default function Countries() {
                         </figure>
                         <div className="text">
                           <h3>
-                            <Link href="/garments">Garments</Link>
+                            <Link href="/garment">Garments</Link>
                           </h3>
                         </div>
                       </div>
