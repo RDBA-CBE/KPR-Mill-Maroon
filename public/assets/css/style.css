@@ -8547,9 +8547,13 @@
      height: 100%;
    }
 
+   .default-sidebar .category-widget {
+     padding: 5px;
+   }
+
    .default-sidebar .category-widget .category-list {
-    padding: 15px 15px;
-  }
+     padding: 15px 15px;
+   }
  }
 
  @media(max-width:450px) {
@@ -8564,8 +8568,8 @@
    }
 
    .default-sidebar .category-widget .category-list li a {
-    font-size: 15px;
-  }
+     font-size: 15px;
+   }
  }
 
  @media(max-width:400px) {
