@@ -56,7 +56,9 @@ export default function Garments() {
                                 style={{ paddingTop: "40px" }}
                               >
                                 <h3>
-                                  <Link href="/#">Garment Types</Link>
+                                  <Link href="javascript:void(0);">
+                                  Garment Types
+                                  </Link>
                                 </h3>
                                 <p style={{ fontSize: "18px" }}>
                                   Casual wear, Sports wear, Active wear, Sleep
@@ -76,7 +78,7 @@ export default function Garments() {
                                 style={{ paddingTop: "40px" }}
                               >
                                 <h3>
-                                  <Link href="/#">
+                                  <Link href="javascript:void(0);">
                                     Garment Manufacturing Capacity
                                   </Link>
                                 </h3>

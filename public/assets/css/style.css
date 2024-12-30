@@ -8089,6 +8089,11 @@
      width: 100%;
    }
 
+   .page-title .content-box h1 {
+      font-size: 25px;
+      line-height: 32px;
+   }
+
    .page-title .content-box h1 br {
      display: none;
    }
