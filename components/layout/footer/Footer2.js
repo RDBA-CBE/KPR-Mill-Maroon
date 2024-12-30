@@ -181,6 +181,11 @@ export default function Footer2() {
                                 Sugar
                               </Link>
                             </li>
+                            <li>
+                              <Link href="/ethanol-power" style={{ color: "white" }}>
+                              Ethanol & Power
+                              </Link>
+                            </li>
                           </ul>
                         </div>
                       </div>
