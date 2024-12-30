@@ -8546,6 +8546,10 @@
    .womenswear-image {
      height: 100%;
    }
+
+   .default-sidebar .category-widget .category-list {
+    padding: 15px 15px;
+  }
  }
 
  @media(max-width:450px) {
@@ -8558,6 +8562,10 @@
    .facility-img-outer {
      height: 180px;
    }
+
+   .default-sidebar .category-widget .category-list li a {
+    font-size: 15px;
+  }
  }
 
  @media(max-width:400px) {
@@ -8580,6 +8588,7 @@
    .facility-img-outer {
      height: 150px;
    }
+
  }
 
  @media(max-width:350px) {
