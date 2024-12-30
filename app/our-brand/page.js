@@ -46,7 +46,7 @@ export default function OurBrand() {
                         </li>
                         <li>
                           In this direction, we have launched a unique and
-                          stylish brand ‘FASO.’
+                          stylish brand ‘FASO’.
                         </li>
                       </ul>
                     </div>
