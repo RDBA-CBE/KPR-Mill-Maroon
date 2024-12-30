@@ -43,7 +43,7 @@ export default function Yarn() {
                       <p>
                         Participating in Green Power generation through wind
                         mills and Co-gen facilitates meeting most of our Power
-                        requirement through Green Power..
+                        requirement through Green Power.
                       </p>
                     </div>
                   </div>

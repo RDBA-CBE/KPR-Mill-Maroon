@@ -51,8 +51,8 @@ export default function SugarMill() {
                       <p>
                         Participating in Green Power generation through wind
                         mills and Co-gen facilitates meeting most of our Power
-                        requirement through Green Power.. Total green power
-                        generation capacity 90 M.W.
+                        requirement through Green Power. Total green power
+                        generation capacity 191.92 MW.
                       </p>
                     </div>
 

@@ -182,51 +182,11 @@ export default function Footer2() {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/ethanol-power" style={{ color: "white" }}>
-                              Ethanol & Power
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="footer-widget post-widget mb_30">
-                      <div>
-                        <h5 className="footer-title">CSR</h5>
-                      </div>
-                      <div>
-                        <div>
-                          <ul className="post-info list-unstyled  footer-list">
-                            <li>
                               <Link
-                                href="/community-development"
+                                href="/ethanol-power"
                                 style={{ color: "white" }}
                               >
-                                Community Development
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                href="/sustained-commitment"
-                                style={{ color: "white" }}
-                              >
-                                Sustained Commitment
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                href="/green-initiative"
-                                style={{ color: "white" }}
-                              >
-                                Green Initiatives
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                href="/higher-studies-and-career-placement"
-                                style={{ color: "white" }}
-                              >
-                                Higher Studies and Carrer Placement
+                                Ethanol & Power
                               </Link>
                             </li>
                           </ul>
@@ -244,7 +204,10 @@ export default function Footer2() {
                         <div>
                           <ul className="post-info list-unstyled  footer-list">
                             <li>
-                              <Link href="/infrastructure" style={{ color: "white" }}>
+                              <Link
+                                href="/infrastructure"
+                                style={{ color: "white" }}
+                              >
                                 Overview
                               </Link>
                             </li>
@@ -288,8 +251,11 @@ export default function Footer2() {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/sugar" style={{ color: "white" }}>
-                                Sugar
+                              <Link
+                                href="/sugarmill"
+                                style={{ color: "white" }}
+                              >
+                                Sugar Mill
                               </Link>
                             </li>
                           </ul>
@@ -523,7 +489,63 @@ export default function Footer2() {
                     </div>
                   </div>
 
-                  <div className="col-lg-2 col-md-6 col-sm-12 footer-column">
+                  <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
+                    <div className="footer-widget post-widget mb_30">
+                      <div>
+                        <h5 className="footer-title">CSR</h5>
+                      </div>
+                      <div>
+                        <div>
+                          <ul className="post-info list-unstyled  footer-list">
+                            <li>
+                              <Link
+                                href="/community-development"
+                                style={{ color: "white" }}
+                              >
+                                Community Development
+                              </Link>
+                            </li>
+                            <li>
+                              <Link
+                                href="/sustained-commitment"
+                                style={{ color: "white" }}
+                              >
+                                Sustained Commitment
+                              </Link>
+                            </li>
+                            <li>
+                              <Link
+                                href="/green-initiative"
+                                style={{ color: "white" }}
+                              >
+                                Green Initiatives
+                              </Link>
+                            </li>
+                            <li>
+                              <Link
+                                href="/higher-studies-and-career-placement"
+                                style={{ color: "white" }}
+                              >
+                                Higher Studies and Carrer Placement
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
+                    {/* <div className="footer-widget post-widget mb_10">
+                      <div>
+                        <img
+                          src="/assets/images/kprmill/home/footer-img.png"
+                          alt="Logo"
+                          style={{ height: "280px", width: "100%" }}
+                        />
+                      </div>
+                    </div> */}
+
                     <div className="footer-widget post-widget mb_10">
                       <div>
                         <h5 className="footer-title">
@@ -551,18 +573,6 @@ export default function Footer2() {
                             Contact Us
                           </Link>
                         </h5>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-4 col-md-6 col-sm-12 footer-column">
-                    <div className="footer-widget post-widget mb_10">
-                      <div>
-                        <img
-                          src="/assets/images/kprmill/home/footer-img.png"
-                          alt="Logo"
-                          style={{ height: "280px", width: "100%" }}
-                        />
                       </div>
                     </div>
                   </div>

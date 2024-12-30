@@ -52,7 +52,7 @@ export default function Clients() {
                   <span> M+</span>
                 </div>
                 <p className="count-content">
-                  Largest in India aith a capacity to
+                  Largest in India with a capacity to
                   <br /> produce garments per annum
                 </p>
               </div>

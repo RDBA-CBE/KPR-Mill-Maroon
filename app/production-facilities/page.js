@@ -182,7 +182,7 @@ const page = () => {
                 </div>
                 <p>
                   Green Power The Company has installed Wind Mills, Co-Gen plant
-                  and Roof top Solar with a total generation capacity of 163.92
+                  and Roof top Solar with a total generation capacity of 191.92
                   MW of green power for captive consumption to become self-
                   reliant in power needs.
                 </p>
