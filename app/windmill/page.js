@@ -39,7 +39,7 @@ export default function Windmill() {
                       <p>
                         KPR has installed Windmills at diverse, strategic
                         locations in Tamilnadu (Tirunellveli, Theni, Thenkasi, &
-                        Coimbatore) with a capacity of 61.92 MW Green power,
+                        Coimbatore) with a capacity of 61.92 MW (66 Windmills) Green power,
                         sufficient enough to meet about 40% of our power
                         requirement. The expansion plans of KPR are always
                         cohered with windmill expansion.
