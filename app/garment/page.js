@@ -111,14 +111,17 @@ export default function Garments() {
             <div className="row clearfix">
               <div className="col-lg-6 col-md-12 col-sm-12  content-column">
                 <div className="row clearfix">
-                  <div className="col-lg-7 col-md-7 col-sm-12 order-lg-2  content-column"   style={{ display: "flex", alignItems: "center" }}>
+                  <div
+                    className="col-lg-7 col-md-7 col-sm-12 order-lg-2  content-column"
+                    style={{ display: "flex", alignItems: "center" }}
+                  >
                     <div className="content-box p_relative d_block">
                       <div className="sec-title mb_5">
                         {/* <span className="sub-title">Reach Your Dream</span> */}
                         <h3>Men’s Wear</h3>
                       </div>
                       <div className="text ">
-                        <p style={{color:"black"}}>
+                        <p style={{ color: "black" }}>
                           KPR produces Men’s garment wear made from best quality
                           fabric. We have a wide ranging collection of men’s
                           wear available in contemporary designs and diversified
@@ -129,14 +132,11 @@ export default function Garments() {
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="col-lg-5 col-md-5 col-sm-12 order-lg-1 content-column"
-                  
-                  >
+                  <div className="col-lg-5 col-md-5 col-sm-12 order-lg-1 content-column">
                     <div className="image-box pl_3">
                       <figure className="image">
                         <img
-                          style={{ height: "400px" }}
+                          className="menswear-image"
                           src="/assets/images/kprmill-images/Products/Garment/mens-wear-img.jpg"
                           alt=""
                         />
@@ -148,14 +148,17 @@ export default function Garments() {
 
               <div className="col-lg-6 col-md-12 col-sm-12 image-column pt-md-0 pt-5">
                 <div className="row clearfix">
-                  <div className="col-lg-7 col-md-7 col-sm-12 order-lg-2 content-column"   style={{ display: "flex", alignItems: "center" }}>
+                  <div
+                    className="col-lg-7 col-md-7 col-sm-12 order-lg-2 content-column"
+                    style={{ display: "flex", alignItems: "center" }}
+                  >
                     <div className="content-box p_relative d_block">
                       <div className="sec-title mb_5">
                         {/* <span className="sub-title">Reach Your Dream</span> */}
                         <h3>Women’s Wear</h3>
                       </div>
                       <div className="text ">
-                        <p style={{color:"black"}}>
+                        <p style={{ color: "black" }}>
                           KPR presents a unique collection of trendy Ladies Knit
                           Wear in special as well as modern designs and vibrant
                           colour combinations. Made from soft fabric, these
@@ -171,7 +174,7 @@ export default function Garments() {
                     <div className="image-box pl_3 w-100">
                       <figure className="image">
                         <img
-                          style={{ height: "400px" }}
+                          className="womenswear-image"
                           src="/assets/images/kprmill-images/Products/Garment/womens-wear-img.jpg"
                           alt=""
                         />

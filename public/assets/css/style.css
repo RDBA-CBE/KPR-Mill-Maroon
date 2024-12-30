@@ -8429,6 +8429,14 @@
    color: white;
  }
 
+ .menswear-image {
+   height: 400px;
+ }
+
+ .womenswear-image {
+   height: 400px;
+ }
+
  @media(max-width:992px) {
    .countries-style-five {
      top: -80px !important;
@@ -8529,6 +8537,14 @@
 
    .default-sidebar .category-widget .category-list li a {
      font-size: 16px;
+   }
+
+   .menswear-image {
+     height: 100%;
+   }
+
+   .womenswear-image {
+     height: 100%;
    }
  }
 
@@ -8637,6 +8653,40 @@
 
  .processingBottomImage {
    height: 400px;
+ }
+
+ @media(max-width:1200px) {
+   .Gallery-image-1 {
+     height: 400px
+   }
+
+   .Gallery-image-2 {
+     height: 400px
+   }
+
+   .Gallery-image-3 {
+     height: 400px
+   }
+
+   .Gallery-image-4 {
+     height: 400px
+   }
+
+   .Gallery-image-5 {
+     height: 400px
+   }
+
+   .Gallery-image-6 {
+     height: 400px
+   }
+
+   .Gallery-image-7 {
+     height: 400px
+   }
+
+   .Gallery-image-8 {
+     height: 400px
+   }
  }
 
  @media(max-width:992px) {
