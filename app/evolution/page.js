@@ -538,9 +538,7 @@ export default function Evolution() {
                   width={400}
                   height={300}
                 />
-              </VerticalTimelineElement>
-
-       
+              </VerticalTimelineElement>      
 
               <VerticalTimelineElement
                 visible={true}
