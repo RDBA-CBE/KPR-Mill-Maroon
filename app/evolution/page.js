@@ -554,7 +554,7 @@ export default function Evolution() {
                 icon={<WorkIcon />}
               >
                 <Image
-                  src="/assets/images/kprmill/evolution/evolution21.png"
+                  src="/assets/images/kprmill/evolution/knt20.jpg"
                   alt="image 1"
                   width={400}
                   height={300}
@@ -575,7 +575,7 @@ export default function Evolution() {
                 icon={<WorkIcon />}
               >
                 <Image
-                  src="/assets/images/kprmill/evolution/evolution22.png"
+                  src="/assets/images/kprmill/evolution/processing-21.jpg"
                   alt="image 1"
                   width={400}
                   height={300}
