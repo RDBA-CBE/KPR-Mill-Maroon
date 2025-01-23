@@ -596,7 +596,7 @@ export default function Evolution() {
                 icon={<WorkIcon />}
               >
                 <Image
-                  src="/assets/images/kprmill/evolution/evolution23.jpg"
+                  src="/assets/images/kprmill/evolution/sugar-24.jpg"
                   alt="image 1"
                   width={400}
                   height={300}
@@ -703,7 +703,7 @@ export default function Evolution() {
                 icon={<WorkIcon />}
               >
                 <Image
-                  src="/assets/images/kprmill/evolution/evolution27.jpg"
+                  src="/assets/images/kprmill/evolution/New-Vortex-24.jpg"
                   alt="image 1"
                   width={400}
                   height={300}
@@ -723,7 +723,7 @@ export default function Evolution() {
                 icon={<WorkIcon />}
               >
                 <Image
-                  src="/assets/images/kprmill/evolution/evolution27.jpg"
+                  src="/assets/images/kprmill/evolution/solarexp.jpg"
                   alt="image 1"
                   width={400}
                   height={300}
