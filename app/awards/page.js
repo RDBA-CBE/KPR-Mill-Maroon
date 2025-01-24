@@ -54,21 +54,16 @@ export default function Awards() {
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column content-col  no-gutters">
                   <div className="text mb_25 award-content-main">
-                    <div className="sec-title mb_10">
+                    {/* <div className="sec-title mb_10">
                       <h3 style={{fontSize:"20px"}}>Forbes Asia</h3>
-                    </div>
+                    </div> */}
                     <ul className="about-list-style clearfix">
                       <li>
-                        Under career development process, 194 employees secured
-                        placement in various reputed organizations such as Tata
-                        Electronics, Tech Mahindra, and Titan etc.
+                      Under career development process, 194 employees secured placement in various reputed organizations such as Tata Electronics, Tech Mahindra, and Titan etc.
                       </li>
                       <li>
                         <b>
-                          KPR has made its prestigious entry in the list of
-                          ‘India’s Top 100 Richest’ with a net worth of US $ 2.3
-                          billion as per the reputed Business Magazine ‘Forbes
-                          Asia’.
+                        KPR has made its prestigious entry in the list of ‘India’s Top 100 Richest’ with a net worth of US $ 2.3 billion  as per the reputed Business Magazine ‘Forbes Asia’.
                         </b>
                       </li>
                     </ul>
@@ -105,9 +100,7 @@ export default function Awards() {
                     </div>
                     <ul className="about-list-style clearfix">
                       <li>
-                        Our Career development process has also uplifted the
-                        career growth for 174 employees by securing Placement in
-                        various reputed Organizations spread over the Nation.
+                      Our Career development process has also uplifted the career growth for <b>174 employees by securing placement</b> in various reputed Organizations spread over the Nation.
                       </li>
                     </ul>
                   </div>
@@ -137,37 +130,13 @@ export default function Awards() {
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column  content-col no-gutters">
                   <div className="text award-content-main">
                     <ul className="about-list-style clearfix">
-                      <li>
-                        <b>K.P.Ramasamy</b>, Chairman has been honoured by the
-                        renowned Kalinga University, Odisha with ‘Doctorate,
-                        D.Litt. (Honoris Causa)’ on 25.01.2020 at the Kalinga
-                        University, Odisha.
-                      </li>
-                      <li>
-                        <b>The Chairman</b>, has been conferred with the award
-                        ‘Champion of Humanity’ by the Hindustan Chamber of
-                        Commerce, Chennai for Business Excellence
-                      </li>
-                      <li>
-                        <b>P.Nataraj Managing Director</b> received ‘G.K.
-                        Sundaram Award’ for the Company for its exemplary
-                        performance in the field of Industry from the Indian
-                        Chamber of Commerce and Industry on 29.1.2020.
-                        <br />
-                        <span>
-                          Ministry of Rural Development , Rural Skills Division,
-                          Government of India awarded the Company as one of the
-                          ‘Best Performing Employer in DDU – GKY for 2018-19’ on
-                          12.2019
-                        </span>
-                      </li>
-                      <li>
-                        <b>
-                          In Fortune India, financial Magazine’s India’s Largest
-                          500 Wealth creators list KPR has improved its ranking
-                          to 344 (Last year 365).
-                        </b>
-                      </li>
+                        <li><b>K.P.Ramasamy,</b> Chairman has been honoured by the renowned Kalinga  University, Odisha with ‘Doctorate, D.Litt. (Honoris Causa)’ on 25.01.2020 at the Kalinga University, Odisha.</li>
+                        <li><b>The Chairman </b>has been conferred with the award ‘Champion of Humanity’ by the Hindustan Chamber of Commerce, Chennai for Business Excellence.</li> 
+                        <li> <b>Mr.P.Nataraj </b>
+                         Managing Director received ‘G.K. Sundaram Award’ for the Company for its exemplary performance in the field of Industry from the Indian Chamber of Commerce and Industry on 29.1.2020.
+                        <br></br>
+                         Ministry of Rural Development , Rural Skills Division, Government of India awarded the Company as  one of the ‘Best Performing Employer in DDU -  GKY for  2018-19’ on  19.12.2019.</li>
+                        <li><b>In Fortune India, financial Magazine’s India’s Largest 500 Wealth creators list KPR has improved its ranking to 344 (Last year 365).</b></li>
                     </ul>
                   </div>
                 </div>
@@ -271,8 +240,7 @@ export default function Awards() {
                           Here are some of the India’s renowned business
                           magazines recognizing and appreciating our insightful
                           business strategies. */}
-                          Honoured by the ‘Cotton Association of India - Mumbai’
-                          with the ‘First Generation Entrepreneur Award for
+                          Honoured by the <b>‘Cotton Association of India - Mumbai’</b> with the <b>‘First Generation Entrepreneur Award</b> for
                           Textile Company in 2018.
                         </p>
                       </div>
@@ -321,7 +289,7 @@ export default function Awards() {
                           January 2017, conducted jointly by Business Today
                           magazine and PricewaterhouseCoopers – a leading
                           assurance, tax, and consulting services provider. */}
-                          Awarded ‘Established Entrepreneur of the Year’ by the
+                          Awarded  <b>‘EstablishedEntrepreneur of the Year’</b> by the
                           Entrepreneur Organisation Coimbatore during 2017.
                         </p>
                       </div>
@@ -362,10 +330,10 @@ export default function Awards() {
 
                       <div className="text mb_25">
                         <p>
-                          Our Chairman K.P. Ramasamy features as one of the
+                          Our <b>Chairman K.P. Ramasamy </b>features as one of the
                           India’s Best CEOs in a survey published on 1 January
                           2016, conducted jointly by Business Today magazine and
-                          PricewaterhouseCoopers – a leading assurance, tax, and
+                          Price water house Coopers – a leading assurance, tax, and
                           consulting services provider.
                         </p>
                       </div>
@@ -376,8 +344,7 @@ export default function Awards() {
 
                       <div className="text mb_25">
                         <p>
-                          KPR Mill has find place in Financial Express
-                          Magazine’s India’s Finest 500 Companies List published
+                          KPR Mill has find place in Financial Express <b>Magazine’s India’s Finest 500 Companies</b> List published
                           in February 2016. The company has got special mention
                           in the category ‘Readymade Garments/Apparel.’
                         </p>
@@ -417,16 +384,56 @@ export default function Awards() {
                       <div className="text award-content-main">
                         <ul className="about-list-style clearfix">
                           <li>
-                            KPR Mill features on Business World magazine’s 500
-                            Definitive Ranking of India’s Largest Companies
+                            KPR Mill features on <b>Business World magazine’s 500 </b>
+                             Definitive Ranking of India’s Largest Companies
                             survey conducted jointly with KPMG – global network
                             of professional firms providing Audit, Tax and
                             Advisory services.
                           </li>
                           <li>
-                            KPR Mill finds place in two major categories:
-                            ‘Financial Companies’ and ‘Shareholder Returns.’
+                            KPR Mill finds place in two major categories: <b>‘Financial Companies’ and ‘Shareholder Returns.’</b>
                           </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Tax Payer Award */}
+          <section className="awards-style-three p_relative pt-0">
+            <div className="auto-container">
+              <div className="row clearfix award-row">
+                <div className="col-lg-3 col-md-6 col-sm-12 content-column no-gutters title-col-2 order-md-2">
+                  <div className="title">
+                    <h2>Tax Payer Award</h2>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-12 content-column no-gutters image-col order-md-1">
+                  <div className="image-box award-image-outer">
+                    <figure className="image">
+                      <img
+                        src="/assets/images/kprmill/about/award-2015.jpg"
+                        alt="2015 Award Image"
+                      />
+                    </figure>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column  no-gutters content-col order-3">
+                  <div className="content_block_two award-content-main">
+                    <div className="content-box p_relative d_block">
+                      {/* <div className="sec-title mb_10">
+                        <h3 style={{fontSize:"20px"}}>Tax Payer Awards</h3>
+                      </div> */}
+
+                      <div className="text award-content-main">
+                        <ul className="about-list-style clearfix">
+                          <li>
+                          For consecutive Three years,  KPR was honoured  with the<b> ‘Coimbatore Region’s Prompt & Highest Tax Payer' Award.</b> Presenting the Award, Various Government Dignitaries felicitated <b>Mr.P.Nataraj, FCA,, </b>Managing Director for the good Corporate Governance practices followed by the Company..
+                          </li>
+                          
                         </ul>
                       </div>
                     </div>
