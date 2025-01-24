@@ -85,8 +85,7 @@ export default function Garmenting() {
                           Power-packed Hebbeckker printing machines, Germany
                         </li>
                         <li>
-                          Large, computerized, automatic storage facility from
-                          Godrej, India
+                        Large, computerized, automatic storage facility from Godrej and  Sieger  India
                         </li>
                         <li>4-point checking system for consistent quality</li>
                         <li>

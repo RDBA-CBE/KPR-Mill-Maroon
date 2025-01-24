@@ -38,6 +38,7 @@ export default function OurBrand() {
                         Our Fashion Statement
                       </h5>
                       <ul className="about-list-style clearfix">
+                        <li>Designed to suit the modern man's and Women's needs and trend, Faso comes with diverse styles and ranges that suit your needs.</li>
                         <li>
                           At KPR, we infuse Fashion with Style, merge Color and
                           Order; juxtapose Patterns and Attributes; and Trends

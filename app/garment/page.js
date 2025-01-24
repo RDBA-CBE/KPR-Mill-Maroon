@@ -119,12 +119,7 @@ export default function Garments() {
                       </div>
                       <div className="text ">
                         <p style={{color:"black"}}>
-                          KPR produces Men’s garment wear made from best quality
-                          fabric. We have a wide ranging collection of men’s
-                          wear available in contemporary designs and diversified
-                          colours. Our garments come up with the assurance of
-                          ‘easy to wash’, ‘enduring freshness’ and ‘soothing
-                          comfort level.’
+                        KPR’s Men’s Wear collection is crafted to blend style, quality, and functionality, making it the perfect choice for the modern man. From formal wear to casual outfits, our range caters to diverse occasions and preferences. Each garment is designed with precision to offer a tailored fit, enhancing your confidence and appeal. With a focus on durability, our clothes retain their quality even after repeated use, ensuring long-lasting satisfaction. Featuring breathable fabrics and innovative designs, KPR Men’s Wear redefines everyday comfort while keeping you effortlessly stylish.
                         </p>
                       </div>
                     </div>
@@ -156,10 +151,7 @@ export default function Garments() {
                       </div>
                       <div className="text ">
                         <p style={{color:"black"}}>
-                          KPR presents a unique collection of trendy Ladies Knit
-                          Wear in special as well as modern designs and vibrant
-                          colour combinations. Made from soft fabric, these
-                          modish knit wears are easy to wash and maintain.
+                          KKPR’s Ladies Knit Wear collection is designed to offer the perfect combination of elegance and comfort. Tailored for the modern woman, our range includes versatile options suitable for casual outings, workplace attire, and festive occasions. Each piece is crafted with precision to ensure a flattering fit and enduring style. The use of premium-quality, breathable fabrics ensures all-day comfort while maintaining a chic and sophisticated look. With a focus on durability, vibrant patterns, and timeless designs, KPR’s Ladies Knit Wear adds a touch of glamour to your wardrobe.
                         </p>
                       </div>
                     </div>
@@ -179,6 +171,53 @@ export default function Garments() {
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div className="row clearfix"><p>&nbsp;</p><p>&nbsp;</p></div>
+            <div className="row clearfix">
+              <div className="col-lg-6 col-md-12 col-sm-12  content-column">
+                <div className="row clearfix">
+                  <div className="col-lg-7 col-md-7 col-sm-12 order-lg-2  content-column"   style={{ display: "flex", alignItems: "center" }}>
+                    <div className="content-box p_relative d_block">
+                      <div className="sec-title mb_5">
+                        {/* <span className="sub-title">Reach Your Dream</span> */}
+                        <h3>Kid’s Wear</h3>
+                      </div>
+                      <div className="text ">
+                        <p style={{color:"black"}}>
+                        KPR’s Kids' Wear collection is thoughtfully curated to combine functionality with fashion, ensuring your child looks and feels their best. Our garments are made with hypoallergenic fabrics, keeping your child’s delicate skin safe and irritation-free. The collection includes a wide variety of options, from comfy everyday essentials to stylish party wear. Designed to handle the rough-and-tumble of childhood, our clothes maintain their color and shape even after multiple washes. With an emphasis on innovative designs and cheerful patterns, KPR’s Kids' Wear adds a touch of joy to your child’s wardrobe.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-lg-5 col-md-5 col-sm-12 order-lg-1 content-column"
+                  
+                  >
+                    <div className="image-box pl_3">
+                      <figure className="image">
+                        <img
+                          style={{ height: "400px" }}
+                          src="/assets/images/kprmill-images/Products/Garment/mens-wear-img.jpg"
+                          alt=""
+                        />
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-6 col-md-12 col-sm-12 image-column pt-md-0 pt-5">
+              <div className="row clearfix">
+              <div
+                    className="col-lg-6 col-md-5 col-sm-12 order-lg-1 content-column">
+                  <img src="/assets/images/kprmill-images/Products/Garment/g1.jpg" />
+                  </div>
+                  <div
+                    className="col-lg-6 col-md-5 col-sm-12 order-lg-1 content-column">
+                    <img src="/assets/images/kprmill-images/Products/Garment/g2.jpg" />
+                  </div>
+              </div>
               </div>
             </div>
           </div>

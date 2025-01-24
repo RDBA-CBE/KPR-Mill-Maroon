@@ -276,12 +276,14 @@ export default function Infrastructure() {
                     production. Our Automatic Motorized Bobbin Transport System
                     is the most advanced and enables us to speed up production
                     efficiently. While we could improve production efficiency,
-                    thus the labor cost is highly economised. Spinbike Plus.
+                    thus the labor cost is highly economised.
+                  </p>
+                  {/* Removed on Jan 24, 2025 */}
+                  {/* <P> Spinbike Plus.
                     Introduction of Spinbike Plus at our facility has increased
                     the comfort level of our workforce by reducing walking by
                     95%. Moreover, we are able to deploy minimum workforce and
-                    increase efficiency better.
-                  </p>
+                    increase efficiency better.</P> */}
                 </div>
               </div>
             </div>

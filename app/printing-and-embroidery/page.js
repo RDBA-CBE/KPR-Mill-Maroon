@@ -155,9 +155,10 @@ export default function PreintingAndEmbroidery() {
 
                     <div className="text mb_25">
                       <ul className="about-list-style clearfix">
-                        <li>
+                        {/* <li>
                           Sophisticated Technology Printing Machine – Austria
-                        </li>
+                        </li> */}
+                        <li>immer Printing Machine</li>
                         <li>Barudan Embroidery machine – Japan</li>
                         <li>Hebbeckker Printing Machine – Germany</li>
                       </ul>
