@@ -134,7 +134,7 @@
  :root {
    --main-color: #5a1d00;
    --secondary-color: #965232;
-   --text-color: #888888;
+   --text-color: #747373;
    --title-color: #5a1d00;
    --white-color: #ffffff;
 
@@ -8733,3 +8733,5 @@
      margin-bottom: 30px;
    }
  }
+ .mt-20{margin-top:20px;}
+ .mt-10{margin-top:10px;}

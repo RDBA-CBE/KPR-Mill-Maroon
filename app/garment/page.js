@@ -58,7 +58,7 @@ export default function Garments() {
                                 <h3>
                                   <Link href="/#">Garment Types</Link>
                                 </h3>
-                                <p style={{ fontSize: "18px" }}>
+                                <p style={{ fontSize: "18px"}}>
                                   Casual wear, Sports wear, Active wear, Sleep
                                   wear, Work wear
                                 </p>
@@ -80,7 +80,7 @@ export default function Garments() {
                                     Garment Manufacturing Capacity
                                   </Link>
                                 </h3>
-                                <p style={{ fontSize: "18px" }}>
+                                <p style={{ fontSize: "18px"}}>
                                   147 million garments per annum
                                 </p>
                               </div>
@@ -198,7 +198,7 @@ export default function Garments() {
                       <figure className="image">
                         <img
                           style={{ height: "400px" }}
-                          src="/assets/images/kprmill-images/Products/Garment/mens-wear-img.jpg"
+                          src="/assets/images/kprmill-images/Products/Garment/kids-wear.jpg"
                           alt=""
                         />
                       </figure>
