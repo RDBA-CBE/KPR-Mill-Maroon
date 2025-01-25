@@ -292,15 +292,20 @@ export default function MobileMenu({
                         Regulation 46 of the LODR
                       </Link>
                     </li>
-
                     <li>
+              <Link href="/assets/downloads/Company_profile.pdf" target="_blank"  onClick={handleMobileMenu}>
+              Company Profile
+              </Link>
+            </li>
+
+                    {/* <li>
                       <Link
                         href="/regulation-62-of-the-lodr"
                         onClick={handleMobileMenu}
                       >
                         Regulation 62 of the LODR
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link
                         href="/investors-contact"
@@ -511,6 +516,12 @@ export default function MobileMenu({
                       >
                         <span className="fa fa-angle-right" />
                       </div>
+                    </li>
+
+                    <li>
+                      <Link href="https://www.nseindia.com/get-quotes/equity?symbol=KPRMILL" target="_blank" onClick={handleMobileMenu}>
+                      Share Online (NSE)
+                      </Link>
                     </li>
                   </ul>
                   <div

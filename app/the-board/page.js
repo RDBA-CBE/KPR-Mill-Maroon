@@ -116,7 +116,7 @@ const page = () => {
                       <div className="text">
                         <p>
                         <b>Mr. P. Nataraj, </b>a Science Graduate and Fellow Member of the Institute of Chartered Accountants of India, is a Managing Director of KPR Mill Limited. He has around three decades of experience in the apparel industry, especially in marketing of fabric, knitted apparel and cotton yarn. He effectively utilises his rich knowledge in financial aspects to steer Financial Management, Internal Control, Project implementation and Cotton procurement of the Company. Under his guidance and active participation, the Company successfully concluded Public issue of Shares at Premium and listing of Equity shares. He is a Member in ‘Cotton Yarn Advisory Board’ constituted by the Government of India.
-                          <Link href="/mr-p-nadaraj"> Read More..</Link>
+                          <Link href="/mr-p-nataraj"> Read More..</Link>
                         </p>
                       </div>
                     </div>

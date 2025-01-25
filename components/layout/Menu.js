@@ -196,10 +196,15 @@ export default function Menu() {
               </Link>
             </li>
             <li>
+              <Link href="/assets/downloads/Company_profile.pdf" target="_blank">
+              Company Profile
+              </Link>
+            </li>
+            {/* <li>
               <Link href="/regulation-62-of-the-lodr">
                 Regulation 62 of the LODR
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/investors-contact">Investors Contact</Link>
             </li>
@@ -280,6 +285,9 @@ export default function Menu() {
                   <Link href="/information">Information</Link>
                 </li>
               </ul>
+            </li>
+            <li>
+              <Link href="https://www.nseindia.com/get-quotes/equity?symbol=KPRMILL" target="_blank">Share Online (NSE)</Link>
             </li>
           </ul>
         </li>
