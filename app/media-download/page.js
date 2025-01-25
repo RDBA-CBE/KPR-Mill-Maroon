@@ -31,11 +31,11 @@ export default function MediaGallery() {
                           Disclosures under Regulation 46 of the LODR
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/regulation-62-of-the-lodr">
                           Disclosures under Regulation 62 of the LODR
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/investors-contact">
                           Inverstors Contact
@@ -115,6 +115,25 @@ export default function MediaGallery() {
               <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                 <div className="visa-details-content">
                   <div className="content-one ">
+
+                  <div className="text mb_45">
+                      <h3>21 st AGM – Video</h3>
+                      <div className="video-box p_relative mb_5">
+                     
+                        <iframe
+                          width="560"
+                          height="350"
+                          src="https://www.youtube.com/embed/OZGzH8mRvOk?si=Fup3S2VDng4kCDOP"
+                          title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          referrerpolicy="strict-origin-when-cross-origin"
+                          allowfullscreen
+                          style={{ width: "100%" }}
+                        ></iframe>
+                      </div>
+                    </div>
+
                     <div className="text mb_45">
                       <h3>20th AGM – Video</h3>
                       <div className="video-box p_relative mb_5">

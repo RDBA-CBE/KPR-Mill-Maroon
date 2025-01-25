@@ -27,11 +27,11 @@ export default function Regulation62() {
                           Disclosures under Regulation 46 of the LODR
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/regulation-62-of-the-lodr">
                           Disclosures under Regulation 62 of the LODR
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/investors-contact" className="current">
                           Inverstors Contact
@@ -131,16 +131,16 @@ export default function Regulation62() {
                       </p>
                       <p>Mumbai – 400 013.</p>
                       <p>
-                        <b>Contact:</b> 022 – 49142700 /<b>2578</b>
+                        <b>Tel: 022 – 49142700/ 2578/ 2589</b>
                       </p>
-                      <p>
+                      {/* <p>
                         <b>Fax:</b> 022-49142503
+                      </p> */}
+                      <p>
+                        <b>Email:</b> nvestor.ndmlrta@ndml.in
                       </p>
                       <p>
-                        <b>Email:</b> investor.ndmlrta@nsdl.co.in
-                      </p>
-                      <p>
-                        <b>Website:</b> www.ndml-nsdl.co.in
+                        <b>Website:</b> https://www.ndml.in/rta.php
                       </p>
                     </div>
                   </div>

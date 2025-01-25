@@ -63,11 +63,11 @@ export default function Policy() {
                           Disclosures under Regulation 46 of the LODR
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/regulation-62-of-the-lodr">
                           Disclosures under Regulation 62 of the LODR
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/investors-contact">
                           Inverstors Contact
@@ -130,6 +130,7 @@ export default function Policy() {
                           </li>
                         </ul>
                       </li>
+                      
                     </ul>
                   </div>
                   {/* <div className="sidebar-widget travel-widget">

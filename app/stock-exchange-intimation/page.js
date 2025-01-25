@@ -62,11 +62,11 @@ export default function Policy() {
                           Disclosures under Regulation 46 of the LODR
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/regulation-62-of-the-lodr">
                           Disclosures under Regulation 62 of the LODR
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/investors-contact">
                           Inverstors Contact
@@ -129,6 +129,9 @@ export default function Policy() {
                             <Link href="/information">Information</Link>
                           </li>
                         </ul>
+                      </li>
+                      <li>
+                        <Link target="_blank" href="https://www.nseindia.com/get-quotes/equity?symbol=KPRMILL">Share Online (NSE)</Link>
                       </li>
                     </ul>
                   </div>

@@ -29,11 +29,11 @@ export default function Regulation62() {
                           Disclosures under Regulation 46 of the LODR
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/regulation-62-of-the-lodr">
                           Disclosures under Regulation 62 of the LODR
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/investors-contact">
                           Inverstors Contact
