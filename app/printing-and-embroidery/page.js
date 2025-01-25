@@ -24,7 +24,7 @@ export default function PreintingAndEmbroidery() {
                 the highest quality embroidery job works using latest
                 technology. Our printing and embroidery capabilities can create
                 wonderful moments in our customers’ lives. Our total garment
-                printing capacity is a whopping 1,00,000 pieces /day.
+                printing capacity is a whopping  15000 MT Per Annum.
               </p>
             </div>
             <div class="row clearfix">
@@ -155,10 +155,9 @@ export default function PreintingAndEmbroidery() {
 
                     <div className="text mb_25">
                       <ul className="about-list-style clearfix">
-                        {/* <li>
+                        <li>
                           Sophisticated Technology Printing Machine – Austria
-                        </li> */}
-                        <li>immer Printing Machine</li>
+                        </li>
                         <li>Barudan Embroidery machine – Japan</li>
                         <li>Hebbeckker Printing Machine – Germany</li>
                       </ul>

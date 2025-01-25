@@ -24,6 +24,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
     const [isMobileMenu, setMobileMenu] = useState(false);
     const handleMobileMenu = () => {
         setMobileMenu(!isMobileMenu);
+        setSidebar(!isSidebar);
         document.body.classList.toggle("mobile-menu-visible", !isMobileMenu);
     };
     const [isPopup, setPopup] = useState(false);

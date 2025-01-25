@@ -41,8 +41,8 @@ const page = () => {
                   <h3 className="mb-2">The Yarn Division</h3>
                 </div>
                 <p>
-                  The Yarn division has 3, 70,000 spindles with a production
-                  capacity of 1,00,000 MT per annum. With the most modern
+                  The Yarn division has 4,00,000 spindles with a production
+                  capacity of 1,20,000 MT per annum. With the most modern
                   machinery of International Standards, KPR produces Combed,
                   Grey Melange, Carded and Compact yarn meant for apparels of
                   world’s Leading Brands. We have added production capacity of
@@ -112,7 +112,7 @@ const page = () => {
                 </div>
                 <p>
                   The Garment manufacturing facility is one of the largest in
-                  India with a capacity to produce 147 million garments per
+                  India with a capacity to produce 177 million garments per
                   annum. Inspired by customer delight and the desire to make
                   innovative designs, KPR creates fashion trends for men, women
                   and children.
@@ -182,7 +182,7 @@ const page = () => {
                 </div>
                 <p>
                   Green Power The Company has installed Wind Mills, Co-Gen plant
-                  and Roof top Solar with a total generation capacity of 163.92
+                  and Roof top Solar with a total generation capacity of 191.92
                   MW of green power for captive consumption to become self-
                   reliant in power needs.
                 </p>
@@ -211,7 +211,7 @@ const page = () => {
                   <div className="text">
                     <p>
                       The Yarn division has 3, 70,000 spindles with a production
-                      capacity of 1,00,000 MT per annum. With the most modern
+                      capacity of 1,20,000 MT per annum. With the most modern
                       machinery of International Standards, KPR produces Combed,
                       Grey Melange, Carded and Compact yarn meant for apparels
                       of world’s Leading Brands. We have added production
@@ -287,7 +287,7 @@ const page = () => {
                   <div className="text">
                     <p>
                       The Garment manufacturing facility is one of the largest
-                      in India with a capacity to produce 147 million garments
+                      in India with a capacity to produce 177 million garments
                       per annum. Inspired by customer delight and the desire to
                       make innovative designs, KPR creates fashion trends for
                       men, women and children.

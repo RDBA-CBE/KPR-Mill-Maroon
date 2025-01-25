@@ -51,7 +51,7 @@ export default function MobileMenu({
                 <li
                   className={
                     isActive.key == 1 ? "dropdown current" : "dropdown"
-                  }
+                  }  onClick={handleMobileMenu}
                 >
                   <Link href="/">Home</Link>
                   {/* <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
@@ -175,6 +175,11 @@ export default function MobileMenu({
                         Sugar
                       </Link>
                     </li>
+                    <li>
+                      <Link href="/ethanol-power" onClick={handleMobileMenu}>
+                      Ethanol & Power
+                      </Link>
+                    </li>
                   </ul>
                   <div
                     className={
@@ -188,9 +193,9 @@ export default function MobileMenu({
                 <li
                   className={
                     isActive.key == 5 ? "dropdown current" : "dropdown"
-                  }
+                  }  onClick={handleMobileMenu}
                 >
-                  <Link href="/our-brand">Our Brand</Link>
+                  <Link href="/our-brand" >Our Brand</Link>
                   {/* <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
                               <li><Link href="/countries" onClick={handleMobileMenu}>Countries Overview</Link></li>
                                 <li><Link href="/countries-details" onClick={handleMobileMenu}>United States</Link></li>
@@ -526,9 +531,9 @@ export default function MobileMenu({
                 <li
                   className={
                     isActive.key == 8 ? "dropdown current" : "dropdown"
-                  }
+                  } 
                 >
-                  <Link href="/community-development">CSR</Link>
+                  <Link href="/community-development" onClick={handleMobileMenu}>CSR</Link>
                   <ul
                     style={{
                       display: `${isActive.key == 8 ? "block" : "none"}`,
@@ -585,13 +590,13 @@ export default function MobileMenu({
           <div className="contact-info">
             <h4>Contact Info</h4>
             <ul>
-              <li>Chicago 12, Melborne City, USA</li>
+              <li>Shrivari Srimat, 1045, Avinashi Road, Coimbatore</li>
               <li>
-                <Link href="tel:+8801682648101">+88 01682648101</Link>
+                <Link href="tel:+91-422-2207777">+91-422-2207777</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="mailto:info@example.com">info@example.com</Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           {/*Social Links*/}

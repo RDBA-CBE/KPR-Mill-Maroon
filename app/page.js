@@ -30,7 +30,7 @@ export default function Home() {
         <Help />
         <Video />
         <CoachingTwo />
-        <News />
+        {/* <News /> */}
 
         {/* <Education />
         <Skills />

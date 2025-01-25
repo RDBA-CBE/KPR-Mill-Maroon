@@ -39,7 +39,7 @@ export default function Processing() {
                         The state-of the art fabric processing unit setup at
                         SIPCOT, Perundurai integrates the fabric processing
                         activities of dyeing, bleaching and finishing.<br/> The unit
-                        has a processing capacity of 25,000MT per annum and
+                        has a processing capacity of 25,000 MT per annum and
                         adheres to highest international standards.
                       </p>
                     </div>

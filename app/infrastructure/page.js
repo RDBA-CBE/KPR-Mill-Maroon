@@ -276,14 +276,12 @@ export default function Infrastructure() {
                     production. Our Automatic Motorized Bobbin Transport System
                     is the most advanced and enables us to speed up production
                     efficiently. While we could improve production efficiency,
-                    thus the labor cost is highly economised.
-                  </p>
-                  {/* Removed on Jan 24, 2025 */}
-                  {/* <P> Spinbike Plus.
+                    thus the labor cost is highly economised. Spinbike Plus.
                     Introduction of Spinbike Plus at our facility has increased
                     the comfort level of our workforce by reducing walking by
                     95%. Moreover, we are able to deploy minimum workforce and
-                    increase efficiency better.</P> */}
+                    increase efficiency better.
+                  </p>
                 </div>
               </div>
             </div>
@@ -647,7 +645,7 @@ export default function Infrastructure() {
                           <tr>
                             <td style={{ fontWeight: "bold" }}>Spinning</td>
                             <td>
-                              3,54,240 spindles to produce 1,00,000 MT of yarn
+                              4,00,000 spindles to produce 1,20,000 MT of yarn
                               per annum.
                             </td>
                           </tr>
@@ -663,9 +661,13 @@ export default function Infrastructure() {
                             <td>Processing 25,000 MT per annum.</td>
                           </tr>
                           <tr>
+                            <td style={{ fontWeight: "bold" }}>Printing</td>
+                            <td>15,000 MT per annum.</td>
+                          </tr>
+                          <tr>
                             <td style={{ fontWeight: "bold" }}>Garmenting</td>
                             <td>
-                              147 million pieces of readymade knitted apparel
+                              177 million pieces of readymade knitted apparel
                               per annum.
                             </td>
                           </tr>
@@ -677,7 +679,7 @@ export default function Infrastructure() {
                               66 wind mills with a total captive power
                               generation capacity of 61.92 MW. Co-gen Power
                               Generation Capacity of 90 MW. Roof-Top Power
-                              Generation Capacity of 12 MW.
+                              Generation Capacity of 40 MW.
                             </td>
                           </tr>
                           <tr>
@@ -689,7 +691,7 @@ export default function Infrastructure() {
                           </tr>
                           <tr>
                             <td style={{ fontWeight: "bold" }}>Ethanol</td>
-                            <td>360 KLPD</td>
+                            <td>470 KLPD</td>
                           </tr>
                           <tr>
                             <td style={{ fontWeight: "bold" }}>Vortex</td>

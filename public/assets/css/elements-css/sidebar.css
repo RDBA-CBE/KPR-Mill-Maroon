@@ -13,7 +13,7 @@
 .default-sidebar .category-widget .category-list {
   position: relative;
   background: var(--main-color);
-  padding: 45px 35px;
+  padding: 25px 15px;
 }
 
 .default-sidebar .category-widget .category-list li {
@@ -26,8 +26,8 @@
 .default-sidebar .category-widget .category-list li a {
   position: relative;
   display: block;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 17px;
+  line-height: 25px;
   /* font-weight: 500; */
   color: var(--white-color);
   font-family:"orgon_slablight" ;

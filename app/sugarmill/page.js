@@ -34,7 +34,7 @@ export default function SugarMill() {
                         KPR has been proactively exploring new avenues for green
                         power. To attain 100% self sufficiency in meeting our
                         Power requirements through Green Power, a Co-gen Cum
-                        Sugar Factory with 90 MW , 20,000 TCD and 360 KLPD of
+                        Sugar Factory with 90 MW , 20,000 TCD and 470 KLPD of
                         Ethanal Extraction has been established at Almel
                         Village, Sindagi Taluk, Bijapur (DT), Karnataka and at
                         Chinnmageri village Kalaburaji(DT) , one of the highest
@@ -51,8 +51,8 @@ export default function SugarMill() {
                       <p>
                         Participating in Green Power generation through wind
                         mills and Co-gen facilitates meeting most of our Power
-                        requirement through Green Power.. Total green power
-                        generation capacity 90 M.W.
+                        requirement through Green Power. Total green power
+                        generation capacity 191.92 MW.
                       </p>
                     </div>
 

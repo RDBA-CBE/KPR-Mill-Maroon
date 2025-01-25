@@ -30,8 +30,8 @@ export default function Spinning() {
                       <p style={{fontSize:"18px"}}>
                         KPR is one of the largest manufacturers of yarn in terms
                         of installed spindleage capacity. The Company has
-                        spinning mills with a total capacity of 3,70,000
-                        spindles. Together, they produce approximately 1,00,000
+                        spinning mills with a total capacity of 4,00,000
+                        spindles. Together, they produce approximately 1,20,000
                         MT of cotton yarn per annum of counts ranging from 10s
                         to 40s. Every yarn produced adheres to the highest
                         standards of quality.
@@ -140,7 +140,6 @@ export default function Spinning() {
                         <li>LMW Ring Frame</li>
                         <li>Sussen Compact Machine</li>
                         <li>Marzoli Roving Frame</li>
-                        <li>Marzoli Auto-corner in the Machines</li>
                       </ul>
                     </div>
 

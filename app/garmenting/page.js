@@ -35,7 +35,7 @@ export default function Garmenting() {
                       <p className="garmenting-title" >
                         KPR Garment, the exclusive garmenting center is ranked
                         among the largest garment manufacturing facilities in
-                        India with total capacity of 147 million garments per
+                        India with total capacity of 177 million garments per
                         annum.  Inspired by customer delight and the desire to make
                         innovative designs, it creates mesmerizing fashion
                         trends for men, women, boys and girls. Entire garments
@@ -85,7 +85,8 @@ export default function Garmenting() {
                           Power-packed Hebbeckker printing machines, Germany
                         </li>
                         <li>
-                        Large, computerized, automatic storage facility from Godrej and  Sieger  India
+                          Large, computerized, automatic storage facility from
+                          Godrej, India
                         </li>
                         <li>4-point checking system for consistent quality</li>
                         <li>

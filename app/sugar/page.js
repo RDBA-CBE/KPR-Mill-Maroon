@@ -33,7 +33,7 @@ export default function Yarn() {
                         better taste and sweetness. Our White Crystal Sugar is
                         made as per the approved standards and is made in
                         perfect hygienic conditions. Capacity : 20000 TCD sugar
-                        , 90 MW power and 360 KLPD of Ethanol
+                        , 90 MW power and 470 KLPD of Ethanol
                       </p>
                     </div>
                     <div className="text ">
@@ -43,7 +43,7 @@ export default function Yarn() {
                       <p>
                         Participating in Green Power generation through wind
                         mills and Co-gen facilitates meeting most of our Power
-                        requirement through Green Power..
+                        requirement through Green Power.
                       </p>
                     </div>
                   </div>
