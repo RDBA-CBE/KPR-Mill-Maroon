@@ -56,11 +56,9 @@ export default function Garments() {
                                 style={{ paddingTop: "40px" }}
                               >
                                 <h3>
-                                  <Link href="javascript:void(0);">
-                                  Garment Types
-                                  </Link>
+                                  <Link href="/#">Garment Types</Link>
                                 </h3>
-                                <p style={{ fontSize: "18px" }}>
+                                <p style={{ fontSize: "18px"}}>
                                   Casual wear, Sports wear, Active wear, Sleep
                                   wear, Work wear
                                 </p>
@@ -78,12 +76,12 @@ export default function Garments() {
                                 style={{ paddingTop: "40px" }}
                               >
                                 <h3>
-                                  <Link href="javascript:void(0);">
+                                  <Link href="/#">
                                     Garment Manufacturing Capacity
                                   </Link>
                                 </h3>
-                                <p style={{ fontSize: "18px" }}>
-                                  177 million garments per annum
+                                <p style={{ fontSize: "18px"}}>
+                                  147 million garments per annum
                                 </p>
                               </div>
                             </div>
@@ -113,32 +111,27 @@ export default function Garments() {
             <div className="row clearfix">
               <div className="col-lg-6 col-md-12 col-sm-12  content-column">
                 <div className="row clearfix">
-                  <div
-                    className="col-lg-7 col-md-7 col-sm-12 order-lg-2  content-column"
-                    style={{ display: "flex", alignItems: "center" }}
-                  >
+                  <div className="col-lg-7 col-md-7 col-sm-12 order-lg-2  content-column"   style={{ display: "flex", alignItems: "center" }}>
                     <div className="content-box p_relative d_block">
                       <div className="sec-title mb_5">
                         {/* <span className="sub-title">Reach Your Dream</span> */}
                         <h3>Men’s Wear</h3>
                       </div>
                       <div className="text ">
-                        <p style={{ color: "black" }}>
-                          KPR produces Men’s garment wear made from best quality
-                          fabric. We have a wide ranging collection of men’s
-                          wear available in contemporary designs and diversified
-                          colours. Our garments come up with the assurance of
-                          ‘easy to wash’, ‘enduring freshness’ and ‘soothing
-                          comfort level.’
+                        <p style={{color:"black"}}>
+                        At KPR Mills, we take pride in crafting men’s wear collections that are an effortless combination of innovation, style, and comfort. Whether it is sharp formal shirts or versatile casual wear, we precisely design each piece of our clothing range using the finest fabrics and advanced textile technology. With timeless designs and contemporary trends, KPR Mills ensures you always step out in confidence with outfits that offer superior comfort, durability, and a perfect fit. We strive to deliver clothing solutions that talks of comfort and sophistication to elevate your wardrobe.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-5 col-md-5 col-sm-12 order-lg-1 content-column">
+                  <div
+                    className="col-lg-5 col-md-5 col-sm-12 order-lg-1 content-column"
+                  
+                  >
                     <div className="image-box pl_3">
                       <figure className="image">
                         <img
-                          className="menswear-image"
+                          style={{ height: "400px" }}
                           src="/assets/images/kprmill-images/Products/Garment/mens-wear-img.jpg"
                           alt=""
                         />
@@ -150,21 +143,15 @@ export default function Garments() {
 
               <div className="col-lg-6 col-md-12 col-sm-12 image-column pt-md-0 pt-5">
                 <div className="row clearfix">
-                  <div
-                    className="col-lg-7 col-md-7 col-sm-12 order-lg-2 content-column"
-                    style={{ display: "flex", alignItems: "center" }}
-                  >
+                  <div className="col-lg-7 col-md-7 col-sm-12 order-lg-2 content-column"   style={{ display: "flex", alignItems: "center" }}>
                     <div className="content-box p_relative d_block">
                       <div className="sec-title mb_5">
                         {/* <span className="sub-title">Reach Your Dream</span> */}
                         <h3>Women’s Wear</h3>
                       </div>
                       <div className="text ">
-                        <p style={{ color: "black" }}>
-                          KPR presents a unique collection of trendy Ladies Knit
-                          Wear in special as well as modern designs and vibrant
-                          colour combinations. Made from soft fabric, these
-                          modish knit wears are easy to wash and maintain.
+                        <p style={{color:"black"}}>
+                        At KPR Mills, we understand that every woman deserves to feel stylish and confident. Our Women’s Wear collection is all about elegance and versatility and include chic workwear, stunning evening dresses, casual everyday outfits and more. Each piece is meticulousy designed with the finest fabrics, ensuring comfort without compromising on style. Whether you're looking for timeless classics or the latest trends, we have got you covered. With KPR Mills, you can express your individuality and grace through every outfit. Step into fashion that celebrates who you are!
                         </p>
                       </div>
                     </div>
@@ -176,7 +163,7 @@ export default function Garments() {
                     <div className="image-box pl_3 w-100">
                       <figure className="image">
                         <img
-                          className="womenswear-image"
+                          style={{ height: "400px" }}
                           src="/assets/images/kprmill-images/Products/Garment/womens-wear-img.jpg"
                           alt=""
                         />
@@ -184,6 +171,53 @@ export default function Garments() {
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div className="row clearfix"><p>&nbsp;</p><p>&nbsp;</p></div>
+            <div className="row clearfix">
+              <div className="col-lg-6 col-md-12 col-sm-12  content-column">
+                <div className="row clearfix">
+                  <div className="col-lg-7 col-md-7 col-sm-12 order-lg-2  content-column"   style={{ display: "flex", alignItems: "center" }}>
+                    <div className="content-box p_relative d_block">
+                      <div className="sec-title mb_5">
+                        {/* <span className="sub-title">Reach Your Dream</span> */}
+                        <h3>Kid’s Wear</h3>
+                      </div>
+                      <div className="text ">
+                        <p style={{color:"black"}}>
+                        At KPR Mills, we understand how important it is for kids to feel comfortable and look adorable. Our Kids’ wear collection is all about fun, durability, and style. From playful t-shirts and cozy dresses to activewear that keeps up with their adventures, we create clothes that let them move freely and confidently. Made with soft, breathable fabrics, our clothes are perfect for everyday wear. Plus, with vibrant colours and trendy designs, your little ones will love to wear them. KPR Mills makes fashion for kids both comfy and cool.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-lg-5 col-md-5 col-sm-12 order-lg-1 content-column"
+                  
+                  >
+                    <div className="image-box pl_3">
+                      <figure className="image">
+                        <img
+                          style={{ height: "400px" }}
+                          src="/assets/images/kprmill-images/Products/Garment/kids-wear.jpg"
+                          alt=""
+                        />
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-6 col-md-12 col-sm-12 image-column pt-md-0 pt-5">
+              <div className="row clearfix">
+              <div
+                    className="col-lg-6 col-md-5 col-sm-12 order-lg-1 content-column">
+                  <img src="/assets/images/kprmill-images/Products/Garment/g1.jpg" />
+                  </div>
+                  <div
+                    className="col-lg-6 col-md-5 col-sm-12 order-lg-1 content-column">
+                    <img src="/assets/images/kprmill-images/Products/Garment/g2.jpg" />
+                  </div>
+              </div>
               </div>
             </div>
           </div>

@@ -140,6 +140,7 @@ export default function Spinning() {
                         <li>LMW Ring Frame</li>
                         <li>Sussen Compact Machine</li>
                         <li>Marzoli Roving Frame</li>
+                        <li>Marzoli Auto-corner in the machin</li>
                       </ul>
                     </div>
 
