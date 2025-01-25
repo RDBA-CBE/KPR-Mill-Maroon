@@ -15,21 +15,16 @@ const EducationIcon = () => <FaUserGraduate />;
 const StarIcon = () => <FaStar />;
 
 export default function Evolution() {
-  const BackgroundImage =
-    "/assets/images/kprmill-images/About/evolution-banner-img.jpg";
+
+  const BackgroundImage = "/assets/images/kprmill-images/About/evolution-banner-img.jpg"
   return (
     <>
-      <Layout
-        headerStyle={2}
-        footerStyle={2}
-        breadcrumbTitle="Evolution"
-        imageUrl={BackgroundImage}
-      >
+      <Layout headerStyle={2} footerStyle={2} breadcrumbTitle="Evolution" imageUrl= {BackgroundImage}>
         <section className="dream-style-three p_relative">
           <div className="auto-container">
             <div className="sec-title  mb_30 centred">
               <span className="sub-title" style={{ color: "black" }}>
-                Our significant breakthroughs
+              Our significant breakthroughs
               </span>
               <h2 style={{ fontSize: "18px", lineHeight: "30px" }}>
                 The fore vision and enterprising efforts of KPR leaders has
@@ -444,7 +439,7 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2019"
-                    firstLine="Expansion : Processing"
+                    firstLine="Expansion: Processing"
                     secondLine="Increased Processing capacity by 4000 MT"
                   />
                 }
@@ -459,13 +454,14 @@ export default function Evolution() {
                 />
               </VerticalTimelineElement>
 
+
               <VerticalTimelineElement
                 visible={true}
                 className="vertical-timeline-element--work"
                 date={
                   <CustomDate
                     date="2019"
-                    firstLine="Garment Expansion"
+                    firstLine="Expansion: Garmenting"
                     secondLine="Brown field garment expansion by 10 Mn Garments"
                   />
                 }
@@ -480,6 +476,7 @@ export default function Evolution() {
                 />
               </VerticalTimelineElement>
 
+
               <VerticalTimelineElement
                 visible={true}
                 className="vertical-timeline-element--work"
@@ -487,7 +484,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2019"
                     firstLine="Ethanol Plant and Expansion"
-                    secondLine="Setup 120 KLPD Ethanol Plant at Karnataka. Sugar Mill capacity expanded to 10000 TCD"
+                    secondLine="Setup 130 KLPD Ethanol Plant at Karnataka. Sugar Mill capacity expanded to 10000 TCD"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -507,8 +504,8 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2019"
-                    firstLine="Our Brand"
-                    secondLine="Retail segment : ‘FASO’ 100% Organic Cotton Men’s innerwear launched"
+                    firstLine="Our Retail Brand"
+                    secondLine="Retail Segment: ‘FASO’ 100% Organic Cotton Men’s innerwear launched"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -528,8 +525,8 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2019"
-                    firstLine="Singapore Office"
-                    secondLine="To enlarge export activities in Asia, established a Wholly owned Subsidiary Company at Singapore"
+                    firstLine="International Office @ Singapore"
+                    secondLine="To expand export activities in Asia, established a Wholly owned Subsidiary Company at Singapore"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -541,66 +538,48 @@ export default function Evolution() {
                   width={400}
                   height={300}
                 />
+              </VerticalTimelineElement>      
+
+              <VerticalTimelineElement
+                visible={true}
+                className="vertical-timeline-element--work"
+                date={
+                  <CustomDate
+                    date="2020"
+                    firstLine="New Knitting Facility"
+                    secondLine="New Knitting Facility establised at Karumathampatti"
+                  />
+                }
+                iconStyle={{ background: "#daad19", color: "#fff" }}
+                icon={<WorkIcon />}
+              >
+                <Image
+                  src="/assets/images/kprmill/evolution/knt20.jpg"
+                  alt="image 1"
+                  width={400}
+                  height={300}
+                />
               </VerticalTimelineElement>
 
               <VerticalTimelineElement
                 visible={true}
                 className="vertical-timeline-element--work"
-                // date={
-                //   <CustomDate
-                //     date="2020"
-                //     firstLine="Expansion"
-                //     secondLine="Sugar cum Ethanol Business in Karnataka :with Sugar - 10,000 TCD :47.50 MW :230 KLPD , Garment Capacity Expansion in Tamil Nadu with 42 million Garments per Annum"
-                //   />
-                // }
+                date={
+                  <CustomDate
+                    date="2021"
+                    firstLine="Expansion: Processing"
+                    secondLine="Processing Unit Capacity increased by 3000 MT"
+                  />
+                }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
                 icon={<WorkIcon />}
               >
-                <div className="text-lg-end  text-start">
-                  {
-                    <CustomDate
-                      date="2020"
-                      firstLine="Expansion"
-                      secondLine="Sugar cum Ethanol Business in Karnataka :with Sugar - 10,000 TCD :47.50 MW :230 KLPD , Garment Capacity Expansion in Tamil Nadu with 42 million Garments per Annum"
-                    />
-                  }
-                </div>
-                {/* <Image
-                  src="/assets/images/kprmill/evolution/evolution22.png"
+                <Image
+                  src="/assets/images/kprmill/evolution/processing-21.jpg"
                   alt="image 1"
                   width={400}
                   height={300}
-                /> */}
-              </VerticalTimelineElement>
-
-              <VerticalTimelineElement
-                visible={true}
-                className="vertical-timeline-element--work"
-                // date={
-                //   <CustomDate
-                //     date="2021"
-                //     firstLine="Expansion"
-                //     secondLine="Processing Unit Capacity increased by 3000 MT"
-                //   />
-                // }
-                iconStyle={{ background: "#daad19", color: "#fff" }}
-                icon={<WorkIcon />}
-              >
-                <div>
-                  {
-                    <CustomDate
-                      date="2021"
-                      firstLine="Expansion"
-                      secondLine="Processing Unit Capacity increased by 3000 MT"
-                    />
-                  }
-                </div>
-                {/* <Image
-                  src="/assets/images/kprmill/evolution/evolution22.png"
-                  alt="image 1"
-                  width={400}
-                  height={300}
-                /> */}
+                />
               </VerticalTimelineElement>
 
               <VerticalTimelineElement
@@ -609,8 +588,30 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2022"
-                    firstLine="Expansion"
-                    secondLine="New Garment Facility at Chengapalli and New Sugar cum Ethanol Facility at Karnataka."
+                    firstLine="New Sugar Mill Established"
+                    secondLine="New Sugar mill facility established in Karnataka with Sugar 10,000 TCD; 50 MW Co-Gen Power Ganeration and 230 KLPD Ethanol Ectraction"
+                  />
+                }
+                iconStyle={{ background: "#daad19", color: "#fff" }}
+                icon={<WorkIcon />}
+              >
+                <Image
+                  src="/assets/images/kprmill/evolution/sugar-24.jpg"
+                  alt="image 1"
+                  width={400}
+                  height={300}
+                />
+              </VerticalTimelineElement>
+
+              
+              <VerticalTimelineElement
+                visible={true}
+                className="vertical-timeline-element--work"
+                date={
+                  <CustomDate
+                    date="2022"
+                    firstLine="New Garmenting Facility Establised"
+                    secondLine="New Garment Facility establised in Changapalli, Tamil Nadu with capacity of 42 million Garments per Annum."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -630,8 +631,8 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2023"
-                    firstLine="Expansion"
-                    secondLine="Roof top 12 MW solar power installed at Arasur factory."
+                    firstLine="Solar Power Facility"
+                    secondLine=" 12 MW Rooftop solar power installed at Arasur factory."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -645,13 +646,14 @@ export default function Evolution() {
                 />
               </VerticalTimelineElement>
 
+
               <VerticalTimelineElement
                 visible={true}
                 className="vertical-timeline-element--work"
                 date={
                   <CustomDate
                     date="2023"
-                    firstLine="Expansion"
+                    firstLine="Vortex Spinning Facility"
                     secondLine="Added Latest Technology 'Vortex' to produce viscose yarn"
                   />
                 }
@@ -672,8 +674,8 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2023"
-                    firstLine="Expansion"
-                    secondLine="Increased Ethanol Capacity"
+                    firstLine="Expansion: Ethanol Extraction"
+                    secondLine="Increased Ethanol Capacity to 240 KLPD at Sugar Mill I"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -692,16 +694,36 @@ export default function Evolution() {
                 className="vertical-timeline-element--work"
                 date={
                   <CustomDate
-                    date="2023"
-                    firstLine="FASO Women's wear launched"
-                    // secondLine="Increased Ethanol Capacity"
+                    date="2024"
+                    firstLine="New Vortex Spinning Facility"
+                    secondLine="Establised New Vortex Spinning Facility @ Sathyamangalam"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
                 icon={<WorkIcon />}
               >
                 <Image
-                  src="/assets/images/kprmill/evolution/evolution27.jpg"
+                  src="/assets/images/kprmill/evolution/New-Vortex-24.jpg"
+                  alt="image 1"
+                  width={400}
+                  height={300}
+                />
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                visible={true}
+                className="vertical-timeline-element--work"
+                date={
+                  <CustomDate
+                    date="2024"
+                    firstLine="Expansion:  Solar Power"
+                    secondLine="Solar power capacity increased to 40 MW"
+                  />
+                }
+                iconStyle={{ background: "#daad19", color: "#fff" }}
+                icon={<WorkIcon />}
+              >
+                <Image
+                  src="/assets/images/kprmill/evolution/solarexp.jpg"
                   alt="image 1"
                   width={400}
                   height={300}
