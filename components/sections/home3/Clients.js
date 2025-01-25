@@ -48,7 +48,7 @@ export default function Clients() {
             <div className="col-lg-4 col-md-4 col-sm-12 ">
               <div className="text-center">
                 <div className="count-outer">
-                  <CounterUp end={177} />
+                  <CounterUp end={170} />
                   <span> M+</span>
                 </div>
                 <p className="count-content">
