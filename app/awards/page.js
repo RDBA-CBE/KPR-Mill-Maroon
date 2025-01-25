@@ -406,27 +406,29 @@ export default function Awards() {
           <section className="awards-style-three p_relative pt-0">
             <div className="auto-container">
               <div className="row clearfix award-row">
-                <div className="col-lg-3 col-md-6 col-sm-12 content-column no-gutters title-col-2 order-md-2">
+                {/* <div className="col-lg-3 col-md-6 col-sm-12 content-column no-gutters title-col-2 order-md-2">
                   <div className="title">
                     <h2>Tax Payer Award</h2>
                   </div>
-                </div>
-                <div className="col-lg-3 col-md-6 col-sm-12 content-column no-gutters image-col order-md-1">
+                </div> */}
+                <div className="col-lg-6 col-md-6 col-sm-12 content-column no-gutters image-col order-md-1">
                   <div className="image-box award-image-outer">
                     <figure className="image">
                       <img
-                        src="/assets/images/kprmill/about/award-2015.jpg"
+                        src="/assets/images/kprmill/about/tax-payer-award.jpg"
                         alt="2015 Award Image"
                       />
+                      
                     </figure>
+                    
                   </div>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column  no-gutters content-col order-3">
                   <div className="content_block_two award-content-main">
                     <div className="content-box p_relative d_block">
-                      {/* <div className="sec-title mb_10">
+                      <div className="sec-title mb_10">
                         <h3 style={{fontSize:"20px"}}>Tax Payer Awards</h3>
-                      </div> */}
+                      </div>
 
                       <div className="text award-content-main">
                         <ul className="about-list-style clearfix">
@@ -440,6 +442,7 @@ export default function Awards() {
                   </div>
                 </div>
               </div>
+           
             </div>
           </section>
         </section>
