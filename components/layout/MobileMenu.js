@@ -68,7 +68,7 @@ export default function MobileMenu({
                     isActive.key == 2 ? "dropdown current" : "dropdown"
                   }
                 >
-                  <Link href="/about-us">About Us</Link>
+                  <Link href="/about-us" onClick={handleMobileMenu}>About Us</Link>
                   <ul
                     style={{
                       display: `${isActive.key == 2 ? "block" : "none"}`,
@@ -149,7 +149,7 @@ export default function MobileMenu({
                     isActive.key == 4 ? "dropdown current" : "dropdown"
                   }
                 >
-                  <Link href="/products">Products</Link>
+                  <Link href="/products"  onClick={handleMobileMenu}>Products</Link>
                   <ul
                     style={{
                       display: `${isActive.key == 4 ? "block" : "none"}`,
@@ -195,7 +195,7 @@ export default function MobileMenu({
                     isActive.key == 5 ? "dropdown current" : "dropdown"
                   }  onClick={handleMobileMenu}
                 >
-                  <Link href="/our-brand" >Our Brand</Link>
+                  <Link href="/our-brand"  onClick={handleMobileMenu}>Our Brand</Link>
                   {/* <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
                               <li><Link href="/countries" onClick={handleMobileMenu}>Countries Overview</Link></li>
                                 <li><Link href="/countries-details" onClick={handleMobileMenu}>United States</Link></li>
@@ -213,7 +213,7 @@ export default function MobileMenu({
                     isActive.key == 6 ? "dropdown current" : "dropdown"
                   }
                 >
-                  <Link href="/infrastructure">Infrastructure</Link>
+                  <Link href="/infrastructure"  onClick={handleMobileMenu}>Infrastructure</Link>
                   <ul
                     style={{
                       display: `${isActive.key == 6 ? "block" : "none"}`,
@@ -278,7 +278,7 @@ export default function MobileMenu({
                     isActive.key == 7 ? "dropdown current" : "dropdown"
                   }
                 >
-                  <Link href="/regulation-46-of-the-lodr">Investors</Link>
+                  <Link href="/regulation-46-of-the-lodr"  onClick={handleMobileMenu}>Investors</Link>
                   <ul
                     style={{
                       display: `${isActive.key == 7 ? "block" : "none"}`,
@@ -322,7 +322,7 @@ export default function MobileMenu({
                           : "dropdown"
                       }
                     >
-                      <Link href="/financial-result">Financial Results</Link>
+                      <Link href="/financial-result"  onClick={handleMobileMenu}>Financial Results</Link>
                       <ul
                         style={{
                           display: `${
