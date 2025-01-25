@@ -8812,3 +8812,6 @@
      margin-bottom: 20px
    }
  }
+ .textfrmt{color: black;
+  font-size: 16px;}
+  .headcol{font-weight: 800; color: var(--title-color); }
