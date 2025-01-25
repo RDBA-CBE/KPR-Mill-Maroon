@@ -32,7 +32,7 @@ export default function MrPNadaraj() {
           <div className="auto-container">
             <div className="team-details-content mb_50">
               <div className="row clearfix">
-                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                <div className="col-lg-5 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">
                     <img
                       src="/assets/images/kprmill-images/Mr-P-Nadaraj/nadaraj-img.jpg"
@@ -40,8 +40,8 @@ export default function MrPNadaraj() {
                     />
                   </figure>
                 </div>
-                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                  <div className="content-box">
+                <div className="col-lg-7 col-md-12 col-sm-12 content-column">
+                  <div className="content-box" style={{padding:'20px'}}>
                     <h2>Mr. P. Nadaraj</h2>
                     <span
                       className="designation"
@@ -52,27 +52,18 @@ export default function MrPNadaraj() {
 
                     <div className="text mb_20">
                       <p className="mb_10">
-                        He is a Member in ‘Cotton Yarn Advisory Board’
-                        constituted by the Government of India. He is also a
-                        Member in the Textile Panel of Confederation of Indian
-                        Industry (CII), Coimbatore and Vice-president of Indian
-                        Cotton Federation.
+                      P. Nataraj is a Science Graduate and Fellow Member of the Institute of Chartered Accountants of India. Promoter & Managing Director, KPR Group, engaged in Textiles, Sugar, Wind & Co-Gen Power, Automobiles and Education. He has over Three Decades of experience in Textile & Apparel Industry.
                       </p>
                       <p className="mb_10">
                         {" "}
-                        He is an Executive Committee Member of South India Mills
-                        Association (SIMA). As an active ‘Melvin Jones
-                        Fellowship’ Member of Lions Club he has conducted
-                        considerable number of free Eye Camps, free Blood
-                        Donation Camps and various other social activities.
+                        He was The Chairman of the Southern India Mills’ Association, Coimbatore and currently serving as a Member in ‘Cotton Yarn Advisory Board’ constituted by the Government of India. He is also a Member in the Textile Panel of Confederation of Indian Industry (CII), Coimbatore and Vice-president of Indian Cotton Federation and the Committee Member, Confederation of Indian Textile Industry, New Delhi and Council Member, Cotton Textiles Export Promotion Council, Mumbai.
                       </p>{" "}
                       <p className="mb_10">
                         {" "}
-                        He is a Trustee in ‘Aaliyar Arivu Thirukovil,’ Pollachi
-                        that spreads awareness about Meditation, Yoga, Women
-                        upliftment and other social welfare activities. He is
-                        also a Trustee in K.P.R. Charities.
+                        He is an Executive Committee Member of South India Mills Association (SIMA). As an active ‘Melvin Jones Fellowship’ Member of Lions Club he has conducted considerable number of free Eye Camps, free Blood Donation Camps and various other social activities.
                       </p>
+                    
+
                     </div>
                     {/* <ul className="info-list clearfix">
                       <li>
@@ -112,33 +103,23 @@ export default function MrPNadaraj() {
                 <div className="col-lg-6 col-md-6 col-sm-12 content-column">
                   <ul className="code-list-style clearfix" >
                     <li style={{color:"black"}}>
-                      Mr. P. Nataraj is a Science Graduate and Fellow Member of
-                      the Institute of Chartered Accountants of India.
+                     He is a Trustee in ‘Aaliyar Arivu Thirukovil,’ Pollachi that spreads awareness about Meditation, Yoga, Women upliftment and other social welfare activities. He is also the President of the ‘Vetri Trust’, Tirupur, having noble objectives and rendering innovative services to the Humanity. In addition, he is the Managing Trustee of ‘KPR Charities’ that runs ‘KPR Institute of Engineering and Technology’ & ‘KPR College of Arts, Science and Research’ extending quality education to the society. Also, the Trustee in ‘KPR IAS Academy’ which provides excellent coaching to the aspirants of competitive exams.
                     </li>
                     <li style={{color:"black"}}>
-                      Promoter & Managing Director, KPR Group, engaged in
-                      Textiles, Sugar, Wind & Co-Gen Power and Education
+                    Commending his achievements as a successful Entrepreneur, he has been awarded ‘Established Entrepreneur of the Year’ award by the Entrepreneur Organisation Coimbatore during 2017.
                     </li>
-                    <li style={{color:"black"}}>
-                      Past Chairman of ‘The Southern India Mills’ Association,
-                      Coimbatore
-                    </li>
+                    
                   </ul>
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12 content-column">
                   <ul className="code-list-style clearfix">
                     <li style={{color:"black"}}>
-                      The Vice-President of ‘Indian Cotton Federation’,
-                      Coimbatore
+                    He is honoured by the ‘Cotton Association of India – Mumbai’ with the ‘First Generation Entrepreneur Award for Textile Mills’ in 2018. Honorable Vice- President of India Sri. Venkiah Naidu had honoured him with an award for ‘Pioneering work’ done in Indian Textile Industry, in 2018.
                     </li>
                     <li style={{color:"black"}}>
-                      Committee Member, ’ Confederation of Indian Textile
-                      Industry’ New Delhi
+                    He is also a Director in K.P.R. Sugar Mill Limited, KPR Sugar and Apparels Limited, Jahnvi Motor Private Limited, Quantum Knits Private Limited, Galaxy Knits Limited, K.P.R. Developers Limited, K P R Holdings Private Limited, K P R Agro Farms Private Limited, K P R Cements Private Limited, KPR Info Solution Private Limited and Confederation of Indian Textile Industry.
                     </li>
-                    <li style={{color:"black"}}>
-                      Council Member, ‘Cotton Textiles Export Promotion Council’
-                      Mumbai
-                    </li>
+                   
                   </ul>
                 </div>
               </div>

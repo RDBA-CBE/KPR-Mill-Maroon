@@ -32,7 +32,7 @@ export default function MrKPDSigamani() {
           <div className="auto-container">
             <div className="team-details-content mb_50">
               <div className="row clearfix">
-                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                <div className="col-lg-5 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">
                     <img
                       src="/assets/images/kprmill-images/Mr-KPD-Sigamani/sigamani-img.jpg"
@@ -40,8 +40,8 @@ export default function MrKPDSigamani() {
                     />
                   </figure>
                 </div>
-                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                  <div className="content-box">
+                <div className="col-lg-7 col-md-12 col-sm-12 content-column">
+                  <div className="content-box" style={{padding:'20px'}}>
                     <h2>Mr. KPD. Sigamani</h2>
                     <span
                       className="designation"
@@ -68,31 +68,20 @@ export default function MrKPDSigamani() {
                     </ul> */}
                     <div className="text mb_20">
                       <p className="mb_10">
-                        He has travelled widely across the globe on business and
-                        gained in-depth knowledge on the export of textiles. His
-                        ability, skill experience and untiring efforts garnered
-                        the confidence of the leading Global Buyers.{" "}
+                      KPD Sigamani, a Promoter of KPR Group is a Managing Director of its flagship Company ‘K.P.R. Mill Limited (KPR) a Textile conglomerate in India.{" "}
                       </p>
                       <p className="mb_10">
-                        His perseverance and ardent efforts entailed KPR as one
-                        of those Export units that enabled elevation of the Knit
-                        Wear Town ‘Tirupur’, to a pre-dominant position among
-                        the exporting fraternity in India.{" "}
+                      A Master of Science degree holder in Mathematics, has over 30 years of experience in the Apparel Industry including the Hosiery, Apparel, Fabric and Yarn Export business.
+                      Currently heads the Apparel Division of KPR, the major contributor to its Export Business.{" "}
                       </p>
                       <p className="mb_10">
                         {" "}
-                        It may be noted that K.P.R. Mill Limited is now one of
-                        the Top 500 Listed Companies in India and its Management
-                        is consistently accredited as Top 100 CEO’s (Chief
-                        Executive Officer) of the Country. As regards his social
-                        activities, he is a Rotarian .As a member of Rotary Club
-                        of Tirupur, he has rendered various social welfare
-                        activities to the needy people in an around Tirupur. He
-                        is a Trustee of “Mother Care Value Trust Hospital”,
-                        promoted by an internationally reputed importer M/s
-                        Mother Care, providing free medical treatment for
-                        children and expectant mothers.
+                        He has travelled widely across the globe on business and gained in-depth knowledge on the export of textiles. His ability, skill experience and untiring efforts garnered the confidence of the leading Global Buyers.
+
                       </p>
+                      <p className="mb_10">His perseverance and ardent efforts entailed KPR as one of those Export units that enabled elevation of the Knit Wear Town ‘Tirupur’, to a pre-dominant position among the exporting fraternity in India.</p>
+                      <p className="mb_10">It may be noted that K.P.R. Mill Limited is now one of the Top 500 Listed Companies in India and its Management is consistently accredited as Top 100 CEO’s (Chief Executive Officer) of the Country. As regards his social activities, he is a Rotarian. As a member of Rotary Club of Tirupur, he has rendered various social welfare activities to the needy people in an around Tirupur. He is a Trustee of “Mother Care Value Trust Hospital”, promoted by an internationally reputed importer M/s Mother Care, providing free medical treatment for children and expectant mothers.</p>
+                    
                     </div>
                     {/* <ul className="info-list clearfix">
                       <li>
@@ -128,12 +117,15 @@ export default function MrKPDSigamani() {
                 textAlign: "center",
               }}
             >
-              <p style={{ color: "black" }} >
-                He is also a Life Time Trustee of KPR Charities, which has
-                promoted an Educational Institution with the State of the Art
-                Facilities under the name “K.P.R.Institute of Engineering and
-                Technology extending quality education to the society.
+            <p className="mb_10" style={{ color: "black" }}>A keen environmentalist and passionate about sustainable business also founded ‘KPR Charities’ a Public Trust and a Managing Trustee in KPR IAS Academy which provides excellent coaching to the aspirants of competitive exams.</p>
+              <p style={{ color: "black" }} className="mb-10" >
+              Besides he also serves as the Managing Trustee of ‘KPR Charities’ that runs ‘KPR Institute of Engineering and Technology’ & ‘KPR College of Arts, Science and Research’ extending quality education to the Society.</p>
+              <p style={{ color: "black" }} className="mb-10">
+He is also a Director in K.P.R. Sugar Mill Limited, KPR Sugar and Apparels Limited, Jahnvi Motor Private Limited, Quantum Knits Private Limited, Galaxy Knits Limited, K.P.R. Developers Limited, K P R Holdings Private Limited, K P R Agro Farms Private Limited, K P R Cements Private Limited, KPR Info Solution Private Limited and Globuse Galaxy Developers Private Limited.
               </p>
+              <p style={{ color: "black" }} className="mb-10">
+              </p>
+
             </div>
           </div>
         </section>

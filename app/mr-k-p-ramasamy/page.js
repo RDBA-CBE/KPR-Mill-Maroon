@@ -34,16 +34,16 @@ export default function MrKPRamasamy() {
           <div className="auto-container">
             <div className="team-details-content mb_50">
               <div className="row clearfix">
-                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                <div className="col-lg-4 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">
                     <img
                       src="/assets/images/kprmill-images/Mr-K-P-Ramasamy/ramasamy-img.jpg"
                       alt=""
                     />
-                  </figure>
+                  </figure> 
                 </div>
-                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                  <div className="content-box">
+                <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+                  <div className="content-box" style={{padding:'20px'}}>
                     <h2>Mr. K. P. Ramasamy</h2>
                     <span
                       className="designation"
@@ -70,33 +70,20 @@ export default function MrKPRamasamy() {
                     </ul> */}
                     <div className="text">
                       <p className="mb_10">
-                        Beyond being a very successful Entrepreneur, all through
-                        strenuous and enduring efforts, the brilliance of a man
-                        is in contributing to the society from what he has
-                        earned.
+                      Beyond being a very successful Entrepreneur, all through strenuous and enduring efforts, the brilliance of a man is in contributing to the society from what he has earned.
                       </p>
                       <p className="mb_10">
-                        Understanding that the holistic approach to the
-                        wellbeing of the Employees is not restricted to physical
-                        wellness alone but also involves social wellbeing, he
-                        formulated an outstanding concept of empowering
-                        employees with higher education besides providing
-                        trendsetting facilities.
+                      K.P. Ramasamy, known as ‘KPR’, hailed from an agriculture family, made a humble beginning as a Power loom cloth Manufacturer in 1971. With the able and emphatic support of his younger Brothers, the Textile Empire ‘KPR Group’ was built on fabulous values.
                       </p>
-                      <p>
-                        <b>
-                          KPR is a keen environmentalist and is passionate about
-                          sustainable business.
-                        </b>{" "}
-                        He was instrumental in planting more than one lakh trees
-                        in the Villages and at Units; Re-cycling waste water at
-                        all plants and uses it for productive purposes;
-                        Producing Bio-gas from human waste, thereby reducing
-                        usage of LPG; Installation of a massive Effluent
-                        Treatment Plant with zero discharge system and adoption
-                        of new technology ensuring economised water consumption
-                        at its Processing facility.
+                      <p className="mb_10">
+                      Understanding that the holistic approach to the well-being of the Employees is not restricted to physical wellness alone but also involves social well-being, he formulated an outstanding concept of empowering employees with higher education besides providing trendsetting facilities.
                       </p>
+                      <p className="mb_10">He authored the Industry acclaimed ‘Five-Star rated HR facilities which empower employees with excellent higher education besides providing trendsetting facilities. So far over 31,000 Employees have been benefitted by the Educational facility extended with the tie-up of Universities and hi-tech infrastructure. Infact every year they excel in Government conducted Examinations by securing Higher ranks, Gold Medals and Awards.
+                      </p>
+                      <p className="mb_10">In addition his career development process for the Employees has also uplifted the career growth for several employees by securing placement in various reputed organisations spread over the nation.
+                      </p>
+                                           
+                      
                     </div>
                     {/* <ul className="info-list clearfix">
                       <li>
@@ -123,6 +110,7 @@ export default function MrKPRamasamy() {
                 </div>
               </div>
             </div>
+            <h4 class="text-center mb-30">KPR is a keen environmentalist and is passionate about sustainable business. </h4>
             <div
               className="biography-box "
               style={{
@@ -132,25 +120,24 @@ export default function MrKPRamasamy() {
                 textAlign: "start",
               }}
             >
-              <p className="mb_20" style={{ color: "black" }}>
-                To quote a yet another social contribution, he himself has led
-                the’ Swachch Bharat’ (Clean India) Campaign’ at various villages
-                supported by his Employees in a massive way.
+           
+              <p className="mb_10" style={{ color: "black" }}>
+              His drive towards eco-friendly environment and urge towards renewable energy installed several windmills; established Co-gen cum Sugar Plant and Solar Power Plants to source green power to meet most of KPR’s power requirements.
               </p>
-              <p style={{ color: "black" }}>
-                He also founded ‘KPR Charities’ a Public Trust, which through
-                its innumerable work is serving our society at a large. It
-                imparts high quality education through its Educational
-                Institution ‘K.P.R Institute of Engineering &Technology ‘which
-                has been ranked at 5th place among the 67 Private Engineering
-                colleges at Coimbatore and is also ranked as one of the Top 20
-                Institutions in Tamilnadu as per the survey done by ‘Higher
-                Education Review Magazine’. The Master Piece of his service
-                towards Education is the establishment of ‘KPR IAS Academy’ that
-                offers excellent coaching for IAS, IPS, UPSC, TNPSC exams. Many
-                of its aspirants have cleared the Exam under various categories,
-                which were once considered as inaccessible Career.
+              <p className="mb_10" style={{ color: "black" }}>
+              He was instrumental in planting more than one lakh trees in the Villages and at Units; Re-cycling wastewater at all plants and uses it for productive purposes; Producing Bio-gas from human waste, thereby reducing usage of LPG; Installation of a massive Effluent Treatment Plant with zero discharge system and adoption of new technology ensuring economised water consumption at its Processing facility.
               </p>
+              <p className="mb_10" style={{ color: "black" }}>
+              A keen environmentalist and passionate about sustainable business also founded ‘KPR Charities’ a Public Trust that serves the public with social welfare activities and runs Education Institutions provides high-quality Collegiate Education and KPR IAS Academy which serves the society at large. As an active Rotarian sponsored several projects for the welfare of the society.</p>
+              <p className="mb_10" style={{ color: "black" }}>His strategic plans & dynamic management crowned him as one of the ‘Top 100 CEO’s of India’ and ranked KPR Mill Limited as one of the Top 500 Listed Companies by various business magazines successively.
+              </p>
+              <p className="mb_10" style={{ color: "black" }}>
+              KPR has been honoured with multiple awards. To quote a few – ‘Star of India’ Award from the hands of former Prime Minister of India Shri Deva Gowda and conferring on him the ‘Doctorate, D.Litt. (Honoris Causa)’ by the renowned Kalinga University, Odisha.
+              </p>
+              <p className="mb_10" style={{ color: "black" }}>
+              He is also a Director in K.P.R. Sugar Mill Limited, KPR Sugar and Apparels Limited, Jahnvi Motor Private Limited, Quantum Knits Private Limited, Galaxy Knits Limited, K.P.R. Developers Limited, K P R Holdings Private Limited, K P R Agro Farms Private Limited, K P R Cements Private Limited and KPR Info Solution Private Limited.
+              </p>
+            
             </div>
           </div>
         </section>
