@@ -121,7 +121,8 @@ export default function ListComponents(props) {
                                     <i
                                       className="fa fa-music"
                                       style={{
-                                        fontSize: "14px", color: "#5a1d00",
+                                        fontSize: "14px",
+                                        color: "#5a1d00",
                                       }}
                                     ></i>
                                   </div>
@@ -140,10 +141,12 @@ export default function ListComponents(props) {
                                     }}
                                   >
                                     {link?.list &&
-                                      link?.list !== "Click Here" &&
-                                      link?.list !== "Click Here To Download" &&
-                                      link?.list !==
-                                        "Click Here to Download" && (
+                                      ![
+                                        "Click Here",
+                                        "Click Here To Download",
+                                        "Click Here to Download",
+                                        "Download",
+                                      ].includes(link?.list) && (
                                         <p
                                           style={{
                                             fontSize: "14px",
@@ -156,27 +159,22 @@ export default function ListComponents(props) {
                                         </p>
                                       )}
 
-                                    {link?.list &&
-                                    link?.list !== "Click Here" &&
-                                    link?.list !== "Click Here To Download" &&
-                                    link?.list !== "Click Here to Download" ? (
-                                      <i
-                                        className="fa fa-download"
-                                        style={{
-                                          fontSize: "14px",
-
-                                          color: "#5a1d00",
-                                        }}
-                                      ></i>
-                                    ) : (
-                                      <i
-                                        className="fa fa-download"
-                                        style={{
-                                          fontSize: "22px",
-                                          color: "#5a1d00",
-                                        }}
-                                      ></i>
-                                    )}
+                                    <i
+                                      className="fa fa-download"
+                                      style={{
+                                        fontSize:
+                                          link?.list &&
+                                          link?.list !== "Click Here" &&
+                                          link?.list !==
+                                            "Click Here To Download" &&
+                                          link?.list !==
+                                            "Click Here to Download" &&
+                                          link?.list !== "Download"
+                                            ? "14px"
+                                            : "22px",
+                                        color: "#5a1d00",
+                                      }}
+                                    ></i>
                                   </div>
                                 </Link>
                               )}

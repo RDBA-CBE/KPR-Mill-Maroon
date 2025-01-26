@@ -1059,7 +1059,7 @@ export default function Footer2() {
             <div className="footer-bottom ">
               <div className="copyright ">
                 <p className="footer-content">
-                  Copyright 2024 &copy; KPR MILL LIMITED. Concept by{" "}
+                  Copyright 2025 &copy; KPR MILL LIMITED. Concept by{" "}
                   <Link
                     href="https://irepute.in/"
                     target="_blank"
