@@ -17,7 +17,12 @@ const InvestorsSideMenu = ({ isActive }) => {
               Disclosures under Regulation 46 of the LODR
             </Link>
           </li>
-          {/* <li>
+          <li>
+          <Link href="/assets/downloads/Company_profile.pdf" target="_blank">
+           Company Profile
+          </Link>
+        </li>
+          {/* <li>              
           <Link href="/regulation-62-of-the-lodr">
             Disclosures under Regulation 62 of the LODR
           </Link>
@@ -238,6 +243,13 @@ const InvestorsSideMenu = ({ isActive }) => {
                 </li>
               </ul>
             )}
+          </li>
+          <li>
+            <Link
+             target="_blank" href="https://www.nseindia.com/get-quotes/equity?symbol=KPRMILL"
+            >
+            Share Online (NSE)
+            </Link>
           </li>
         </ul>
       </div>
