@@ -35,7 +35,7 @@ export default function Garmenting() {
                       <p className="garmenting-title" >
                         KPR Garment, the exclusive garmenting center is ranked
                         among the largest garment manufacturing facilities in
-                        India with total capacity of 177 million garments per
+                        India with total capacity of 170 million garments per
                         annum.  Inspired by customer delight and the desire to make
                         innovative designs, it creates mesmerizing fashion
                         trends for men, women, boys and girls. Entire garments
