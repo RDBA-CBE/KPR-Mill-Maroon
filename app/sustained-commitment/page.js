@@ -219,6 +219,52 @@ export default function SustainedCommitment() {
             </div>
           </div>
         </section>
+        <section
+          className="dream-style-three p_relative"
+          style={{ padding: "0px" }}
+        >
+          <div className="auto-container">
+            <div className="row clearfix">
+              <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                <div className="content_block_two">
+                  <div className="content-box p_relative d_block">
+                    <h2 className="mb_25">Manufacturer Public Statement</h2>
+                    <div className="text mb_25">
+                      <p>
+                      We KPR MILL LIMITED have set a greenhouse gas emissions target covering our Scope 1 & 2 emissions in line with the latest criteria and recommendations of the SBTi which supports the ambition of the Paris Agreement in limiting global temperature rise to 1.5 degrees Celsius above pre-industrial levels.
+                      </p>
+                    </div>
+                    <div className="text mb_25">
+                      <p>We KPR MILL LIMITED have been working with Global brand to understand and address our Scope 3 emissions.</p>
+                    </div>
+                    <div className="text mb_25">
+                      <p>We confirm that the Tier 1 and Tier 2 manufacturing sites we contract with have set greenhouse gas emissions reduction targets covering the manufacturing sites’ Scope 1& 2 emissions ,in line with the criteria and recommendations of the SBTi.</p>
+                    </div>
+
+
+
+                    {/* <div className="btn-box">
+                      <Link href="coaching" className="theme-btn">
+                        <span>More Details</span>
+                      </Link>
+                    </div> */}
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                <div className="image-box pl_3 mb_25">
+                  <figure className="image mb_25">
+                    <img
+                      src="/assets/images/kprmill-images/CSR/Sustained-Commitment/sustainability-2.png"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </Layout>
     </>
   );
