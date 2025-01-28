@@ -256,7 +256,7 @@ export default function SustainedCommitment() {
                 <div className="image-box pl_3 mb_25">
                   <figure className="image mb_25">
                     <img
-                      src="/assets/images/kprmill-images/CSR/Sustained-Commitment/sustainability-2.png"
+                      src="/assets/images/kprmill-images/CSR/Sustained-Commitment/sustainability-4.png"
                       alt=""
                     />
                   </figure>
