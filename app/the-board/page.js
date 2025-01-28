@@ -33,7 +33,7 @@ const page = () => {
             </span>
             <h2>Pioneering Leadership</h2>
             <p>
-            The success of a company is directly attributed to the sheer determination and dedication of its leaders. This holds true in a giant, integrated apparel company like KPR. KPR is led by a dynamic management team, which is willing to go the extra mile in its quest for innovation and perfection.
+            The Board consists of Dignitaries, Technical experts, eminent Professionals from different fraternity with proven experience in Textile Industry and / or various fields such as Corporate Law, Banking, Medical, Chartered Accountancy and Company Secretary. The Board constantly endeavors to achieve the highest standards of Corporate Governance. It comprises of twelve Directors viz., One Executive Chairman, Five Executive Directors and Six Independent Directors (Including two woman Directors) having no business relationship with the Company and constituting 50% of Board’s composition in compliance with the Listing Regulations & Companies Act, 2013 (‘Act’).
             </p>
           </div>
           <div className="row clearfix">
