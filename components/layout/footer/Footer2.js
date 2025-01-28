@@ -25,7 +25,7 @@ export default function Footer2() {
                         </Link>
                       </li> */}
                       <li>
-                        Shrivari Srimat, 1045, Avinashi Road,</br>
+                        Shrivari Srimat, 1045, Avinashi Road,
                         Coimbatore - 641018, India.
                       </li>
                       <li>
