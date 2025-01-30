@@ -253,7 +253,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2008"
                     firstLine="New processing division"
-                    secondLine="New processing division with 9000 Mt processing capacity at Perundurai,"
+                    secondLine="New processing division with 9000 Mt processing capacity at Perundurai-Sipcot,"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -506,7 +506,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2019"
                     firstLine="Expansion: Processing"
-                    secondLine="Increased Processing capacity by 21000 MT to 25000 MT"
+                    secondLine="Increased Processing capacity from 21000 MT to 25000 MT"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
