@@ -181,7 +181,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2005"
                     firstLine="Business Expansion & Alternative Energy Initiatives"
-                    secondLine="At Arasur 1,00,800 spindles; Knitting facility, Garment Unit [25.9 MN garments] and Wind Mills"
+                    secondLine="At Arasur 1,00,800 spindles; Knitting facility, Garment Unit - 25.9 MN garments and Wind Mills"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -260,7 +260,7 @@ export default function Evolution() {
                 icon={<WorkIcon />}
               >
                 <Image
-                  src="/assets/images/kprmill/evolution/evolution8.jpg"
+                  src="/assets/images/kprmill/evolution/2017-new-processing.jpg"
                   alt="image 1"
                   width={400}
                   height={300}
@@ -449,7 +449,7 @@ export default function Evolution() {
                 icon={<WorkIcon />}
               >
                 <Image
-                  src="/assets/images/kprmill/evolution/evolution16.jpg"
+                  src="/assets/images/kprmill/evolution/2017-new-processing.jpg"
                   alt="image 1"
                   width={400}
                   height={300}
