@@ -181,7 +181,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2005"
                     firstLine="Business Expansion & Alternative Energy Initiatives"
-                    secondLine="At Arasur 1,00,800 spindles; Knitting facility, Garment Unit and Wind Mills"
+                    secondLine="At Arasur 1,00,800 spindles; Knitting facility, Garment Unit [25.9 MN garments] and Wind Mills"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -195,7 +195,8 @@ export default function Evolution() {
                 />
               </VerticalTimelineElement>
 
-              <VerticalTimelineElement
+              
+                        <VerticalTimelineElement
                 visible={true}
                 className="vertical-timeline-element--work"
                 // contentStyle={{
@@ -231,6 +232,28 @@ export default function Evolution() {
                     date="2007"
                     firstLine="Public Listing"
                     secondLine="IPO at a premium. Shares Listed at Bombay & National Stock Exchanges, India"
+                  />
+                }
+                iconStyle={{ background: "#daad19", color: "#fff" }}
+                icon={<WorkIcon />}
+              >
+                <Image
+                  src="/assets/images/kprmill/evolution/evolution8.jpg"
+                  alt="image 1"
+                  width={400}
+                  height={300}
+                />
+              </VerticalTimelineElement>
+
+
+              <VerticalTimelineElement
+                visible={true}
+                className="vertical-timeline-element--work"
+                date={
+                  <CustomDate
+                    date="2008"
+                    firstLine="New processing division"
+                    secondLine="New processing division with 9000 Mt processing capacity at Perundurai,"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -377,7 +400,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2016"
                     firstLine="Expansion"
-                    secondLine="Established New green field garment facility of 36 Mn garments."
+                    secondLine="Established New green field garment facility of 36 Mn garments at THEKKALUR."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -385,6 +408,27 @@ export default function Evolution() {
               >
                 <Image
                   src="/assets/images/kprmill/evolution/evolution15.jpg"
+                  alt="image 1"
+                  width={400}
+                  height={300}
+                />
+              </VerticalTimelineElement>      
+
+              <VerticalTimelineElement
+                visible={true}
+                className="vertical-timeline-element--work"
+                date={
+                  <CustomDate
+                    date="2017"
+                    firstLine="Environment-friendly Process through Technology"
+                    secondLine="Established new Ecofriendly Processing capacity with Advanced Technology - 9000 MT. Established Sophisticated high resolution printing division – 7500 MT"
+                  />
+                }
+                iconStyle={{ background: "#daad19", color: "#fff" }}
+                icon={<WorkIcon />}
+              >
+                <Image
+                  src="/assets/images/kprmill/evolution/evolution16.jpg"
                   alt="image 1"
                   width={400}
                   height={300}
@@ -397,8 +441,8 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2017"
-                    firstLine="Environment-friendly Process through Technology"
-                    secondLine="Established new Ecofriendly Processing capacity with Advanced Technology - 9000 MT. Established Sophisticated high resolution printing division – 7500 MT"
+                    firstLine="New processing Capacity"
+                    secondLine="New processing Capacity – SIPCOT, PERUNDURAI"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -433,6 +477,28 @@ export default function Evolution() {
                 />
               </VerticalTimelineElement>
 
+
+              <VerticalTimelineElement
+                visible={true}
+                className="vertical-timeline-element--work"
+                date={
+                  <CustomDate
+                    date="2018"
+                    firstLine="Vortex"
+                    secondLine="Vortex started at PC unit"
+                  />
+                }
+                iconStyle={{ background: "#daad19", color: "#fff" }}
+                icon={<WorkIcon />}
+              >
+                <Image
+                  src="/assets/images/kprmill/evolution/evolution17.jpg"
+                  alt="image 1"
+                  width={400}
+                  height={300}
+                />
+              </VerticalTimelineElement>
+
               <VerticalTimelineElement
                 visible={true}
                 className="vertical-timeline-element--work"
@@ -440,7 +506,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2019"
                     firstLine="Expansion: Processing"
-                    secondLine="Increased Processing capacity by 4000 MT"
+                    secondLine="Increased Processing capacity by 21000 MT to 25000 MT"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -462,7 +528,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2019"
                     firstLine="Expansion: Garmenting"
-                    secondLine="Brown field garment expansion by 10 Mn Garments"
+                    secondLine="Brown field garment expansion by 10 Mn Garments at CHENGAPALLI"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -484,7 +550,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2019"
                     firstLine="Ethanol Plant and Expansion"
-                    secondLine="Setup 130 KLPD Ethanol Plant at Karnataka. Sugar Mill capacity expanded to 10000 TCD"
+                    secondLine="Setup 360 KLPD to 470 KLPD Ethanol Plant at Karnataka. Sugar Mill capacity expanded to 10000 TCD"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
