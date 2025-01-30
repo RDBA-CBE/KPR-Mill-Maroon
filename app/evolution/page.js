@@ -550,7 +550,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2019"
                     firstLine="Ethanol Plant and Expansion"
-                    secondLine="Setup 360 KLPD to 470 KLPD Ethanol Plant at Karnataka. Sugar Mill capacity expanded to 10000 TCD"
+                    secondLine="Setup from 360 KLPD to 470 KLPD Ethanol Plant at Karnataka. Sugar Mill capacity expanded to 10000 TCD"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
