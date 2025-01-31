@@ -282,10 +282,10 @@ export default function Footer2() {
                             </li>
                             <li>
                               <Link
-                                href="/regulation-62-of-the-lodr"
+                               target="_blank" href="/assets/downloads/Company_profile.pdf"
                                 style={{ color: "white" }}
                               >
-                                Regulation 62 of the LODR
+                              Company Profile
                               </Link>
                             </li>
                             <li>
@@ -342,6 +342,14 @@ export default function Footer2() {
                                 style={{ color: "white" }}
                               >
                                 Policy Info
+                              </Link>
+                            </li>
+                            <li>
+                              <Link
+                               target="_blank" href="https://www.nseindia.com/get-quotes/equity?symbol=KPRMILL"
+                                style={{ color: "white" }}
+                              >
+                              Share Online (NSE)
                               </Link>
                             </li>
                           </ul>
