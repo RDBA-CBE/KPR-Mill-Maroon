@@ -435,7 +435,7 @@ export default function Evolution() {
                 />
               </VerticalTimelineElement>
 
-              <VerticalTimelineElement
+              {/* <VerticalTimelineElement
                 visible={true}
                 className="vertical-timeline-element--work"
                 date={
@@ -454,7 +454,7 @@ export default function Evolution() {
                   width={400}
                   height={300}
                 />
-              </VerticalTimelineElement>
+              </VerticalTimelineElement> */}
 
               <VerticalTimelineElement
                 visible={true}
@@ -485,7 +485,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2018"
                     firstLine="Vortex"
-                    secondLine="Vortex started at PC unit"
+                    secondLine="Vortex Yarn production started at Karumathampatty Unit."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -521,7 +521,7 @@ export default function Evolution() {
               </VerticalTimelineElement>
 
 
-              <VerticalTimelineElement
+              {/* <VerticalTimelineElement
                 visible={true}
                 className="vertical-timeline-element--work"
                 date={
@@ -540,7 +540,7 @@ export default function Evolution() {
                   width={400}
                   height={300}
                 />
-              </VerticalTimelineElement>
+              </VerticalTimelineElement> */}
 
 
               <VerticalTimelineElement

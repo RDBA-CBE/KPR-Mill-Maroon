@@ -2,11 +2,16 @@
 import Layout from "@/components/layout/Layout";
 
 export default function Spinning() {
-
-  const backgroundImage = "/assets/images/kprmill-images/Infrastructure/Spinning/banner-img.jpg";
+  const backgroundImage =
+    "/assets/images/kprmill-images/Infrastructure/Spinning/banner-img.jpg";
   return (
     <>
-      <Layout headerStyle={2} footerStyle={2} breadcrumbTitle="Spinning" imageUrl= {backgroundImage}>
+      <Layout
+        headerStyle={2}
+        footerStyle={2}
+        breadcrumbTitle="Spinning"
+        imageUrl={backgroundImage}
+      >
         <section className="dream-style-three p_relative pb-0">
           <div className="auto-container">
             {/* <div className="sec-title  mb_30 text-center">
@@ -19,7 +24,7 @@ export default function Spinning() {
             </div> */}
             <div class="row clearfix">
               <div class="col-lg-12 col-md-12 col-sm-12 order-lg-2 content-column text-center">
-                <div className="content_block_two" >
+                <div className="content_block_two">
                   <div className="content-box p_relative d_block">
                     {/* <div className="sec-title mb_5">
                       <span className="sub-title">Reach Your Dream</span>
@@ -27,7 +32,7 @@ export default function Spinning() {
                     </div> */}
 
                     <div className="text mb_25">
-                      <p style={{fontSize:"18px"}}>
+                      <p style={{ fontSize: "18px" }}>
                         KPR is one of the largest manufacturers of yarn in terms
                         of installed spindleage capacity. The Company has
                         spinning mills with a total capacity of 4,00,000
@@ -88,9 +93,9 @@ export default function Spinning() {
                           Bobbin Transporter.
                         </li>
                         <li>Spindle Monitoring System with Auto Sensors.</li>
-                        <li>
+                        {/* <li>
                           The spin bikes introduced reduces labour intervention.
-                        </li>
+                        </li> */}
                         <li>
                           We house a sophisticated Melange and Polyster Cotton
                           Yarn manufacturing facility with imported Automatic
@@ -115,7 +120,7 @@ export default function Spinning() {
               </div>
 
               <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-              <div className="content_block_two">
+                <div className="content_block_two">
                   <div className="content-box p_relative d_block">
                     {/* <div className="sec-title mb_5">
                       <span className="sub-title">Reach Your Dream</span>
@@ -140,7 +145,7 @@ export default function Spinning() {
                         <li>LMW Ring Frame</li>
                         <li>Sussen Compact Machine</li>
                         <li>Marzoli Roving Frame</li>
-                        <li>Marzoli Auto-corner in the machin</li>
+                        <li>Marzoli Auto-corner</li>
                       </ul>
                     </div>
 
@@ -158,7 +163,6 @@ export default function Spinning() {
 
         <section className="dream-style-three p_relative">
           <div className="auto-container">
-           
             <div class="row clearfix">
               {/* <div class="col-lg-6 col-md-12 col-sm-12 order-lg-2 content-column">
                 <div className="content_block_two">
@@ -195,7 +199,8 @@ export default function Spinning() {
                   <figure class="image">
                     <img
                       src="/assets/images/kprmill-images/Infrastructure/Spinning/spinning-3.jpg"
-                      alt="" className="spinningBottomImage" 
+                      alt=""
+                      className="spinningBottomImage"
                     />
                   </figure>
                 </div>

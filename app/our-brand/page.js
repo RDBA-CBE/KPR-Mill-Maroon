@@ -177,9 +177,9 @@ export default function OurBrand() {
                         <li>Classic styling and contemporary designs</li>
                       </ul>
                       <p>
-                        Designed to suit the modern man’s needs and trend, Faso
-                        comes with diverse styles and ranges that suit your
-                        needs.
+                        Designed to suit the modern men and women needs and
+                        trend, Faso comes with diverse styles and ranges that
+                        suit your needs.
                       </p>
                     </div>
 

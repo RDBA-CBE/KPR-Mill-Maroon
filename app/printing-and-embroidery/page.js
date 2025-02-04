@@ -156,7 +156,7 @@ export default function PreintingAndEmbroidery() {
                     <div className="text mb_25">
                       <ul className="about-list-style clearfix">
                         <li>
-                        Zimmer Printing Machine
+                        Zimmer Printing Machine – Austria
                         </li>
                         <li>Barudan Embroidery machine – Japan</li>
                         <li>Hebbeckker Printing Machine – Germany</li>
