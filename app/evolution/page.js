@@ -719,7 +719,7 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2023"
-                    firstLine="Vortex Spinning Facility"
+                    firstLine="Vortex Spinning Facility @ Neelambur"
                     secondLine="Added Latest Technology 'Vortex' to produce viscose yarn"
                   />
                 }
