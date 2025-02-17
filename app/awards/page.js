@@ -34,6 +34,40 @@ export default function Awards() {
           </div>
         </section>
         <section className="auto-container">
+        <section className="awards-style-three p_relative">
+            <div className="auto-container">
+              <div className="row clearfix award-row">
+                <div className="col-lg-3 col-md-6 col-sm-12 content-column no-gutters title-col-1">
+                  <div className="title">
+                    <h2>2024</h2>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-12 content-column no-gutters  image-col">
+                  <div className="image-box award-image-outer">
+                    <figure className="image">
+                      <img
+                        src="/assets/images/kprmill/about/award-2.jpeg"
+                        alt=" 2023 Awawrd Image"
+                      />
+                    </figure>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column content-col  no-gutters">
+                  <div className="text mb_25 award-content-main">
+                    {/* <div className="sec-title mb_10">
+                      <h3 style={{fontSize:"20px"}}>Forbes Asia</h3>
+                    </div> */}
+                    <ul className="about-list-style clearfix">
+                     <li>KPR Mill Limited has been steadfast in providing higher education facilities to its women employees embodying their commitment to social responsibility. The company takes immense pride in the fact that over 41,000 women workers have completed their higher education through this remarkable initiative. In the current academic year alone, more than 5,000 women are pursuing their higher studies and steadily increasing every year. With the high standard of education provided at KPR Mill, through excellent coaching of well - trained & experienced Teachers and best Infrastructures, every year its women employees prove their outstanding talent in the Government conducted Examinations securing Medals and Ranks.</li>
+                     <li>At the 15th convocation ceremony of Tamil Nadu Open University, held on 21st October 2024 at Chennai, a total of 579 Employees were conferred their bachelor’s and master’s degrees. Among them, 11 were honoured with medals – 5 Gold (1st Rank), 3 silver (2nd Rank) and 3 bronze (3rd Rank)- for their exceptional academic performance, by the Honourable Governor of Tamil Nadu, Shri R.N. Ravi. </li>
+                     <li>On 25th January 2025, the 11th Convocation Ceremony for women employees of the KPR Group took place as a grand event at Thekkalur celebrating the remarkable achievements of the students. Each of the first-place winners received a cash gift of Rs.5,000, graciously presented by the KPR Group.</li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
           <section className="awards-style-three p_relative">
             <div className="auto-container">
               <div className="row clearfix award-row">
