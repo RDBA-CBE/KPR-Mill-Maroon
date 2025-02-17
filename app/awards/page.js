@@ -46,7 +46,7 @@ export default function Awards() {
                   <div className="image-box award-image-outer">
                     <figure className="image">
                       <img
-                        src="/assets/images/kprmill/about/award-2.jpeg"
+                        src="/assets/images/kprmill/about/awards-2024.jpg"
                         alt=" 2023 Awawrd Image"
                       />
                     </figure>

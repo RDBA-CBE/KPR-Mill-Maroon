@@ -160,108 +160,54 @@ export default function HigherStudiesAndCarrerPlacement() {
             </div>
           </div>
         </section>
-
+                      
         <section className="dream-style-three p_relative">
           <div className="auto-container">
-            {/* <div className="sec-title  mb_30 text-center">
+            <div className="sec-title  mb_30 text-center">
               <span className="sub-title" style={{ color: "black" }}>
-                ELEMENTUM TEMPUS
+              Employees Higher Education
               </span>
-              <h2>
-              YARN
-              </h2>
-            </div> */}
-            <div class="row clearfix">
-              <div class="col-lg-6 col-md-12 col-sm-12 order-lg-2 content-column">
-                <div className="content_block_two">
-                  <div className="content-box p_relative d_block">
-                    <div className="sec-title mb_5">
-                      {/* <span className="sub-title">Reach Your Dream</span> */}
-                      <h3>Employees Higher Education</h3>
-                    </div>
-
-                    <div className="text mb_25">
-                      <p>
+              {/* <h2>
+              KPRMill
+              </h2> */}
+              <h4>
                         Making best use of the excellent Higher education
                         facilities and infrastructures extended by KPR, every
                         year the Employees consistently add glory with their
                         exemplary performance in the Government examinations
                         with flying colors securing Gold Medals, CEMCA Awards
                         and higher ranks etc.
-                      </p>
-                    </div>
-                    <div className="text mb_25">
-                      <h5 style={{ fontWeight: "600", marginBottom: "10px" }}>
-                        2019
-                      </h5>
-                      <p>
-                        In the Tamil Nadu Open University (TNOU) 12th
-                        Convocation held at Thekkalur, 329 Employees, including
-                        301 Under Graduates & 28 Post Graduates, received
-                        graduation Certificates from the Vice-Chancellor of
-                        TNOU. Among them, 5 were Gold Medalist, 15 were Rank
-                        holders and one Employee secured CEMCA Award.
-                      </p>
-                    </div>
-
-                    <div className="text">
-                      <h5 style={{ fontWeight: "600", marginBottom: "10px" }}>
-                        2021
-                      </h5>
-                      <p>
-                        Under KPR Mill’s unique initiative for women employees
-                        last year we selected 52 employees to undergo ‘Placement
-                        training’. Extending all facilities at our College
-                        premises, they were given special training on different
-                        life skills empowering them to meet the expectations of
-                        the leading Recruiters and make them Industry ready. In
-                        the very first year of our outstanding attempt, out of
-                        52 Employees trained by us, 45 got placement in various
-                        reputed Companies.
-                      </p>
-                    </div>
-
-                    {/* <div className="text mb_25">
-                      <h5 style={{ fontWeight: "600", marginBottom: "10px" }}>
-                        Vortex
-                      </h5>
-                      <p>
-                        KPR has the latest technology Vortex Spinning machine
-                        that creates a new wave of world fashion. It eliminates
-                        two major processes thereby saving labour and power
-                        besides producing ideal structure of yarn. KPR has 19
-                        Air jet Spinning Machines with capacity of 38,000
-                        Spindles.
-                      </p>
-                    </div> */}
-
-                    {/* <div className="btn-box">
-                      <Link href="coaching" className="theme-btn">
-                        <span>More Details</span>
-                      </Link>
-                    </div> */}
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-12 col-sm-12 order-lg-1 image-column">
-                <div class="image-box pl-3">
+                      </h4>
+            </div>
+            
+    
+            <div class="row clearfix">
+              <div class="col-lg-6 col-md-12 col-sm-12 order-lg-2 content-column">
+              <div class="image-box pl-3">
                   <figure class="image">
                     <img
-                      src="/assets/images/kprmill-images/CSR/Higher-Studies-and-Carrer-Placement/higher-studies-3.png"
+                      src="/assets/images/kprmill-images/CSR/Higher-Studies-and-Carrer-Placement/awrads-2024-img.png"
                       alt=""
                     />
                   </figure>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
+              <div class="col-lg-6 col-md-12 col-sm-12 order-lg-2 content-column">
+              <div className="content_block_two">
+              <div className="content-box p_relative d_block">
+              <div className="text mb_25">
+                      <h5 style={{ fontWeight: "600", marginBottom: "10px" }}>
+                        2024
+                      </h5>
+                      <p className="text mb_25">KPR Mill Limited has been steadfast in providing higher education facilities to its women employees embodying their commitment to social responsibility. The company takes immense pride in the fact that over 41,000 women workers have completed their higher education through this remarkable initiative. In the current academic year alone, more than 5,000 women are pursuing their higher studies and steadily increasing every year. With the high standard of education provided at KPR Mill, through excellent coaching of well - trained & experienced Teachers and best Infrastructures, every year its women employees prove their outstanding talent in the Government conducted Examinations securing Medals and Ranks.</p>
+                      <p className="text mb_25">At the 15th convocation ceremony of Tamil Nadu Open University, held on 21st October 2024 at Chennai, a total of 579 Employees were conferred their bachelor’s and master’s degrees. Among them, 11 were honoured with medals – 5 Gold (1st Rank), 3 silver (2nd Rank) and 3 bronze (3rd Rank)- for their exceptional academic performance, by the Honourable Governor of Tamil Nadu, Shri R.N. Ravi. </p>
+                      <p className="text mb_25">On 25th January 2025, the 11th Convocation Ceremony for women employees of the KPR Group took place as a grand event at Thekkalur celebrating the remarkable achievements of the students. Each of the first-place winners received a cash gift of Rs.5,000, graciously presented by the KPR Group.</p>
+                      
+                    </div>
+                  </div></div>
+              </div>
 
-        <section
-          className="dream-style-three p_relative"
-          style={{ paddingTop: "0px" }}
-        >
-          <div className="auto-container">
+            </div>
             <div className="row clearfix">
               <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                 <div className="content_block_two">
@@ -316,8 +262,79 @@ export default function HigherStudiesAndCarrerPlacement() {
                 </div>
               </div>
             </div>
+            <div class="row clearfix"><p className="mb-25">&nbsp;</p></div>
+            <div class="row clearfix">
+            <div class="col-lg-6 col-md-12 col-sm-12 order-lg-1 image-column">
+                <div class="image-box pl-3">
+                  <figure class="image">
+                    <img
+                      src="/assets/images/kprmill-images/CSR/Higher-Studies-and-Carrer-Placement/higher-studies-3.png"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 order-lg-2 content-column">
+                <div className="content_block_two">
+                  <div className="content-box p_relative d_block">
+           
+                    <div className="text mb_25">
+                      <h5 style={{ fontWeight: "600", marginBottom: "10px" }}>
+                        2021
+                      </h5>
+                      <p>
+                        Under KPR Mill’s unique initiative for women employees
+                        last year we selected 52 employees to undergo ‘Placement
+                        training’. Extending all facilities at our College
+                        premises, they were given special training on different
+                        life skills empowering them to meet the expectations of
+                        the leading Recruiters and make them Industry ready. In
+                        the very first year of our outstanding attempt, out of
+                        52 Employees trained by us, 45 got placement in various
+                        reputed Companies.
+                      </p>
+                    </div>
+                    <div className="text">
+                      <h5 style={{ fontWeight: "600", marginBottom: "10px" }}>
+                        2019
+                      </h5>
+                      <p>
+                        In the Tamil Nadu Open University (TNOU) 12th
+                        Convocation held at Thekkalur, 329 Employees, including
+                        301 Under Graduates & 28 Post Graduates, received
+                        graduation Certificates from the Vice-Chancellor of
+                        TNOU. Among them, 5 were Gold Medalist, 15 were Rank
+                        holders and one Employee secured CEMCA Award.
+                      </p>
+                    </div>
+
+                    {/* <div className="text mb_25">
+                      <h5 style={{ fontWeight: "600", marginBottom: "10px" }}>
+                        Vortex
+                      </h5>
+                      <p>
+                        KPR has the latest technology Vortex Spinning machine
+                        that creates a new wave of world fashion. It eliminates
+                        two major processes thereby saving labour and power
+                        besides producing ideal structure of yarn. KPR has 19
+                        Air jet Spinning Machines with capacity of 38,000
+                        Spindles.
+                      </p>
+                    </div> */}
+
+                    {/* <div className="btn-box">
+                      <Link href="coaching" className="theme-btn">
+                        <span>More Details</span>
+                      </Link>
+                    </div> */}
+                  </div>
+                </div>
+              </div>
+             
+            </div>
           </div>
         </section>
+
       </Layout>
     </>
   );

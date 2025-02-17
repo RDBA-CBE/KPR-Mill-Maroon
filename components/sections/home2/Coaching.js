@@ -17,7 +17,36 @@ export default function Coaching() {
           </span>
           <h2>Recognition For Sustaining Excellence In The Industry</h2>
         </div>
+      
         <div className="row clearfix">
+        <div className="col-lg-3 col-md-6 col-sm-12 coaching-block">
+            <div
+              className="coaching-block-two wow fadeInUp animated"
+              data-wow-delay="00ms"
+              data-wow-duration="1500ms"
+            >
+              <div className="inner-box">
+                <div className="icon-box">
+                  <div className="icon">
+                  <img
+                      src="assets/images/kprmill/home/award-img-2024.png"
+                      alt=""
+                    />
+                  </div>
+                  {/* <span className="count-text">01</span> */}
+                </div>
+                <h3>
+                  <Link href="/#">2024 - Academic Performance</Link>
+                </h3>
+                <p>
+               KPR Employees were conferred their bachelor’s and master’s
+degrees. Among them, 11 were honoured with medals – 5 Gold (1 st Rank), 3 silver (2 nd
+Rank) and 3 bronze (3 rd Rank)- for their exceptional academic performance, by the
+Honourable Governor of Tamil Nadu, Shri R.N. Ravi.<br></br>
+                </p>
+              </div>
+            </div>
+          </div>
           <div className="col-lg-3 col-md-6 col-sm-12 coaching-block">
             <div
               className="coaching-block-two wow fadeInUp animated"
