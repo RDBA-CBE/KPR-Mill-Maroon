@@ -24,10 +24,11 @@ export default function Clients() {
               <div className="text-center">
                 <div className="count-outer">
                   <CounterUp end={400000} />
+                  <p>per annum</p>
                 </div>
                 <p className="count-content">
                   Spindles with a Production capacity
-                  <br /> of 1,20,000 MT per annum
+                  <br /> of 1,20,000 MT 
                 </p>
               </div>
             </div>
@@ -36,11 +37,12 @@ export default function Clients() {
                 <div className="count-outer">
                   <CounterUp end={40000} />
                   <span> MT</span>
+                  <p>per annum</p>
                 </div>
                 <p className="count-content">
                   {/* Capacity to produce fabrics   <br /> per annum with
                 Knitting Facility */}
-              Capacity to produce fabrics <br />per annum through knitting
+              Capacity to produce fabrics <br />through knitting
                 
                 </p>
               </div>
@@ -48,12 +50,14 @@ export default function Clients() {
             <div className="col-lg-4 col-md-4 col-sm-12 ">
               <div className="text-center">
                 <div className="count-outer">
-                  <CounterUp end={170} />
-                  <span> M+</span>
+                  <CounterUp end={177} />
+                  <span> M+ </span><br></br>
+                  <p>per annum</p>
                 </div>
+               
                 <p className="count-content">
-                  Largest in India with a capacity to
-                  <br /> produce garments per annum
+                One of the largest garment <bR></bR>manufacturing facility in India
+                
                 </p>
               </div>
             </div>
