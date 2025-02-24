@@ -40,8 +40,7 @@ export default function Clients() {
                   <p>per annum</p>
                 </div>
                 <p className="count-content">
-             Capacity to produce fabrics <br />through knitting
-                </p>
+             Capacity to produce fabrics <br />through knitting </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 ">
