@@ -40,10 +40,7 @@ export default function Clients() {
                   <p>per annum</p>
                 </div>
                 <p className="count-content">
-                  {/* Capacity to produce fabrics   <br /> per annum with
-                Knitting Facility */}
-              Capacity to produce fabrics <br />through knitting
-                
+             Capacity to produce fabrics <br />through knitting
                 </p>
               </div>
             </div>
@@ -51,7 +48,7 @@ export default function Clients() {
               <div className="text-center">
                 <div className="count-outer">
                   <CounterUp end={177} />
-                  <span> M+ </span><br></br>
+                  <span> Mn </span>
                   <p>per annum</p>
                 </div>
                
