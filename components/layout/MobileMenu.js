@@ -254,7 +254,7 @@ export default function MobileMenu({
                     </li>
                     <li>
                       <Link href="/windmill" onClick={handleMobileMenu}>
-                        Wind Mill
+                        Wind Mill & Solar
                       </Link>
                     </li>
                     <li>

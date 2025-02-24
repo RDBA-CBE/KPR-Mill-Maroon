@@ -247,7 +247,7 @@ export default function Footer2() {
                             </li>
                             <li>
                               <Link href="/windmill" style={{ color: "white" }}>
-                                Windmill
+                                Windmill & Solar
                               </Link>
                             </li>
                             <li>

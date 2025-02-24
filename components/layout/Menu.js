@@ -140,7 +140,7 @@ export default function Menu() {
               <Link href="/garmenting">Garmenting</Link>
             </li>
             <li>
-              <Link href="/windmill">Wind Mill</Link>
+              <Link href="/windmill">Wind Mill & Solar</Link>
             </li>
             <li>
               <Link href="/sugarmill">Sugar Mill</Link>
