@@ -69,7 +69,7 @@ export default function Evolution() {
                   <CustomDate
                     date="1989"
                     firstLine="First Steps"
-                    secondLine="Knitted garment export at Tirupur."
+                    secondLine="Launched our first knitted garment export facility in Tirupur, Tamil Nadu, with a capacity of 11 million garments per annum."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -180,8 +180,9 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2005"
-                    firstLine="Business Expansion & Alternative Energy Initiatives"
-                    secondLine="At Arasur 1,00,800 spindles; Knitting facility, Garment Unit - 25.9 MN garments and Wind Mills"
+                    firstLine="New Production Facility @ Arasur"
+                    secondLine="Established a new facility in Arasur, Tamil Nadu, with 100,800 spindles, a knitting facility, and a garment unit producing 27 million garments annually, powered by wind mills for captive use.
+"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -357,8 +358,8 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2014"
-                    firstLine="Expansion"
-                    secondLine="Expanded Garment capacity at Arasur by 10 Million pieces."
+                    firstLine="Garment Facility Expansion"
+                    secondLine="Increased garment capacity at Arasur by 10 million garments per annum."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -378,8 +379,8 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2015"
-                    firstLine="Fully Air Conditioned"
-                    secondLine="New green field Garment capacity at Thekkalur with 12 Million pieces."
+                    firstLine="Fully Air Conditioned Garment Facility"
+                    secondLine="Opened a new greenfield garment facility at Thekkalur with a capacity of 12 million garments per annum."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -399,8 +400,9 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2016"
-                    firstLine="Expansion"
-                    secondLine="Established New green field garment facility of 36 Mn garments at THEKKALUR."
+                    firstLine="New Garment Facility"
+                    secondLine="Established a new greenfield garment facility at Thekkalur, Tamil Nadu, with a capacity of 36 million garments per annum.
+"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -505,8 +507,9 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2019"
-                    firstLine="Expansion: Processing"
-                    secondLine="Increased Processing capacity from 21000 MT to 25000 MT"
+                    firstLine="Expansion"
+                    secondLine=" Increased processing capacity from 21,000 MT to 25,000 MT and expanded garment capacity by 10 million garments at Thekkalur.
+"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -633,8 +636,9 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2021"
-                    firstLine="Expansion: Processing"
-                    secondLine="Processing Unit Capacity increased by 3000 MT"
+                    firstLine="Expansion & Establishment"
+                    secondLine="Increased processing unit capacity by 3,000 MT and established a new garment facility at Changapalli, Tamil Nadu, with a capacity of 42 million garments per annum.
+"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -790,6 +794,27 @@ export default function Evolution() {
               >
                 <Image
                   src="/assets/images/kprmill/evolution/solarexp.jpg"
+                  alt="image 1"
+                  width={400}
+                  height={300}
+                />
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                visible={true}
+                className="vertical-timeline-element--work"
+                date={
+                  <CustomDate
+                    date="2024"
+                    firstLine="Expansion: Garment Capacity"
+                    secondLine="Boosted garment production by 30 million garments, distributed as 10 million at Thekkalur, 10 million at Arasur, and 10 million at Chengapalli.
+"
+                  />
+                }
+                iconStyle={{ background: "#daad19", color: "#fff" }}
+                icon={<WorkIcon />}
+              >
+                <Image
+                  src="/assets/images/kprmill/evolution/g-2024.jpg"
                   alt="image 1"
                   width={400}
                   height={300}
