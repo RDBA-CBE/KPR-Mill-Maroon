@@ -41,7 +41,7 @@ export default function Evolution() {
                   <CustomDate
                     date="1984"
                     firstLine="Foundation"
-                    secondLine="Maiden business at Coimbatore, India"
+                    secondLine=" Maiden business launched in Coimbatore, Tamilnadu, India, marking the start of our journey."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -68,7 +68,7 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="1989"
-                    firstLine="First Steps"
+                    firstLine="First Step"
                     secondLine="Launched our first knitted garment export facility in Tirupur, Tamil Nadu, with a capacity of 11 million garments per annum."
                   />
                 }
@@ -96,8 +96,8 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="1995"
-                    firstLine="First Steps"
-                    secondLine="First spinning unit at Sathyamangalam with 6,000 spindles. Increased to 30,240 spindles by 1999"
+                    firstLine="A Step to Vertical Integration"
+                    secondLine="Established our first spinning unit at Sathyamangalam, Tamil Nadu, with 6,000 spindles, later increasing to 30,240 spindles by 1999."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -124,8 +124,9 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2001"
-                    firstLine="Business Expansion"
-                    secondLine="Spinning mill at Karumathampatti with 30,240 spindles; Knitting facility & Wind mill for captive use"
+                    firstLine="New Production Facility @ Karumathampatti"
+                    secondLine="Set up a spinning mill at Karumathampatti, Tamil Nadu, with 30,240 spindles, and a knitting facility powered by green energy from wind mills.
+"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -152,8 +153,9 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2003"
-                    firstLine="Business Expansion"
-                    secondLine="Spinning unit at Neelambur with 50,784 spindles; Knitting facility & Wind mill"
+                    firstLine="New Production Facility @ Neelambur"
+                    secondLine="Opened a spinning unit at Neelambur, Tamil Nadu, with 50,784 spindles and a knitting facility with wind mill-powered captive use.
+"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -211,7 +213,8 @@ export default function Evolution() {
                   <CustomDate
                     date="2006"
                     firstLine="Global Majors Investments"
-                    secondLine="Private Equity participation by leading US Corporate ‘Brandot Investments’ & Two others - $ 25 Mn"
+                    secondLine="Secured private equity investment from leading US corporate ‘Brandot Investments’ and two others, totaling $25 million.
+"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -232,7 +235,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2007"
                     firstLine="Public Listing"
-                    secondLine="IPO at a premium. Shares Listed at Bombay & National Stock Exchanges, India"
+                    secondLine=" Went public with an IPO, with shares listed on Bombay & National Stock Exchanges, India."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -253,8 +256,8 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2008"
-                    firstLine="New processing division"
-                    secondLine="New processing division with 9000 Mt processing capacity at Perundurai-Sipcot,"
+                    firstLine="New Processing Division"
+                    secondLine=" Launched a new processing division at Perundurai-Sipcot with a capacity of 9,000 MT."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -275,7 +278,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2010"
                     firstLine="Business Expansion & Alternative Energy Initiatives"
-                    secondLine="Expansion of value-added Compact Spinning with 1,03,680 spindles at Karumathampatti besides upgrading green energy through windmill."
+                    secondLine="Expanded value-added compact spinning to 103,680 spindles at Karumathampatti and upgraded green energy capabilities via wind mills."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -295,8 +298,8 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2011"
-                    firstLine="Modernisation cum expansion"
-                    secondLine="At Sathyamangalam Mill, enhancing spindles to 51,456."
+                    firstLine="Modernisation & Expansion"
+                    secondLine="Enhanced Sathyamangalam Mill's spindle capacity to 51,456."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -316,8 +319,8 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2012"
-                    firstLine="Modernisation cum expansion"
-                    secondLine="Melange yarn project with 16,128 spindles at Karumathampatti."
+                    firstLine="Modernisation & Expansion"
+                    secondLine="Introduced a melange yarn project with 16,128 spindles at Karumathampatti."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -337,8 +340,9 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2013"
-                    firstLine="Sugar cum Co-gen"
-                    secondLine="Co-gen cum Sugar Plant at Karnataka – 30 MW and 5000 TCD capacity."
+                    firstLine="Sugar & Co-generation"
+                    secondLine="Established a co-generation cum sugar plant in Karnataka with 30 MW and 5,000 TCD capacity.
+"
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -423,7 +427,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2017"
                     firstLine="Environment-friendly Process through Technology"
-                    secondLine="Established new Ecofriendly Processing capacity with Advanced Technology - 9000 MT. Established Sophisticated high resolution printing division – 7500 MT"
+                    secondLine=" Introduced an eco-friendly processing facility with advanced technology, expanding capacity to 9,000 MT and established a sophisticated high-resolution printing division with 7,500 MT capacity."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -465,7 +469,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2018"
                     firstLine="Technology Enablement"
-                    secondLine="Established 10 Million Garment Manufacturing unit at Mekelle, Ethiopia"
+                    secondLine=" Set up a 10 million garment manufacturing unit at Mekelle, Ethiopia, and began vortex yarn production at Karumathampatti unit."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -480,7 +484,7 @@ export default function Evolution() {
               </VerticalTimelineElement>
 
 
-              <VerticalTimelineElement
+              {/* <VerticalTimelineElement
                 visible={true}
                 className="vertical-timeline-element--work"
                 date={
@@ -499,7 +503,7 @@ export default function Evolution() {
                   width={400}
                   height={300}
                 />
-              </VerticalTimelineElement>
+              </VerticalTimelineElement> */}
 
               <VerticalTimelineElement
                 visible={true}
@@ -508,8 +512,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2019"
                     firstLine="Expansion"
-                    secondLine=" Increased processing capacity from 21,000 MT to 25,000 MT and expanded garment capacity by 10 million garments at Thekkalur.
-"
+                    secondLine=" Increased processing capacity from 21,000 MT to 25,000 MT and expanded garment capacity by 10 million garments at Thekkalur."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -553,7 +556,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2019"
                     firstLine="Ethanol Plant and Expansion"
-                    secondLine="Setup from 360 KLPD to 470 KLPD Ethanol Plant at Karnataka. Sugar Mill capacity expanded to 10000 TCD"
+                    secondLine=" Established an ethanol plant in Karnataka with a 130 KLPD capacity and expanded the sugar mill capacity to 10,000 TCD."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -574,7 +577,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2019"
                     firstLine="Our Retail Brand"
-                    secondLine="Retail Segment: ‘FASO’ 100% Organic Cotton Men’s innerwear launched"
+                    secondLine="Launched the 'FASO' 100% organic cotton men’s innerwear retail segment."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -595,7 +598,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2019"
                     firstLine="International Office @ Singapore"
-                    secondLine="To expand export activities in Asia, established a Wholly owned Subsidiary Company at Singapore"
+                    secondLine="Established a wholly owned subsidiary company at Singapore to expand export activities across Asia."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -616,7 +619,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2020"
                     firstLine="New Knitting Facility"
-                    secondLine="New Knitting Facility establised at Karumathampatti"
+                    secondLine="Set up a new knitting facility at Karumathampatti."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -637,8 +640,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2021"
                     firstLine="Expansion & Establishment"
-                    secondLine="Increased processing unit capacity by 3,000 MT and established a new garment facility at Changapalli, Tamil Nadu, with a capacity of 42 million garments per annum.
-"
+                    secondLine="Increased processing unit capacity by 3,000 MT and established a new garment facility at Changapalli, Tamil Nadu, with a capacity of 42 million garments per annum."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -658,8 +660,8 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2022"
-                    firstLine="New Sugar Mill Established"
-                    secondLine="New Sugar mill facility established in Karnataka with Sugar 10,000 TCD; 50 MW Co-Gen Power Ganeration and 230 KLPD Ethanol Ectraction"
+                    firstLine="New Sugar Mill"
+                    secondLine="Established a new sugar mill facility in Karnataka with a capacity of 10,000 TCD, 50 MW co-generation power generation, and 230 KLPD ethanol extraction."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -674,7 +676,7 @@ export default function Evolution() {
               </VerticalTimelineElement>
 
               
-              <VerticalTimelineElement
+              {/* <VerticalTimelineElement
                 visible={true}
                 className="vertical-timeline-element--work"
                 date={
@@ -693,7 +695,7 @@ export default function Evolution() {
                   width={400}
                   height={300}
                 />
-              </VerticalTimelineElement>
+              </VerticalTimelineElement> */}
 
               <VerticalTimelineElement
                 visible={true}
@@ -702,7 +704,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2023"
                     firstLine="Solar Power Facility"
-                    secondLine=" 12 MW Rooftop solar power installed at Arasur factory."
+                    secondLine="Installed a 12 MW rooftop solar power system at the Arasur factory."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -724,7 +726,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2023"
                     firstLine="Vortex Spinning Facility @ Neelambur"
-                    secondLine="Added Latest Technology 'Vortex' to produce viscose yarn"
+                    secondLine="Added the latest 'Vortex' technology for viscose yarn production at Neelambur."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -745,7 +747,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2023"
                     firstLine="Expansion: Ethanol Extraction"
-                    secondLine="Increased Ethanol Capacity to 240 KLPD at Sugar Mill I"
+                    secondLine="Increased ethanol extraction capacity to 240 KLPD at the sugar mill."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -766,7 +768,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2024"
                     firstLine="New Vortex Spinning Facility"
-                    secondLine="Establised New Vortex Spinning Facility @ Sathyamangalam"
+                    secondLine="Established a new vortex spinning facility at Sathyamangalam."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -785,7 +787,7 @@ export default function Evolution() {
                 date={
                   <CustomDate
                     date="2024"
-                    firstLine="Expansion:  Solar Power"
+                    firstLine="Expansion: Solar Power"
                     secondLine="Solar power capacity increased to 40 MW"
                   />
                 }
