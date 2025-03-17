@@ -220,33 +220,7 @@ Presently he oversees the operations of the new ‘State-of–the Art ‘Garment
                     </div>
                   </li>
 
-                  {/* FAQ Item 7 */}
-                  <li className="accordion block">
-                    <div
-                      className={
-                        isActive.key == 7 ? "acc-btn active" : "acc-btn"
-                      }
-                      onClick={() => handleToggle(7)}
-                    >
-                      <div className="icon-box"></div>
-
-                      <h5 style={{cursor:"pointer"}}>DR. S. RENGANAYAKEI - WOMAN INDEPENDENT DIRECTOR</h5>
-                    </div>
-                    <div
-                      className={
-                        isActive.key == 7
-                          ? "acc-content current"
-                          : "acc-content"
-                      }
-                    >
-                      <div className="text">
-                        <p>
-                        <b>Dr. Renganayakei,</b> hailing from a well-educated family, is a qualified Physician. She is a visiting Medical Officer at women’s college for more than a decade and for female workers at industrial establishments in and around Coimbatore. Presently, she runs a private hospital and a visiting Consultant in several reputed hospitals at Coimbatore. Her meritorious professional services earned her ‘Doctor of Excellence’ award. Besides being a social worker, she is a strong supporter of numerous orphanages and old-age homes. She conducts free medical camps in villages to spread rural medical awareness. She is also guiding and supporting a Nursing College, an authorised Training Centre of Bharat Sevak Samaj, a National Development Agency promoted by Government of India as allied health school.</p>
-                        <p><b>She is also a Director in K.P.R. Sugar Mill Limited.</b></p>
-                       
-                      </div>
-                    </div>
-                  </li>
+                 
 
                   {/* FAQ Item 8 */}
                   <li className="accordion block">
@@ -421,6 +395,37 @@ Presently he oversees the operations of the new ‘State-of–the Art ‘Garment
                       <div className="text">
                         <p>
                         He served as the President of the ICSI in 2014-15 closely associating with multiple committees during his tenure. He currently serves as a member of the Peer Review Committee of the ICSI and also regular faculty member of the Institute of Directors (IOD).
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+
+                   {/* FAQ Item 13 */}
+                   <li className="accordion block">
+                    <div
+                      className={
+                        isActive.key == 13 ? "acc-btn active" : "acc-btn"
+                      }
+                      onClick={() => handleToggle(13)}
+                    >
+                      <div className="icon-box"></div>
+
+                      <h5 style={{cursor:"pointer"}}>MR. M.V. JEGANATHAN - INDEPENDENT DIRECTOR</h5>
+                    </div>
+                    <div
+                      className={
+                        isActive.key == 13
+                          ? "acc-content current"
+                          : "acc-content"
+                      }
+                    >
+                      <div className="text mb_10">
+                        <p><b>Mr. M.V. Jeganathan,</b> is a graduate in Mathematics; a Post Graduate in Business Administration from Loyola College; <b>a fellow member of the Institute of Chartered Accountants of India and holds a Diploma in Information System Audit (DISA).</b> He is the Senior Partner of M S Jagannathan and Visvanathan, Chartered Accountants. He has been a practicing Chartered Accountant for more than two decades having rich experience and specializing in Direct Taxes and Corporate Audits in diversified sectors. </p>
+                      </div>
+
+                      <div className="text">
+                        <p>
+                        He holds Directorship in Lakshmi Engineering and Warehousing Limited (Erstwhile Lakshmi Automatic Loom Works Limited) as an Independent Director and is the Chairman of its Audit Committee and a Member of Nomination & Remuneration Committee. He is registered with the Independent Directors Data Bank of IICA.
                         </p>
                       </div>
                     </div>
