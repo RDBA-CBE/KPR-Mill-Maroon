@@ -52,8 +52,7 @@ export default function Clients() {
                 </div>
                
                 <p className="count-content">
-                One of the largest garment <bR></bR>manufacturing facility in India
-                
+                One of the largest garment <bR></bR>manufacturing facility in India                
                 </p>
               </div>
             </div>

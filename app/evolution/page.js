@@ -341,7 +341,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2013"
                     firstLine="Sugar & Co-generation"
-                    secondLine="Established a co-generation cum sugar plant in Karnataka with 30 MW and 5,000 TCD capacity.
+                    secondLine="Sugar Mill Unit I - Established a co-generation cum sugar plant in Karnataka with 30 MW and 5,000 TCD capacity.
 "
                   />
                 }
@@ -556,7 +556,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2019"
                     firstLine="Ethanol Plant and Expansion"
-                    secondLine=" Established an ethanol plant in Karnataka with a 130 KLPD capacity and expanded the sugar mill capacity to 10,000 TCD."
+                    secondLine="Sugar Mill Unit I - Established an ethanol plant in Karnataka with a 130 KLPD capacity and expanded the sugar mill capacity to 10,000 TCD."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -661,7 +661,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2022"
                     firstLine="New Sugar Mill"
-                    secondLine="Established a new sugar mill facility in Karnataka with a capacity of 10,000 TCD, 50 MW co-generation power generation, and 230 KLPD ethanol extraction."
+                    secondLine="Sugar Mill Unit II - Established a new sugar mill facility in Karnataka with a capacity of 10,000 TCD, 50 MW co-generation power generation, and 230 KLPD ethanol extraction."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}
@@ -747,7 +747,7 @@ export default function Evolution() {
                   <CustomDate
                     date="2023"
                     firstLine="Expansion: Ethanol Extraction"
-                    secondLine="Increased ethanol extraction capacity to 240 KLPD at the sugar mill."
+                    secondLine="Sugar Mill Unit I - Increased ethanol extraction capacity to 240 KLPD at the sugar mill."
                   />
                 }
                 iconStyle={{ background: "#daad19", color: "#fff" }}

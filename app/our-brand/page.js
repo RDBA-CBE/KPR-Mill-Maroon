@@ -105,13 +105,7 @@ export default function OurBrand() {
                         product.
                       </p>
                     </div>
-                    <div className="text mb_25">
-                      <p>
-                        FASO is not just close to your body, it is close to your
-                        heart as well.
-                      </p>
-                    </div>
-
+                  
                     {/* <div className="btn-box">
                       <Link href="coaching" className="theme-btn">
                         <span>More Details</span>
