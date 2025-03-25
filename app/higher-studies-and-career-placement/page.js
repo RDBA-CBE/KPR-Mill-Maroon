@@ -9,7 +9,7 @@ export default function HigherStudiesAndCarrerPlacement() {
       <Layout
         headerStyle={2}
         footerStyle={2}
-        breadcrumbTitle="Higher Studies and Carrer Placement" imageUrl={backgroundImage}
+        breadcrumbTitle="Higher Studies and Career Placement" imageUrl={backgroundImage}
       >
         <section className="dream-style-three p_relative">
           <div className="auto-container">
@@ -27,7 +27,7 @@ export default function HigherStudiesAndCarrerPlacement() {
                   <div className="content-box p_relative d_block">
                     <div className="sec-title mb_5">
                       {/* <span className="sub-title">Reach Your Dream</span> */}
-                      <h3>Higher Studies and Carrer Placement</h3>
+                      <h3>Higher Studies and Career Placement</h3>
                     </div>
 
                     <div className="text mb_25">

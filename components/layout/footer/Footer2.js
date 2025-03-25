@@ -534,7 +534,7 @@ export default function Footer2() {
                                 href="/higher-studies-and-career-placement"
                                 style={{ color: "white" }}
                               >
-                                Higher Studies and Carrer Placement
+                                Higher Studies and Career Placement
                               </Link>
                             </li>
                           </ul>
@@ -735,7 +735,7 @@ export default function Footer2() {
                                 href="/higher-studies-and-career-placement"
                                 style={{ color: "white" }}
                               >
-                                Higher Studies and Carrer Placement
+                                Higher Studies and Career Placement
                               </Link>
                             </li>
                           </ul>
