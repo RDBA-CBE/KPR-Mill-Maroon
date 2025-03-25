@@ -51,7 +51,7 @@ export default function Clients() {
                   <p>per annum</p>
                 </div>
                 <p className="count-content">
-                One of the largest garment <bR></bR>manufacturing facility in India                
+                One of the largest garment <br/>manufacturing facility in India                
                 </p>
               </div>
             </div>
