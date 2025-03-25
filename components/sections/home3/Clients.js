@@ -50,7 +50,6 @@ export default function Clients() {
                   <span> Mn </span>
                   <p>per annum</p>
                 </div>
-               
                 <p className="count-content">
                 One of the largest garment <bR></bR>manufacturing facility in India                
                 </p>
