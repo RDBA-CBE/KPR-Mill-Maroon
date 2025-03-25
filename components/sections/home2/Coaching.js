@@ -19,7 +19,34 @@ export default function Coaching() {
         </div>
       
         <div className="row clearfix">
-        <div className="col-lg-3 col-md-6 col-sm-12 coaching-block">
+        <div className="col-lg-4 col-md-6 col-sm-12 coaching-block mb-20">
+            <div
+              className="coaching-block-two wow fadeInUp animated"
+              data-wow-delay="600ms"
+              data-wow-duration="1500ms"
+            >
+              <div className="inner-box">
+                <div className="icon-box">
+                  <div className="icon">
+                    <img
+                      src="assets/images/kprmill/home/tax-award.png"
+                      alt=""
+                    />
+                  </div>
+                  {/* <span className="count-text">04</span> */}
+                </div>
+                <h3>
+                  <Link href="/#">
+                  Tax Payer Awards
+                  </Link>
+                </h3>
+                <p>
+                For consecutive Three years, KPR was honoured with the ‘Coimbatore Region’s Prompt & Highest Tax Payer' Award. Presenting the Award, Various Government Dignitaries felicitated Mr.P.Nataraj, FCA,, Managing Director for the good Corporate Governance practices followed by the Company..
+                </p>
+              </div>
+            </div>
+          </div>
+        <div className="col-lg-4 col-md-6 col-sm-12 coaching-block mb-20">
             <div
               className="coaching-block-two wow fadeInUp animated"
               data-wow-delay="00ms"
@@ -47,7 +74,7 @@ Honourable Governor of Tamil Nadu, Shri R.N. Ravi.<br></br>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12 coaching-block">
+          <div className="col-lg-4 col-md-6 col-sm-12 coaching-block mb-20">
             <div
               className="coaching-block-two wow fadeInUp animated"
               data-wow-delay="00ms"
@@ -74,7 +101,7 @@ Honourable Governor of Tamil Nadu, Shri R.N. Ravi.<br></br>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12 coaching-block">
+          <div className="col-lg-4 col-md-6 col-sm-12 coaching-block mb-20">
             <div
               className="coaching-block-two wow fadeInUp animated"
               data-wow-delay="200ms"
@@ -103,7 +130,7 @@ Honourable Governor of Tamil Nadu, Shri R.N. Ravi.<br></br>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12 coaching-block">
+          <div className="col-lg-4 col-md-6 col-sm-12 coaching-block mb-20">
             <div
               className="coaching-block-two wow fadeInUp animated"
               data-wow-delay="400ms"
@@ -131,7 +158,7 @@ Honourable Governor of Tamil Nadu, Shri R.N. Ravi.<br></br>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12 coaching-block">
+          <div className="col-lg-4 col-md-6 col-sm-12 coaching-block">
             <div
               className="coaching-block-two wow fadeInUp animated"
               data-wow-delay="600ms"
@@ -159,6 +186,7 @@ Honourable Governor of Tamil Nadu, Shri R.N. Ravi.<br></br>
               </div>
             </div>
           </div>
+    
         </div>
         <div className="more-content">
           {/* <h5>Assisting with visa preparation for <Link href="index-2">eligibility exams</Link> is a service offered.</h5> */}
