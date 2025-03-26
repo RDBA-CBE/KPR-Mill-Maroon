@@ -34,7 +34,7 @@ const InvestorsSideMenu = ({ isActive }) => {
                 isActive === "inverstors-contact" ? "current" : ""
               }`}
             >
-              Inverstors Contact
+            Investors Contact
             </Link>
           </li>
           <li>

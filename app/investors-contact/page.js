@@ -13,7 +13,7 @@ export default function Regulation62() {
       <Layout
         headerStyle={2}
         footerStyle={2}
-        breadcrumbTitle="Inverstors Contact" imageUrl={backgroundImage}
+        breadcrumbTitle="Investors Contact" imageUrl={backgroundImage}
       >
         {/* visa details section */}
         <section className="visa-details p_relative">

@@ -42,7 +42,7 @@ export default function Regulation62() {
                       </li> */}
                       <li>
                         <Link href="/investors-contact">
-                          Inverstors Contact
+                        Investors Contact
                         </Link>
                       </li>
                       <li>
