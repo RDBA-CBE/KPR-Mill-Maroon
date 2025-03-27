@@ -309,444 +309,472 @@ export const Regulation_62 = [
 // anual reports
 
 export const AnualResult_2024 = [
-  {
-    id: 1,
-    title: "21st AGM Notice",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/1.-21st-AGM-Notice.pdf",
-  },
-  {
-    id: 2,
-    title: "Annual Report 2024",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/2.-Annual-Report-2024.pdf",
-  },
-  {
-    id: 3,
-    title: "Draft Annual Return 2024",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/3.-Draft-Annual-Return-2024.pdf",
-  },
-  {
-    id: 4,
-    title: "Secretarial Audit Report-2024 – KPRSML",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/4.-Secretarial-Audit-Report-2024-KPRSML.pdf",
-  },
-  {
-    id: 5,
-    title: "Secretarial Audit Report-2024 – KPRSAL",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/5.-Secretarial-Audit-Report-2024-KPRSAL.pdf",
-  },
+    {
+      id: 1,
+      title: "21st AGM DETAILED PROCEEDINGS",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2024/08/21st-AGM-DETAILED-PROCEEDINGS.pdf",
+    },
+    {
+      id: 2,
+      title: "21st AGM SUMMARY OF PROCEEDINGS ",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2024/07/Summaryofproceedings.pdf",
+    },
+    {
+      id: 3,
+      title: "21st AGM Notice",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/1.-21st-AGM-Notice.pdf",
+    },
+    {
+      id: 4,
+      title: "Annual Report 2024",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/2.-Annual-Report-2024.pdf",
+    },
+    {
+      id: 5,
+      title: "Draft Annual Return 2024",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/3.-Draft-Annual-Return-2024.pdf",
+    },
+    {
+      id: 6,
+      title: "Secretarial Audit Report-2024 – KPRSML",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/4.-Secretarial-Audit-Report-2024-KPRSML.pdf",
+    },
+    {
+      id: 7,
+      title: "Secretarial Audit Report-2024 – KPRSAL",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/5.-Secretarial-Audit-Report-2024-KPRSAL.pdf",
+    },
 ];
-
+  
 export const AnualResult_2023 = [
-  {
-    id: 1,
-    title: "Annual Return 2023 [Form MGT-7 – KPRML Annual Return 2023]",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2023/09/Form-MGT-7-KPRML-Annual-Return-2023.pdf",
-  },
-  {
-    id: 2,
-    title: "20TH AGM REVISED SUMMARY OF PROCEEDINGS",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2023/08/20TH-AGM-REVISED-SUMMARY-OF-PROCEEDINGS.pdf",
-  },
-  {
-    id: 3,
-    title: "20TH AGM DETAILED PROCEEDINGS",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2023/08/20TH-AGM-DETAILED-PROCEEDINGS.pdf",
-  },
-  {
-    id: 4,
-    title: "20TH AGM SUMMARY OF PROCEEDINGS",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2023/07/Summary-of-Proceedings.pdf",
-  },
-  {
-    id: 5,
-    title: "Secretarial Audit Report 2023 – KPRSML",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2023/06/3.-Secretarial-Audit-Report-2023-KPRSML.pdf",
-  },
-  {
-    id: 6,
-    title: "Secretarial Audit Report 2023 – KPRSAL",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2023/06/4.-Secretarial-Audit-Report-2023-KPRSAL.pdf",
-  },
-  {
-    id: 7,
-    title: "Annual Report 2023",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2023/06/20thAR_KPRML.pdf",
-  },
-  {
-    id: 8,
-    title: "20th AGM Notice",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2023/06/1.-KPRML-AGM-Notice-2023.pdf",
-  },
+    {
+      id: 1,
+      title: "Annual Return 2023 [Form MGT-7 – KPRML Annual Return 2023]",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2023/09/Form-MGT-7-KPRML-Annual-Return-2023.pdf",
+    },
+    {
+      id: 2,
+      title: "20TH AGM REVISED SUMMARY OF PROCEEDINGS",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2023/08/20TH-AGM-REVISED-SUMMARY-OF-PROCEEDINGS.pdf",
+    },
+    {
+      id: 3,
+      title: "20TH AGM DETAILED PROCEEDINGS",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2023/08/20TH-AGM-DETAILED-PROCEEDINGS.pdf",
+    },
+    {
+      id: 4,
+      title: "20TH AGM SUMMARY OF PROCEEDINGS",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2023/07/Summary-of-Proceedings.pdf",
+    },
+    {
+      id: 5,
+      title: "Secretarial Audit Report 2023 – KPRSML",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2023/06/3.-Secretarial-Audit-Report-2023-KPRSML.pdf",
+    },
+    {
+      id: 6,
+      title: "Secretarial Audit Report 2023 – KPRSAL",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2023/06/4.-Secretarial-Audit-Report-2023-KPRSAL.pdf",
+    },
+    {
+        id: 7,
+        title: "Annual Report 2023",
+        url: "https://kprmilllimited.com/file/wp-content/uploads/2023/06/20thAR_KPRML.pdf",
+    },
+    {
+        id: 8,
+        title: "20th AGM Notice",
+        url: "https://kprmilllimited.com/file/wp-content/uploads/2023/06/1.-KPRML-AGM-Notice-2023.pdf",
+    },
 ];
 
 export const AnualResult_2022 = [
-  {
-    id: 1,
-    title: "19th AGM Detailed Proceeding",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2022/09/19TH-AGM-DETAILED-PROCEEDING.pdf",
-  },
-  {
-    id: 2,
-    title: "19th AGM SUMMARY OF PROCEEDINGS",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2022/08/19th-AGM-SUMMARY-OF-PROCEEDINGS.pdf",
-  },
-  {
-    id: 3,
-    title: "Secretarial Audit Report 2022 – KPRSML",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2022/07/Secretarial-Audit-Report-2022-KPRSML.pdf",
-  },
-  {
-    id: 4,
-    title: "Annual Return 2022",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2022/10/Form-MGT-7KPRML.pdf",
-  },
-  {
-    id: 5,
-    title: "Annual Report 2022",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2022/10/Annual-Report-2022.pdf",
-  },
-  {
-    id: 6,
-    title: "19th AGM Notice",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2022/07/19th-AGM-Notice-2022.pdf",
-  },
+    {
+        id: 1,
+        title: "19th AGM Detailed Proceeding",
+        url: "https://kprmilllimited.com/file/wp-content/uploads/2022/09/19TH-AGM-DETAILED-PROCEEDING.pdf",
+    },
+    {
+        id: 2,
+        title: "19th AGM SUMMARY OF PROCEEDINGS",
+        url: "https://kprmilllimited.com/file/wp-content/uploads/2022/08/19th-AGM-SUMMARY-OF-PROCEEDINGS.pdf",
+    },
+    {
+        id: 3,
+        title: "Secretarial Audit Report 2022 – KPRSML",
+        url: "https://kprmilllimited.com/file/wp-content/uploads/2022/07/Secretarial-Audit-Report-2022-KPRSML.pdf",
+    },
+    {
+        id: 4,
+        title: "Annual Return 2022",
+        url: "https://kprmilllimited.com/file/wp-content/uploads/2022/10/Form-MGT-7KPRML.pdf",
+    },
+    {
+        id: 5,
+        title: "Annual Report 2022",
+        url: "https://kprmilllimited.com/file/wp-content/uploads/2022/10/Annual-Report-2022.pdf",
+    },
+    {
+        id: 6,
+        title: "19th AGM Notice",
+        url: "https://kprmilllimited.com/file/wp-content/uploads/2022/07/19th-AGM-Notice-2022.pdf",
+    },
 ];
-
+  
 export const AnualResult_2021 = [
-  {
-    id: 1,
-    title: "18TH AGM DETAILED PROCEEDINGS",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2021/10/18TH-AGM-DETAILED-PROCEEDINGS.pdf",
-  },
-  {
-    id: 2,
-    title: "18TH AGM SUMMARY OF PROCEEDINGS",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2021/09/18th-AGM-Summary-of-Proceedings.pdf",
-  },
-  {
-    id: 3,
-    title: "ANNUAL REPORT 2021",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2021/08/Annual-Report-2021.pdf",
-  },
-  {
-    id: 4,
-    title: "18th AGM Notice 2021",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2021/08/18th-AGM-Notice.pdf",
-  },
-  {
-    id: 5,
-    title: "Annual Return 2021",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2021/11/Form-MGT-7-KPRML.pdf",
-  },
-  {
-    id: 6,
-    title: "Extract of Annual Return MGT-9 – 2020-21",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2021/08/Form-MGT-9-2020-21.pdf",
-  },
+    {
+        id: 1,
+        title: "18TH AGM DETAILED PROCEEDINGS",
+        url: "https://kprmilllimited.com/file/wp-content/uploads/2021/10/18TH-AGM-DETAILED-PROCEEDINGS.pdf",
+    },
+    {
+        id: 2,
+        title: "18TH AGM SUMMARY OF PROCEEDINGS",
+        url: "https://kprmilllimited.com/file/wp-content/uploads/2021/09/18th-AGM-Summary-of-Proceedings.pdf",
+    },
+    {
+        id: 3,
+        title: "ANNUAL REPORT 2021",
+        url: "https://kprmilllimited.com/file/wp-content/uploads/2021/08/Annual-Report-2021.pdf",
+    },
+    {
+        id: 4,
+        title: "18th AGM Notice 2021",
+        url: "https://kprmilllimited.com/file/wp-content/uploads/2021/08/18th-AGM-Notice.pdf",
+    },
+    {
+        id: 5,
+        title: "Annual Return 2021",
+        url: "https://kprmilllimited.com/file/wp-content/uploads/2021/11/Form-MGT-7-KPRML.pdf",
+    },
+    {
+        id: 6,
+        title: "Extract of Annual Return MGT-9 – 2020-21",
+        url: "https://kprmilllimited.com/file/wp-content/uploads/2021/08/Form-MGT-9-2020-21.pdf",
+    },
 ];
-
+  
 export const AnualResult_2020 = [
-  {
-    id: 1,
-    title: "ANNUAL REPORT 2020",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/Annual-Report-2020.pdf",
-  },
-  {
-    id: 2,
-    title: "17th AGM Notice 2020",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/17thAGM-Notice-2020.pdf",
-  },
-  {
-    id: 3,
-    title: "Extract of Annual Return MGT-9 – 2019-20",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/MGT-9-2019-20.pdf",
-  },
+    {
+        id: 1,
+        title: "ANNUAL REPORT 2020",
+        url: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/Annual-Report-2020.pdf",
+    },
+    {
+        id: 2,
+        title: "17th AGM Notice 2020",
+        url: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/17thAGM-Notice-2020.pdf",
+    },
+    {
+        id: 3,
+        title: "Extract of Annual Return MGT-9 – 2019-20",
+        url: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/MGT-9-2019-20.pdf",
+    },
 ];
-
+  
 export const AnualResult_2019 = [
-  {
-    id: 1,
-    title: "ANNUAL REPORT 2019",
-    subTitle1: "Download Link",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/Annual-report-2019.pdf",
-  },
+    {
+        id: 1,
+        title: "ANNUAL REPORT 2019",
+        subTitle1: "Download Link",
+        url: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/Annual-report-2019.pdf",
+    },
 ];
-
+  
 export const AnualResult_2018 = [
-  {
-    id: 1,
-    title: "ANNUAL REPORT_2018",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2022/03/15th-Annual-Report-2018.pdf",
-  },
-  {
-    id: 2,
-    title: "PROXY FORM _15THAGM",
-    subTitle1: "Proxy_form_2018",
-    subTitle2: "–",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Proxy-Form.pdf",
-  },
-  {
-    id: 3,
-    title: "NOTICE_15TH AGM 2018",
-    subTitle1: "Annual Report 2018",
-    subTitle2: "–",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/AGM-Notice_Final.pdf",
-  },
-  {
-    id: 4,
-    title: "ATTENDANCESLIP_15TH AGM 2018",
-    subTitle1: "MGT-9 2017-2018",
-    subTitle2: "–",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Attendance-Slip_Final.pdf",
-  },
-  {
-    id: 5,
-    title: "EXTRACT OF ANNUAL RETURN MGT-9",
-    subTitle1: "MGT-9 2017-2018",
-    subTitle2: "–",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/MGT_9_20172018.pdf",
-  },
-  {
-    id: 6,
-    title: "15TH AGM SCRUTINISER REPORT",
-    subTitle1: "15th AGM Scrutiniser Report",
-    subTitle2: "–",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/ScrutiniserReportfor15thAGM.pdf",
-  },
-  {
-    id: 7,
-    title: "AGM PROCEEDING 15TH AGM",
-    subTitle1: "AGM Proceeding 15th AGM",
-    subTitle2: "–",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/15thAGMProceedings.pdf",
-  },
-  {
-    id: 8,
-    title: "15TH AGM PROCEEDINGS",
-    subTitle1: "Minutes of Meeting",
-    subTitle2: "–",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/15thAGMProceedingsMinutsofmeet.pdf",
-  },
+    {
+      id: 1,
+      title: "ANNUAL REPORT_2018",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2022/03/15th-Annual-Report-2018.pdf",
+    },
+    {
+      id: 2,
+      title: "PROXY FORM _15THAGM",
+      subTitle1: "Proxy_form_2018",
+      subTitle2: "–",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Proxy-Form.pdf",
+    },
+    {
+      id: 3,
+      title: "NOTICE_15TH AGM 2018",
+      subTitle1: "Annual Report 2018",
+      subTitle2: "–",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/AGM-Notice_Final.pdf",
+    },
+    {
+      id: 4,
+      title: "ATTENDANCESLIP_15TH AGM 2018",
+      subTitle1: "MGT-9 2017-2018",
+      subTitle2: "–",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Attendance-Slip_Final.pdf",
+    },
+    {
+      id: 5,
+      title: "EXTRACT OF ANNUAL RETURN MGT-9",
+      subTitle1: "MGT-9 2017-2018",
+      subTitle2: "–",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/MGT_9_20172018.pdf",
+    },
+    {
+      id: 6,
+      title: "15TH AGM SCRUTINISER REPORT",
+      subTitle1: "15th AGM Scrutiniser Report",
+      subTitle2: "–",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/ScrutiniserReportfor15thAGM.pdf",
+    },
+    {
+      id: 7,
+      title: "AGM PROCEEDING 15TH AGM",
+      subTitle1: "AGM Proceeding 15th AGM",
+      subTitle2: "–",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/15thAGMProceedings.pdf",
+    },
+    {
+      id: 8,
+      title: "15TH AGM PROCEEDINGS",
+      subTitle1: "Minutes of Meeting",
+      subTitle2: "–",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/15thAGMProceedingsMinutsofmeet.pdf",
+    },
 ];
-
+  
 export const AnualResult_2017 = [
-  {
-    id: 1,
-    title: "PROXY FORM _14THAGM",
-    subTitle1: "Proxy_form_2017",
-    subTitle2: "–",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/ProxuForm_AGM.pdf",
-  },
-  {
-    id: 2,
-    title: "NOTICE_14TH AGM 2017",
-    subTitle1: "NOTICE 14TH AGM",
-    subTitle2: "–",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Notice_AGM.pdf",
-  },
-  {
-    id: 3,
-    title: "ATTENDANCESLIP_14TH AGM 2017",
-    subTitle1: "Attendance Slip 14th AGM",
-    subTitle2: "–",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/AttendanceSlip_AGM.pdf",
-  },
-  {
-    id: 4,
-    title: "BOOK CLOSURE INTIMATION",
-    subTitle1: "14th AGM 2017",
-    subTitle2: "–",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Book_Closure.pdf",
-  },
-  {
-    id: 5,
-    title: "ANNUAL REPORT_2017_1",
-    subTitle1: "Report_Part_1",
-    subTitle2: "–",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/part-1.pdf",
-  },
-  {
-    id: 6,
-    title: "ANNUAL REPORT_2017_2",
-    subTitle1: "Report_Part_2",
-    subTitle2: "–",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/part-2.pdf",
-  },
-  {
-    id: 7,
-    title: "SCRUTINIZER REPORT 2017",
-    subTitle1: "Report 2017",
-    subTitle2: "–",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/SCRUTINIZER_REPORT_2017.pdf",
-  },
-  {
-    id: 8,
-    title: "FINANCIAL RESULT MAR.2017_AUDITED",
-    subTitle1: "March_2017",
-    subTitle2: "–",
-    url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Financial_result_Mar_2017_audited.pdf",
-  },
+    {
+      id: 1,
+      title: "PROXY FORM _14THAGM",
+      subTitle1: "Proxy_form_2017",
+      subTitle2: "–",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/ProxuForm_AGM.pdf",
+    },
+    {
+      id: 2,
+      title: "NOTICE_14TH AGM 2017",
+      subTitle1: "NOTICE 14TH AGM",
+      subTitle2: "–",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Notice_AGM.pdf",
+    },
+    {
+      id: 3,
+      title: "ATTENDANCESLIP_14TH AGM 2017",
+      subTitle1: "Attendance Slip 14th AGM",
+      subTitle2: "–",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/AttendanceSlip_AGM.pdf",
+    },
+    {
+      id: 4,
+      title: "BOOK CLOSURE INTIMATION",
+      subTitle1: "14th AGM 2017",
+      subTitle2: "–",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Book_Closure.pdf",
+    },
+    {
+      id: 5,
+      title: "ANNUAL REPORT_2017_1",
+      subTitle1: "Report_Part_1",
+      subTitle2: "–",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/part-1.pdf",
+    },
+    {
+      id: 6,
+      title: "ANNUAL REPORT_2017_2",
+      subTitle1: "Report_Part_2",
+      subTitle2: "–",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/part-2.pdf",
+    },
+    {
+      id: 7,
+      title: "SCRUTINIZER REPORT 2017",
+      subTitle1: "Report 2017",
+      subTitle2: "–",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/SCRUTINIZER_REPORT_2017.pdf",
+    },
+    {
+      id: 8,
+      title: "FINANCIAL RESULT MAR.2017_AUDITED",
+      subTitle1: "March_2017",
+      subTitle2: "–",
+      url: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Financial_result_Mar_2017_audited.pdf",
+    },
+];
+  
+export const AnualResult_2016 = [
+    {
+      id: 1,
+      title: "13TH ANNUAL REPORT",
+      subTitle1: "Annual Report 2016",
+      subTitle2: "–",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/kpr-all.pdf",
+        },
+      ],
+    },
+    {
+      id: 2,
+      title: "13th AGM Intimations",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/E-Voting-Instruction.pdf",
+        },
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/170371-KPR-Notice-color.pdf",
+        },
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/170338-Proxy-form-color.pdf",
+        },
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/170339-kpr-ballat-form-or-voting-form.pdf",
+        },
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Route-Map.pdf",
+        },
+      ],
+    },
+    {
+      id: 3,
+      title: "ANNUAL REPORT",
+      subTitle1: "Annual Report",
+      subTitle2: "12th AGM",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/1-KprAR2015.pdf",
+        },
+      ],
+    },
+    {
+      id: 4,
+      title: "FINANCIAL RESULT AUDITED",
+      subTitle1: "Financial Result Audited",
+      subTitle2: "31.03.2015",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/1-1.Financial-Result-Audited.pdf",
+        },
+      ],
+    },
+    {
+      id: 5,
+      title: "FINANCIAL RESULT-AUDITED",
+      subTitle1: "Financial Result-Audited",
+      subTitle2: "March-2014",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/1-3.Financial-Result-Audited.pdf",
+        },
+      ],
+    },
+    {
+      id: 6,
+      title: "ANNUAL REPORT 2013-2014",
+      subTitle1: "Annual Report",
+      subTitle2: "Annual Report",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/1-2.Annual-Report-2013-2014.pdf",
+        },
+      ],
+    },
+    {
+      id: 7,
+      title: "ANNUAL REPORT 2012-13",
+      subTitle1: "Annual Report",
+      subTitle2: "10th AGM",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/4.AnnualReport-2012-13.pdf",
+        },
+      ],
+    },
+    {
+      id: 8,
+      title: "E VOTING INSTRUCTION 13TH AGM",
+      subTitle1: "E Voting instruction 13th agm",
+      subTitle2: "13th AGM",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/E-Voting-Instruction.pdf",
+        },
+      ],
+    },
+    {
+      id: 9,
+      title: "ATTENDANCE SLIP",
+      subTitle1: "Attendence Slip",
+      subTitle2: "13th AGM",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/1-170578-attendance-slip.pdf",
+        },
+      ],
+    },
+    {
+      id: 10,
+      title: "NOTICE 13TH AGM",
+      subTitle1: "Notice",
+      subTitle2: "13th agm",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/170371-KPR-Notice-color.pdf",
+        },
+      ],
+    },
+    {
+      id: 11,
+      title: "PROXY FORM 13TH AGM",
+      subTitle1: "Proxy form",
+      subTitle2: "13th AGM",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/170338-Proxy-form-color.pdf",
+        },
+      ],
+    },
+    {
+      id: 12,
+      title: "BALLOT FORM 13TH AGM",
+      subTitle1: "13th AGM",
+      subTitle2: "-",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/170339-kpr-ballat-form-or-voting-form.pdf",
+        },
+      ],
+    },
+    {
+      id: 13,
+      title: "VENU ROUTE MAP",
+      subTitle1: "13th AGM",
+      subTitle2: "-",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Route-Map.pdf",
+        },
+      ],
+    },
 ];
 
-export const AnualResult_2016 = [
-  {
-    id: 1,
-    title: "13TH ANNUAL REPORT",
-    subTitle1: "Annual Report 2016",
-    subTitle2: "–",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/kpr-all.pdf",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "13th AGM Intimations",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/E-Voting-Instruction.pdf",
-      },
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/170371-KPR-Notice-color.pdf",
-      },
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/170338-Proxy-form-color.pdf",
-      },
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/170339-kpr-ballat-form-or-voting-form.pdf",
-      },
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Route-Map.pdf",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "ANNUAL REPORT",
-    subTitle1: "Annual Report",
-    subTitle2: "12th AGM",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/1-KprAR2015.pdf",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "FINANCIAL RESULT AUDITED",
-    subTitle1: "Financial Result Audited",
-    subTitle2: "31.03.2015",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/1-1.Financial-Result-Audited.pdf",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "FINANCIAL RESULT-AUDITED",
-    subTitle1: "Financial Result-Audited",
-    subTitle2: "March-2014",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/1-3.Financial-Result-Audited.pdf",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "ANNUAL REPORT 2013-2014",
-    subTitle1: "Annual Report",
-    subTitle2: "Annual Report",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/1-2.Annual-Report-2013-2014.pdf",
-      },
-    ],
-  },
-  {
-    id: 7,
-    title: "ANNUAL REPORT 2012-13",
-    subTitle1: "Annual Report",
-    subTitle2: "10th AGM",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/4.AnnualReport-2012-13.pdf",
-      },
-    ],
-  },
-  {
-    id: 8,
-    title: "E VOTING INSTRUCTION 13TH AGM",
-    subTitle1: "E Voting instruction 13th agm",
-    subTitle2: "13th AGM",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/E-Voting-Instruction.pdf",
-      },
-    ],
-  },
-  {
-    id: 9,
-    title: "ATTENDANCE SLIP",
-    subTitle1: "Attendence Slip",
-    subTitle2: "13th AGM",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/1-170578-attendance-slip.pdf",
-      },
-    ],
-  },
-  {
-    id: 10,
-    title: "NOTICE 13TH AGM",
-    subTitle1: "Notice",
-    subTitle2: "13th agm",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/170371-KPR-Notice-color.pdf",
-      },
-    ],
-  },
-  {
-    id: 11,
-    title: "PROXY FORM 13TH AGM",
-    subTitle1: "Proxy form",
-    subTitle2: "13th AGM",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/170338-Proxy-form-color.pdf",
-      },
-    ],
-  },
-  {
-    id: 12,
-    title: "BALLOT FORM 13TH AGM",
-    subTitle1: "13th AGM",
-    subTitle2: "-",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/170339-kpr-ballat-form-or-voting-form.pdf",
-      },
-    ],
-  },
-  {
-    id: 13,
-    title: "VENU ROUTE MAP",
-    subTitle1: "13th AGM",
-    subTitle2: "-",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Route-Map.pdf",
-      },
-    ],
-  },
-];
+//Annual End
 
 export const Audited_Unaudited = [
   {
-    id: 1,
+      id: 1,
+      title: "Unaudited – Financials Results FY 2024-25 (Q3, Q2, Q1 Results)",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2025/02/BM-Outcome-03.02.2025.pdf",
+        },
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2024/11/BMOutcome05.11.2024.pdf",
+        },
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2024/07/2nd-Board-Meeting.pdf",
+        },
+      ],
+  },
+  
+  {
+    id: 2,
     title: "Audited Financial Results March 2024",
     url: [
       {
@@ -755,7 +783,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Unaudited – Financials Results FY 2023-24",
     url: [
       {
@@ -770,7 +798,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Audited Financial Results March 2023",
     url: [
       {
@@ -779,7 +807,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Unaudited – Financials Results FY 2022-23",
     url: [
       {
@@ -794,7 +822,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Audited Financial Results March 2022",
 
     url: [
@@ -804,7 +832,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Unaudited – Financials Results FY 2021-22",
     url: [
       {
@@ -819,7 +847,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "Audited financial results March 2021",
 
     url: [
@@ -829,7 +857,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "Un Audited – Financial Results FY 2020-21",
 
     url: [
@@ -845,7 +873,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     title: "Audited – Financial Results March 2020",
 
     url: [
@@ -855,7 +883,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     title: "Un Audited – Financial Results FY 2019-20",
 
     url: [
@@ -871,7 +899,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     title: "Audited – Financial Results March 2019",
 
     url: [
@@ -881,7 +909,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     title: "Un Audited – Financial Results FY 2018-2019",
 
     url: [
@@ -897,7 +925,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 13,
+    id: 14,
     title: "Un Audited – Financial Results FY 2018-2019",
 
     url: [
@@ -907,7 +935,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 14,
+    id: 15,
     title: "2017-18 Q3 UN AUDITED RESULTS",
     subTitle1: "Feb.2018.Q3",
     subTitle2: "Un-Audited",
@@ -918,7 +946,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 15,
+    id: 16,
     title: "FINANCIAL RESULT",
     subTitle1: "31.12.2013",
     subTitle2: "Un-Audited",
@@ -929,7 +957,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 16,
+    id: 17,
     title: "UNAUDITED FINANCIAL REPORT",
     subTitle1: "31.12.2013",
     subTitle2: "Un-Audited",
@@ -940,7 +968,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 17,
+    id: 18,
     title: "UN AUDITED FINANCIAL RESULT JUNE2017",
     subTitle1: "Un_Audited_JUne2017",
     subTitle2: "-",
@@ -951,7 +979,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 18,
+    id: 19,
     title: "UN-AUDITED FINANCIALS",
     subTitle1: "Dec-16",
     subTitle2: "-",
@@ -962,7 +990,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 19,
+    id: 20,
     title: "Q2/H1 RESULTS 2016",
     subTitle1: "Results",
     subTitle2: "-",
@@ -973,7 +1001,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 20,
+    id: 21,
     title: "UNAUDITED FINANCIALS AND KEYHIGHLIGHTS",
     subTitle1: "30.06.2015",
     subTitle2: "Un Audited",
@@ -984,7 +1012,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 21,
+    id: 22,
     title: "AUDITED FINANCIAL RESULTS MAR16",
     subTitle1: "AFR_MARCH16",
     subTitle2: "-",
@@ -995,7 +1023,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 22,
+    id: 23,
     title: "UNAUDITED FINANCIAL RESULTS",
     subTitle1: "June 2014.q1",
     subTitle2: "-",
@@ -1006,7 +1034,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 23,
+    id: 24,
     title: "UN-AUDITED FINANCIAL RESULTS",
     subTitle1: "DEC.2015.Q3",
     subTitle2: "Unaudited",
@@ -1017,7 +1045,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 24,
+    id: 25,
     title: "Q1-FY16-17",
     subTitle1: "Un-Audited Q11617",
     subTitle2: "-",
@@ -1028,7 +1056,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 25,
+    id: 26,
     title: "UN AUDITED FINANCIAL RESULT SEPT2017",
     subTitle1: "Sept 2017",
     subTitle2: "-",
@@ -1039,7 +1067,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 26,
+    id: 27,
     title: "AUDITED FINANCIAL RESULTS MARCH2018",
     subTitle1: "March_2018",
     subTitle2: "-",
@@ -1050,7 +1078,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 27,
+    id: 28,
     title: "UN AUDITED FINANCIAL Q1 2018",
     subTitle1: "Q1 Ended 30-06-2018",
     subTitle2: "-",
@@ -1061,7 +1089,7 @@ export const Audited_Unaudited = [
     ],
   },
   {
-    id: 28,
+    id: 29,
     title: "Q2 FY 2019 UN_AUDITED",
     subTitle1: "Q2FY2019",
     subTitle2: "-",
@@ -1072,6 +1100,8 @@ export const Audited_Unaudited = [
     ],
   },
 ];
+
+// Audit - Unaudit end
 
 export const Subsidary_cos = [
   {
@@ -1474,9 +1504,21 @@ export const Subsidary_cos = [
   },
 ];
 
+// Appointment of Independent Directors Start
+
 export const Indepented_Directors = [
   {
     id: 1,
+    title: "Appointment of Independent Directors",
+    subTitle1: "Mr. M.V. Jeganathan",
+    url: [
+      {
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2025/03/Mr.M.V.Jeganathan.pdf",
+      },
+    ],
+  },
+  {
+    id: 2,
     title: "Appointment of Independent Directors",
     subTitle1: "MR.K.V.RAMANANDA RAO",
     url: [
@@ -1486,7 +1528,7 @@ export const Indepented_Directors = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Appointment of Independent Directors",
     subTitle1: "MR.K.THANGAVELU",
     url: [
@@ -1496,7 +1538,7 @@ export const Indepented_Directors = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Appointment of Independent Directors",
     subTitle1: "MR. R.SRIDHARAN",
     url: [
@@ -1506,7 +1548,7 @@ export const Indepented_Directors = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Appointment of Independent Directors",
     subTitle1: "MR. M. ALAGIRISWAMY",
     url: [
@@ -1516,7 +1558,7 @@ export const Indepented_Directors = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Appointment of Independent Directors",
     subTitle1: "Mrs. V. Bhuvaneshwari",
     url: [
@@ -1526,7 +1568,7 @@ export const Indepented_Directors = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "APP OF INDEPENDENT DIRECTORS",
     subTitle1: "Appointment Letter",
     subTitle2: "11th AGM",
@@ -1537,7 +1579,7 @@ export const Indepented_Directors = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "APP OF INDEPENDENT DIRECTORS",
     subTitle1: " Dr.S.Ranganayaki",
     url: [
@@ -1547,7 +1589,7 @@ export const Indepented_Directors = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "Letter of Appointment",
 
     url: [
@@ -1557,7 +1599,7 @@ export const Indepented_Directors = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     title: "LETTER OF APPOINTMENT OF DIRECTOR 2018",
     subTitle1: "",
     subTitle2: "",
@@ -1568,7 +1610,7 @@ export const Indepented_Directors = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     title: "WOMAN DIRECTOR APPOINTMENT",
     subTitle1: "Appointment of Woman Director",
     subTitle2: "12-03-2015",
@@ -1579,7 +1621,7 @@ export const Indepented_Directors = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     title: "INDEPENDENT DIRECTORS",
     subTitle1: "Appointment of Independent Director",
     subTitle2: "-",
@@ -1591,9 +1633,21 @@ export const Indepented_Directors = [
   },
 ];
 
+// Appointment of Independent Directors End
+
+// Voting Result Start
 export const Voting_Result_Of_AGM = [
   {
     id: 1,
+    title: "21st AGM Voting Results and Scrutinizers Report",
+    url: [
+      {
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/07/VRSR.pdf",
+      },
+    ],
+  },
+  {
+    id: 2,
     title: "Postal Ballot – Scrutinizers Report and Voting Results 2024",
     url: [
       {
@@ -1602,7 +1656,7 @@ export const Voting_Result_Of_AGM = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "20th AGM Voting Results and Scrutinizers Report",
     url: [
       {
@@ -1612,7 +1666,7 @@ export const Voting_Result_Of_AGM = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "19th AGM Voting Results and Scrutinizers Report",
     url: [
       {
@@ -1621,7 +1675,7 @@ export const Voting_Result_Of_AGM = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Postal Ballot Scrutinizers Report and Voting Results 2022",
     url: [
       {
@@ -1630,7 +1684,7 @@ export const Voting_Result_Of_AGM = [
       ],
   },
   {
-    id: 5,
+    id: 6,
     title: "18th AGM Scrutinizers Report and Voting Results",
     
     url: [
@@ -1640,7 +1694,7 @@ export const Voting_Result_Of_AGM = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "17th AGM VOTING RESULTS AND SCRUTINIZERS REPORT 2020",
    
     url: [
@@ -1651,7 +1705,7 @@ export const Voting_Result_Of_AGM = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "RESULTS OF E-VOTING AND POSTAL BALLOT",
     subTitle1: "Resolution Results",
     subTitle2: "13th AGM",
@@ -1662,7 +1716,7 @@ export const Voting_Result_Of_AGM = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "SCRUTINISERS REPORT",
     subTitle1: "Scrutinisers Report",
     subTitle2: "12th AGM",
@@ -1674,7 +1728,7 @@ export const Voting_Result_Of_AGM = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     title: "POSTAL BALLOT RESULTS",
     subTitle1: "Results",
     subTitle2: "-",
@@ -1686,7 +1740,7 @@ export const Voting_Result_Of_AGM = [
     ],
   },
   {
-    id: 9,
+    id: 11,
     title: "POSTAL BALLOT 2016",
     subTitle1: "Notice and Ballot",
     subTitle2: "-",
@@ -1698,6 +1752,8 @@ export const Voting_Result_Of_AGM = [
     ],
   },
 ];
+
+// Voting Result End
 
 export const Company_information = [
   {
@@ -1712,6 +1768,7 @@ export const Company_information = [
   },
 ];
 
+//concall start
 export const ConCol_Invitation_Transcript = [
   {
     id: 1,
@@ -1723,6 +1780,7 @@ export const ConCol_Invitation_Transcript = [
     ],
   },
   {
+
     id: 2,
     title: "Concall with Fidelity",
     url: [
