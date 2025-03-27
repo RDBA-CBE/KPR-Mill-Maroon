@@ -101,7 +101,7 @@ export default function InvestorServices() {
                           given below:
                         </p>
 
-                        <ul>
+                        <ul className="service-report-list">
                           <li><a href="https://file.kprmilllimited.com/reports/2022/01/Form-ISR-1.pdf" target="_blank">Form ISR 1  <i className="fa fa-download"></i></a></li>
                           <li><a href="https://file.kprmilllimited.com/reports/2022/01/Form-ISR-2.pdf"  target="_blank">Form ISR 2  <i className="fa fa-download"></i></a></li>
                           <li><a href="https://file.kprmilllimited.com/reports/2022/01/Form-ISR-3.pdf"  target="_blank">Form ISR 3  <i className="fa fa-download"></i></a></li>
@@ -134,7 +134,7 @@ export default function InvestorServices() {
                           style={{ textDecoration: "underline" }}
                           className="mb_10"
                         >
-                          SEBI – Circular Choice of Nomination in Demat accounts
+                          <a href="https://file.kprmilllimited.com/reports/2024/01/SEBI-CIRCULAR-2.pdf" target="_blank">SEBI – Circular Choice of Nomination in Demat accounts</a>
                         </p>
                         <p
                           className="mb_10"
@@ -164,8 +164,17 @@ export default function InvestorServices() {
                           For more details, please see the following web links
                           of the Stock Exchanges:
                         </p>
-                        <p>BSE – http://tiny.cc/m1l2vz</p>
-                        <p>NSE – http://tiny.cc/s1l2vz</p>
+                        <p>BSE – <a href="http://tiny.cc/m1l2vz" target="_blank">http://tiny.cc/m1l2vz</a></p>
+                        <p className="mb-20">NSE – <a href="http://tiny.cc/s1l2vz" target="_blank">http://tiny.cc/s1l2vz</a></p>
+                        <h5
+                          style={{ textDecoration: "underline" }}
+                          className="mb_10"
+                        >
+                          <a href="https://file.kprmilllimited.com/reports/2024/01/SEBI-CIRCULAR-2.pdf" target="_blank">SEBI – Circular Choice of Nomination in Demat accounts</a>
+                        </h5>
+                        <ul className="service-report-list">
+                          <a href="https://file.kprmilllimited.com/reports/2024/06/SEBI-CIRCULAR-DATED-10.06.2024.pdf" target="_blank">SEBI CIRCULAR DATED 10.06.2024 <i className="fa fa-download"></i></a>
+                        </ul>
                       </div>
                       {/* <div className="col-lg-4 col-md-4 col-sm-12 mt_30 mt-md-0 content-side">
                         <ul className="list clearfix text-center">

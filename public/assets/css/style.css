@@ -8799,3 +8799,7 @@
   .mb-30{margin-bottom: 30px;}
   .mb-20{margin-bottom: 20px;}
   .count-outer p{font-size:20px; color: #fff; padding-top:15px; margin: 0;}
+  ul.service-report-list{margin:15px 0px;}
+  ul.service-report-list li{ color:#5a1d00; padding: 5px;}
+  ul.service-report-list li a{ color:#5a1d00;}
+  a{color:#5a1d00;}
