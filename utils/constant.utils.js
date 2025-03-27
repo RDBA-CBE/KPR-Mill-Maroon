@@ -306,7 +306,7 @@ export const Regulation_62 = [
   },
 ];
 
-// anual reports
+// annual reports starts
 
 export const AnualResult_2024 = [
     {
@@ -615,18 +615,27 @@ export const AnualResult_2016 = [
       title: "13th AGM Intimations",
       url: [
         {
+          name:"E VOTING INSTRUCTION 13TH AGM",
           link: "https://file.kprmilllimited.com/reports/2018/11/E-Voting-Instruction.pdf",
         },
         {
+          name:"ATTENDANCE SLIP",
+          link: "https://file.kprmilllimited.com/reports/2018/11/1-170578-attendance-slip.pdf",
+        },
+        {
+          name:"Notice",
           link: "https://file.kprmilllimited.com/reports/2018/11/170371-KPR-Notice-color.pdf",
         },
         {
+          name:"Proxy Form",
           link: "https://file.kprmilllimited.com/reports/2018/11/170338-Proxy-form-color.pdf",
         },
         {
+          name:"Ballot Form",
           link: "https://file.kprmilllimited.com/reports/2018/11/170339-kpr-ballat-form-or-voting-form.pdf",
         },
         {
+          name:"Venue Map",
           link: "https://file.kprmilllimited.com/reports/2018/11/Route-Map.pdf",
         },
       ],
@@ -756,6 +765,7 @@ export const AnualResult_2016 = [
 
 //Annual End
 
+//Audited Unaudited starts 
 export const Audited_Unaudited = [
   {
       id: 1,
@@ -1124,6 +1134,7 @@ export const Audited_Unaudited = [
 
 // Audit - Unaudit end
 
+// Subsidary cos starts
 export const Subsidary_cos = [
   {
     id: 1,
@@ -1564,6 +1575,8 @@ export const Subsidary_cos = [
   },
 ];
 
+// Subsidary cos ends
+
 // Appointment of Independent Directors Start
 
 export const Indepented_Directors = [
@@ -1815,6 +1828,7 @@ export const Voting_Result_Of_AGM = [
 
 // Voting Result End
 
+//Company information starts
 export const Company_information = [
   {
     id: 1,
@@ -1827,6 +1841,7 @@ export const Company_information = [
     ],
   },
 ];
+//Company information ends 
 
 //concall start
 export const ConCol_Invitation_Transcript = [
@@ -2303,132 +2318,177 @@ export const ConCol_Invitation_Transcript = [
     ],
   },
 ];
+//concall
 
+// ShareHolding Pattern starts
 export const ShareHolding_Pattern = [
   {
     id: 1,
-    title: "Share Holding Pattern FY 2023-24",
+    title: "Share Holding Pattern FY 2024-25",
     url: [
       {
-        link: "https://file.kprmilllimited.com/reports/2024/04/SHPT-31.03.2024.pdf",
+        name:"December 2024",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2025/01/SHPT-31.12.2024.pdf",
       },
       {
-        link: "https://file.kprmilllimited.com/reports/2024/01/SHPT-31.12.2023.pdf",
+        name:"September 2024",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/10/SHPT-30.09.2024.pdf",
       },
       {
-        link: "https://file.kprmilllimited.com/reports/2023/10/SHPT-30.09.2023.pdf",
-      },
-      {
-        link: "https://file.kprmilllimited.com/reports/2023/07/SHPT-30.06.2023.pdf",
+        name:"June 2024",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/07/SHPT-30.06.2024.pdf",
       },
     ],
   },
   {
     id: 2,
+    title: "Share Holding Pattern FY 2023-24",
+    url: [
+      {
+        name:"March 2024",
+        link: "https://file.kprmilllimited.com/reports/2024/04/SHPT-31.03.2024.pdf",
+      },
+      {
+        name:"December 2023",
+        link: "https://file.kprmilllimited.com/reports/2024/01/SHPT-31.12.2023.pdf",
+      },
+      {
+        name:"September 2023",
+        link: "https://file.kprmilllimited.com/reports/2023/10/SHPT-30.09.2023.pdf",
+      },
+      {
+        name:"June 2023",
+        link: "https://file.kprmilllimited.com/reports/2023/07/SHPT-30.06.2023.pdf",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "Share Holding Pattern FY 2022-23",
     url: [
       {
+        name:"March 2023",
         link: "https://file.kprmilllimited.com/reports/2023/05/SHP-Report-31.03.2023-1.pdf",
       },
       {
+        name:"December 2022",
         link: "https://file.kprmilllimited.com/reports/2023/01/SHP-Report-31.12.2022.pdf",
       },
       {
+        name:"September 2022",
         link: "https://file.kprmilllimited.com/reports/2022/10/SHP-Report-30.09.2022.pdf",
       },
       {
+        name:"June 2022",
         link: "https://file.kprmilllimited.com/reports/2022/07/SHPT-Report-30.06.2022.pdf",
       },
       
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Share Holding Pattern Post Buyback 2022",
     url: [
       {
+        name:"SHPT Post Buyback",
         link: "https://file.kprmilllimited.com/reports/2022/05/SHPT-Post-Buyback.pdf",
       },
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Share Holding Pattern FY 2021-22",
     url: [
       {
+        name:"March",
         link: "https://file.kprmilllimited.com/reports/2022/04/SHPT-31.03.2022.pdf",
       },
       {
+        name:"December",
         link: "https://file.kprmilllimited.com/reports/2022/01/SHPT31122021.pdf",
       },
       {
+        name:"September",
         link: "https://file.kprmilllimited.com/reports/2021/10/Shareholding-Pattern-30.09.2021.pdf",
       },
       {
-        link: "https://file.kprmilllimited.com/reports/2020/08/SHPT-June-2020-1.pdf",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "Share Holding Pattern FY 2020-21",
-   
-    url: [
-      {
-        link: "https://file.kprmilllimited.com/reports/2021/04/Shareholding-Pattern-31.03.2021.pdf",
-      },
-      {
-        link: "https://file.kprmilllimited.com/reports/2021/01/SHP31dec.pdf",
-      },
-      {
-        link: "https://file.kprmilllimited.com/reports/2020/10/shp.pdf",
-      },
-      {
+        name:"June",
         link: "https://file.kprmilllimited.com/reports/2020/08/SHPT-June-2020-1.pdf",
       },
     ],
   },
   {
     id: 6,
+    title: "Share Holding Pattern FY 2020-21",
+   
+    url: [
+      {
+        name:"March",
+        link: "https://file.kprmilllimited.com/reports/2021/04/Shareholding-Pattern-31.03.2021.pdf",
+      },
+      {
+        name:"December",
+        link: "https://file.kprmilllimited.com/reports/2021/01/SHP31dec.pdf",
+      },
+      {
+        name:"September",
+        link: "https://file.kprmilllimited.com/reports/2020/10/shp.pdf",
+      },
+      {
+        name:"June",
+        link: "https://file.kprmilllimited.com/reports/2020/08/SHPT-June-2020-1.pdf",
+      },
+    ],
+  },
+  {
+    id: 7,
     title: "Share Holding Pattern FY 2019-20",
   
     url: [
       {
+        name:"June",
         link: "/share-holding-pattern",
       },
       {
+        name:"September",
         link: "https://file.kprmilllimited.com/reports/2020/08/SHPT-September-2019-1.pdf",
       },
       {
+        name:"December",
         link: "https://file.kprmilllimited.com/reports/2020/08/SHPT-December-2019-1.pdf",
       },
       {
+        name:"March",
         link: "https://file.kprmilllimited.com/reports/2020/08/SHPT-March-2020.pdf",
       },
      
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "Share Holding Pattern FY 2018-19",
 
     url: [
       {
+        name:"June",
         link: "/share-holding-pattern",
       },
       {
+        name:"September",
         link: "/share-holding-pattern",
       },
       {
+        name:"December",
         link: "/share-holding-pattern",
       },
       {
+        name:"March",
         link: "https://file.kprmilllimited.com/reports/2020/08/SHPT-March-2019-1.pdf",
       },
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "Share Holding Pattern December 29, 2017",
 
     url: [
@@ -2439,7 +2499,7 @@ export const ShareHolding_Pattern = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     title: "Share Holding Pattern October 23, 2017",
 
     url: [
@@ -2450,7 +2510,7 @@ export const ShareHolding_Pattern = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     title: "Share Holding Pattern July 12, 2017",
 
     url: [
@@ -2461,7 +2521,7 @@ export const ShareHolding_Pattern = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     title: "Share Holding Pattern April 13, 2017",
 
     url: [
@@ -2472,7 +2532,7 @@ export const ShareHolding_Pattern = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     title: "Share Holding Pattern December 31, 2016",
 
     url: [
@@ -2483,7 +2543,7 @@ export const ShareHolding_Pattern = [
     ],
   },
   {
-    id: 13,
+    id: 14,
     title: "Share Holding Pattern September 30, 2016",
 
     url: [
@@ -2494,7 +2554,7 @@ export const ShareHolding_Pattern = [
     ],
   },
   {
-    id: 14,
+    id: 15,
     title: "Share Holding Pattern June 30, 2016",
 
     url: [
@@ -2505,7 +2565,7 @@ export const ShareHolding_Pattern = [
     ],
   },
   {
-    id: 15,
+    id: 16,
     title: "Share Holding Pattern March 31, 2016",
 
     url: [
@@ -2516,7 +2576,7 @@ export const ShareHolding_Pattern = [
     ],
   },
   {
-    id: 16,
+    id: 17,
     title: "Share Holding Pattern December 31, 2015",
 
     url: [
@@ -2527,7 +2587,7 @@ export const ShareHolding_Pattern = [
     ],
   },
   {
-    id: 17,
+    id: 18,
     title: "Share Holding Pattern September 30, 2015",
 
     url: [
@@ -2538,7 +2598,7 @@ export const ShareHolding_Pattern = [
     ],
   },
   {
-    id: 18,
+    id: 19,
     title: "Share Holding Pattern June 30, 2015",
 
     url: [
@@ -2549,7 +2609,7 @@ export const ShareHolding_Pattern = [
     ],
   },
   {
-    id: 19,
+    id: 20,
     title: "Share Holding Pattern December 31, 2014",
 
     url: [
@@ -2560,7 +2620,7 @@ export const ShareHolding_Pattern = [
     ],
   },
   {
-    id: 20,
+    id: 21,
     title: "Share Holding Pattern June 30, 2014",
 
     url: [
@@ -2571,7 +2631,7 @@ export const ShareHolding_Pattern = [
     ],
   },
   {
-    id: 21,
+    id: 22,
     title: "Share Holding Pattern March 31, 2014",
 
     url: [
@@ -2582,82 +2642,118 @@ export const ShareHolding_Pattern = [
     ],
   },
 ];
+// Share Holding Pattern ends
 
+// corporate governance starts
 export const Corporate_Governance = [
   {
     id: 1,
-    title: "Corporate Governance FY 2023-24",
+    title: "Corporate Governance FY 2024-25",
     url: [
       {
-        link: "https://file.kprmilllimited.com/reports/2024/04/CG-Report-31.03.2024.pdf",
+        name:"December",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2025/01/10.-CGREPORT31122024.pdf",
       },
       {
-        link: "https://file.kprmilllimited.com/reports/2024/01/CG-Report-31.12.2023.pdf",
+        name:"September",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/10/CG-Report-30.09.2024.pdf",
       },
       {
-        link: "https://file.kprmilllimited.com/reports/2023/10/CG-Report-30.09.2023.pdf",
-      },
-      {
-        link: "https://file.kprmilllimited.com/reports/2023/07/CG-Report-30.06.2023.pdf",
+        name:"June",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/07/CG-Report-30.06.2024.pdf",
       },
     ],
   },
   {
     id: 2,
-    title: "Corporate Governance FY 2022-23",
+    title: "Corporate Governance FY 2023-24",
     url: [
       {
-        link: "https://file.kprmilllimited.com/reports/2023/05/CG-Report-31.03.2023-1.pdf",
+        name:"March",
+        link: "https://file.kprmilllimited.com/reports/2024/04/CG-Report-31.03.2024.pdf",
       },
       {
-        link: "https://file.kprmilllimited.com/reports/2023/01/CG-Report-31.12.2022.pdf",
+        name:"December",
+        link: "https://file.kprmilllimited.com/reports/2024/01/CG-Report-31.12.2023.pdf",
       },
       {
-        link: "https://file.kprmilllimited.com/reports/2022/10/CG-Report-30.09.2022.pdf",
+        name:"September",
+        link: "https://file.kprmilllimited.com/reports/2023/10/CG-Report-30.09.2023.pdf",
       },
       {
-        link: "https://file.kprmilllimited.com/reports/2022/07/CG-Report-30.06.2022.pdf",
+        name:"June",
+        link: "https://file.kprmilllimited.com/reports/2023/07/CG-Report-30.06.2023.pdf",
       },
     ],
   },
   {
     id: 3,
+    title: "Corporate Governance FY 2022-23",
+    url: [
+      {
+        name:"March",
+        link: "https://file.kprmilllimited.com/reports/2023/05/CG-Report-31.03.2023-1.pdf",
+      },
+      {
+        name:"December",
+        link: "https://file.kprmilllimited.com/reports/2023/01/CG-Report-31.12.2022.pdf",
+      },
+      {
+        name:"September",
+        link: "https://file.kprmilllimited.com/reports/2022/10/CG-Report-30.09.2022.pdf",
+      },
+      {
+        name:"June",
+        link: "https://file.kprmilllimited.com/reports/2022/07/CG-Report-30.06.2022.pdf",
+      },
+    ],
+  },
+  {
+    id: 4,
     title: "Corporate Governance FY 2021-22",
     url: [
       {
+        name:"March",
         link: "https://file.kprmilllimited.com/reports/2022/04/CG-Report-31.03.2022.pdf",
       },
       {
+        name:"December",
         link: "https://file.kprmilllimited.com/reports/2022/01/CGR-31.12.2021.pdf",
       },
       {
+        name:"September",
         link: "https://file.kprmilllimited.com/reports/2021/10/Corporate-Governance-Report-30.09.2021.pdf",
       },
       {
+        name:"June",
         link: "https://file.kprmilllimited.com/reports/2021/07/Corporate-Governance-Report-30.06.2021.pdf",
       }
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Corporate Governance FY 2020-21",
     url: [
       {
+        name:"March",
         link: "https://file.kprmilllimited.com/reports/2021/04/Corporate-Governance-Report-31.03.2021.pdf",
       },
       {
+        name:"December",
         link: "https://file.kprmilllimited.com/reports/2021/01/CGR31De2020.pdf",
       },
       {
+        name:"September",
         link: "https://file.kprmilllimited.com/reports/2020/10/CGR.pdf",
       },
       {
+        name:"June",
         link: "https://file.kprmilllimited.com/reports/2020/08/CGR30062020.pdf",
       }
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Corporate Governance FY 2019-20",
     url: [
       {
@@ -2666,7 +2762,7 @@ export const Corporate_Governance = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Corporate Governance June 30, 2018  ",
     url: [
       {
@@ -2675,7 +2771,7 @@ export const Corporate_Governance = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "Corporate Governance October 07, 2017",
 
     url: [
@@ -2685,7 +2781,7 @@ export const Corporate_Governance = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "Corporate Governance July 07, 2017",
 
     url: [
@@ -2695,7 +2791,7 @@ export const Corporate_Governance = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     title: "Corporate Governance April 07, 2017",
 
     url: [
@@ -2705,7 +2801,7 @@ export const Corporate_Governance = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     title: "Corporate Governance March , 2017",
 
     url: [
@@ -2715,7 +2811,7 @@ export const Corporate_Governance = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     title: "Corporate Governance September 30, 2015",
 
     url: [
@@ -2725,7 +2821,7 @@ export const Corporate_Governance = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     title: "Corporate Governance June 30, 2015",
 
     url: [
@@ -2735,7 +2831,7 @@ export const Corporate_Governance = [
     ],
   },
   {
-    id: 13,
+    id: 14,
     title: "Corporate Governance March 31, 2015",
 
     url: [
@@ -2745,7 +2841,7 @@ export const Corporate_Governance = [
     ],
   },
   {
-    id: 14,
+    id: 15,
     title: "Corporate Governance December 31, 2014",
 
     url: [
@@ -2755,7 +2851,7 @@ export const Corporate_Governance = [
     ],
   },
   {
-    id: 15,
+    id: 16,
     title: "Corporate Governance September 30, 2014",
 
     url: [
@@ -2765,7 +2861,7 @@ export const Corporate_Governance = [
     ],
   },
   {
-    id: 16,
+    id: 17,
     title: "Corporate Governance June 30, 2014",
 
     url: [
@@ -2775,7 +2871,7 @@ export const Corporate_Governance = [
     ],
   },
   {
-    id: 17,
+    id: 18,
     title: "Corporate Governance March 31, 2014",
 
     url: [
@@ -2785,7 +2881,9 @@ export const Corporate_Governance = [
     ],
   },
 ];
+// corporate governance ends 
 
+// About Quality starts
 export const AboutQuality = [
   {
     id: 1,
@@ -2829,7 +2927,9 @@ export const AboutQuality = [
       "Inspection at every stage through well trained personnel to ensure stringent quality conformance.",
   },
 ];
+// About Quality ends
 
+// gallery starts
 export const Gallerydata = [
   {
     id: 1,
@@ -2856,7 +2956,9 @@ export const Gallerydata = [
     src: "/assets/images/kprmill-images/Products/Garment/gallery-6.jpg",
   },
 ];
+// gallery ends
 
+// brand gallery starts
 export const BrandGallerydata = [
   {
     id: 1,
@@ -2891,7 +2993,9 @@ export const BrandGallerydata = [
     src: "/assets/images/kprmill-images/Our-Brand/gallery-8.jpg",
   },
 ];
+// brand gallery ends
 
+//policy starts
 export const Policy_Data = [
   {
       id: 1,
@@ -3132,8 +3236,9 @@ export const Policy_Data = [
     ],
   },
 ];
+// Policy ends
 
-
+// Stock exchange Intimation starts
 export const Stock_Exchange_Indimation = [
   {
       id: 1,
@@ -3744,7 +3849,9 @@ export const Stock_Exchange_Indimation = [
     ],
   },
 ];
+// Stock exchange Intimation ends
 
+// Divident starts
 export const Divedent_IVPF = [
   {
     id: 1,
@@ -3947,7 +4054,9 @@ export const Divedent_IVPF = [
     ],
   },
 ];
+// Divident ends
 
+// Anouncement starts
 export const Anouncement_Data = [
   {
       id: 1,
@@ -4070,7 +4179,9 @@ export const Anouncement_Data = [
     ],
   },
 ];
+// Anouncement ends
 
+// Inverstors Preseentation starts
 export const Inverstors_Preseentation_Data = [
   {
       id: 1,
@@ -4318,7 +4429,9 @@ export const Inverstors_Preseentation_Data = [
     ],
   },
 ];
+// Inverstors Preseentation ends
 
+//information starts
 export const Information = [
   {
       id: 1,
@@ -5030,3 +5143,4 @@ export const Information = [
     ],
   },
 ];
+//information ends

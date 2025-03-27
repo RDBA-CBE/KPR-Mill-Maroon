@@ -37,13 +37,14 @@ export default function MediaGallery() {
                   <div className="content-one ">
                   <div className="text mb_45">
                       <h3>2024 </h3>
-                      <p>KPR Mill Limited has been steadfast in providing higher education facilities to its women employees embodying their commitment to social responsibility. The company takes immense pride in the fact that over 41,000 women workers have completed their higher education through this remarkable initiative. In the current academic year alone, more than 5,000 women are pursuing their higher studies and steadily increasing every year. With the high standard of education provided at KPR Mill, through excellent coaching of well – trained & experienced Teachers and best Infrastructures, every year its women employees prove their outstanding talent in the Government conducted Examinations securing Medals and Ranks.</p>
-                      <p>At the 15th convocation ceremony of Tamil Nadu Open University, held on 21st October 2024 at Chennai, a total of 579 Employees were conferred their bachelor’s and master’s degrees. Among them, 11 were honoured with medals – 5 Gold (1st Rank), 3 silver (2nd Rank) and 3 bronze (3rd Rank)- for their exceptional academic performance, by the Honourable Governor of Tamil Nadu, Shri R.N. Ravi.</p>
-                      <p>On 25th January 2025, the 11th Convocation Ceremony for women employees of the KPR Group took place as a grand event at Thekkalur celebrating the remarkable achievements of the students. Each of the first-place winners received a cash gift of Rs.5,000, graciously presented by the KPR Group.</p>
+                      <p className=" mb_20">KPR Mill Limited has been steadfast in providing higher education facilities to its women employees embodying their commitment to social responsibility. The company takes immense pride in the fact that over 41,000 women workers have completed their higher education through this remarkable initiative. In the current academic year alone, more than 5,000 women are pursuing their higher studies and steadily increasing every year. With the high standard of education provided at KPR Mill, through excellent coaching of well – trained & experienced Teachers and best Infrastructures, every year its women employees prove their outstanding talent in the Government conducted Examinations securing Medals and Ranks.</p>
+                      <p className=" mb_20">At the 15th convocation ceremony of Tamil Nadu Open University, held on 21st Onpm run dev
+                        ctober 2024 at Chennai, a total of 579 Employees were conferred their bachelor’s and master’s degrees. Among them, 11 were honoured with medals – 5 Gold (1st Rank), 3 silver (2nd Rank) and 3 bronze (3rd Rank)- for their exceptional academic performance, by the Honourable Governor of Tamil Nadu, Shri R.N. Ravi.</p>
+                        <p className=" mb_20">On 25th January 2025, the 11th Convocation Ceremony for women employees of the KPR Group took place as a grand event at Thekkalur celebrating the remarkable achievements of the students. Each of the first-place winners received a cash gift of Rs.5,000, graciously presented by the KPR Group.</p>
                       <div className="image-box">
                       <figure className="image">
                         <img
-                          src="/assets/images/kprmill/investors/media/gold-medal.jpeg"
+                          src="/assets/images/kprmill/investors/media/Deepika-1st-Rank-BBA.jpg"
                           alt=""
                         />
                       </figure>

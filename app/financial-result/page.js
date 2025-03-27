@@ -190,7 +190,7 @@ export default function FinancialResult() {
                                             justifyContent: "end",
                                           }}
                                         >
-                                       
+                                      
                                           <i
                                             className="fa fa-download"
                                             style={{
@@ -791,6 +791,14 @@ export default function FinancialResult() {
                                                   marginBottom: "10px",
                                                 }}
                                               >
+                                              {
+                                                  url?.name && (
+                                                    <p style={{
+                                                      fontSize: "16px", paddingTop: "5px",
+                                                      color: "#5a1d00", paddingRight:"8px", 
+                                                    }}>{url?.name}</p>
+                                                  )
+                                                }
                                                 <i
                                                   className="fa fa-download"
                                                   style={{

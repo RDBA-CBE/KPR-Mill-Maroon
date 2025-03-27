@@ -101,6 +101,18 @@ export default function InvestorServices() {
                           given below:
                         </p>
 
+                        <ul>
+                          <li><a href="https://file.kprmilllimited.com/reports/2022/01/Form-ISR-1.pdf" target="_blank">Form ISR 1  <i className="fa fa-download"></i></a></li>
+                          <li><a href="https://file.kprmilllimited.com/reports/2022/01/Form-ISR-2.pdf"  target="_blank">Form ISR 2  <i className="fa fa-download"></i></a></li>
+                          <li><a href="https://file.kprmilllimited.com/reports/2022/01/Form-ISR-3.pdf"  target="_blank">Form ISR 3  <i className="fa fa-download"></i></a></li>
+                          <li><a href="https://file.kprmilllimited.com/reports/2022/01/Form-ISR-4.pdf"  target="_blank">Form ISR 4  <i className="fa fa-download"></i></a></li>
+                          <li><a href="https://file.kprmilllimited.com/reports/2022/01/Form-SH-13.pdf"  target="_blank">Form SH 13  <i className="fa fa-download"></i></a></li>
+                          <li><a href="https://file.kprmilllimited.com/reports/2022/01/Form-SH-14.pdf"  target="_blank">Form SH 14  <i className="fa fa-download"></i></a></li>
+                          <li><a href="https://file.kprmilllimited.com/reports/2023/11/SEBI-CIRCULAR-1.pdf"  target="_blank">SEBI Circular <i className="fa fa-download"></i></a></li>
+                          <li><a href="https://file.kprmilllimited.com/reports/2023/12/SEBI-CIRCULAR-DATED-17.11.2023-1.pdf"  target="_blank">SEBI Circular DATED 17.11.2023 <i className="fa fa-download"></i></a></li>
+                          <li><a href="https://file.kprmilllimited.com/reports/2024/06/SEBI-CIRCULAR-DATED-10.06.2024.pdf"  target="_blank">SEBI CIRCULAR DATED 10.06.2024  <i className="fa fa-download"></i></a></li>
+                        </ul>
+
                         <p style={{ fontWeight: "bold" }} className="mb_10">
                           NSDL Database Management Limited
                         </p>
@@ -171,7 +183,7 @@ export default function InvestorServices() {
                             style={{ cursor: "pointer" }}
                             onClick={() =>
                               handleOpenDocument(
-                                "https://kprmilllimited.com/file/wp-content/uploads/2022/01/Form-ISR-1.pdf"
+                                "https://file.kprmilllimited.com/reports/2022/01/Form-ISR-1.pdf"
                               )
                             }
                           >
@@ -181,7 +193,7 @@ export default function InvestorServices() {
                             style={{ cursor: "pointer" }}
                             onClick={() =>
                               handleOpenDocument(
-                                "https://kprmilllimited.com/file/wp-content/uploads/2022/01/Form-ISR-2.pdf"
+                                "https://file.kprmilllimited.com/reports/2022/01/Form-ISR-2.pdf"
                               )
                             }
                           >
@@ -191,7 +203,7 @@ export default function InvestorServices() {
                             style={{ cursor: "pointer" }}
                             onClick={() =>
                               handleOpenDocument(
-                                "https://kprmilllimited.com/file/wp-content/uploads/2022/01/Form-ISR-3.pdf"
+                                "https://file.kprmilllimited.com/reports/2022/01/Form-ISR-3.pdf"
                               )
                             }
                           >
@@ -201,7 +213,7 @@ export default function InvestorServices() {
                             style={{ cursor: "pointer" }}
                             onClick={() =>
                               handleOpenDocument(
-                                "https://kprmilllimited.com/file/wp-content/uploads/2022/01/Form-ISR-4.pdf"
+                                "https://file.kprmilllimited.com/reports/2022/01/Form-ISR-4.pdf"
                               )
                             }
                           >
@@ -211,7 +223,7 @@ export default function InvestorServices() {
                             style={{ cursor: "pointer" }}
                             onClick={() =>
                               handleOpenDocument(
-                                "https://kprmilllimited.com/file/wp-content/uploads/2022/01/Form-SH-13.pdf"
+                                "https://file.kprmilllimited.com/reports/2022/01/Form-SH-13.pdf"
                               )
                             }
                           >
@@ -221,7 +233,7 @@ export default function InvestorServices() {
                             style={{ cursor: "pointer" }}
                             onClick={() =>
                               handleOpenDocument(
-                                "https://kprmilllimited.com/file/wp-content/uploads/2022/01/Form-SH-14.pdf"
+                                "https://file.kprmilllimited.com/reports/2022/01/Form-SH-14.pdf"
                               )
                             }
                           >
@@ -231,7 +243,7 @@ export default function InvestorServices() {
                             style={{ cursor: "pointer" }}
                             onClick={() =>
                               handleOpenDocument(
-                                "https://kprmilllimited.com/file/wp-content/uploads/2023/11/SEBI-CIRCULAR-1.pdf"
+                                "https://file.kprmilllimited.com/reports/2023/11/SEBI-CIRCULAR-1.pdf"
                               )
                             }
                           >
@@ -241,7 +253,7 @@ export default function InvestorServices() {
                             style={{ cursor: "pointer" }}
                             onClick={() =>
                               handleOpenDocument(
-                                "https://kprmilllimited.com/file/wp-content/uploads/2023/12/SEBI-CIRCULAR-DATED-17.11.2023-1.pdf"
+                                "https://file.kprmilllimited.com/reports/2023/12/SEBI-CIRCULAR-DATED-17.11.2023-1.pdf"
                               )
                             }
                           >
@@ -251,7 +263,7 @@ export default function InvestorServices() {
                             style={{ cursor: "pointer" }}
                             onClick={() =>
                               handleOpenDocument(
-                                "https://kprmilllimited.com/file/wp-content/uploads/2024/06/SEBI-CIRCULAR-DATED-10.06.2024.pdf"
+                                "https://file.kprmilllimited.com/reports/2024/06/SEBI-CIRCULAR-DATED-10.06.2024.pdf"
                               )
                             }
                           >
@@ -278,7 +290,7 @@ export default function InvestorServices() {
                         }}
                         onClick={() =>
                           handleOpenDocument(
-                            "https://kprmilllimited.com/file/wp-content/uploads/2024/01/SEBI-CIRCULAR-2.pdf"
+                            "https://file.kprmilllimited.com/reports/2024/01/SEBI-CIRCULAR-2.pdf"
                           )
                         }
                       >
@@ -295,7 +307,7 @@ export default function InvestorServices() {
                         }}
                         onclick={() =>
                           handleOpenDocument(
-                            "https://kprmilllimited.com/file/wp-content/uploads/2024/06/SEBI-CIRCULAR-DATED-10.06.2024.pdf"
+                            "https://file.kprmilllimited.com/reports/2024/06/SEBI-CIRCULAR-DATED-10.06.2024.pdf"
                           )
                         }
                       >
