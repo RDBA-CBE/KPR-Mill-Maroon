@@ -170,7 +170,7 @@ export default function IndepentedDirectors() {
                                                 className="icon-shape text-center "
                                                 style={{
                                                   display: "flex",
-                                                  alignItems: "center",
+                                                  alignItems: "end",
                                                   justifyContent: "end",
                                                   marginBottom: "10px",
                                                 }}
@@ -178,7 +178,7 @@ export default function IndepentedDirectors() {
                                                 <i
                                                   className="fa fa-download"
                                                   style={{
-                                                    fontSize: "22px",
+                                                    fontSize: "16px",
                                                     color: "#5a1d00",
                                                   }}
                                                 ></i>

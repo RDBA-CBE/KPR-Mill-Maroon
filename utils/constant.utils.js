@@ -759,15 +759,18 @@ export const AnualResult_2016 = [
 export const Audited_Unaudited = [
   {
       id: 1,
-      title: "Unaudited – Financials Results FY 2024-25 (Q3, Q2, Q1 Results)",
+      title: "Unaudited – Financials Results FY 2024-25",
       url: [
         {
+          name:"Q3 Result",
           link: "https://kprmilllimited.com/file/wp-content/uploads/2025/02/BM-Outcome-03.02.2025.pdf",
         },
         {
+          name:"Q2 Result",
           link: "https://kprmilllimited.com/file/wp-content/uploads/2024/11/BMOutcome05.11.2024.pdf",
         },
         {
+          name:"Q1 Result",
           link: "https://kprmilllimited.com/file/wp-content/uploads/2024/07/2nd-Board-Meeting.pdf",
         },
       ],
@@ -787,12 +790,15 @@ export const Audited_Unaudited = [
     title: "Unaudited – Financials Results FY 2023-24",
     url: [
       {
+        name:"Q1 Result",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/08/BM-Outcome-01.08.2023.pdf",
       },
       {
+        name:"Q2 Result",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/11/3RDBMOUTCOME.pdf",
       },
       {
+        name:"Q3 Result",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/02/4THBMOUTCOME.pdf",
       },
     ],
@@ -811,12 +817,15 @@ export const Audited_Unaudited = [
     title: "Unaudited – Financials Results FY 2022-23",
     url: [
       {
+        name:"Q1 Result",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/07/BMoutcome30062022.pdf",
       },
       {
+        name:"Q2 Result",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/11/BMoutcome.pdf",
       },
       {
+        name:"Q3 Result",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/02/BM-Outcome-31.12.2022.pdf",
       },
     ],
@@ -836,12 +845,15 @@ export const Audited_Unaudited = [
     title: "Unaudited – Financials Results FY 2021-22",
     url: [
       {
+        name:"Q1 Result",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/Q3-Result.pdf",
       },
       {
+        name:"Q2 Result",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/10/Q2-Results.pdf",
       },
       {
+        name:"Q3 Result",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/07/Q1-Result.pdf",
       },
     ],
@@ -862,12 +874,15 @@ export const Audited_Unaudited = [
 
     url: [
       {
+        name:"Q1 Result",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/BMFINANCIALRESULTS30.06.2020.pdf",
       },
       {
+        name:"Q2 Result",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/10/2QFINANCIALS.pdf",
       },
       {
+        name:"Q3 Result",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/02/Financial-Results-DEC-2020.pdf",
       },
     ],
@@ -888,12 +903,15 @@ export const Audited_Unaudited = [
 
     url: [
       {
+        name:"Q1 Result",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/Q1unaudited2020.pdf",
       },
       {
+        name:"Q2 Result",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/Q2Unaudited20.pdf",
       },
       {
+        name:"Q3 Result",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/Q3unaudited20.pdf",
       },
     ],
@@ -914,12 +932,15 @@ export const Audited_Unaudited = [
 
     url: [
       {
+        name:"Q1 Result",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/Q1unaudited2019.pdf",
       },
       {
+        name:"Q2 Result",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/Q2unAudited2019-.pdf",
       },
       {
+        name:"Q3 Result",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/Q3unAudited2019.pdf",
       },
     ],
@@ -1109,24 +1130,31 @@ export const Subsidary_cos = [
     title: "Annual Report 2024",
     url: [
       {
+        name:"Financials – QKPL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/4.-Financials-QKPL.pdf",
       },
       {
+        name:"Financials – KPRSML",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/1.-Financials-KPRSML.pdf",
       },
       {
+        name:"Financials – KPR SAL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/2.-Financials-KPRSAL.pdf",
       },
       {
+        name:"Financials – JMPL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/3.-Financials-JMPL.pdf",
       },
       {
+        name:"Financials – KPR Export Plc",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/7.-Financials-KPR-Export-PLC.pdf",
       },
       {
+        name:"Financials – KPR ML PTE",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/6.-Financials-KPR-ML-PTE.pdf",
       },
       {
+        name:"Financials – GKL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/5.-Financials-GKL.pdf",
       },
     ],
@@ -1136,24 +1164,31 @@ export const Subsidary_cos = [
     title: "Annual Report 2023",
     url: [
       {
+        name:"Financials – QKPL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/07/7.Financials-%E2%80%93-QKPL.pdf",
       },
       {
+        name:"Financials – KPRSML",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/07/6.Financials-%E2%80%93-KPRSML.pdf",
       },
       {
+        name:"Financials – KPR SAL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/07/5.Financials-%E2%80%93-KPRSAL.pdf",
       },
       {
+        name:"Financials – JMPL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/07/2.Financials-%E2%80%93-JMPL.pdf",
       },
       {
+        name:"Financials – KPR Export Plc",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/07/3.Financials-%E2%80%93-KPR-Export-Plc.pdf",
       },
       {
+        name:"Financials – KPR ML PTE",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/07/4.Financials-%E2%80%93-KPR-ML-PTE.pdf",
       },
       {
+        name:"Financials – GKL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/07/1.Financials-%E2%80%93-GKL.pdf",
       },
     ],
@@ -1163,24 +1198,31 @@ export const Subsidary_cos = [
     title: "Annual Report 2022",
     url: [
       {
+        name:"Financials – QKPL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/08/Financials-%E2%80%93-QKPL.pdf",
       },
       {
+        name:"Financials – KPRSML",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/10/Financials-KPRSML.pdf",
       },
       {
+        name:"Financials – KPR SAL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/08/Financials-%E2%80%93-KPRSAL.pdf",
       },
       {
+        name:"Financials – JMPL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/08/Financials-%E2%80%93-JMPL.pdf",
       },
       {
+        name:"Financials – KPR Export Plc",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/08/Financials-%E2%80%93-KPR-Export-Plc.pdf",
       },
       {
+        name:"Financials – KPR ML PTE",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/08/Financials-%E2%80%93-KPR-ML-PTE.pdf",
       },
       {
+        name:"Financials – GKL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/08/Financials-%E2%80%93-GKL.pdf",
       },
     ],
@@ -1190,24 +1232,31 @@ export const Subsidary_cos = [
     title: "Annual Report 2021",
     url: [
       {
+        name:"Financials – QKPL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/08/Financials-QKPL.pdf",
       },
       {
+        name:"Financials – KPRSML",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/08/Financials-KPRSML.pdf",
       },
       {
+        name:"Financials – KPR SAL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/08/Financials-KPRSAL.pdf",
       },
       {
+        name:"Financials – JMPL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/08/Financials-JMPL.pdf",
       },
       {
+        name:"Financials – KPR Export Plc",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/08/Financials-KPR-EXPORTS-PLC.pdf",
       },
       {
+        name:"Financials – KPR ML PTE",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/08/Financials-KPR-MILL-PTE.pdf",
       },
       {
+        name:"Financials – GKL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/08/Financials-GKL.pdf",
       },
     ],
@@ -1218,24 +1267,31 @@ export const Subsidary_cos = [
 
     url: [
       {
+        name:"Financials – KPRSML",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/KPRSMLFINANCIALS2020.pdf",
       },
       {
+        name:"Financials – JMPL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/09/JMPLFINANCIALS2019-20.pdf",
       },
       {
+        name:"Financials – KPR Export Plc",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/09/KPREXPORTSPLCFINANCIALS2019-20.pdf",
       },
       {
+        name:"Financials – KPR ML PTE",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/09/KPRMLPTEFINANCIALS2019-20.pdf",
       },
       {
+        name:"Financials – KPR SML",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/09/KPRSMLFINANCIALS2019-20.pdf",
       },
       {
+        name:"Financials – QKPL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/09/QKPLFINANCIALS2019-20.pdf",
       },
       {
+        name:"Financials – GKL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/09/GKLFINANCIALS2019-20.pdf",
       },
     ],
@@ -1246,15 +1302,19 @@ export const Subsidary_cos = [
 
     url: [
       {
+        name:"Financials – JMPL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/09/JMPL-Financials-signed-2018-19.pdf",
       },
       {
+        name:"Financials – KPR SML",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/09/KPRSML-Financials-signed-2018-19.pdf",
       },
       {
+        name:"Financials – QKPL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/09/QKPL-financials-signed-2018-19.pdf",
       },
       {
+        name:"Financials – GKL",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/09/GKLFINANCIALS2019-20.pdf",
       },
     ],
@@ -1775,6 +1835,43 @@ export const ConCol_Invitation_Transcript = [
     title: "Concall with Investors",
     url: [
       {
+        name:"Concall 12.03.2025",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/02/Investors-Concall.pdf",
+      },
+      {
+        name:"Concall 07.03.2025",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2025/03/Concall-07.03.2025.pdf",
+      },
+      {
+        name:"Concall 24th Feb, 2025 & 27th Feb, 2025",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2025/02/Concall-24th-Feb-2025-27th-Feb-2025.pdf",
+      },
+      {
+        name:"Concall 25th Feb, 2025",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2025/02/Concall-25th-Feb-2025.pdf",
+      },
+      {
+        name:"Concall 18th Feb, 2025",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2025/02/Concall-18.02.2025-1.pdf",
+      },
+      {
+        name:"Concall  14th Feb, 2025 ",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2025/02/Concall-14.02.2025.pdf",
+      },
+      {
+        name:"Concall 18th ,19th & 20th Dec, 2024",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/12/Concall-18th-19th-20th-Dec-2024.pdf",
+      },
+      {
+        name:"Concall 12th and 13th Dec, 2024",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/12/Concall-12th-13th-Dec-2024.pdf",
+      },
+      {
+        name:"Concall 05th Dec, 2024",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/12/Concall-05.12.2024.pdf",
+      },
+      {
+        name:"Concall",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/02/Investors-Concall.pdf",
       },
     ],
@@ -1785,6 +1882,11 @@ export const ConCol_Invitation_Transcript = [
     title: "Concall with Fidelity",
     url: [
       {
+        name:"September 2024",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/09/September-2024-1.pdf",
+      },
+      {
+        name:"Concall",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/09/CONCALL-WITH-FIDELITY.pdf",
       },
      
@@ -1795,13 +1897,16 @@ export const ConCol_Invitation_Transcript = [
     title: "Audio Recordings FY 2023-24",
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2023/08/BAT0220230804148437-2.mp3",
+        name:"Q1 Concall",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2023/08/BAT0220230804148437-2.mp3", category:"audio"
       },
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/02/BAT0220240206151419-1.mp3",
+        name:"Q3 Concall",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/02/BAT0220240206151419-1.mp3", category:"audio"
       },
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/05/BAT0220240506152529.mp3",
+        name:"Q4 Concall",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/05/BAT0220240506152529.mp3", category:"audio"
       },
     ],
   },
@@ -1810,15 +1915,19 @@ export const ConCol_Invitation_Transcript = [
     title: "Concall Invitation FY 2023-24",
     url: [
       {
+        name:"Trinity Investor Conference May 2024",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/05/TRINITY-INVESTOR-CONFERENCE-MAY-2024.pdf",
       },
       {
+        name:"Q1 Concall",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/08/Q1-1.pdf",
       },
       {
+        name:"Q3 Concall",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/02/Q3CONCALL.pdf",
       },
       {
+        name:"Q4 Concall",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/05/Q4-Concall.pdf",
       },
       
@@ -1830,9 +1939,11 @@ export const ConCol_Invitation_Transcript = [
 
     url: [
       {
+        name:"Q4 Concall",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/05/Q4-CONCALL-RECORDING.mp3",
       },
       {
+        name:"Q3 Concall",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/02/BAT0220230207145611.mp3",
       },
     ],
@@ -1842,7 +1953,16 @@ export const ConCol_Invitation_Transcript = [
     title: "Concall Invitation FY 2022-23",
     url: [
       {
+        name:"Trinity Investor Conference June 2023",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/05/TRINITY-INVESTOR-CONFERENCE-JUNE-2023.pdf",
+      },
+      {
+        name:"Q4 Concall",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2023/05/4Q.pdf",
+      },
+      {
+        name:"Q3 Concall",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2023/02/Q3.pdf",
       },
      
     ],
@@ -1852,15 +1972,12 @@ export const ConCol_Invitation_Transcript = [
     title: "Audio Recordings FY 2022",
 
     url: [
+     
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2023/05/4Q.pdf",
-      },
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2023/02/Q3.pdf",
-      },
-      {
+        name:"Q4 Concall",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/04/BAT0220220428140790.mp3",
       },
+     
     ],
   },
   {
@@ -1869,23 +1986,31 @@ export const ConCol_Invitation_Transcript = [
 
     url: [
       {
+        name:"INDIAN INC LEADERS  CONFERENCE",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/12/INDINCLEADERSCONF.pdf",
       },
       {
+        name:"TRINITY INVESTOR CONFERENCE",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/06/TRINITY-INVESTOR-CONFERENCE.pdf",
       },
       {
+        name:"Q1",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/07/Concall-Intimation.pdf",
       },
+      
       {
+        name:"Q2",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/10/Con-call-Intimation.pdf",
       },
       {
+        name:"Q3",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/3Q-CONCALL-INTIMATION.pdf",
       },
       {
+        name:"Q4",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/04/Q4.pdf",
       },
+
       
     ],
   },
@@ -1895,6 +2020,7 @@ export const ConCol_Invitation_Transcript = [
 
     url: [
       {
+        name:"Q4",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/04/Concall-Invitation-1-1.pdf",
       },
          
@@ -1906,38 +2032,53 @@ export const ConCol_Invitation_Transcript = [
 
     url: [
       {
+        name:"Con-call Transcript May 2024",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/05/Concal-Transcript-May-2024.pdf",
       },
       {
+        name:"Con-call Transcript February 2024",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/02/Concall-Transcript-February-2024.pdf",
       },
       {
+        name:"Con-call Transcript Auguest 2023",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/08/Q1CONCALLTRANSCRIPT.pdf",
       },
       {
+        name:"Con-call Transcript May 2023",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/05/CONCALLTRANSCRIPT-MAY-2023.pdf",
       },
       {
+        name:"Con-call Transcript Feb 2023",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/02/Concall-Transcript-February-2023.pdf",
       },
       {
+        name:"Con-call Transcript April 2022",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/04/Concall-Transcript-April-2022.pdf",
       },
       {
+        name:"Con-call Transcript February 2022",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/03/CONCALL-TRANSCRIPT-FEBRUARY-2022.pdf",
       },
       {
+        name:"Con-call Transcript October 2021",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/11/Concall-Transcript-October-2021.pdf",
       },
       {
+        name:"Con-call Transcript July 2021",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/08/Con-call-Transcript-29.07.2021-1.pdf",
       },
       {
+        name:"Con-call Transcript April 2021",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/05/Concal-Transcript-30.04.2021.pdf",
       },
       {
+        name:"Meeting of Institutional Investors",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/03/Concall-transcript.pdf",
       },
+      {
+        name:"Concall Transcript March 2021",
+        link:"https://kprmilllimited.com/file/wp-content/uploads/2021/03/Concall-Transcript-2021.pdf",
+      }
 
     ],
   },
@@ -1947,23 +2088,26 @@ export const ConCol_Invitation_Transcript = [
 
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2021/03/Concall-Transcript-2021.pdf",
-      },
-      {
+        name:"Q1",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/CONCALL-INVITATION.pdf",
       },
       {
+        name:"Q2",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/10/2QConcallInvitation.pdf",
       },
       {
+        name:"Nov 2020",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/11/ConcalNOv.pdf",
       },
       {
+        name:"Q3",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/02/Q3-Concall-invitation.pdf",
       },
       {
+        name:"3Q FY 2021",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/03/Concall-transcript.pdf",
       },
+          
          
     ],
   },
@@ -2750,7 +2894,16 @@ export const BrandGallerydata = [
 
 export const Policy_Data = [
   {
-    id: 1,
+      id: 1,
+      title: "RISK MANAGEMENT POLICY",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2024/12/RISK-MANAGEMENT-POLICY-2.pdf",
+        },
+      ],
+    },
+  {
+    id: 2,
     title: "WHISTLE BLOWER POLICY",
     url: [
       {
@@ -2759,7 +2912,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "FAMILIARISATION PROGRAMME 2024",
     url: [
       {
@@ -2768,7 +2921,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "ANTI-BRIBERY AND ANTI-CORRUPTION POLICY",
     url: [
       {
@@ -2777,7 +2930,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "FAMILIARISATION PROGRAMME 2023",
     url: [
       {
@@ -2786,7 +2939,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "FAMILIARISATION PROGRAMME 2022",
     url: [
       {
@@ -2795,7 +2948,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "FAMILIARISATION PROGRAMME 2021",
     url: [
       {
@@ -2804,7 +2957,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "FAMILIARISATION PROGRAMME 2020",
 
     url: [
@@ -2814,7 +2967,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "FAMILIARISATION PROGRAMME 2019",
 
     url: [
@@ -2824,7 +2977,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     title: "FAMILIARISATION PROGRAMME 2018",
 
     url: [
@@ -2834,7 +2987,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     title: "FAMILIARISATION PROGRAMME 2017",
 
     url: [
@@ -2844,7 +2997,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     title: "FAMILIARISATION PROGRAMME 2016",
 
     url: [
@@ -2854,7 +3007,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     title: "RELATED PARTY TRANSACTION POLICY",
 
     url: [
@@ -2864,7 +3017,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 13,
+    id: 14,
     title: "RISK MANAGEMENT POLICY",
 
     url: [
@@ -2874,7 +3027,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 14,
+    id: 15,
     title: "POLICY FOR DISCLOSURE OF MATERIAL EVENTS",
 
     url: [
@@ -2884,7 +3037,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 15,
+    id: 16,
     title: "POLICY ON SUCCESSION PLANNING FOR THE BOARD AND SENIOR MANAGEMENT",
 
     url: [
@@ -2894,7 +3047,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 16,
+    id: 17,
     title: "POLICY FOR PRESERVATION OF DOCUMENTS",
 
     url: [
@@ -2904,7 +3057,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 17,
+    id: 18,
     title: "BUSINESS RESPONSIBILITY POLICY  ",
 
     url: [
@@ -2914,7 +3067,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 18,
+    id: 19,
     title: "DIVIDEND DISTRIBUTION POLICY",
 
     url: [
@@ -2924,7 +3077,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 19,
+    id: 20,
     title: "WHISTLE BLOWER POLICY",
 
     url: [
@@ -2934,20 +3087,22 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 20,
+    id: 21,
     title: "CORPORATE SOCIAL RESPONSIBILITY POLICY AND DISCLOSURES",
 
     url: [
       {
+        name:"CSR POLICY",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/05/CSR-POLICY.pdf",
       },
       {
+        name:"CSR PROJECTS & COMPOSITION OF CSR COMMITTEE",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/05/CSR-PROJECTS-COMPOSITION-OF-CSR-COMMITTEE.pdf",
       },
     ],
   },
   {
-    id: 21,
+    id: 22,
     title: "KPR-NR POLICY",
 
     url: [
@@ -2957,7 +3112,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 22,
+    id: 23,
     title: "POLICY ON MATERIAL SUBSIDIARIES",
 
     url: [
@@ -2967,7 +3122,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 23,
+    id: 24,
     title: "CODE FOR FAIR DISCLOSURE",
 
     url: [
@@ -2978,48 +3133,92 @@ export const Policy_Data = [
   },
 ];
 
+
 export const Stock_Exchange_Indimation = [
   {
-    id: 1,
+      id: 1,
+      title: "Appointment of Independent Director ",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2025/03/Appointment-of-Independent-Director.pdf",
+        },
+      ],
+  },
+  {
+      id: 2,
+      title: "Closure of KPR MILL PTE. LTD",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2025/03/Closure-of-KPR-MILL-PTE.-LTD.pdf",
+        },
+      ],
+  },
+  {
+      id: 3,
+      title: "Directors Re-appointment",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2025/02/Directors-Re-appointment.pdf",
+        },
+      ],
+    },
+  {
+    id: 4,
     title: "Trading Window Closure 2024-25",
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/June-2024.pdf",
+          name: "December 2024",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2024/12/December-2024.pdf",
       },
+      {
+         name: "September 2024",
+         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/09/September-2024-2.pdf"
+      },
+      {
+          name: "June 2024",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/June-2024.pdf"
+      }
     ],
   },
   {
-    id: 2,
+    id: 5,
     title: "21st AGM Intimation",
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/Newspaperad.pdf",
+          name: "Newspaper Advertisement – E-voting",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/Newspaperad.pdf"
       },
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/AGM-BookClosure-Intimation.pdf",
+          name: "Notice to Shareholders – Newspaper Ad",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/AGMNoticetoShareholders-NPAD.pdf"
+      },
+      {
+          name: "AGM & Book Closure Intimation",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/AGM-BookClosure-Intimation.pdf"
       },
     ],
   },
   {
-    id: 3,
+    id: 6,
     title: "Change in Directors",
     url: [
-      {
+      { 
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/03/Change-in-Directors.pdf",
       },
     ],
   },
   {
-    id: 4,
+    id: 7,
     title: "Intimation of Record date – Feb 2024",
     url: [
       {
+        name:"february 2024",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/02/February-2024.pdf",
       },
     ],
   },
   {
-    id: 5,
+    id: 8,
     title: "Expansion 2023",
     url: [
       {
@@ -3028,7 +3227,7 @@ export const Stock_Exchange_Indimation = [
     ],
   },
   {
-    id: 6,
+    id: 9,
     title: "Largest US Fund invested in KPR",
     url: [
       {
@@ -3037,45 +3236,53 @@ export const Stock_Exchange_Indimation = [
     ],
   },
   {
-    id: 7,
+    id: 10,
     title: "Trading Window Closure 2023-24",
 
     url: [
       {
+        name:"March  2024",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/03/March-2024.pdf",
       },
       {
+        name:"December  2023",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/12/December-2023.pdf",
       },
       {
+        name:"September  2023",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/09/SEPTEMBER-2023-1.pdf",
       },
       {
+        name:"June 2023",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/06/June-2023.pdf",
       },
     ],
   },
   {
-    id: 8,
+    id: 11,
     title: "20th AGM Intimation",
 
     url: [
       {
+        name:"Newspaper Advertisement – E-voting",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/07/Newspaperadpdf.pdf",
       },
       {
+        name:"Notice to Shareholders – Newspaper Ad",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/06/AGM-Notice-to-Shareholders-1.pdf",
       },
       {
+        name:"AGM Intimation",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/06/1.-AGM-intimation.pdf",
       },
       {
+        name:"Book Closure Intimation",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/06/2.-Book-closure-Intimation.pdf",
       },
     ],
   },
   {
-    id: 9,
+    id: 12,
     title: "Subsidiary Company Information",
 
     url: [
@@ -3085,7 +3292,7 @@ export const Stock_Exchange_Indimation = [
     ],
   },
   {
-    id: 10,
+    id: 13,
     title: "DEMISE INTIMATION OF SRI. K.N.V.  RAMANI – INDEPENDENT DIRECTOR",
 
     url: [
@@ -3095,7 +3302,7 @@ export const Stock_Exchange_Indimation = [
     ],
   },
   {
-    id: 11,
+    id: 14,
     title: "APPOINTMENT OF WOMAN INDEPENDENT DIRECTOR",
 
     url: [
@@ -3105,7 +3312,7 @@ export const Stock_Exchange_Indimation = [
     ],
   },
   {
-    id: 12,
+    id: 15,
     title: "Analyst / Investors Plant Visit",
 
     url: [
@@ -3115,7 +3322,7 @@ export const Stock_Exchange_Indimation = [
     ],
   },
   {
-    id: 13,
+    id: 16,
     title: "Intimation of Record Date – FEB 2023",
 
     url: [
@@ -3125,23 +3332,26 @@ export const Stock_Exchange_Indimation = [
     ],
   },
   {
-    id: 14,
+    id: 17,
     title: "Trading Window Closure 2022-23.",
 
     url: [
-      {
+      { 
+        name:"March 2023",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/05/March-2023-2.pdf",
       },
       {
+        name:"December 2022",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/12/December-2022_twc.pdf",
       },
       {
+        name:"September 2022",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/09/TWC_SEP2022.pdf",
       },
     ],
   },
   {
-    id: 15,
+    id: 18,
     title: "AMENDMENTS TO ARTICLES OF ASSOCIATION",
 
     url: [
@@ -3151,30 +3361,35 @@ export const Stock_Exchange_Indimation = [
     ],
   },
   {
-    id: 16,
+    id: 19,
     title: "19th AGM Intimation",
 
     url: [
       {
+        name:"Newspaper Advertisement – E-voting",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/07/Newspaper-Advertisement-E-voting.pdf",
       },
       {
+        name:"Newspaper Advertisement",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/07/Newsapaper-Advertisement.pdf",
       },
       {
+        name:"AGM Intimation",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/07/1.-AGM-Intimation.pdf",
       },
       {
+        name:"Book Closure",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/07/2.-Book-Closure-Intimation.pdf",
       },
     ],
   },
   {
-    id: 17,
+    id: 20,
     title: "Change of RTA",
 
     url: [
       {
+        name:"Execution of Tripartite Agreement",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/12/eta_2023.pdf",
       },
       {
@@ -3183,40 +3398,44 @@ export const Stock_Exchange_Indimation = [
     ],
   },
   {
-    id: 18,
+    id: 21,
     title: "Postal Ballot Notice",
 
     url: [
-      {
+      { 
+        name:"Newspaper advertisement",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/03/Newspaper-Advertisement.pdf",
       },
       {
+        name:"Notice",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/03/Postal-Ballot-Notice.pdf",
       },
     ],
   },
   {
-    id: 19,
+    id: 22,
     title: "Buy Back 2022",
 
     url: [
       {
+        name:"Record Date Intimation",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/RECORD-DATE-INTIMATION.pdf",
       },
     ],
   },
   {
-    id: 20,
+    id: 23,
     title: "Trading window Closure 2022-23",
 
     url: [
       {
+        name:"June 2022",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/06/June-2022.pdf",
       },
     ],
   },
   {
-    id: 21,
+    id: 24,
     title: "Commissioning of new Garment Capacity",
 
     url: [
@@ -3226,23 +3445,26 @@ export const Stock_Exchange_Indimation = [
     ],
   },
   {
-    id: 22,
+    id: 25,
     title: "18th AGM Intimations",
 
     url: [
       {
+        name:" Newspaper Advertisement – E-voting",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/08/Newspaper-Advertisement-E-voting.pdf",
       },
       {
+        name:" Newspaper Advertisement",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/08/NP-ADVT-Before-dispatch-11.08.2021.pdf",
       },
       {
+        name:"Book Closure Intimation",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/08/18th-AGM.pdf",
       },
     ],
   },
   {
-    id: 23,
+    id: 26,
     title: "RESUMPTION OF OPERATIONS",
 
     url: [
@@ -3252,102 +3474,122 @@ export const Stock_Exchange_Indimation = [
     ],
   },
   {
-    id: 24,
+    id: 27,
     title: "Trading Window Closure 2021-22",
 
     url: [
       {
+        name:"March 2022",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/04/TRADING-WINDOW-INTIMATION-31.03.2022.pdf",
       },
-      {
+      { 
+        name:"December 2021",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/12/DECEMBER-2021-1.pdf",
       },
-      {
+      { 
+        name:"September 2021",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/09/SEPTEMBER-2021.pdf",
       },
       {
+        name:"June 2021 ",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/07/SE-Trading-Window-30.06.2021-1.pdf",
       },
     ],
   },
   {
-    id: 25,
+    id: 28,
     title: "IEPF Newspaper Advertisement",
 
     url: [
       {
+        name: "June 2024",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/06/June-2024-1.pdf",
       },
       {
+        name: "June 2023",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/06/IEPF-June-2023.pdf",
       },
       {
+        name: "December 2022",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/12/December-2022.pdf",
       },
       {
+        name: "June 2022",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/06/IEPF-Newspaper-Advertisement-June-2022.pdf",
       },
       {
+        name: "December 2021",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/12/DECEMBER-2021.pdf",
       },
       {
+        name: "June2021",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/06/IEPF-Newspaper-Advertisement.pdf",
       },
     ],
   },
   {
-    id: 26,
+    id: 29,
     title: "Annual Secretarial Compliance Report",
 
     url: [
       {
+        name:"March 2024",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/05/ASCR31032024.pdf",
       },
       {
+        name:"March 2023",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/05/ASCR-31.03.2023.pdf",
       },
       {
+        name:"March 2022",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/05/ASCR-31.03.2022.pdf",
       },
       {
+        name:"March 2021",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/06/Annual-Secretarial-Compliance-Report-31.03.2021.pdf",
       },
     ],
   },
   {
-    id: 27,
+    id: 30,
     title: "Closure of Operations",
 
     url: [
       {
+        name:"June 2021",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/06/202106011217.pdf",
       },
       {
+        name:"May 2021",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/05/Closure.pdf",
       },
     ],
   },
   {
-    id: 28,
+    id: 31,
     title: "Trading Window Closure 2020-21",
 
-    url: [
+    url: [ 
       {
+        name: "March 2021",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/03/SE-Trading-Window-31.03.2021.pdf",
       },
       {
+        name: "December 2020",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/12/TradingDec2020.pdf",
       },
       {
+        name: "September 2020",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/10/TradingWindow.pdf",
       },
       {
+        name: "June 2020",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/Trading-Window-Intimation-30.06.2020.pdf",
       },
     ],
   },
   {
-    id: 29,
+    id: 32,
     title: "Intimation of Record date Jan 2021",
 
     url: [
@@ -3357,7 +3599,7 @@ export const Stock_Exchange_Indimation = [
     ],
   },
   {
-    id: 30,
+    id: 33,
     title: "Expansion – Sugar and Ethanol",
 
     url: [
@@ -3367,7 +3609,7 @@ export const Stock_Exchange_Indimation = [
     ],
   },
   {
-    id: 31,
+    id: 34,
     title: "Garment Expansion Programme",
 
     url: [
@@ -3377,7 +3619,7 @@ export const Stock_Exchange_Indimation = [
     ],
   },
   {
-    id: 32,
+    id: 35,
     title: "IEPF NEWSPAPER ADVERTISEMENT OCT 2020",
 
     url: [
@@ -3387,73 +3629,92 @@ export const Stock_Exchange_Indimation = [
     ],
   },
   {
-    id: 33,
+    id: 36,
     title: "17th AGM Intimations",
 
     url: [
       {
+        name: "Record Date Intimation",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/09/RECORDDATEINTIMATION.pdf",
       },
       {
+        name: "Book Closure  Intimation",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/09/RECORDDATEINTIMATION.pdf",
       },
       {
+        name: "17th AGM Proceedings",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/09/17th-AGM-Proceedings.pdf",
       },
       {
+        name: "Voting Results and Scrutinizers Report",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/09/VotingResults-ScrutinizersReport.pdf",
       },
       {
+        name: "17th AGM Detailed Proceedings",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/10/17agmProc.pdf",
       },
     ],
   },
   {
-    id: 34,
+    id: 37,
     title: "Related Party Transactions",
 
     url: [
       {
+          name:"Sept 2024",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2024/11/5.-RPT-Sep-2024.pdf",
+      },
+      {
+        name:"March 2024",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/05/8.-RPT-31.03.2024.pdf",
       },
       {
+        name:"Sept 2023",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/11/9.-RPT30.09.2023.pdf",
       },
       {
+        name:"March 2023",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/05/RPT31032023.pdf",
       },
       {
+        name:"Sept 2022",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/11/RPT30092022.pdf",
       },
       {
+        name:"March 2022",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/05/RPT31032022.pdf",
       },
       {
+        name:"Sept 2021",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/11/Related-Party-Transaction-30.09.2021.pdf",
       },
       {
+        name:"March 2021",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/11/Related-Party-Transaction-31.03.2021-1.pdf",
       },
       {
+        name:"March 2020",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/Related-Party-Transaction-31.03.2020-PDF.pdf",
       },
       {
+        name:"Sept 2020",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/01/RPTSept2020.pdf",
       },
     ],
   },
   {
-    id: 35,
+    id: 38,
     title: "Trading Window Closure 2019-20",
 
     url: [
       {
+        name:"March",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/Trading-Window-Intimation-31.03.2020.pdf",
       },
     ],
   },
   {
-    id: 36,
+    id: 39,
     title: "Trading Window Closure July 2017",
 
     url: [
@@ -3463,7 +3724,7 @@ export const Stock_Exchange_Indimation = [
     ],
   },
   {
-    id: 37,
+    id: 40,
     title: "Trading Window Closure 2015",
 
     url: [
@@ -3473,7 +3734,7 @@ export const Stock_Exchange_Indimation = [
     ],
   },
   {
-    id: 38,
+    id: 41,
     title: "Trading_Window_Closure",
 
     url: [
@@ -3527,12 +3788,15 @@ export const Divedent_IVPF = [
     title: "SHARES TO BE TRANSFERRED TO IEPF",
     url: [
       {
+        name:"September 2023",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/06/September-2023.pdf",
       },
       {
+        name:"April 2023",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/01/1.-April-2023.pdf",
       },
       {
+        name:"March 2023",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/12/March-2023.pdf",
       },
     ],
@@ -3562,9 +3826,11 @@ export const Divedent_IVPF = [
 
     url: [
       {
+        name:"September 2022",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/06/Listjune2022EPF.pdf",
       },
       {
+        name:"March 2022",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/03/IEPF-%E2%80%93-MARCH-2022.pdf",
       },
     ],
@@ -3684,46 +3950,80 @@ export const Divedent_IVPF = [
 
 export const Anouncement_Data = [
   {
-    id: 1,
+      id: 1,
+      title: "Redressal of investor grievances through the SEBI Complaint Redressal (SCORES) ",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2024/10/2.-NSE-Circular.pdf",
+        },
+      ],
+  },
+  {
+      id: 2,
+      title: "Platform and linking it to Online Dispute Resolution platform",
+      url: [
+        {
+          link: "Platform and linking it to Online Dispute Resolution platform",
+        },
+      ],
+  },
+  {
+      id: 3,
+      title: "SEBI CIRCULAR ON ONLINE DISPUTE RESOLUTION",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2023/09/DisputeRegul223.pdf",
+        },
+      ],
+  },
+  {
+    id: 4,
     title: "SEBI CIRCULAR ON ONLINE DISPUTE RESOLUTION",
     url: [
       {
+        name:"Resolution",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/09/DisputeRegul223.pdf",
       },
     ],
   },
   {
-    id: 2,
+    id: 5,
     title: "Buyback 2022",
     url: [
       {
+        name:"Post Buyback Public Announcement",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/04/PostBBPAnewspaperAD.pdf",
       },
       {
+        name:"Final SEBI Observations",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/03/Final-SEBI-Observations-KPR-Mill-Limited.pdf",
       },
       {
+        name:"Letter of Offer",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/03/Letter-of-Offer.pdf",
       },
       {
+        name:"PUBLIC ANNOUNCEMENT",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/Public-Announcement.pdf",
       },
     ],
   },
   {
-    id: 3,
+    id: 6,
     title: "SUB-DIVISION OF EQUITY SHARES",
     url: [
       {
+        name:"Newspaper Advertisement for Record Date ",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/09/NPAR.pdf",
       },
       {
+        name:"RECORD DATE INTIMATION",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/09/Record-date-intimation-for-sub-division.pdf ",
       },
     ],
   },
   {
-    id: 4,
+    id: 7,
     title: "POST BUYBACK PUBLIC ANNOUNCEMENT",
     url: [
       {
@@ -3732,7 +4032,7 @@ export const Anouncement_Data = [
     ],
   },
   {
-    id: 5,
+    id: 8,
     title: "DRAFT LETTER OF OFFER MERGED",
     url: [
       {
@@ -3741,7 +4041,7 @@ export const Anouncement_Data = [
     ],
   },
   {
-    id: 6,
+    id: 9,
     title: "PUBLIC ANNOUNCEMENT BuyBack 2018",
     url: [
       {
@@ -3750,7 +4050,7 @@ export const Anouncement_Data = [
     ],
   },
   {
-    id: 7,
+    id: 10,
     title: "BUYBACK OUTCOME OF BOARD MEETING 2018",
 
     url: [
@@ -3760,7 +4060,7 @@ export const Anouncement_Data = [
     ],
   },
   {
-    id: 8,
+    id: 11,
     title: "BUYBACK RECORD DATE INTIMATION 2018",
 
     url: [
@@ -3773,213 +4073,247 @@ export const Anouncement_Data = [
 
 export const Inverstors_Preseentation_Data = [
   {
-    id: 1,
-    title: "INVESTOR PRESENTATION 2023-24",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/05/March.pdf",
-      },
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/02/InvUp2024Jan.pdf",
-      },
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2023/11/SEPTEMBER.pdf",
-      },
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2023/08/June.pdf",
-      },
-    ],
-  },
+      id: 1,
+      title: "INVESTOR PRESENTATION 2024-25",
+      url: [
+        {
+          name:"December ",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2024/05/March.pdf",
+        },
+        {
+          name:"September ",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2024/02/InvUp2024Jan.pdf",
+        },
+        {
+          name:"June",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2023/11/SEPTEMBER.pdf",
+        },
+      ],
+    },
   {
-    id: 2,
-    title: "INVESTOR PRESENTATION 2022-23",
-    url: [
+  id: 2,
+  title: "INVESTOR PRESENTATION 2023-24",
+  url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2023/05/MARCH.pdf ",
+          name:"March",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2024/05/March.pdf",
       },
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2023/02/December.pdf",
+          name:"December",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2024/02/InvUp2024Jan.pdf",
       },
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2022/11/September.pdf",
+          name:"September",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2023/11/SEPTEMBER.pdf",
       },
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2022/08/June.pdf",
+          name:"June",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2023/08/June.pdf",
       },
     ],
   },
   {
     id: 3,
-    title: "INVESTOR PRESENTATION 2021-22",
+    title: "INVESTOR PRESENTATION 2022-23",
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2022/04/March.pdf",
+          name:"March",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2023/05/MARCH.pdf ",
       },
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/December.pdf",
+          name:"December",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2023/02/December.pdf",
       },
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2021/10/September.pdf",
+          name:"September",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2022/11/September.pdf",
       },
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2021/07/Investor-Presentation-1.pdf",
+          name:"June",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2022/08/June.pdf",
       },
     ],
   },
   {
     id: 4,
-    title: "INVESTOR PRESENTATION 2020-21",
+    title: "INVESTOR PRESENTATION 2021-22",
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2021/04/Investor-Presentation.pdf",
+          name:"March",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2022/04/March.pdf",
       },
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2021/02/Investore-Presentation-31.12.2020.pdf",
+          name:"December",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/December.pdf",
       },
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2020/10/InvestorpresentationQ230092020.pdf",
+          name:"September",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2021/10/September.pdf",
       },
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/Investor_PresQ1FY2021-1.pdf",
+          name:"June",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2021/07/Investor-Presentation-1.pdf",
       },
     ],
   },
   {
     id: 5,
-    title: "INVESTOR PRESENTATION 2020",
-
+    title: "INVESTOR PRESENTATION 2020-21",
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/Investor_Presentation-Q4FY20-06-07-2020-Website.pdf",
+          name:"March",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2021/04/Investor-Presentation.pdf",
+      },
+      {
+          name:"December",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2021/02/Investore-Presentation-31.12.2020.pdf",
+      },
+      {
+          name:"September",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2020/10/InvestorpresentationQ230092020.pdf",
+      },
+      {
+          name:"June",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/Investor_PresQ1FY2021-1.pdf",
       },
     ],
   },
   {
     id: 6,
-    title: "INVESTOR PRESENTATION Q1 2019",
+    title: "INVESTOR PRESENTATION 2020",
+
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Investor_Presentation-Q1FY19.pdf",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/Investor_Presentation-Q4FY20-06-07-2020-Website.pdf",
       },
     ],
   },
   {
     id: 7,
-    title: "INVESTOR PRESENTATION Q3 2018",
-
+    title: "INVESTOR PRESENTATION Q1 2019",
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Investor_Presentation_Q3_2018.pdf",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Investor_Presentation-Q1FY19.pdf",
       },
     ],
   },
   {
     id: 8,
-    title: "KPR INVESTOR PRESENTATION 2016",
+    title: "INVESTOR PRESENTATION Q3 2018",
 
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/KPR_q2fy16.pdf",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Investor_Presentation_Q3_2018.pdf",
       },
     ],
   },
   {
     id: 9,
-    title: "KPR INVESTOR PRESENTATION 2015 ",
+    title: "KPR INVESTOR PRESENTATION 2016",
 
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/KPRMill_IP_June2015.pdf",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/KPR_q2fy16.pdf",
       },
     ],
   },
   {
     id: 10,
-    title: "BOARD_MEETING_INTIMATION 2017",
+    title: "KPR INVESTOR PRESENTATION 2015 ",
 
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/BOARD_MEETING_INTIMATION.pdf",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/KPRMill_IP_June2015.pdf",
       },
     ],
   },
   {
     id: 11,
-    title: "KPR MILL INVESTOR PRESENTATION-19-09-2015",
+    title: "BOARD_MEETING_INTIMATION 2017",
 
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/KPRMill_IP_June2015.pdf",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/BOARD_MEETING_INTIMATION.pdf",
       },
     ],
   },
   {
     id: 12,
-    title: "KPR INVESTOR PRESENTATION.Q2",
+    title: "KPR MILL INVESTOR PRESENTATION-19-09-2015",
 
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/KPR_q2fy16.pdf",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/KPRMill_IP_June2015.pdf",
       },
     ],
   },
   {
     id: 13,
-    title: "INVESTOR CONFERENCE 2018",
+    title: "KPR INVESTOR PRESENTATION.Q2",
 
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/InvestorConference.pdf",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/KPR_q2fy16.pdf",
       },
     ],
   },
   {
     id: 14,
-    title: "INVESTOR PRESENTATION-Q4ANNUAL FOR FY2017 05-05-17",
+    title: "INVESTOR CONFERENCE 2018",
 
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/1-InvPrs17Q4.pdf",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/InvestorConference.pdf",
       },
     ],
   },
   {
     id: 15,
-    title: "INVESTOR PRESENTATION JUNE2017",
+    title: "INVESTOR PRESENTATION-Q4ANNUAL FOR FY2017 05-05-17",
 
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/KPR_Mill_Investor_Presentation_Q1FY18.pdf",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/1-InvPrs17Q4.pdf",
       },
     ],
   },
   {
     id: 16,
-    title: "INVESTOR PRESENTATION Q2 16-17",
+    title: "INVESTOR PRESENTATION JUNE2017",
 
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/SEInvestorPresentation.pdf",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/KPR_Mill_Investor_Presentation_Q1FY18.pdf",
       },
     ],
   },
   {
     id: 17,
-    title: "INVESTORS PRESENTATION Q12017",
+    title: "INVESTOR PRESENTATION Q2 16-17",
 
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/IP_Q12017.pdf.pdf",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/SEInvestorPresentation.pdf",
       },
     ],
   },
   {
     id: 18,
+    title: "INVESTORS PRESENTATION Q12017",
+
+    url: [
+      {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/IP_Q12017.pdf.pdf",
+      },
+    ],
+  },
+  {
+    id: 19,
     title: "INVESTOR PRESENTATION Q3 ’16",
 
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/1-Investor-Presentation-Q3FY16-.pdf.pdf",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/1-Investor-Presentation-Q3FY16-.pdf.pdf",
       },
     ],
   },
@@ -3987,67 +4321,143 @@ export const Inverstors_Preseentation_Data = [
 
 export const Information = [
   {
-    id: 1,
+      id: 1,
+      title: "Postal Ballot March 2025",
+      url: [
+          {
+              name:"Newspaper Ad",
+              link: "https://kprmilllimited.com/file/wp-content/uploads/2025/03/NewspaperAd-1.pdf",
+          },
+          {
+              name:"PB Notice",
+              link: "https://kprmilllimited.com/file/wp-content/uploads/2025/03/Postal-Ballot-Notice-KPRML.pdf",
+          },
+      ],
+  },
+  {
+      id: 2,
+      title: "MOA & AOA",
+      url: [
+        {
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2024/12/KPRML-MOA-AOA.pdf",
+        },
+      ],
+  },
+  {
+      id: 3,
+      title: "Newspaper Advertisement 2024-25",
+      url: [
+          {
+              name:"Q3 Financials",
+              link: "https://kprmilllimited.com/file/wp-content/uploads/2025/02/4.-FRNewspaperAd.pdf",
+          },
+          {
+              name:"Q2 Financials",
+              link: "https://kprmilllimited.com/file/wp-content/uploads/2024/11/FRNewspaperAd-1.pdf",
+          },
+          {
+              name:"Q1 Financials",
+              link: "https://kprmilllimited.com/file/wp-content/uploads/2024/08/FR-Newspaper-Ad-4.pdf",
+          },
+      ],
+  },
+  {
+      id: 4,
+      title: "Board Meeting Intimation 2024-25",
+      url: [
+          {
+              name:"Q3",
+              link: "https://kprmilllimited.com/file/wp-content/uploads/2025/01/Q3-2.pdf",
+          },
+          {
+              name:"Q2",
+              link: "https://kprmilllimited.com/file/wp-content/uploads/2024/10/Q2-1.pdf",
+          },
+          {
+              name:"Notice",
+              link:"https://kprmilllimited.com/file/wp-content/uploads/2024/07/Q1-2.pdf",
+          }
+      ],
+  },
+
+  {
+    id: 5,
     title: "POSTAL BALLOT 2024",
     url: [
       {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2024/04/PostalBallotNPAD2024.pdf",
+          name:"newspaper Ad",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2024/04/PostalBallotNPAD2024.pdf",
+      },
+      {
+          name:"Notice",
+          link:"https://kprmilllimited.com/file/wp-content/uploads/2024/04/POSTAL-BALLOT-NOTICE-2024.pdf",
       },
     ],
   },
   {
-    id: 2,
+    id: 6,
     title: "Newspaper Advertisement 2023-24",
     url: [
       {
+        name:"Q4 Financials",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/05/FR-Newspaper-Ad.pdf",
       },
       {
+        name:"Q3 Financials ",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/02/FR-NP-Ad-05.02.2024-1.pdf",
       },
       {
+        name:"Q2 Financials ",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/11/FRNewspaperAD.pdf",
       },
       {
+        name:"Q1 Financials ",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/08/FR-Newspaper-AD-3.pdf",
       },
     ],
   },
   {
-    id: 3,
+    id: 7,
     title: "Board Meeting Intimation 2023-24",
     url: [
       {
+        name:"BM Q4",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/04/Q4-2.pdf",
       },
       {
+        name:"5th BM INTIMATION",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/03/5thBMINTIMATION.pdf",
       },
       {
+        name:"Q3",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2024/01/Q3-1.pdf",
       },
       {
+        name:"Q2",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/10/Q2.pdf",
       },
       {
+        name:"Q1",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/07/Q1.pdf",
       },
     ],
   },
   {
-    id: 4,
+    id: 8,
     title: "GHG Emission",
     url: [
       {
+        name:"Plan",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/06/GHG-EMISSION-CONTROL-PLAN.pdf",
       },
       {
+        name:"Procedure",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/06/GHG-EMISSION-CONTROL-PROCEDURE.pdf",
       },
     ],
   },
   {
-    id: 5,
+    id: 9,
     title:
       "MODEL TRIPARTITE AGREEMENT BETWEEN THE ISSUER, EXISTING RTA AND NEW RTA",
 
@@ -4058,173 +4468,208 @@ export const Information = [
     ],
   },
   {
-    id: 6,
+    id: 10,
     title: "Newspaper Advertisement 2022-23",
     url: [
-      {
+      { 
+        name:"Q4 Financials ",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/05/FR-Newspaper-AD-2.pdf",
       },
       {
+        name:"Q3 Financials ",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/02/FR-Newspaper-Ad.pdf",
       },
       {
+        name:"Q2 Financials ",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/11/Q2-Financials.pdf",
       },
       {
+        name:"Q1 Financials ",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/07/Q1-Financials.pdf",
       },
     ],
   },
   {
-    id: 7,
+    id: 11,
     title: " Board Meeting Intimation 2022-23",
 
     url: [
       {
+        name:"Q4",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/05/Q4-1.pdf",
       },
       {
+        name:"Q3",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/01/Q3.pdf",
       },
       {
+        name:"Q2",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/10/Q2.pdf",
       },
       {
+        name:"Q1",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/07/3.-Q1-Board-Meeting-Intimation.pdf",
       },
     ],
   },
   {
-    id: 8,
+    id: 12,
     title: "Buy-back 2022 documents for Shareholders Inspection",
 
     url: [
       {
+        name:"Firm Arrangement Certificate – 07.02.2022",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/03/Firm-Arrangement-Certificate-updated.pdf",
       },
       {
+        name:"Incorporation Certificate",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/1.-Certificate-of-Incorporation-KPRML.pdf",
       },
       {
+        name:"MOA & AOA",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/2.-MOA-AOA.pdf",
       },
       {
+        name:"Board Resolution – Buy-back",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/3.-Board-Resolution-Buyback.pdf",
       },
       {
+        name:"Auditor Certificate of MPL Buyback 2022",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/4.-Auditor-Certificate-of-MPL-Buyback-2022.pdf",
       },
       {
+        name:"Form SH-9 – Declaration of Solvency and an Affidavit",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/5.-Form-SH-9-Declaration-of-Solvency-with-an-Affidavit.pdf",
       },
       {
+        name:"Public Announcement",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/7.-Public-Announcement.pdf",
       },
       {
+        name:"Note on taxation 07-02-2022",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/8.-Note-on-taxation-07-02-2022.pdf",
       },
       {
+        name:"Form SH-4",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/9.-Form-SH-4.pdf",
       },
     ],
   },
   {
-    id: 9,
+    id: 13,
     title: "Board Meeting Intimation 2021-22",
     url: [
       {
+        name:"Q4",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/04/Q4-BM-INTIMATION-2022.pdf",
       },
       {
+        name:"Q3",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/01/3Q-BM-Intimation-2022.pdf",
       },
-
       {
+        name:"Q2",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/10/September-2021.pdf",
       },
       {
+        name:"Q1",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/07/SE-BM-Intimation.pdf",
       },
     ],
   },
   {
-    id: 10,
+    id: 14,
     title: "Newspaper Advertisement 2021-22",
     url: [
       {
+        name:"Q4 Financials",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/04/Q4Financials.pdf",
       },
       {
+        name:"Q3 Financials",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2022/02/Q3-FINANCIALS-1.pdf",
       },
-
       {
+        name:"Q2 Financials",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/10/Q2-Financials.pdf",
       },
     ],
   },
   {
-    id: 11,
+    id: 15,
     title: "Board Meeting Intimation 2020-21",
     url: [
       {
+        name:"Q4",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/04/BM-Stock-Exchange-Intimation.pdf",
       },
       {
+        name:"Q3",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/01/3Q3m202021.pdf",
       },
-
       {
+        name:"Q2",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/10/2qbmsept.pdf",
       },
       {
+          name:"24th September 2020",
+          link: "https://kprmilllimited.com/file/wp-content/uploads/2020/09/3rdBM-SE-2020-21-KPRML.pdf",
+        },
+      {
+        name:"Q1",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/2QBMIntimation.pdf",
       },
     ],
   },
 
   {
-    id: 12,
+    id: 16,
     title: "Newspaper Advertisement 2020-21",
     url: [
       {
+        name:"Q4 Financials",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/04/4QFinancials.pdf",
       },
       {
+        name:"Q3 Financials",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/02/Q3-Financials.pdf",
       },
-
       {
+        name:"Q2 Financials",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/10/Q2Financials.pdf",
       },
       {
+        name:"Q1 Financials",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/2ndBMFin30.06.2020NP.pdf",
       },
     ],
   },
 
   {
-    id: 13,
+    id: 17,
     title: "Board Meeting Intimation in Newspaper Advertisement 2020-21",
     url: [
       {
+        name:"Q4 BM Notice",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/04/Newspaper-Advt.pdf",
       },
       {
+        name:"Q3 BM Notice ",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/01/3QBMNPAdvt.pdf",
       },
-
       {
+        name:"Q2 BM Notice",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/10/Q2BMNEWSPAPERAD.pdf",
       },
       {
+          name:"Q1 BM Notice ",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/1QNewspaperAdintimation-SE.pdf",
       },
     ],
   },
 
   {
-    id: 14,
+    id: 18,
     title: "IEPF News Paper Advertisement 2020",
     url: [
       {
@@ -4234,67 +4679,75 @@ export const Information = [
   },
 
   {
-    id: 15,
+    id: 19,
     title: "News Paper Advertisement 2019-20",
     url: [
       {
+        name:"Q3 Financials",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/3QFinancialsAd.pdf",
       },
       {
+        name:"Q2 Financials",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/2QFinacialsAd.pdf",
       },
 
       {
+        name:"Q1 Financials" ,
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/1QFinancialsAd.pdf",
       },
     ],
   },
 
   {
-    id: 16,
+    id: 20,
     title: "News Paper Advertisement 17th AGM and E-Voting",
     url: [
       {
+        name:"17Th AGM and E-Voting",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/09/NPASD_17THAGMANDE-VOTING.pdf",
       },
 
       {
+        name:"17Th AGM Notice",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/17THAGMNPADD.pdf",
       },
     ],
   },
 
   {
-    id: 17,
+    id: 21,
     title: "Board Meeting Intimation in Newspaper Advertisement 2019-20",
     url: [
       {
+        name:"Q4 BM Notice",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2021/04/BM-INTIMATION-1Q.pdf",
       },
-
       {
+        name:"Q3 BM Notice",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/3QBMnoticeAd.pdf",
       },
       {
+        name:"Q2 BM Notice",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/2QBMnoticeAd.pdf",
       },
-
       {
+        name:"Q1 BM Notice",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2020/08/1QBmnoticeAd.pdf",
       },
     ],
   },
   {
-    id: 18,
+    id: 22,
     title: "BOARD MEETING INTIMATION JULY-2018",
     url: [
       {
+        name:"BM Notice",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/NoticeOfBoardMeetingJuly2018.pdf",
       },
     ],
   },
   {
-    id: 19,
+    id: 23,
     title: "INTIMATION REG BRANDED RETAIL BUSINESS",
     url: [
       {
@@ -4304,68 +4757,32 @@ export const Information = [
   },
 
   {
-    id: 20,
+    id: 24,
     title: "INTIMATION OF BOARD MEETING MAR 2018",
     url: [
       {
+        name:"Q4 BM Notice",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/IntimationOfBM_April30.pdf",
       },
     ],
   },
   {
-    id: 21,
+    id: 25,
     title: "INTIMATION OF BOARD MEETING FEB 2018",
     url: [
-      {
+      { 
+        name:"Q3 BM Notice",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Intimation-of-Board-Meeting.pdf",
       },
     ],
   },
   {
-    id: 22,
+    id: 26,
     title: "Board Meeting Intimation July 2017",
     url: [
       {
+        name:"Q2 BM Notice",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/BOARD_MEETING_INTIMATION.pdf",
-      },
-    ],
-  },
-
-  {
-    id: 23,
-    title: "TRADING WINDOW INTIMATION",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/TRADING_WINDOW_INTIMATION.pdf",
-      },
-    ],
-  },
-
-  {
-    id: 24,
-    title: "INTIMATION OF DETAIL OF NODAL OFFICER",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/MCA_IEPF_Nodalofficer.pdf",
-      },
-    ],
-  },
-  {
-    id: 25,
-    title: "INVESTOR CONFERENCE 2017",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Invs_conf.pdf",
-      },
-    ],
-  },
-
-  {
-    id: 26,
-    title: "BOARD MEETING INTIMATION",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/BOARD-MEETING-INITMATION-TO-SE.pdf",
       },
     ],
   },
@@ -4375,12 +4792,52 @@ export const Information = [
     title: "TRADING WINDOW INTIMATION",
     url: [
       {
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/TRADING_WINDOW_INTIMATION.pdf",
+      },
+    ],
+  },
+
+  {
+    id: 28,
+    title: "INTIMATION OF DETAIL OF NODAL OFFICER",
+    url: [
+      {
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/MCA_IEPF_Nodalofficer.pdf",
+      },
+    ],
+  },
+  {
+    id: 29,
+    title: "INVESTOR CONFERENCE 2017",
+    url: [
+      {
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/Invs_conf.pdf",
+      },
+    ],
+  },
+
+  {
+    id: 30,
+    title: "BOARD MEETING INTIMATION",
+    url: [
+      {
+        name:"Q1 BM Notice",
+        link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/BOARD-MEETING-INITMATION-TO-SE.pdf",
+      },
+    ],
+  },
+
+  {
+    id: 31,
+    title: "TRADING WINDOW INTIMATION",
+    url: [
+      {
         link: "https://kprmilllimited.com/file/wp-content/uploads/2018/11/TRADING_WINDOW_INT_SE.pdf",
       },
     ],
   },
   {
-    id: 28,
+    id: 32,
     title: "NEW PRINTING UNIT",
     url: [
       {
@@ -4389,7 +4846,7 @@ export const Information = [
     ],
   },
   {
-    id: 29,
+    id: 33,
     title: "ANNOUNCEMENT_NEW PROCESS UNIT",
     url: [
       {
@@ -4398,7 +4855,7 @@ export const Information = [
     ],
   },
   {
-    id: 30,
+    id: 34,
     title: "BUYBACK FORM SH4",
     url: [
       {
@@ -4407,7 +4864,7 @@ export const Information = [
     ],
   },
   {
-    id: 31,
+    id: 35,
     title: "BUYBACK TENDER FORM PHYSICAL",
     url: [
       {
@@ -4417,7 +4874,7 @@ export const Information = [
   },
 
   {
-    id: 32,
+    id: 36,
     title: "BUYBACK TENDER FORM DEMAT",
     url: [
       {
@@ -4426,7 +4883,7 @@ export const Information = [
     ],
   },
   {
-    id: 33,
+    id: 37,
     title: "BUYBACK LOF",
     url: [
       {
@@ -4436,7 +4893,7 @@ export const Information = [
   },
 
   {
-    id: 34,
+    id: 38,
     title: "BUYBACK DLOF",
     url: [
       {
@@ -4445,7 +4902,7 @@ export const Information = [
     ],
   },
   {
-    id: 35,
+    id: 39,
     title: "BUYBACK PA",
     url: [
       {
@@ -4454,7 +4911,7 @@ export const Information = [
     ],
   },
   {
-    id: 36,
+    id: 40,
     title: "BUYBACK",
     url: [
       {
@@ -4463,7 +4920,7 @@ export const Information = [
     ],
   },
   {
-    id: 37,
+    id: 41,
     title: "BSE_INTIMATION_DEC2016",
     url: [
       {
@@ -4472,7 +4929,7 @@ export const Information = [
     ],
   },
   {
-    id: 38,
+    id: 42,
     title: "BOARD_MEETING JULY2016",
     url: [
       {
@@ -4481,7 +4938,7 @@ export const Information = [
     ],
   },
   {
-    id: 39,
+    id: 43,
     title: "ANNOUNCEMENT GARMENT PRODUCTION",
     url: [
       {
@@ -4490,7 +4947,7 @@ export const Information = [
     ],
   },
   {
-    id: 40,
+    id: 44,
     title: "EXPANSION – PROCESSING",
     url: [
       {
@@ -4499,7 +4956,7 @@ export const Information = [
     ],
   },
   {
-    id: 41,
+    id: 45,
     title: "BOARD MEETING NOTICE",
     url: [
       {
@@ -4508,7 +4965,7 @@ export const Information = [
     ],
   },
   {
-    id: 42,
+    id: 46,
     title: "DISCLOSURE UNDER REGULATION 30(5)",
     url: [
       {
@@ -4517,7 +4974,7 @@ export const Information = [
     ],
   },
   {
-    id: 43,
+    id: 47,
     title: "ANNOUNCEMENT-New Garment Bhoomi Pooja",
     url: [
       {
@@ -4526,7 +4983,7 @@ export const Information = [
     ],
   },
   {
-    id: 44,
+    id: 48,
     title: "WITHDRAWAL OF NOMINATION-Mr.Shujaat Khan",
     url: [
       {
@@ -4536,7 +4993,7 @@ export const Information = [
   },
 
   {
-    id: 45,
+    id: 49,
     title: "ANNOUNCEMENTS-Garment-Expansion",
     url: [
       {
@@ -4545,7 +5002,7 @@ export const Information = [
     ],
   },
   {
-    id: 46,
+    id: 50,
     title: "ANNOUNCEMENT – WEBSITE-11.05.2015",
     url: [
       {
@@ -4554,16 +5011,17 @@ export const Information = [
     ],
   },
   {
-    id: 47,
+    id: 51,
     title: "CREDIT RATING",
     url: [
       {
+        name:"FY 2022-23",
         link: "https://kprmilllimited.com/file/wp-content/uploads/2023/05/FY-2022-23-1.pdf",
       },
     ],
   },
   {
-    id: 48,
+    id: 52,
     title: "COMPOSITION OF VARIOUS COMMITTEE",
     url: [
       {

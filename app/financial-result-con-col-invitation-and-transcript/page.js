@@ -176,17 +176,37 @@ export default function ConColInvitationAndTranscript() {
                                                 style={{
                                                   display: "flex",
                                                   alignItems: "center",
-                                                  justifyContent: "center",
+                                                  justifyContent: "end",
                                                   marginBottom: "10px",
                                                 }}
                                               >
-                                                <i
-                                                  className="fa fa-download"
+                                              {
+                                                  url?.name && (
+                                                    <p style={{
+                                                      fontSize: "16px", paddingTop: "5px",
+                                                      color: "#5a1d00", paddingRight:"8px", 
+                                                    }}>{url?.name}</p>
+                                                  )
+                                                }
+                                                {
+                                                  url?.category ? (
+                                                    <i
+                                                  className="fa fa-volume-up"
                                                   style={{
-                                                    fontSize: "22px",
+                                                    fontSize: "16px",
                                                     color: "#5a1d00",
                                                   }}
                                                 ></i>
+
+                                                  ): (<i
+                                                  className="fa fa-download"
+                                                  style={{
+                                                    fontSize: "16px",
+                                                    color: "#5a1d00",
+                                                  }}
+                                                ></i>)
+                                                }
+                                               
                                                 {/* <p
                                                   style={{
                                                     fontSize: "14px",

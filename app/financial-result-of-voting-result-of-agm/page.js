@@ -171,15 +171,23 @@ export default function VotingResultOfAgm() {
                                                 className="icon-shape text-center "
                                                 style={{
                                                   display: "flex",
-                                                  alignItems: "center",
+                                                  alignItems: "end",
                                                   justifyContent: "end",
                                                   marginBottom: "10px",
                                                 }}
                                               >
+                                              {
+                                                  url?.name && (
+                                                    <p style={{
+                                                      fontSize: "16px", paddingTop: "5px",
+                                                      color: "#5a1d00", paddingRight:"8px", 
+                                                    }}>{url?.name}</p>
+                                                  )
+                                                }
                                                 <i
                                                   className="fa fa-download"
                                                   style={{
-                                                    fontSize: "22px",
+                                                    fontSize: "16px",
                                                     color: "#5a1d00",
                                                   }}
                                                 ></i>

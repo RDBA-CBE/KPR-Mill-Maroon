@@ -226,14 +226,15 @@ export default function FinancialResult() {
                                           className="icon-shape text-center "
                                           style={{
                                             display: "flex",
-                                            alignItems: "center",
+                                            alignItems: "end",
                                             justifyContent: "end",
                                           }}
                                         >
+                                       
                                           <i
                                             className="fa fa-download"
                                             style={{
-                                              fontSize: "22px",
+                                              fontSize: "16px",
                                               color: "#5a1d00",
                                             }}
                                           ></i>
@@ -289,14 +290,14 @@ export default function FinancialResult() {
                                           className="icon-shape text-center "
                                           style={{
                                             display: "flex",
-                                            alignItems: "center",
+                                            alignItems: "end",
                                             justifyContent: "end",
                                           }}
                                         >
                                           <i
                                             className="fa fa-download"
                                             style={{
-                                              fontSize: "22px",
+                                              fontSize: "16px",
                                               color: "#5a1d00",
                                             }}
                                           ></i>
@@ -352,14 +353,14 @@ export default function FinancialResult() {
                                           className="icon-shape text-center "
                                           style={{
                                             display: "flex",
-                                            alignItems: "center",
+                                            alignItems: "end",
                                             justifyContent: "end",
                                           }}
                                         >
                                           <i
                                             className="fa fa-download"
                                             style={{
-                                              fontSize: "22px",
+                                              fontSize: "16px",
                                               color: "#5a1d00",
                                             }}
                                           ></i>
@@ -415,14 +416,14 @@ export default function FinancialResult() {
                                           className="icon-shape text-center "
                                           style={{
                                             display: "flex",
-                                            alignItems: "center",
+                                            alignItems: "end",
                                             justifyContent: "end",
                                           }}
                                         >
                                           <i
                                             className="fa fa-download"
                                             style={{
-                                              fontSize: "22px",
+                                              fontSize: "16px",
                                               color: "#5a1d00",
                                             }}
                                           ></i>
@@ -478,14 +479,14 @@ export default function FinancialResult() {
                                           className="icon-shape text-center "
                                           style={{
                                             display: "flex",
-                                            alignItems: "center",
+                                            alignItems: "end",
                                             justifyContent: "end",
                                           }}
                                         >
                                           <i
                                             className="fa fa-download"
                                             style={{
-                                              fontSize: "22px",
+                                              fontSize: "16px",
                                               color: "#5a1d00",
                                             }}
                                           ></i>
@@ -552,14 +553,14 @@ export default function FinancialResult() {
                                           className="icon-shape text-center "
                                           style={{
                                             display: "flex",
-                                            alignItems: "center",
+                                            alignItems: "end",
                                             justifyContent: "end",
                                           }}
                                         >
                                           <i
                                             className="fa fa-download"
                                             style={{
-                                              fontSize: "22px",
+                                              fontSize: "16px",
                                               color: "#5a1d00",
                                             }}
                                           ></i>
@@ -641,14 +642,14 @@ export default function FinancialResult() {
                                           className="icon-shape text-center "
                                           style={{
                                             display: "flex",
-                                            alignItems: "center",
+                                            alignItems: "end",
                                             justifyContent: "end",
                                           }}
                                         >
                                           <i
                                             className="fa fa-download"
                                             style={{
-                                              fontSize: "22px",
+                                              fontSize: "16px",
                                               color: "#5a1d00",
                                             }}
                                           ></i>
@@ -730,14 +731,14 @@ export default function FinancialResult() {
                                           className="icon-shape text-center "
                                           style={{
                                             display: "flex",
-                                            alignItems: "center",
+                                            alignItems: "end",
                                             justifyContent: "end",
                                           }}
                                         >
                                           <i
                                             className="fa fa-download"
                                             style={{
-                                              fontSize: "22px",
+                                              fontSize: "16px",
                                               color: "#5a1d00",
                                             }}
                                           ></i>
@@ -825,7 +826,7 @@ export default function FinancialResult() {
                                                 className="icon-shape text-center "
                                                 style={{
                                                   display: "flex",
-                                                  alignItems: "center",
+                                                  alignItems: "end",
                                                   justifyContent: "end",
                                                   marginBottom: "10px",
                                                 }}
@@ -833,7 +834,7 @@ export default function FinancialResult() {
                                                 <i
                                                   className="fa fa-download"
                                                   style={{
-                                                    fontSize: "22px",
+                                                    fontSize: "16px",
                                                     color: "#5a1d00",
                                                   }}
                                                 ></i>
