@@ -57,8 +57,6 @@
 "use client";
 import Link from "next/link";
 import Layout from "@/components/layout/Layout";
-
-import { useEffect, useState } from "react";
 import {
   AnualResult_2016,
   AnualResult_2017,
@@ -70,47 +68,9 @@ import {
   AnualResult_2023,
   AnualResult_2024,
 } from "@/utils/constant.utils";
-import { useSetState } from "@/utils/states.utils";
-import axios from "axios";
-import { data } from "isotope-layout";
-import { getReportTableData } from "@/utils/axios.utils";
 import InvestorsSideMenu from "@/components/elements/InvestorsSideMenu";
 export default function FinancialResult() {
-  const [state, setState] = useSetState({
-    loading: false,
-    data: [],
-  });
-
-  useEffect(() => {
-    ReportData();
-  }, []);
-
-  const ReportData = async () => {
-    try {
-      const res = await getReportTableData();
-      const separatedData = res?.reduce((acc, obj) => {
-        const formPostId = obj.form_post_id;
-        if (!acc[formPostId]) {
-          acc[formPostId] = [];
-        }
-        acc[formPostId].push(obj);
-        return acc;
-      }, {});
-      setState({ data: separatedData["3641"] });
-    } catch (error) {
-      console.log("error: ", error);
-    }
-  };
-
-  const FinancialResultData = state.data?.map((item) => {
-    return item?.form_value;
-  });
-
-  const result2024 = FinancialResultData.filter(
-    (item) => item.yearselection && item.yearselection.includes("2024")
-  );
-  console.log("✌️result2024 --->", result2024);
-
+  
   const backgroundImage =
     "/assets/images/kprmill-images/Investors/Financial-results/banner.jpg";
   return (
