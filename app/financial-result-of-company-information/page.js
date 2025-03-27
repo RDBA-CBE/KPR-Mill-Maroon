@@ -95,6 +95,7 @@ import {
   Subsidary_cos,
   Voting_Result_Of_AGM,
 } from "@/utils/constant.utils";
+import InvestorsSideMenu from "@/components/elements/InvestorsSideMenu";
 export default function CompanyInformation() {
 
   const backgroundImage = "/assets/images/kprmill-images/Company-Information/banner.jpg";
@@ -110,142 +111,16 @@ export default function CompanyInformation() {
           <div className="auto-container">
             <div className="row clearfix">
               <div className="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-                <div className="visa-sidebar default-sidebar">
-                  <div className="sidebar-widget category-widget">
-                    <ul className="category-list clearfix">
-                      <li>
-                        <Link href="/regulation-46-of-the-lodr">
-                          Disclosures under Regulation 46 of the LODR
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/regulation-62-of-the-lodr">
-                          Disclosures under Regulation 62 of the LODR
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/investors-contact">
-                          Inverstors Contact
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/media-download">Media / Download</Link>
-                      </li>
-                      <li>
-                        <Link href="/financial-result" className="current">
-                          Financial Results
-                        </Link>
-
-                        <ul className="category-list clearfix">
-                          <li>
-                            <Link href="/financial-result">Annual Reports</Link>
-                          </li>
-                          <li>
-                            <Link href="/financial-result-audited-unaudited">
-                              Audited / Unaudited Results
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="/financial-result-subsidiary-cos">
-                              Financials – Subsidiary Cos
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="/financial-result-of-indepentet-directors">
-                              Appointment of Independent Directors
-                            </Link>
-                          </li>
-
-                          <li>
-                            <Link href="/financial-result-of-voting-result-of-agm">
-                              Voting Results of AGM and Postal Ballot
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href="/financial-result-of-company-information"
-                              className="current"
-                            >
-                              Company Information
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="/financial-result-con-col-invitation-and-transcript">
-                              Con-call Invitations and Transcript
-                            </Link>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <Link href="/share-holding-pattern">
-                          Share Holding Pattern
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/corporate-governance">
-                          Corporate Governance{" "}
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/code-of-conduct" >Code of Conduct</Link>
-                      </li>
-                      <li>
-                        <Link href="/policy-info">Policy Info</Link>
-                      </li>
-                    </ul>
-                  </div>
-                  {/* <div className="sidebar-widget travel-widget">
-                    <div className="widget-content p_relative">
-                      <figure className="image-box">
-                        <img src="assets/images/resource/travel-1.jpg" alt="" />
-                      </figure>
-                      <div className="content-box">
-                        <h3>Travel Pass</h3>
-                        <ul className="list-item clearfix">
-                          <li>Application Form</li>
-                          <li>Checklist</li>
-                          <li>Guidelines</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="sidebar-widget download-widget">
-                    <div className="widget-content">
-                      <div className="icon-shape">
-                        <img src="assets/images/icons/icon-15.png" alt="" />
-                      </div>
-                      <h3>
-                        Annual Report / <br />
-                        Online Appointment
-                      </h3>
-                      <ul className="download-list clearfix">
-                        <li>
-                          <Link href="visa-details">
-                            <i className="icon-50"></i>
-                            <p>Application Form</p>
-                            <span>450kb</span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="visa-details">
-                            <i className="icon-50"></i>
-                            <p>Application Form</p>
-                            <span>450kb</span>
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div> */}
-                </div>
+                <InvestorsSideMenu isActive="company-information" />
               </div>
               <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                 <div className="visa-details-content">
                   <div className="content-one mb_45">
                     <div className=" table-responsive-sm">
-                      <table class="table big-table table-striped table-bordered">
+                      <table class="table big-table table-striped">
                         <thead>
                           <tr>
-                            <th colspan="2"  style={{backgroundColor:"#daad19", color:"white", fontSize:"18px"}}>Company Information</th>
+                            <th colspan="2" style={{ backgroundColor: "#daad19", color: "white", fontSize: "18px" }}>Company Information</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -294,18 +169,18 @@ export default function CompanyInformation() {
                                                 style={{
                                                   display: "flex",
                                                   alignItems: "center",
-                                                  justifyContent: "center",
+                                                  justifyContent: "end",
                                                   marginBottom: "10px",
                                                 }}
                                               >
                                                 <i
-                                                  className="icon-50"
+                                                  className="fa fa-download"
                                                   style={{
-                                                    fontSize: "20px",
-                                                    paddingRight: "5px",
+                                                    fontSize: "22px",
+                                                    color: "#5a1d00",
                                                   }}
                                                 ></i>
-                                                <p
+                                                {/* <p
                                                   style={{
                                                     fontSize: "14px",
                                                     paddingTop: "5px",
@@ -313,7 +188,7 @@ export default function CompanyInformation() {
                                                   }}
                                                 >
                                                   Click Here
-                                                </p>
+                                                </p> */}
                                               </div>
                                             </Link>
                                           );
