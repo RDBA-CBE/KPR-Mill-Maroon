@@ -8798,8 +8798,22 @@
   .headcol{font-weight: 800; color: var(--title-color); }
   .mb-30{margin-bottom: 30px;}
   .mb-20{margin-bottom: 20px;}
+  .mt-30{margin-top:30px;}
+  .mb-20{margin-top:20px;}
+  .mb-25{margin-top:25px;}
   .count-outer p{font-size:20px; color: #fff; padding-top:15px; margin: 0;}
   ul.service-report-list{margin:15px 0px;}
   ul.service-report-list li{ color:#5a1d00; padding: 5px;}
   ul.service-report-list li a{ color:#5a1d00;}
-  a{color:#5a1d00;}
+  a{color:#5a1d00;} 
+  .blackcolor{color: #000;}
+  .blackcolor p{color: #000; font-size:16px;}
+  .darkgreycolor{color: #131212;}
+  .darkgreycolor p{color: #131212; font-size:16px;}
+  .pt-15{padding-top:15px;}
+  .line-clamp-5 {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
