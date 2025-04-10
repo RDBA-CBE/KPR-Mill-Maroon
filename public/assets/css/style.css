@@ -8824,32 +8824,32 @@
   background-color: rgb(245, 245, 245);
 }
 
-section-2-sub-title {
+.section-2-sub-title {
   color: black;
 }
 
-row-title {
+.row-title {
   background: rgb(218, 173, 25); 
   padding: 20px 10px;
 }
 
-row-title h3 {
+.row-title h3 {
   color: white; text-align: center;
 }
 
-category-list ul {
+.category-list ul {
   height: 480px;
 }
 
-category-list p-1 {
+.category-list p-1 {
   color: rgb(218, 173, 25); 
   text-align: center;
 }
 
-category-list p-2 {
+.category-list p-2 {
   text-align: center;
 } 
 
-unique-advantages-para {
+.unique-advantages-para {
   font-weight: bold;
 }
