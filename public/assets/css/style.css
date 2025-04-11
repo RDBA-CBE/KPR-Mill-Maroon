@@ -8826,16 +8826,14 @@
   .section-2-sub-title {
     color: black;
   }
-  .sec-title h3 {
-    font-size: 24px;
-  }
+  
   .row-title {
     background: rgb(218, 173, 25); 
     padding: 20px 10px;
   }
-  
-  row-title h3 {
-    color: white; 
+    
+  .row-title h3 {
+    color: white !important; 
     text-align: center;
     background: rgb(218, 173, 25); 
     padding: 20px 10px;
@@ -8849,12 +8847,12 @@
   .category-list p-1 {
     color: rgb(218, 173, 25); 
     text-align: center;
-    padding:0px;
+    padding:0px !important;
   }
   
   .category-list p-2 {
     text-align: center;
-    padding:0px;
+    padding:0px !important;
   } 
   
   .unique-advantages-para {
@@ -8863,5 +8861,9 @@
   
   .unique-advantages{
      padding-top:0px;
-     padding-bottom:30px;
+     padding-bottom:50px;
+  } 
+  
+  .default-sidebar .category-widget {
+    padding:20px !important;
   }
