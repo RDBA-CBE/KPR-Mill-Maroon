@@ -642,7 +642,7 @@ export default function Infrastructure() {
                             <td style={{ fontWeight: "bold" }}>Spinning</td>
                             <td>
                               4,00,000 spindles to produce 1,20,000 MT of yarn
-                              per annum and 10,500 MT of Vortex Viscose Yarn.
+                              per annum and 10,500 MT of vortex viscose yarn.
                             </td>
                           </tr>
                           <tr>
