@@ -752,7 +752,7 @@ export const AnualResult_2016 = [
     },
     {
       id: 13,
-      title: "VENU ROUTE MAP",
+      title: "VENUE ROUTE MAP",
       subTitle1: "13th AGM",
       subTitle2: "-",
       url: [
@@ -1674,8 +1674,8 @@ export const Indepented_Directors = [
   {
     id: 10,
     title: "LETTER OF APPOINTMENT OF DIRECTOR 2018",
-    subTitle1: "",
-    subTitle2: "",
+    subTitle1: "-",
+    subTitle2: "-",
     url: [
       {
         link: "https://file.kprmilllimited.com/reports/2018/11/Letter_of_App_2018.pdf",
@@ -2055,7 +2055,7 @@ export const ConCol_Invitation_Transcript = [
         link: "https://file.kprmilllimited.com/reports/2024/02/Concall-Transcript-February-2024.pdf",
       },
       {
-        name:"Con-call Transcript Auguest 2023",
+        name:"Con-call Transcript August 2023",
         link: "https://file.kprmilllimited.com/reports/2023/08/Q1CONCALLTRANSCRIPT.pdf",
       },
       {
@@ -4090,16 +4090,7 @@ export const Anouncement_Data = [
       ],
   },
   {
-      id: 3,
-      title: "SEBI CIRCULAR ON ONLINE DISPUTE RESOLUTION",
-      url: [
-        {
-          link: "https://file.kprmilllimited.com/reports/2023/09/DisputeRegul223.pdf",
-        },
-      ],
-  },
-  {
-    id: 4,
+    id: 3,
     title: "SEBI CIRCULAR ON ONLINE DISPUTE RESOLUTION",
     url: [
       {
@@ -4109,7 +4100,7 @@ export const Anouncement_Data = [
     ],
   },
   {
-    id: 5,
+    id: 4,
     title: "Buyback 2022",
     url: [
       {
@@ -4131,7 +4122,7 @@ export const Anouncement_Data = [
     ],
   },
   {
-    id: 6,
+    id: 5,
     title: "SUB-DIVISION OF EQUITY SHARES",
     url: [
       {
@@ -4145,7 +4136,7 @@ export const Anouncement_Data = [
     ],
   },
   {
-    id: 7,
+    id: 6,
     title: "POST BUYBACK PUBLIC ANNOUNCEMENT",
     url: [
       {
@@ -4154,7 +4145,7 @@ export const Anouncement_Data = [
     ],
   },
   {
-    id: 8,
+    id: 7,
     title: "DRAFT LETTER OF OFFER MERGED",
     url: [
       {
@@ -4163,7 +4154,7 @@ export const Anouncement_Data = [
     ],
   },
   {
-    id: 9,
+    id: 8,
     title: "PUBLIC ANNOUNCEMENT BuyBack 2018",
     url: [
       {
@@ -4172,7 +4163,7 @@ export const Anouncement_Data = [
     ],
   },
   {
-    id: 10,
+    id: 9,
     title: "BUYBACK OUTCOME OF BOARD MEETING 2018",
 
     url: [
@@ -4182,7 +4173,7 @@ export const Anouncement_Data = [
     ],
   },
   {
-    id: 11,
+    id: 10,
     title: "BUYBACK RECORD DATE INTIMATION 2018",
 
     url: [
