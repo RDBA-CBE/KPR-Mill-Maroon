@@ -17,7 +17,7 @@ export default function Home() {
   const slugData = async () => {
     try {
       const res = await axios.get(
-        `  https://file.kprmilllimited.com/kprdev/wp-json/wp/v2/pages?slug=the-board`
+        `https://file.kprmilllimited.com/kprdev/wp-json/wp/v2/pages?slug=quality`
       );
 
       if (res?.data?.length > 0) {
@@ -33,14 +33,14 @@ export default function Home() {
   };
 
   const BannerImage =
-    "/assets/images/kprmill-images/About/the-board-banner-img.jpg";
+    "/assets/images/kprmill-images/About/quality-banner-img.jpg";
 
   return (
     <>
       <Layout
         headerStyle={2}
         footerStyle={2}
-        breadcrumbTitle="Vision & Mission"
+        breadcrumbTitle="Awards"
         imageUrl={BannerImage}
       >
         <div dangerouslySetInnerHTML={{ __html: state.aboutPage }} />
