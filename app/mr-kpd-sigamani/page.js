@@ -21,7 +21,7 @@ export default function MrKPDSigamani() {
       <Layout
         headerStyle={2}
         footerStyle={2}
-        breadcrumbTitle="Mr. KPD. Ramasamy"
+        breadcrumbTitle="Mr. KPD. Sigamani"
         imageUrl={backgroundImage}
       >
         <section className="team-details p_relative">
