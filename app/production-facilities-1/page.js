@@ -17,7 +17,7 @@ export default function Home() {
   const slugData = async () => {
     try {
       const res = await axios.get(
-        `  https://file.kprmilllimited.com/kprdev/wp-json/wp/v2/pages?slug=production-facilities`
+        `https://file.kprmilllimited.com/kprdev/wp-json/wp/v2/pages?slug=production-facilities`
       );
 
       if (res?.data?.length > 0) {
