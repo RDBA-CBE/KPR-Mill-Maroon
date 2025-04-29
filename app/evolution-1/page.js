@@ -131,8 +131,8 @@ export default function Home() {
                       </h2>
                     </div>
 
-                    {state?.evolutionData?.map((data,index)=>(
                        <VerticalTimeline>
+                       {state?.evolutionData?.map((data,index)=>(
                            <VerticalTimelineElement
                                           key={index}
                                           visible={true}
@@ -154,9 +154,10 @@ export default function Home() {
                                             height={300}
                                           />
                             </VerticalTimelineElement>
+                        ))}
                         </VerticalTimeline>
                         
-                    ))}
+                    
                    
                   </div>
                 </section>
