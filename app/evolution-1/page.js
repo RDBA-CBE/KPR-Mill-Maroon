@@ -67,7 +67,7 @@ export default function Home() {
   const parseImageData = (htmlContent) => {
     const parser = new DOMParser();
     const doc = parser.parseFromString(htmlContent, "text/html");
-    const EvolutionCon = doc.querySelector('div[data-id="c50233f"]');
+    const EvolutionCon = doc.querySelector('.evolution-Parent');
 
     console.log("EvolutionCon",EvolutionCon);
     
@@ -87,7 +87,7 @@ export default function Home() {
       
       const img = data.querySelector("img");
       const year = cleanText(data.querySelector(".evolution-year")?.textContent);
-      const title = cleanText(data.querySelector(".evolution-title")?.textContent);
+      const title = cleanText(data.querySelector(".evolution-script")?.textContent);
       const paragraph = cleanText(data.querySelector(".evolution-desc")?.textContent);
 
       console.log("title",title);
