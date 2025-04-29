@@ -115,8 +115,6 @@ export default function Home() {
         breadcrumbTitle="Evolution"
         imageUrl={BannerImage}
       >
-        {/* <div dangerouslySetInnerHTML={{ __html: state.aboutPage.content.rendered }} /> */}
-
           <section className="dream-style-three p_relative">
                   <div className="auto-container">
                     <div className="sec-title  mb_30 centred">
