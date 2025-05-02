@@ -17,7 +17,7 @@ export default function Certifications() {
   const slugData = async () => {
     try {
       const res = await axios.get(
-        `https://file.kprmilllimited.com/kprdev/wp-json/wp/v2/pages?slug=production-facilities`
+        `https://file.kprmilllimited.com/kprdev/wp-json/wp/v2/pages?slug=certifications`
       );
 
       if (res?.data?.length > 0) {
@@ -39,7 +39,7 @@ export default function Certifications() {
       <Layout
         headerStyle={2}
         footerStyle={2}
-        breadcrumbTitle="Production Facilities"
+        breadcrumbTitle="Certifications"
         imageUrl={backgroundImage}
       >
     
