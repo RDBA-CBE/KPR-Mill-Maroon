@@ -8841,7 +8841,7 @@
   }
   
   .category-list ul {
-    height: 480px;
+    height: auto;
   }
   
   .category-list p-1 {

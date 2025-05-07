@@ -29,7 +29,7 @@ export const getReportTableData = async () => {
 
 export const instance = () => {
   const data = axios.create({
-    baseURL: "http://121.200.52.133:8002/api/",
+    baseURL: "http://121.200.52.133:8003/api/",
   });
 
   data.interceptors.request.use(async function (config) {
