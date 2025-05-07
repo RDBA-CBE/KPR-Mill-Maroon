@@ -60,6 +60,15 @@ export default function Certifications() {
     const doc = parser.parseFromString(htmlContent, "text/html");
     const certificationCon = doc.querySelector('.cert-Parent');
 
+    const pageHead = doc.querySelector(".elementor-element elementor-element-5293d46");
+
+    console.log("pageHead",pageHead);
+    
+
+      setState({
+        pageHead:pageHead
+      })
+
     console.log("certificationCon",certificationCon);
     
 
@@ -74,7 +83,7 @@ export default function Certifications() {
 
     return Array.from(certificationChil).map((data) => {
 
-      // console.log("certificationChil", data);
+      // console.log("certificationChil", data)
       
       const img = data.querySelector("img");
       const frstLine = (data.querySelector(".cert-frst-line p")?.innerHTML);
@@ -107,8 +116,13 @@ export default function Certifications() {
     {/* <div dangerouslySetInnerHTML={{ __html: state.aboutPage?.content.rendered}} /> */}
 
     <section className="certification-style-three p_relative">
-          <div className="auto-container">
-            <div className="sec-title text-center mb_20">
+
+         <div className="auto-container">
+
+         {/* <div dangerouslySetInnerHTML={{__html:state?.pageHead}}>
+         </div> */}
+
+             <div className="sec-title text-center mb_20">
               <span className="sub-title">
                 Being recognized for our impeccable quality standards
               </span>
