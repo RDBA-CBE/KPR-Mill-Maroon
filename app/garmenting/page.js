@@ -3,7 +3,7 @@ import Layout from "@/components/layout/Layout";
 
 export default function Garmenting() {
   const backgroundImage =
-    "/assets/images/kprmill-images/Infrastructure/Garmenting/banner-img.jpg";
+  "/assets/images/kprmill-images/Infrastructure/Garmenting/banner-img.jpg";
   return (
     <>
       <Layout
@@ -122,3 +122,5 @@ export default function Garmenting() {
     </>
   );
 }
+
+

@@ -752,7 +752,7 @@ export const AnualResult_2016 = [
     },
     {
       id: 13,
-      title: "VENUE ROUTE MAP",
+      title: "VENU ROUTE MAP",
       subTitle1: "13th AGM",
       subTitle2: "-",
       url: [
@@ -990,7 +990,7 @@ export const Audited_Unaudited = [
   {
     id: 17,
     title: "UNAUDITED FINANCIAL REPORT",
-    subTitle1: "31.12.2014",
+    subTitle1: "31.12.2013",
     subTitle2: "Un-Audited",
     url: [
       {
@@ -1674,8 +1674,8 @@ export const Indepented_Directors = [
   {
     id: 10,
     title: "LETTER OF APPOINTMENT OF DIRECTOR 2018",
-    subTitle1: "-",
-    subTitle2: "-",
+    subTitle1: "",
+    subTitle2: "",
     url: [
       {
         link: "https://file.kprmilllimited.com/reports/2018/11/Letter_of_App_2018.pdf",
@@ -2055,7 +2055,7 @@ export const ConCol_Invitation_Transcript = [
         link: "https://file.kprmilllimited.com/reports/2024/02/Concall-Transcript-February-2024.pdf",
       },
       {
-        name:"Con-call Transcript August 2023",
+        name:"Con-call Transcript Auguest 2023",
         link: "https://file.kprmilllimited.com/reports/2023/08/Q1CONCALLTRANSCRIPT.pdf",
       },
       {
@@ -2998,25 +2998,16 @@ export const BrandGallerydata = [
 //policy starts
 export const Policy_Data = [
   {
-    id: 1,
-    title: "FAMILIARISATION PROGRAMME 2025",
-    url: [
-      {
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2025/04/FAMILIARISATION-PROGRAMME-2025.pdf",
-      },
-    ],
-  },
+      id: 1,
+      title: "RISK MANAGEMENT POLICY",
+      url: [
+        {
+          link: "https://file.kprmilllimited.com/reports/2024/12/RISK-MANAGEMENT-POLICY-2.pdf",
+        },
+      ],
+    },
   {
     id: 2,
-    title: "RISK MANAGEMENT POLICY",
-    url: [
-      {
-        link: "https://file.kprmilllimited.com/reports/2024/12/RISK-MANAGEMENT-POLICY-2.pdf",
-      },
-    ],
-  },
-  {
-    id: 3,
     title: "WHISTLE BLOWER POLICY",
     url: [
       {
@@ -3025,7 +3016,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     title: "FAMILIARISATION PROGRAMME 2024",
     url: [
       {
@@ -3034,7 +3025,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 5,
+    id: 4,
     title: "ANTI-BRIBERY AND ANTI-CORRUPTION POLICY",
     url: [
       {
@@ -3043,7 +3034,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 6,
+    id: 5,
     title: "FAMILIARISATION PROGRAMME 2023",
     url: [
       {
@@ -3052,7 +3043,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 7,
+    id: 6,
     title: "FAMILIARISATION PROGRAMME 2022",
     url: [
       {
@@ -3061,7 +3052,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 8,
+    id: 7,
     title: "FAMILIARISATION PROGRAMME 2021",
     url: [
       {
@@ -3070,7 +3061,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 9,
+    id: 8,
     title: "FAMILIARISATION PROGRAMME 2020",
 
     url: [
@@ -3080,7 +3071,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 10,
+    id: 9,
     title: "FAMILIARISATION PROGRAMME 2019",
 
     url: [
@@ -3090,7 +3081,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 11,
+    id: 10,
     title: "FAMILIARISATION PROGRAMME 2018",
 
     url: [
@@ -3100,7 +3091,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 12,
+    id: 11,
     title: "FAMILIARISATION PROGRAMME 2017",
 
     url: [
@@ -3110,7 +3101,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 13,
+    id: 12,
     title: "FAMILIARISATION PROGRAMME 2016",
 
     url: [
@@ -3120,7 +3111,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 14,
+    id: 13,
     title: "RELATED PARTY TRANSACTION POLICY",
 
     url: [
@@ -3130,7 +3121,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 15,
+    id: 14,
     title: "RISK MANAGEMENT POLICY",
 
     url: [
@@ -3140,7 +3131,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 16,
+    id: 15,
     title: "POLICY FOR DISCLOSURE OF MATERIAL EVENTS",
 
     url: [
@@ -3150,7 +3141,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 17,
+    id: 16,
     title: "POLICY ON SUCCESSION PLANNING FOR THE BOARD AND SENIOR MANAGEMENT",
 
     url: [
@@ -3160,7 +3151,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 18,
+    id: 17,
     title: "POLICY FOR PRESERVATION OF DOCUMENTS",
 
     url: [
@@ -3170,7 +3161,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 19,
+    id: 18,
     title: "BUSINESS RESPONSIBILITY POLICY  ",
 
     url: [
@@ -3180,7 +3171,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 20,
+    id: 19,
     title: "DIVIDEND DISTRIBUTION POLICY",
 
     url: [
@@ -3190,7 +3181,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 21,
+    id: 20,
     title: "WHISTLE BLOWER POLICY",
 
     url: [
@@ -3200,7 +3191,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 22,
+    id: 21,
     title: "CORPORATE SOCIAL RESPONSIBILITY POLICY AND DISCLOSURES",
 
     url: [
@@ -3215,7 +3206,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 23,
+    id: 22,
     title: "KPR-NR POLICY",
 
     url: [
@@ -3225,7 +3216,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 24,
+    id: 23,
     title: "POLICY ON MATERIAL SUBSIDIARIES",
 
     url: [
@@ -3235,7 +3226,7 @@ export const Policy_Data = [
     ],
   },
   {
-    id: 25,
+    id: 24,
     title: "CODE FOR FAIR DISCLOSURE",
 
     url: [
@@ -3281,20 +3272,16 @@ export const Stock_Exchange_Indimation = [
     title: "Trading Window Closure 2024-25",
     url: [
       {
-        name: "March 2025",
-        link: "https://kprmilllimited.com/file/wp-content/uploads/2025/03/March-2025.pdf",
+          name: "December 2024",
+          link: "https://file.kprmilllimited.com/reports/2024/12/December-2024.pdf",
       },
       {
-        name: "December 2024",
-        link: "https://file.kprmilllimited.com/reports/2024/12/December-2024.pdf",
+         name: "September 2024",
+         link: "https://file.kprmilllimited.com/reports/2024/09/September-2024-2.pdf"
       },
       {
-        name: "September 2024",
-        link: "https://file.kprmilllimited.com/reports/2024/09/September-2024-2.pdf"
-      },
-      {
-        name: "June 2024",
-        link: "https://file.kprmilllimited.com/reports/2024/06/June-2024.pdf"
+          name: "June 2024",
+          link: "https://file.kprmilllimited.com/reports/2024/06/June-2024.pdf"
       }
     ],
   },
@@ -3303,16 +3290,16 @@ export const Stock_Exchange_Indimation = [
     title: "21st AGM Intimation",
     url: [
       {
-        name: "Newspaper Advertisement – E-voting",
-        link: "https://file.kprmilllimited.com/reports/2024/06/Newspaperad.pdf"
+          name: "Newspaper Advertisement – E-voting",
+          link: "https://file.kprmilllimited.com/reports/2024/06/Newspaperad.pdf"
       },
       {
-        name: "Notice to Shareholders – Newspaper Ad",
-        link: "https://file.kprmilllimited.com/reports/2024/06/AGMNoticetoShareholders-NPAD.pdf"
+          name: "Notice to Shareholders – Newspaper Ad",
+          link: "https://file.kprmilllimited.com/reports/2024/06/AGMNoticetoShareholders-NPAD.pdf"
       },
       {
-        name: "AGM & Book Closure Intimation",
-        link: "https://file.kprmilllimited.com/reports/2024/06/AGM-BookClosure-Intimation.pdf"
+          name: "AGM & Book Closure Intimation",
+          link: "https://file.kprmilllimited.com/reports/2024/06/AGM-BookClosure-Intimation.pdf"
       },
     ],
   },
@@ -4090,7 +4077,16 @@ export const Anouncement_Data = [
       ],
   },
   {
-    id: 3,
+      id: 3,
+      title: "SEBI CIRCULAR ON ONLINE DISPUTE RESOLUTION",
+      url: [
+        {
+          link: "https://file.kprmilllimited.com/reports/2023/09/DisputeRegul223.pdf",
+        },
+      ],
+  },
+  {
+    id: 4,
     title: "SEBI CIRCULAR ON ONLINE DISPUTE RESOLUTION",
     url: [
       {
@@ -4100,7 +4096,7 @@ export const Anouncement_Data = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Buyback 2022",
     url: [
       {
@@ -4122,7 +4118,7 @@ export const Anouncement_Data = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "SUB-DIVISION OF EQUITY SHARES",
     url: [
       {
@@ -4136,7 +4132,7 @@ export const Anouncement_Data = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "POST BUYBACK PUBLIC ANNOUNCEMENT",
     url: [
       {
@@ -4145,7 +4141,7 @@ export const Anouncement_Data = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "DRAFT LETTER OF OFFER MERGED",
     url: [
       {
@@ -4154,7 +4150,7 @@ export const Anouncement_Data = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "PUBLIC ANNOUNCEMENT BuyBack 2018",
     url: [
       {
@@ -4163,7 +4159,7 @@ export const Anouncement_Data = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     title: "BUYBACK OUTCOME OF BOARD MEETING 2018",
 
     url: [
@@ -4173,7 +4169,7 @@ export const Anouncement_Data = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     title: "BUYBACK RECORD DATE INTIMATION 2018",
 
     url: [

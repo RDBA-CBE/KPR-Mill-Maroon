@@ -8817,3 +8817,53 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+  /* Wordpress Integration - dynamic module*/
+  /*About us*/
+  .about-container{
+    background-color: rgb(245, 245, 245);
+  }
+  
+  .section-2-sub-title {
+    color: black;
+  }
+  
+  .row-title {
+    background: rgb(218, 173, 25); 
+    padding: 20px 10px;
+  }
+    
+  .row-title h3 {
+    color: white !important; 
+    text-align: center;
+    background: rgb(218, 173, 25); 
+    padding: 20px 10px;
+    margin-bottom: 0px;
+  }
+  
+  .category-list ul {
+    height: 480px;
+  }
+  
+  .category-list p-1 {
+    color: rgb(218, 173, 25); 
+    text-align: center;
+    padding:0px !important;
+  }
+  
+  .category-list p-2 {
+    text-align: center;
+    padding:0px !important;
+  } 
+  
+  .unique-advantages-para {
+    font-weight: bold;
+  }
+  
+  .unique-advantages{
+     padding-top:0px;
+     padding-bottom:50px;
+  } 
+  
+  .default-sidebar .category-widget {
+    padding:20px !important;
+  }
