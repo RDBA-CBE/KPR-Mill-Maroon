@@ -6,6 +6,7 @@ import { useSetState } from "@/utils/states.utils";
 import { groupedByYear } from "@/utils/function.utils";
 import ListComponents from "../components/listComponents";
 import InvestorsSideMenu from "@/components/elements/InvestorsSideMenu";
+import Models from "@/src/imports/models.import";
 
 export default function InvestorServices() {
   const [state, setState] = useSetState({
@@ -14,17 +15,32 @@ export default function InvestorServices() {
   });
 
   useEffect(() => {
-    ReportData();
+    getData();
   }, []);
 
-  const ReportData = async () => {
+  const getData = async () => {
     try {
-      const groupedData = await groupedByYear("3783");
-      setState({ data: groupedData });
+      setState({ loading: true });
+      const res = await Models.auth.documentList(15);
+console.log('✌️res --->', res);
+      const data = res?.results || [];
+console.log('✌️data --->', data);
+      const groupedByYearMap = new Map();
+      data.forEach((item) => {
+        const year = item.year;
+        if (!groupedByYearMap.has(year)) {
+          groupedByYearMap.set(year, []);
+        }
+        groupedByYearMap.get(year).push(item);
+      });
+      setState({ data: groupedByYearMap, loading: false });
     } catch (error) {
-      console.log("error: ", error);
+      setState({ loading: false });
+      console.log("✌️error --->", error);
     }
   };
+
+  console.log("InvestorServices data", state.data);
 
   const handleOpenDocument = (url) => {
     if (typeof window !== "undefined") {
@@ -51,7 +67,7 @@ export default function InvestorServices() {
           <div className="auto-container">
             <div className="row clearfix">
               <div className="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-              <InvestorsSideMenu isActive="investor-services" />
+                <InvestorsSideMenu isActive="investor-services" />
               </div>
               <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                 <div className="visa-details-content">
@@ -102,15 +118,80 @@ export default function InvestorServices() {
                         </p>
 
                         <ul className="service-report-list">
-                          <li><a href="https://file.kprmilllimited.com/reports/2022/01/Form-ISR-1.pdf" target="_blank">Form ISR 1  <i className="fa fa-download"></i></a></li>
-                          <li><a href="https://file.kprmilllimited.com/reports/2022/01/Form-ISR-2.pdf"  target="_blank">Form ISR 2  <i className="fa fa-download"></i></a></li>
-                          <li><a href="https://file.kprmilllimited.com/reports/2022/01/Form-ISR-3.pdf"  target="_blank">Form ISR 3  <i className="fa fa-download"></i></a></li>
-                          <li><a href="https://file.kprmilllimited.com/reports/2022/01/Form-ISR-4.pdf"  target="_blank">Form ISR 4  <i className="fa fa-download"></i></a></li>
-                          <li><a href="https://file.kprmilllimited.com/reports/2022/01/Form-SH-13.pdf"  target="_blank">Form SH 13  <i className="fa fa-download"></i></a></li>
-                          <li><a href="https://file.kprmilllimited.com/reports/2022/01/Form-SH-14.pdf"  target="_blank">Form SH 14  <i className="fa fa-download"></i></a></li>
-                          <li><a href="https://file.kprmilllimited.com/reports/2023/11/SEBI-CIRCULAR-1.pdf"  target="_blank">SEBI Circular <i className="fa fa-download"></i></a></li>
-                          <li><a href="https://file.kprmilllimited.com/reports/2023/12/SEBI-CIRCULAR-DATED-17.11.2023-1.pdf"  target="_blank">SEBI Circular DATED 17.11.2023 <i className="fa fa-download"></i></a></li>
-                          <li><a href="https://file.kprmilllimited.com/reports/2024/06/SEBI-CIRCULAR-DATED-10.06.2024.pdf"  target="_blank">SEBI CIRCULAR DATED 10.06.2024  <i className="fa fa-download"></i></a></li>
+                          <li>
+                            <a
+                              href="https://file.kprmilllimited.com/reports/2022/01/Form-ISR-1.pdf"
+                              target="_blank"
+                            >
+                              Form ISR 1 <i className="fa fa-download"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://file.kprmilllimited.com/reports/2022/01/Form-ISR-2.pdf"
+                              target="_blank"
+                            >
+                              Form ISR 2 <i className="fa fa-download"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://file.kprmilllimited.com/reports/2022/01/Form-ISR-3.pdf"
+                              target="_blank"
+                            >
+                              Form ISR 3 <i className="fa fa-download"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://file.kprmilllimited.com/reports/2022/01/Form-ISR-4.pdf"
+                              target="_blank"
+                            >
+                              Form ISR 4 <i className="fa fa-download"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://file.kprmilllimited.com/reports/2022/01/Form-SH-13.pdf"
+                              target="_blank"
+                            >
+                              Form SH 13 <i className="fa fa-download"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://file.kprmilllimited.com/reports/2022/01/Form-SH-14.pdf"
+                              target="_blank"
+                            >
+                              Form SH 14 <i className="fa fa-download"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://file.kprmilllimited.com/reports/2023/11/SEBI-CIRCULAR-1.pdf"
+                              target="_blank"
+                            >
+                              SEBI Circular <i className="fa fa-download"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://file.kprmilllimited.com/reports/2023/12/SEBI-CIRCULAR-DATED-17.11.2023-1.pdf"
+                              target="_blank"
+                            >
+                              SEBI Circular DATED 17.11.2023{" "}
+                              <i className="fa fa-download"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://file.kprmilllimited.com/reports/2024/06/SEBI-CIRCULAR-DATED-10.06.2024.pdf"
+                              target="_blank"
+                            >
+                              SEBI CIRCULAR DATED 10.06.2024{" "}
+                              <i className="fa fa-download"></i>
+                            </a>
+                          </li>
                         </ul>
 
                         <p style={{ fontWeight: "bold" }} className="mb_10">
@@ -134,7 +215,13 @@ export default function InvestorServices() {
                           style={{ textDecoration: "underline" }}
                           className="mb_10"
                         >
-                          <a href="https://file.kprmilllimited.com/reports/2024/01/SEBI-CIRCULAR-2.pdf" target="_blank">SEBI – Circular Choice of Nomination in Demat accounts</a>
+                          <a
+                            href="https://file.kprmilllimited.com/reports/2024/01/SEBI-CIRCULAR-2.pdf"
+                            target="_blank"
+                          >
+                            SEBI – Circular Choice of Nomination in Demat
+                            accounts
+                          </a>
                         </p>
                         <p
                           className="mb_10"
@@ -164,16 +251,38 @@ export default function InvestorServices() {
                           For more details, please see the following web links
                           of the Stock Exchanges:
                         </p>
-                        <p>BSE – <a href="http://tiny.cc/m1l2vz" target="_blank">http://tiny.cc/m1l2vz</a></p>
-                        <p className="mb-20">NSE – <a href="http://tiny.cc/s1l2vz" target="_blank">http://tiny.cc/s1l2vz</a></p>
+                        <p>
+                          BSE –{" "}
+                          <a href="http://tiny.cc/m1l2vz" target="_blank">
+                            http://tiny.cc/m1l2vz
+                          </a>
+                        </p>
+                        <p className="mb-20">
+                          NSE –{" "}
+                          <a href="http://tiny.cc/s1l2vz" target="_blank">
+                            http://tiny.cc/s1l2vz
+                          </a>
+                        </p>
                         <h5
                           style={{ textDecoration: "underline" }}
                           className="mb_10"
                         >
-                          <a href="https://file.kprmilllimited.com/reports/2024/01/SEBI-CIRCULAR-2.pdf" target="_blank">SEBI – Circular Choice of Nomination in Demat accounts</a>
+                          <a
+                            href="https://file.kprmilllimited.com/reports/2024/01/SEBI-CIRCULAR-2.pdf"
+                            target="_blank"
+                          >
+                            SEBI – Circular Choice of Nomination in Demat
+                            accounts
+                          </a>
                         </h5>
                         <ul className="service-report-list">
-                          <a href="https://file.kprmilllimited.com/reports/2024/06/SEBI-CIRCULAR-DATED-10.06.2024.pdf" target="_blank">SEBI CIRCULAR DATED 10.06.2024 <i className="fa fa-download"></i></a>
+                          <a
+                            href="https://file.kprmilllimited.com/reports/2024/06/SEBI-CIRCULAR-DATED-10.06.2024.pdf"
+                            target="_blank"
+                          >
+                            SEBI CIRCULAR DATED 10.06.2024{" "}
+                            <i className="fa fa-download"></i>
+                          </a>
                         </ul>
                       </div>
                       {/* <div className="col-lg-4 col-md-4 col-sm-12 mt_30 mt-md-0 content-side">
@@ -325,8 +434,12 @@ export default function InvestorServices() {
                     </div>
                   </div> */}
                 </div>{" "}
-                <div className="mt_30 pt_30" style={{borderTop: "1px solid #dcdbdb"}}>
-                <ListComponents data={state.data} title="Investor Services" /></div>
+                <div
+                  className="mt_30 pt_30"
+                  style={{ borderTop: "1px solid #dcdbdb" }}
+                >
+                  <ListComponents data={state.data} title="Investor Services" />
+                </div>
               </div>
             </div>
           </div>

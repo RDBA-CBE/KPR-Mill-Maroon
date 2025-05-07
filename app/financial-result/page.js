@@ -69,8 +69,41 @@ import {
   AnualResult_2024,
 } from "@/utils/constant.utils";
 import InvestorsSideMenu from "@/components/elements/InvestorsSideMenu";
+import { useEffect } from "react";
+import axios from "axios";
+import { useSetState } from "@/utils/states.utils";
+import Models from "@/src/imports/models.import";
 export default function FinancialResult() {
-  
+  const [state, setState] = useSetState({
+    loading: false,
+    data: [],
+  });
+
+  useEffect(() => {
+    getData();
+  }, []);
+
+  const getData = async () => {
+    try {
+      setState({ loading: true });
+      const res = await Models.auth.documentList(1);
+      const data = res?.results || [];
+      const groupedByYearMap = new Map();
+      data.forEach((item) => {
+        const year = item.year;
+        if (!groupedByYearMap.has(year)) {
+          groupedByYearMap.set(year, []);
+        }
+        groupedByYearMap.get(year).push(item);
+      });
+      setState({ data: groupedByYearMap, loading: false });
+    } catch (error) {
+      setState({ loading: false });
+      console.log("✌️error --->", error);
+    }
+  };
+
+
   const backgroundImage =
     "/assets/images/kprmill-images/Investors/Financial-results/banner.jpg";
   return (
@@ -90,7 +123,6 @@ export default function FinancialResult() {
               </div>
               <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                 <div className="visa-details-content">
-
                   {/* <div className="content-one mb_45">
                     <div className=" table-responsive-sm">
                       <table class="table big-table table-striped table-bordered">
@@ -157,70 +189,132 @@ export default function FinancialResult() {
                     </div>
                   </div> */}
                   <div className="content-one  mb_45">
-                    <div className=" table-responsive-sm">
-                      <table class="table big-table table-striped">
-                        <thead>
-                          <tr>
-                            <th
-                              colspan="2"
-                              style={{
-                                backgroundColor: "#daad19",
-                                color: "white",
-                                fontSize: "18px",
-                              }}
-                            >
-                              Annual Reports 2024
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {AnualResult_2024.map((item) => {
-                            return (
+                    {state.loading ? (
+                      <div
+                        style={{
+                          alignItems: "center",
+                          display: "flex",
+                          justifyContent: "center",
+                          color: "#daad19",
+                        }}
+                      >
+                        Loading ....
+                      </div>
+                    ) : [...state.data?.entries()]?.length > 0 ? (
+                      <div className="table-responsive-sm">
+                        {[...state.data?.entries()]?.map(([year, reports]) => (
+                          <table
+                            className="table big-table table-striped"
+                            key={year}
+                          >
+                            <thead>
                               <tr>
-                                <td>{item.title}</td>
-                                <td>
-                                  <ul className="download-list clearfix">
-                                    <li>
-                                      <Link href={item.url} target="_blank">
-                                        <div
-                                          className="icon-shape text-center "
+                                <th
+                                  colSpan="2"
+                                  style={{
+                                    backgroundColor: "#daad19",
+                                    color: "white",
+                                    fontSize: "18px",
+                                  }}
+                                >
+                                  Annual Reports {year}
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {reports?.map((report) => (
+                                <tr key={report?.id}>
+                                  <td>
+                                    {report?.title}
+                                    <br />
+                                    {report?.subject && (
+                                      <span
+                                        style={{
+                                          fontSize: "14px",
+                                          color: "#032B66",
+                                        }}
+                                      >
+                                        <b>Sub:</b> {report?.subject}
+                                      </span>
+                                    )}
+                                    {report?.reference && (
+                                      <>
+                                        <br />
+                                        <span
                                           style={{
-                                            display: "flex",
-                                            alignItems: "end",
-                                            justifyContent: "end",
+                                            fontSize: "14px",
+                                            color: "#032B66",
                                           }}
                                         >
-                                      
-                                          <i
-                                            className="fa fa-download"
-                                            style={{
-                                              fontSize: "16px",
-                                              color: "#5a1d00",
-                                            }}
-                                          ></i>
-                                          {/* <p
-                                            style={{
-                                              fontSize: "14px",
-                                              paddingTop: "5px",
-                                              color: "#0d6efd",
-                                            }}
+                                          <b>Ref:</b> {report?.reference}
+                                        </span>
+                                      </>
+                                    )}
+                                  </td>
+
+                                  <td>
+                                    <ul className="download-list clearfix">
+                                      {report?.files?.map((file) => (
+                                        <li key={file?.id}>
+                                          <a
+                                            href={file?.file}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
                                           >
-                                            Click Here
-                                          </p> */}
-                                        </div>
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                </td>
-                              </tr>
-                            );
-                          })}
-                        </tbody>
-                      </table>
-                    </div>
+                                            <div
+                                              className="icon-shape text-center"
+                                              style={{
+                                                display: "flex",
+                                                alignItems: "center",
+                                                justifyContent: "end",
+                                              }}
+                                            >
+                                              {file?.name && (
+                                                <p
+                                                  style={{
+                                                    fontSize: "16px",
+                                                    paddingTop: "5px",
+                                                    color: "#5a1d00",
+                                                    paddingRight: "8px",
+                                                  }}
+                                                >
+                                                  {file?.name}
+                                                </p>
+                                              )}
+                                              <i
+                                                className="fa fa-download"
+                                                style={{
+                                                  fontSize: "16px",
+                                                  color: "#5a1d00",
+                                                }}
+                                              ></i>
+                                            </div>
+                                          </a>
+                                        </li>
+                                      ))}
+                                    </ul>
+                                  </td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        ))}
+                      </div>
+                    ) : (
+                      <div
+                        style={{
+                          alignItems: "center",
+                          display: "flex",
+                          justifyContent: "center",
+                          color: "#daad19",
+                        }}
+                      >
+                        No Records Found
+                      </div>
+                    )}
                   </div>
 
-                  <div className="content-one  mb_45">
+                  {/* <div className="content-one  mb_45">
                     <div className=" table-responsive-sm">
                       <table class="table big-table table-striped">
                         <thead>
@@ -261,15 +355,6 @@ export default function FinancialResult() {
                                               color: "#5a1d00",
                                             }}
                                           ></i>
-                                          {/* <p
-                                            style={{
-                                              fontSize: "14px",
-                                              paddingTop: "5px",
-                                              color: "#0d6efd",
-                                            }}
-                                          >
-                                            Click Here
-                                          </p> */}
                                         </div>
                                       </Link>
                                     </li>
@@ -324,15 +409,6 @@ export default function FinancialResult() {
                                               color: "#5a1d00",
                                             }}
                                           ></i>
-                                          {/* <p
-                                            style={{
-                                              fontSize: "14px",
-                                              paddingTop: "5px",
-                                              color: "#0d6efd",
-                                            }}
-                                          >
-                                            Click Here
-                                          </p> */}
                                         </div>
                                       </Link>
                                     </li>
@@ -387,15 +463,6 @@ export default function FinancialResult() {
                                               color: "#5a1d00",
                                             }}
                                           ></i>
-                                          {/* <p
-                                            style={{
-                                              fontSize: "14px",
-                                              paddingTop: "5px",
-                                              color: "#0d6efd",
-                                            }}
-                                          >
-                                            Click Here
-                                          </p> */}
                                         </div>
                                       </Link>
                                     </li>
@@ -450,15 +517,6 @@ export default function FinancialResult() {
                                               color: "#5a1d00",
                                             }}
                                           ></i>
-                                          {/* <p
-                                            style={{
-                                              fontSize: "14px",
-                                              paddingTop: "5px",
-                                              color: "#0d6efd",
-                                            }}
-                                          >
-                                            Click Here
-                                          </p> */}
                                         </div>
                                       </Link>
                                     </li>
@@ -524,15 +582,6 @@ export default function FinancialResult() {
                                               color: "#5a1d00",
                                             }}
                                           ></i>
-                                          {/* <p
-                                            style={{
-                                              fontSize: "14px",
-                                              paddingTop: "5px",
-                                              color: "#0d6efd",
-                                            }}
-                                          >
-                                            Click Here
-                                          </p> */}
                                         </div>
                                       </Link>
                                     </li>
@@ -613,15 +662,6 @@ export default function FinancialResult() {
                                               color: "#5a1d00",
                                             }}
                                           ></i>
-                                          {/* <p
-                                            style={{
-                                              fontSize: "14px",
-                                              paddingTop: "5px",
-                                              color: "#0d6efd",
-                                            }}
-                                          >
-                                            Click Here
-                                          </p> */}
                                         </div>
                                       </Link>
                                     </li>
@@ -702,15 +742,6 @@ export default function FinancialResult() {
                                               color: "#5a1d00",
                                             }}
                                           ></i>
-                                          {/* <p
-                                            style={{
-                                              fontSize: "14px",
-                                              paddingTop: "5px",
-                                              color: "#0d6efd",
-                                            }}
-                                          >
-                                            Click Here
-                                          </p> */}
                                         </div>
                                       </Link>
                                     </li>
@@ -791,14 +822,18 @@ export default function FinancialResult() {
                                                   marginBottom: "10px",
                                                 }}
                                               >
-                                              {
-                                                  url?.name && (
-                                                    <p style={{
-                                                      fontSize: "16px", paddingTop: "5px",
-                                                      color: "#5a1d00", paddingRight:"8px", 
-                                                    }}>{url?.name}</p>
-                                                  )
-                                                }
+                                                {url?.name && (
+                                                  <p
+                                                    style={{
+                                                      fontSize: "16px",
+                                                      paddingTop: "5px",
+                                                      color: "#5a1d00",
+                                                      paddingRight: "8px",
+                                                    }}
+                                                  >
+                                                    {url?.name}
+                                                  </p>
+                                                )}
                                                 <i
                                                   className="fa fa-download"
                                                   style={{
@@ -806,15 +841,6 @@ export default function FinancialResult() {
                                                     color: "#5a1d00",
                                                   }}
                                                 ></i>
-                                                {/* <p
-                                                  style={{
-                                                    fontSize: "14px",
-                                                    paddingTop: "5px",
-                                                    color: "#0d6efd",
-                                                  }}
-                                                >
-                                                  Click Here
-                                                </p> */}
                                               </div>
                                             </Link>
                                           );
@@ -828,7 +854,7 @@ export default function FinancialResult() {
                         </tbody>
                       </table>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

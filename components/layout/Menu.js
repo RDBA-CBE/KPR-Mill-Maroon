@@ -1,9 +1,57 @@
 "use client";
+import Models from "@/src/imports/models.import";
+import { useSetState } from "@/utils/states.utils";
 import Link from "next/link";
+import { useEffect } from "react";
 // import { useRouter } from "next/router"
 
 export default function Menu() {
   // const router = useRouter()
+
+  const [state, setState] = useSetState({
+    sidebar: [],
+    loading: false,
+  });
+
+  const getSubMenu = async (id) => {
+    try {
+      setState({ loading: true });
+      const res = await Models.auth.sub_menu(id);
+console.log('✌️res --->', res);
+      setState({ sidebar: res?.results, loading: false });
+    } catch (error) {
+      setState({ loading: false });
+
+      console.log("✌️error --->", error);
+    }
+  };
+
+  const navigation = (slug) => {
+    console.log("✌️slug --->", slug);
+    let path = "#";
+    if (slug == "annual-reports") {
+      path = "/financial-result";
+    } else if (slug == "audited-unaudited-results") {
+      path = "/financial-result-audited-unaudited";
+    } else if (slug == "financials-subsidiary-cos") {
+      path = "/financial-result-subsidiary-cos";
+    } else if (slug == "uploads") {
+      path = "/uploads";
+    } else if (slug == "kpr-profile-downloads") {
+      path = "/kpr-profile-downloads";
+    } else if (slug == "appointment-independent-directors") {
+      path = "/financial-result-of-indepentet-directors";
+    } else if (slug == "voting-results-agm-postal-ballot") {
+      path = "/financial-result-of-voting-result-of-agm";
+    } else if (slug == "company-information") {
+      path = "/financial-result-of-company-information";
+    } else if (slug == "con-call-invitations-transcript") {
+      path = "/financial-result-con-col-invitation-and-transcript";
+    } else {
+      path = "#";
+    }
+    return path;
+  };
 
   return (
     <>
@@ -29,7 +77,7 @@ export default function Menu() {
         <li className="dropdown">
           <Link href="/about-us">About us</Link>
           <ul>
-              {/* <li className="dropdown">
+            {/* <li className="dropdown">
                 <Link href="/">Team</Link>
                 <ul>
                   <li>
@@ -114,9 +162,8 @@ export default function Menu() {
         <li>
           <Link href="/our-brand">Our Brand</Link>
         </li>
-       
-        {/* Projects */}
 
+        {/* Projects */}
 
         <li className="dropdown">
           <Link href="/infrastructure">Infrastructure</Link>
@@ -186,7 +233,6 @@ export default function Menu() {
           </ul>
         </li>
 
-        
         <li className="dropdown">
           <Link href="/regulation-46-of-the-lodr">Investors</Link>
           <ul>
@@ -196,8 +242,11 @@ export default function Menu() {
               </Link>
             </li>
             <li>
-              <Link href="/assets/downloads/Company_profile.pdf" target="_blank">
-              Company Profile
+              <Link
+                href="/assets/downloads/Company_profile.pdf"
+                target="_blank"
+              >
+                Company Profile
               </Link>
             </li>
             {/* <li>
@@ -211,11 +260,19 @@ export default function Menu() {
             <li>
               <Link href="/media-download">Media / Download</Link>
             </li>
-            <li className="dropdown">
+            <li className="dropdown" onMouseEnter={() => getSubMenu(1)}>
               <Link href="/financial-result">Financial Results</Link>
 
               <ul>
-                <li>
+                {state.loading && <li>Loading...</li>}
+                {!state.loading && state.sidebar.length > 0
+                  ? state.sidebar?.map((item, idx) => (
+                      <li key={idx}>
+                        <Link href={navigation(item?.slug)}>{item.name}</Link>
+                      </li>
+                    ))
+                  : null}
+                {/* <li>
                   <Link href="/financial-result">Annual Reports</Link>
                 </li>
                 <li>
@@ -247,7 +304,7 @@ export default function Menu() {
                   <Link href="/financial-result-con-col-invitation-and-transcript">
                   Con-call Invitations and Transcript
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li>
@@ -259,18 +316,28 @@ export default function Menu() {
             <li>
               <Link href="/code-of-conduct">Code of Conduct</Link>
             </li>
-            <li className="dropdown">
+            <li className="dropdown" onMouseEnter={() => getSubMenu(2)}>
               <Link href="/policy-info">Policy Info</Link>
 
               <ul>
-                <li>
+                {state.loading && <li>Loading...</li>}
+                {!state.loading && state.sidebar.length > 0
+                  ? state.sidebar?.map((item, idx) => (
+                      <li key={idx}>
+                        <Link href={item.slug}>{item.name}</Link>
+                      </li>
+                    ))
+                  : null}
+                {/* <li>
                   <Link href="/policy">Policy</Link>
                 </li>
                 <li>
                   <Link href="/investor-services">Investor Services</Link>
                 </li>
                 <li>
-                  <Link href="/stock-exchange-intimation">Stock Exchange Intimations</Link>
+                  <Link href="/stock-exchange-intimation">
+                    Stock Exchange Intimations
+                  </Link>
                 </li>
                 <li>
                   <Link href="/dividend-iepf">Dividend / IEPF</Link>
@@ -279,21 +346,28 @@ export default function Menu() {
                   <Link href="/announcements">Announcements</Link>
                 </li>
                 <li>
-                  <Link href="/investor-presentation">Investor Presentation</Link>
+                  <Link href="/investor-presentation">
+                    Investor Presentation
+                  </Link>
                 </li>
                 <li>
                   <Link href="/information">Information</Link>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li>
-              <Link href="https://www.nseindia.com/get-quotes/equity?symbol=KPRMILL" target="_blank">Share Online (NSE)</Link>
+              <Link
+                href="https://www.nseindia.com/get-quotes/equity?symbol=KPRMILL"
+                target="_blank"
+              >
+                Share Online (NSE)
+              </Link>
             </li>
           </ul>
         </li>
 
         {/* Blog */}
-        <li >
+        <li>
           <Link href="/careers">Careers</Link>
           {/* <ul>
             <li>
@@ -305,7 +379,6 @@ export default function Menu() {
           </ul> */}
         </li>
 
-       
         {/* Contact */}
         <li>
           <Link href="/contact">Contact Us</Link>

@@ -1,8 +1,41 @@
+import Models from "@/src/imports/models.import";
+import { capitalizeFLetter, image, slug } from "@/utils/function.utils";
+import { useSetState } from "@/utils/states.utils";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 
 const InvestorsSideMenu = ({ isActive }) => {
-  console.log("✌️isActive --->", isActive);
+
+   const [state, setState] = useSetState({
+      loading: false,
+      data: [],
+    });
+  
+    useEffect(() => {
+      getData();
+    }, []);
+  
+    const getData = async () => {
+      try {
+        setState({ loading: true });
+        const res = await Models.auth.sub_menu(2);
+        console.log("✌️res --->", res);
+        const data = res?.results || [];
+  
+        const updateData = data.map((item) => ({
+          name: capitalizeFLetter(item?.name),
+          slug: slug(item?.slug),
+          img: image(item?.slug),
+        }));
+        setState({ data: updateData, loading: false });
+      } catch (error) {
+        setState({ loading: false });
+        console.log("✌️error --->", error);
+      }
+    };
+
+   
+
   return (
     <div className="visa-sidebar default-sidebar">
       <div className="sidebar-widget category-widget">
@@ -58,7 +91,7 @@ const InvestorsSideMenu = ({ isActive }) => {
               isActive == "indepented-directors" ||
               isActive == "financial-result-of-voting-result-of-agm" ||
               isActive == "company-information" ||
-              isActive == "con-col-invitation-and-transcript") && (
+              isActive == "con-col-invitation-and-transcript" || isActive == "uploads" || isActive == "kpr-profile-downloads") && (
               <ul className="category-list clearfix">
                 <li>
                   <Link
@@ -92,6 +125,28 @@ const InvestorsSideMenu = ({ isActive }) => {
                     Financials – Subsidiary Cos
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/uploads"
+                    className={`${
+                      isActive == "uploads" ? "current" : ""
+                    }`}
+                  >
+                    Uploads
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    href="/kpr-profile-downloads"
+                    className={`${
+                      isActive == "uploads" ? "current" : ""
+                    }`}
+                  >
+                     Kpr Profile Downloads
+                  </Link>
+                </li>
+               
                 <li>
                   <Link
                     href="/financial-result-of-indepentet-directors"

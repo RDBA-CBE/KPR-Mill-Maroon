@@ -1,6 +1,8 @@
 "use client";
+import Models from "@/src/imports/models.import";
+import { useSetState } from "@/utils/states.utils";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function MobileMenu({
   isSidebar,
@@ -11,6 +13,11 @@ export default function MobileMenu({
     status: false,
     key: "",
     subMenuKey: "",
+  });
+  const [state, setState] = useSetState({
+    financialResult: [],
+    loading: false,
+    policyInfo: [],
   });
 
   const handleToggle = (key, subMenuKey = "") => {
@@ -26,6 +33,35 @@ export default function MobileMenu({
         key,
         subMenuKey,
       });
+    }
+  };
+
+  useEffect(() => {
+    financialResult(1);
+    policyInfo(2);
+  }, []);
+
+  const financialResult = async (id) => {
+    try {
+      setState({ loading: true });
+      const res = await Models.auth.sub_menu(id);
+      setState({ financialResult: res?.results, loading: false });
+    } catch (error) {
+      setState({ loading: false });
+
+      console.log("✌️error --->", error);
+    }
+  };
+
+  const policyInfo = async (id) => {
+    try {
+      setState({ loading: true });
+      const res = await Models.auth.sub_menu(id);
+      setState({ policyInfo: res?.results, loading: false });
+    } catch (error) {
+      setState({ loading: false });
+
+      console.log("✌️error --->", error);
     }
   };
 
@@ -51,7 +87,8 @@ export default function MobileMenu({
                 <li
                   className={
                     isActive.key == 1 ? "dropdown current" : "dropdown"
-                  }  onClick={handleMobileMenu}
+                  }
+                  onClick={handleMobileMenu}
                 >
                   <Link href="/">Home</Link>
                   {/* <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
@@ -68,7 +105,9 @@ export default function MobileMenu({
                     isActive.key == 2 ? "dropdown current" : "dropdown"
                   }
                 >
-                  <Link href="/about-us" onClick={handleMobileMenu}>About Us</Link>
+                  <Link href="/about-us" onClick={handleMobileMenu}>
+                    About Us
+                  </Link>
                   <ul
                     style={{
                       display: `${isActive.key == 2 ? "block" : "none"}`,
@@ -149,7 +188,9 @@ export default function MobileMenu({
                     isActive.key == 4 ? "dropdown current" : "dropdown"
                   }
                 >
-                  <Link href="/products"  onClick={handleMobileMenu}>Products</Link>
+                  <Link href="/products" onClick={handleMobileMenu}>
+                    Products
+                  </Link>
                   <ul
                     style={{
                       display: `${isActive.key == 4 ? "block" : "none"}`,
@@ -177,7 +218,7 @@ export default function MobileMenu({
                     </li>
                     <li>
                       <Link href="/ethanol-power" onClick={handleMobileMenu}>
-                      Ethanol & Power
+                        Ethanol & Power
                       </Link>
                     </li>
                   </ul>
@@ -193,9 +234,12 @@ export default function MobileMenu({
                 <li
                   className={
                     isActive.key == 5 ? "dropdown current" : "dropdown"
-                  }  onClick={handleMobileMenu}
+                  }
+                  onClick={handleMobileMenu}
                 >
-                  <Link href="/our-brand"  onClick={handleMobileMenu}>Our Brand</Link>
+                  <Link href="/our-brand" onClick={handleMobileMenu}>
+                    Our Brand
+                  </Link>
                   {/* <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
                               <li><Link href="/countries" onClick={handleMobileMenu}>Countries Overview</Link></li>
                                 <li><Link href="/countries-details" onClick={handleMobileMenu}>United States</Link></li>
@@ -213,7 +257,9 @@ export default function MobileMenu({
                     isActive.key == 6 ? "dropdown current" : "dropdown"
                   }
                 >
-                  <Link href="/infrastructure"  onClick={handleMobileMenu}>Infrastructure</Link>
+                  <Link href="/infrastructure" onClick={handleMobileMenu}>
+                    Infrastructure
+                  </Link>
                   <ul
                     style={{
                       display: `${isActive.key == 6 ? "block" : "none"}`,
@@ -278,7 +324,14 @@ export default function MobileMenu({
                     isActive.key == 7 ? "dropdown current" : "dropdown"
                   }
                 >
-                  <Link href="/regulation-46-of-the-lodr"  onClick={handleMobileMenu}>Investors</Link>
+                  <Link
+                    href="/regulation-46-of-the-lodr"
+                    onClick={() => {
+                      handleMobileMenu();
+                    }}
+                  >
+                    Investors
+                  </Link>
                   <ul
                     style={{
                       display: `${isActive.key == 7 ? "block" : "none"}`,
@@ -293,10 +346,14 @@ export default function MobileMenu({
                       </Link>
                     </li>
                     <li>
-              <Link href="/assets/downloads/Company_profile.pdf" target="_blank"  onClick={handleMobileMenu}>
-              Company Profile
-              </Link>
-            </li>
+                      <Link
+                        href="/assets/downloads/Company_profile.pdf"
+                        target="_blank"
+                        onClick={handleMobileMenu}
+                      >
+                        Company Profile
+                      </Link>
+                    </li>
 
                     {/* <li>
                       <Link
@@ -327,7 +384,15 @@ export default function MobileMenu({
                           : "dropdown"
                       }
                     >
-                      <Link href="/financial-result"  onClick={handleMobileMenu}>Financial Results</Link>
+                      <Link
+                        href="/financial-result"
+                        onClick={() => {
+                          handleMobileMenu();
+                        }}
+                      >
+                        Financial Results
+                      </Link>
+
                       <ul
                         style={{
                           display: `${
@@ -335,7 +400,28 @@ export default function MobileMenu({
                           }`,
                         }}
                       >
-                        <li>
+                        {state.loading && (
+                          <li>
+                            <div
+                              style={{
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                color: "white",
+                              }}
+                            >
+                              Loading...
+                            </div>
+                          </li>
+                        )}
+                        {!state.loading && state.financialResult.length > 0
+                          ? state.financialResult?.map((item, idx) => (
+                              <li key={idx}>
+                                <Link href={item.slug}>{item.name}</Link>
+                              </li>
+                            ))
+                          : null}
+                        {/* <li>
                           <Link
                             href="/financial-result"
                             onClick={handleMobileMenu}
@@ -395,7 +481,7 @@ export default function MobileMenu({
                           >
                             Con-call Invitations and Transcript
                           </Link>
-                        </li>
+                        </li> */}
                       </ul>
 
                       <div
@@ -449,7 +535,29 @@ export default function MobileMenu({
                           }`,
                         }}
                       >
-                        <li>
+                        {state.loading && (
+                          <li>
+                            <div
+                              style={{
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                color: "white",
+                              }}
+                            >
+                              Loading...
+                            </div>
+                          </li>
+                        )}
+                        {!state.loading && state.policyInfo.length > 0
+                          ? state.policyInfo?.map((item, idx) => (
+                              <li key={idx}>
+                                <Link href={item.slug}>{item.name}</Link>
+                              </li>
+                            ))
+                          : null}
+
+                        {/* <li>
                           <Link href="/policy" onClick={handleMobileMenu}>
                             Policy
                           </Link>
@@ -503,7 +611,7 @@ export default function MobileMenu({
                           <Link href="/information" onClick={handleMobileMenu}>
                             Information
                           </Link>
-                        </li>
+                        </li> */}
                       </ul>
 
                       <div
@@ -519,8 +627,12 @@ export default function MobileMenu({
                     </li>
 
                     <li>
-                      <Link href="https://www.nseindia.com/get-quotes/equity?symbol=KPRMILL" target="_blank" onClick={handleMobileMenu}>
-                      Share Online (NSE)
+                      <Link
+                        href="https://www.nseindia.com/get-quotes/equity?symbol=KPRMILL"
+                        target="_blank"
+                        onClick={handleMobileMenu}
+                      >
+                        Share Online (NSE)
                       </Link>
                     </li>
                   </ul>
@@ -542,9 +654,14 @@ export default function MobileMenu({
                 <li
                   className={
                     isActive.key == 8 ? "dropdown current" : "dropdown"
-                  } 
+                  }
                 >
-                  <Link href="/community-development" onClick={handleMobileMenu}>CSR</Link>
+                  <Link
+                    href="/community-development"
+                    onClick={handleMobileMenu}
+                  >
+                    CSR
+                  </Link>
                   <ul
                     style={{
                       display: `${isActive.key == 8 ? "block" : "none"}`,

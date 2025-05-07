@@ -2,10 +2,86 @@
 import Link from "next/link";
 import Layout from "@/components/layout/Layout";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Inverstors1_Data, Inverstors2_Data } from "@/utils/constant.utils";
 import InvestorsSideMenu from "@/components/elements/InvestorsSideMenu";
+import { useSetState } from "@/utils/states.utils";
+import Models from "@/src/imports/models.import";
+import { image, slug } from "@/utils/function.utils";
 export default function Regulation62() {
+  const [state, setState] = useSetState({
+    loading: false,
+    data: [],
+  });
+
+  useEffect(() => {
+    getData();
+  }, []);
+
+  const getData = async () => {
+    try {
+      setState({ loading: true });
+      const res = await Models.auth.sub_menu(2);
+      console.log("✌️res --->", res);
+      const data = res?.results || [];
+
+      const updateData = data.map((item) => ({
+        name: item?.name.toUpperCase(),
+        slug: slug(item?.slug),
+        img: image(item?.slug),
+      }));
+      setState({ data: updateData, loading: false });
+    } catch (error) {
+      setState({ loading: false });
+      console.log("✌️error --->", error);
+    }
+  };
+
+  console.log("data",state.data);
+  
+
+  // const slug = (data) => {
+  //   let label = "";
+  //   if (data === "policy") {
+  //     label = "/policy";
+  //   } else if (data === "dividend-iepf") {
+  //     label = "/dividend-iepf";
+  //   } else if (data === "informations") {
+  //     label = "/information";
+  //   } else if (data === "announcements") {
+  //     label = "/announcements";
+  //   } else if (data === "investor-presentation") {
+  //     label = "/investor-presentation";
+  //   } else if (data === "stock-exchange-intimations") {
+  //     label = "/stock-exchange-intimation";
+  //   } else if (data === "investor-services") {
+  //     label = "/investor-services";
+  //   }
+  //   return label;
+  // };
+
+  // const image = (data) => {
+  //   let label = "";
+  //   if (data === "policy") {
+  //     label = "/assets/images/kprmill-images/policy-info/policy.png";
+  //   } else if (data === "dividend-iepf") {
+  //     label = "/assets/images/kprmill-images/policy-info/dividend-iepf.png";
+  //   } else if (data === "informations") {
+  //     label = "/assets/images/kprmill-images/policy-info/information.png";
+  //   } else if (data === "announcements") {
+  //     label = "/assets/images/kprmill-images/policy-info/announcements.png";
+  //   } else if (data === "investor-presentation") {
+  //     label =
+  //       "/assets/images/kprmill-images/policy-info/investor-presentation.png";
+  //   } else if (data === "stock-exchange-intimations") {
+  //     label =
+  //       "/assets/images/kprmill-images/policy-info/stock-exchange-intimations.png";
+  //   } else if (data === "investor-services") {
+  //     label = "/assets/images/kprmill-images/policy-info/investor-services.png";
+  //   }
+  //   return label;
+  // };
+
   const backgroundImage =
     "/assets/images/kprmill-images/Investors/Policy-Info/banner.jpg";
 
@@ -22,7 +98,7 @@ export default function Regulation62() {
           <div className="auto-container">
             <div className="row clearfix">
               <div className="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-              <InvestorsSideMenu isActive="policy-info" />
+                <InvestorsSideMenu isActive="policy-info" />
               </div>
               <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                 <div className="visa-details-content">
@@ -31,82 +107,27 @@ export default function Regulation62() {
                       <h2 style={{ color: "#5a1d00" }}>Policy Info:</h2>
                     </div>
 
-                    <div className="row clearfix mb-lg-5 mb-0">
-                      <div className="col-lg-3 col-md-12 col-sm-12 sidebar-side text-center">
-                        <div className="clients-logo mb_10">
-                          <Link href="/policy">
-                            <img
-                              src="/assets/images/kprmill-images/policy-info/policy.png"
-                              alt="policy"
-                            />
-                          </Link>
+                    <div className="row g-4 mb-lg-5 mb-0">
+                      {state.data.map((item, index) => (
+                        <div
+                          className="col-lg-4 col-md-6 col-sm-12 sidebar-side text-center"
+                          key={index}
+                        >
+                          <div className="clients-logo mb_10">
+                            <Link href={item.slug}>
+                              <img src={item.img} alt={item.name} />
+                            </Link>
+                          </div>
+                          <h5>
+                            <Link href={item.slug} style={{ color: "#032b66" }}>
+                              {item.name}
+                            </Link>
+                          </h5>
                         </div>
-                        <h5>
-                          <Link href="/policy" style={{ color: "#032b66" }}>
-                            POLICY
-                          </Link>
-                        </h5>
-                      </div>
-
-                      <div className="col-lg-3 col-md-12 col-sm-12 sidebar-side  text-center">
-                        <div className="clients-logo mb_10">
-                          <Link href="/dividend-iepf">
-                            <img
-                              src="/assets/images/kprmill-images/policy-info/dividend-iepf.png"
-                              alt="divident-iepf"
-                            />
-                          </Link>
-                        </div>
-                        <h5>
-                          <Link
-                            href="/dividend-iepf"
-                            style={{ color: "#032b66" }}
-                          >
-                            DIVIDEND / IEPF
-                          </Link>
-                        </h5>
-                      </div>
-
-                      <div className="col-lg-3 col-md-12 col-sm-12 sidebar-side  text-center">
-                        <div className="clients-logo mb_10">
-                          <Link href="/information">
-                            <img
-                              src="/assets/images/kprmill-images/policy-info/information.png"
-                              alt="Information"
-                            />
-                          </Link>
-                        </div>
-                        <h5>
-                          <Link
-                            href="/information"
-                            style={{ color: "#032b66" }}
-                          >
-                            INFORMATION
-                          </Link>
-                        </h5>
-                      </div>
-
-                      <div className="col-lg-3 col-md-12 col-sm-12 sidebar-side  text-center">
-                        <div className="clients-logo mb_10">
-                          <Link href="/announcements">
-                            <img
-                              src="/assets/images/kprmill-images/policy-info/announcements.png"
-                              alt="Announcements"
-                            />
-                          </Link>
-                        </div>
-                        <h5>
-                          <Link
-                            href="/announcements"
-                            style={{ color: "#032b66" }}
-                          >
-                            ANNOUNCEMENTS
-                          </Link>
-                        </h5>
-                      </div>
+                      ))}
                     </div>
 
-                    <div className="row clearfix ">
+                    {/* <div className="row clearfix ">
                       <div className="col-lg-4 col-md-12 col-sm-12 sidebar-side  text-center">
                         <div className="clients-logo mb_10">
                           <Link href="/investor-presentation">
@@ -126,7 +147,7 @@ export default function Regulation62() {
                         </h5>
                       </div>
 
-                      <div className="col-lg-4 col-md-12 col-sm-12 sidebar-side  text-center">
+                       <div className="col-lg-4 col-md-12 col-sm-12 sidebar-side  text-center">
                         <div className="clients-logo mb_10">
                           <Link href="/stock-exchange-intimation">
                             <img
@@ -162,8 +183,8 @@ export default function Regulation62() {
                             INVESTOR SERVICES
                           </Link>
                         </h5>
-                      </div>
-                    </div>
+                      </div> 
+                    </div> */}
                   </div>
                 </div>
               </div>

@@ -26,3 +26,20 @@ export const getReportTableData = async () => {
     console.log("error: ", error);
   }
 };
+
+export const instance = () => {
+  const data = axios.create({
+    baseURL: "http://121.200.52.133:8002/api/",
+  });
+
+  data.interceptors.request.use(async function (config) {
+    // config.headers['authorization'] = `Token ${accessToken}`;
+    // const accessToken = localStorage.getItem("token");
+    // if (accessToken) {
+    //   config.headers["authorization"] = `Bearer ${accessToken}`;
+    // }
+    return config;
+  });
+
+  return data;
+};

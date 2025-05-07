@@ -14,19 +14,15 @@
 //   AnualResult_2023,
 //   AnualResult_2024,
 //   Audited_Unaudited,
-//   Company_information,
-//   ConCol_Invitation_Transcript,
-//   Indepented_Directors,
 //   Inverstors1_Data,
 //   Inverstors2_Data,
-//   Subsidary_cos,
-//   Voting_Result_Of_AGM,
 // } from "@/utils/constant.utils";
 // import { useSetState } from "@/utils/states.utils";
 // import { groupedByYear } from "@/utils/function.utils";
 // import ListComponents from "../components/listComponents";
-// import InvestorsSideMenu from "@/components/elements/InvestorsSideMenu";
-// export default function ConColInvitationAndTranscript() {
+// import InverstorsSideMenu from "@/components/elements/InvestorsSideMenu";
+
+// export default function AuditedUnaudited() {
 //   const [state, setState] = useSetState({
 //     loading: false,
 //     data: [],
@@ -38,20 +34,21 @@
 
 //   const ReportData = async () => {
 //     try {
-//       const groupedData = await groupedByYear("3694");
+//       const groupedData = await groupedByYear("3689");
 //       setState({ data: groupedData });
 //     } catch (error) {
 //       console.log("error: ", error);
 //     }
 //   };
+
 //   const backgroundImage =
-//     "/assets/images/kprmill-images/Con-call-Invitations-and-Transcript/banner.jpg";
+//     "/assets/images/kprmill-images/Financial-Results/banner.jpg";
 //   return (
 //     <>
 //       <Layout
 //         headerStyle={2}
 //         footerStyle={2}
-//         breadcrumbTitle="Con-call Invitations and Transcript"
+//         breadcrumbTitle="Financial Results"
 //         imageUrl={backgroundImage}
 //       >
 //         {/* visa details section */}
@@ -59,12 +56,12 @@
 //           <div className="auto-container">
 //             <div className="row clearfix">
 //               <div className="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-//              <InvestorsSideMenu isActive={"con-col-invitation-and-transcript"} />
+//                 <InverstorsSideMenu isActive="financial-result-audited-unaudited" />
 //               </div>
 
 //               <ListComponents
 //                 data={state.data}
-//                 title="Con-call Invitations and Transcript"
+//                 title="Audited / Unaudited Results"
 //               />
 //             </div>
 //           </div>
@@ -91,18 +88,13 @@ import {
   AnualResult_2023,
   AnualResult_2024,
   Audited_Unaudited,
-  Company_information,
-  ConCol_Invitation_Transcript,
-  Indepented_Directors,
   Inverstors1_Data,
   Inverstors2_Data,
-  Subsidary_cos,
-  Voting_Result_Of_AGM,
 } from "@/utils/constant.utils";
 import InvestorsSideMenu from "@/components/elements/InvestorsSideMenu";
 import { useSetState } from "@/utils/states.utils";
 import Models from "@/src/imports/models.import";
-export default function ConColInvitationAndTranscript() {
+export default function AuditedUnaudited() {
   const [state, setState] = useSetState({
     loading: false,
     data: [],
@@ -115,7 +107,7 @@ export default function ConColInvitationAndTranscript() {
   const getData = async () => {
     try {
       setState({ loading: true });
-      const res = await Models.auth.documentList(9);
+      const res = await Models.auth.documentList(5);
       const data = res?.results || [];
       const groupedByYearMap = new Map();
       data.forEach((item) => {
@@ -133,13 +125,13 @@ export default function ConColInvitationAndTranscript() {
   };
 
   const backgroundImage =
-    "/assets/images/kprmill-images/Con-call-Invitations-and-Transcript/banner.jpg";
+    "/assets/images/kprmill-images/Financial-Results/banner.jpg";
   return (
     <>
       <Layout
         headerStyle={2}
         footerStyle={2}
-        breadcrumbTitle="Con-call Invitations and Transcript"
+        breadcrumbTitle="Kpr Profile Downloads"
         imageUrl={backgroundImage}
       >
         {/* visa details section */}
@@ -147,7 +139,7 @@ export default function ConColInvitationAndTranscript() {
           <div className="auto-container">
             <div className="row clearfix">
               <div className="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-                <InvestorsSideMenu isActive="con-col-invitation-and-transcript" />
+                <InvestorsSideMenu isActive="kpr-profile-downloads" />
               </div>
               <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                 <div className="visa-details-content">
@@ -180,7 +172,7 @@ export default function ConColInvitationAndTranscript() {
                                     fontSize: "18px",
                                   }}
                                 >
-                                  Con-call Invitations and Transcript {year}
+                                  Kpr Profile Downloads {year}
                                 </th>
                               </tr>
                             </thead>
