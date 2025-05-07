@@ -3,7 +3,7 @@ import Layout from "@/components/layout/Layout";
 import { useSetState } from "@/utils/states.utils";
 import axios from "axios";
 import { useEffect } from "react";
-export default function Garmenting() {
+export default function Knitting() {
 
    const [state, setState] = useSetState({
       aboutPage: {},
@@ -17,7 +17,7 @@ export default function Garmenting() {
   const slugData = async () => {
     try {
       const res = await axios.get(
-        `https://file.kprmilllimited.com/kprdev/wp-json/wp/v2/pages?slug=garmenting`
+        `https://file.kprmilllimited.com/kprdev/wp-json/wp/v2/pages?slug=knitting`
       );
 
       if (res?.data?.length > 0) {
@@ -39,7 +39,7 @@ export default function Garmenting() {
       <Layout
         headerStyle={2}
         footerStyle={2}
-        breadcrumbTitle="Garmenting"
+        breadcrumbTitle="knitting"
         imageUrl={backgroundImage}
       >
     

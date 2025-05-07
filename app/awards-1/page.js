@@ -115,7 +115,8 @@ export default function Home() {
       >
        <div dangerouslySetInnerHTML={{ __html: state.aboutPage?.content?.rendered}} />
 
-       <section className="sec-title centred mt_50">
+
+       {/* <section className="sec-title centred mt_50">
           <h3>KPR Group – Awards, Appreciations and Recognitions</h3>
           <div className="text" style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
             <p style={{ width: "70%", fontSize: "16px" }}>
@@ -155,18 +156,18 @@ export default function Home() {
                         <h3 style={{ fontSize: "20px" }}>{award.title}</h3>
                       </div>
                     )}
-                    {/* <ul className="about-list-style clearfix">
+                    <ul className="about-list-style clearfix">
                       {award.items.map((item, i) => (
                         <li key={i} dangerouslySetInnerHTML={{ __html: item }} />
                       ))}
-                    </ul> */}
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
           </section>
         ))}
-      </section>
+      </section> */}
 
       </Layout>
     </>
