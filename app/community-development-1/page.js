@@ -32,8 +32,8 @@ export default function CommunityDevelopment() {
     }
   };
 
-  const backgroundImage =
-    "/assets/images/kprmill-images/About/certifications-banner-img.jpg";
+  const backgroundImage = "/assets/images/kprmill-images/CSR/Community-Development/banner.jpg";
+  
   return (
     <>
       <Layout

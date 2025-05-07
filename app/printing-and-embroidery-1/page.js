@@ -33,7 +33,7 @@ export default function PrintingAndEmbroidery() {
   };
 
   const backgroundImage =
-    "/assets/images/kprmill-images/About/certifications-banner-img.jpg";
+    "/assets/images/kprmill-images/Infrastructure/Printing-And-Embroidery/banner-img.jpg";
   return (
     <>
       <Layout

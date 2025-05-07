@@ -40,7 +40,7 @@ export default function Home() {
       <Layout
         headerStyle={2}
         footerStyle={2}
-        breadcrumbTitle="Awards"
+        breadcrumbTitle="Quality"
         imageUrl={BannerImage}
       >
         <div dangerouslySetInnerHTML={{ __html: state.aboutPage }} />

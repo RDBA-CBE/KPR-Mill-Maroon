@@ -32,8 +32,8 @@ export default function GreenInitiatives() {
     }
   };
 
-  const backgroundImage =
-    "/assets/images/kprmill-images/About/certifications-banner-img.jpg";
+  const backgroundImage = "/assets/images/kprmill-images/CSR/Green-Initiatives/banner.jpg";
+  
   return (
     <>
       <Layout

@@ -33,7 +33,7 @@ export default function Spinning() {
   };
 
   const backgroundImage =
-    "/assets/images/kprmill-images/About/certifications-banner-img.jpg";
+    "/assets/images/kprmill-images/Infrastructure/Spinning/banner-img.jpg";
   return (
     <>
       <Layout

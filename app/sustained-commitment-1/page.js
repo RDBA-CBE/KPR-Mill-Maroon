@@ -32,8 +32,8 @@ export default function SustainedCommitment() {
     }
   };
 
-  const backgroundImage =
-    "/assets/images/kprmill-images/About/certifications-banner-img.jpg";
+    const backgroundImage ="/assets/images/kprmill-images/CSR/Sustained-Commitment/banner.jpg"
+    
   return (
     <>
       <Layout

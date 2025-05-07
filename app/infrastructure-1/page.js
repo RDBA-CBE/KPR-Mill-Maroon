@@ -33,7 +33,8 @@ export default function Infrastructure() {
   };
 
   const backgroundImage =
-    "/assets/images/kprmill-images/About/certifications-banner-img.jpg";
+  "/assets/images/kprmill-images/Infrastructure/banner-img.jpg";
+
   return (
     <>
       <Layout

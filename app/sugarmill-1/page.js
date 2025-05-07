@@ -31,9 +31,8 @@ export default function Sugarmill() {
       console.log("error: ", error);
     }
   };
-
-  const backgroundImage =
-    "/assets/images/kprmill-images/About/certifications-banner-img.jpg";
+  const backgroundImage = "/assets/images/kprmill-images/Infrastructure/Sugarmill/banner.jpg";
+  
   return (
     <>
       <Layout

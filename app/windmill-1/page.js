@@ -33,7 +33,7 @@ export default function Windmill() {
   };
 
   const backgroundImage =
-    "/assets/images/kprmill-images/About/certifications-banner-img.jpg";
+    "/assets/images/kprmill-images/Infrastructure/Windmill/banner-img.jpg";
   return (
     <>
       <Layout

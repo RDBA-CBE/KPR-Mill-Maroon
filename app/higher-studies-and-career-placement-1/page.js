@@ -32,8 +32,8 @@ export default function HigherStudiesAndCarrerPlacement() {
     }
   };
 
-  const backgroundImage =
-    "/assets/images/kprmill-images/About/certifications-banner-img.jpg";
+  const backgroundImage = "/assets/images/kprmill-images/CSR/Higher-Studies-and-Carrer-Placement/banner.jpg";
+  
   return (
     <>
       <Layout
