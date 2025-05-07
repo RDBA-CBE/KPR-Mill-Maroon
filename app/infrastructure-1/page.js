@@ -3,7 +3,7 @@ import Layout from "@/components/layout/Layout";
 import { useSetState } from "@/utils/states.utils";
 import axios from "axios";
 import { useEffect } from "react";
-export default function GreenInitiatives() {
+export default function Infrastructure() {
 
    const [state, setState] = useSetState({
       aboutPage: {},
@@ -17,7 +17,7 @@ export default function GreenInitiatives() {
   const slugData = async () => {
     try {
       const res = await axios.get(
-        `https://file.kprmilllimited.com/kprdev/wp-json/wp/v2/pages?slug=green-initiative`
+        `https://file.kprmilllimited.com/kprdev/wp-json/wp/v2/pages?slug=infrastructure`
       );
 
       if (res?.data?.length > 0) {
@@ -39,7 +39,7 @@ export default function GreenInitiatives() {
       <Layout
         headerStyle={2}
         footerStyle={2}
-        breadcrumbTitle="Green Initiatives"
+        breadcrumbTitle="Infrastructure"
         imageUrl={backgroundImage}
       >
     
