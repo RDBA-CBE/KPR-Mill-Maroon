@@ -130,7 +130,10 @@ export default function Home() {
                     </div>
 
                        <VerticalTimeline>
-                       {state?.evolutionData?.map((data,index)=>(
+                       {state?.evolutionData?.map((data,index)=>{
+                      // const isLast = index === state.evolutionData.length
+                      return(
+                       
                            <VerticalTimelineElement
                                           key={index}
                                           visible={true}
@@ -152,7 +155,20 @@ export default function Home() {
                                             height={300}
                                           />
                             </VerticalTimelineElement>
-                        ))}
+
+                          
+                        )})}
+
+                        <VerticalTimelineElement
+                            
+                             visible={true}
+                             className="vertical-timeline-element--work"
+                             iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+                            icon={<StarIcon />}
+                            >
+
+                              
+                            </VerticalTimelineElement>
                         </VerticalTimeline>
                         
                     
