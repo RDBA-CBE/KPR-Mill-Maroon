@@ -73,11 +73,12 @@
 //   );
 // }
 
+
 "use client";
 import Link from "next/link";
 import Layout from "@/components/layout/Layout";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import {
   AnualResult_2016,
   AnualResult_2017,
@@ -96,46 +97,14 @@ import {
   Voting_Result_Of_AGM,
 } from "@/utils/constant.utils";
 import InvestorsSideMenu from "@/components/elements/InvestorsSideMenu";
-import { useSetState } from "@/utils/states.utils";
-import Models from "@/src/imports/models.import";
 export default function VotingResultOfAgm() {
-  const [state, setState] = useSetState({
-    loading: false,
-    data: [],
-  });
 
-  useEffect(() => {
-    getData();
-  }, []);
-
-  const getData = async () => {
-    try {
-      setState({ loading: true });
-      const res = await Models.auth.documentList(7);
-      const data = res?.results || [];
-      const groupedByYearMap = new Map();
-      data.forEach((item) => {
-        const year = item.year;
-        if (!groupedByYearMap.has(year)) {
-          groupedByYearMap.set(year, []);
-        }
-        groupedByYearMap.get(year).push(item);
-      });
-      setState({ data: groupedByYearMap, loading: false });
-    } catch (error) {
-      setState({ loading: false });
-      console.log("✌️error --->", error);
-    }
-  };
-
-  const backgroundImage =
-    "/assets/images/kprmill-images/Voting-Results-of-AGM-and-Postal-Ballot/banner.jpg";
+  const backgroundImage = "/assets/images/kprmill-images/Voting-Results-of-AGM-and-Postal-Ballot/banner.jpg";
   return (
     <>
       <Layout
         headerStyle={2}
-        footerStyle={2}
-        imageUrl={backgroundImage}
+        footerStyle={2} imageUrl={backgroundImage}
         breadcrumbTitle="Voting Results of AGM and Postal Ballot"
       >
         {/* visa details section */}
@@ -143,134 +112,107 @@ export default function VotingResultOfAgm() {
           <div className="auto-container">
             <div className="row clearfix">
               <div className="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-                <InvestorsSideMenu isActive="financial-result-of-voting-result-of-agm" />
+              <InvestorsSideMenu isActive="financial-result-of-voting-result-of-agm" />
               </div>
               <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                 <div className="visa-details-content">
-                  <div className="content-one  mb_45">
-                    {state.loading ? (
-                      <div
-                        style={{
-                          alignItems: "center",
-                          display: "flex",
-                          justifyContent: "center",
-                          color: "#daad19",
-                        }}
-                      >
-                        Loading ....
-                      </div>
-                    ) : [...state.data?.entries()]?.length > 0 ? (
-                      <div className="table-responsive-sm">
-                        {[...state.data?.entries()]?.map(([year, reports]) => (
-                          <table
-                            className="table big-table table-striped"
-                            key={year}
-                          >
-                            <thead>
+                  <div className="content-one mb_45">
+                    <div className=" table-responsive-sm">
+                      <table class="table big-table table-striped">
+                        <thead>
+                          <tr>
+                            <th colspan="2" style={{ backgroundColor: "#daad19", color: "white", fontSize: "18px" }}>
+                              Voting Results of AGM and Postal Ballot
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {Voting_Result_Of_AGM.map((item) => {
+                            return (
                               <tr>
-                                <th
-                                  colSpan="2"
-                                  style={{
-                                    backgroundColor: "#daad19",
-                                    color: "white",
-                                    fontSize: "18px",
-                                  }}
-                                >
-                                  Voting Results of AGM and Postal Ballot {year}
-                                </th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              {reports?.map((report) => (
-                                <tr key={report?.id}>
-                                  <td>
-                                    {report?.title}
-                                    <br />
-                                    {report?.subject && (
+                                <td>
+                                  {item.title}
+                                  <br />
+                                  {item?.subTitle1 && (
+                                    <span
+                                      style={{
+                                        fontSize: "14px",
+                                        color: "#032B66",
+                                      }}
+                                    >
+                                      <b>Sub:</b> {item?.subTitle1}
+                                    </span>
+                                  )}
+                                  {item?.subTitle2 && (
+                                    <>
+                                      <br />
                                       <span
                                         style={{
                                           fontSize: "14px",
                                           color: "#032B66",
                                         }}
                                       >
-                                        <b>Sub:</b> {report?.subject}
+                                        <b>Ref:</b> {item?.subTitle2}
                                       </span>
-                                    )}
-                                    {report?.reference && (
-                                      <>
-                                        <br />
-                                        <span
-                                          style={{
-                                            fontSize: "14px",
-                                            color: "#032B66",
-                                          }}
-                                        >
-                                          <b>Ref:</b> {report?.reference}
-                                        </span>
-                                      </>
-                                    )}
-                                  </td>
-
-                                  <td>
-                                    <ul className="download-list clearfix">
-                                      {report?.files?.map((file) => (
-                                        <li key={file?.id}>
-                                          <a
-                                            href={file?.file}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                          >
-                                            <div
-                                              className="icon-shape text-center"
-                                              style={{
-                                                display: "flex",
-                                                alignItems: "center",
-                                                justifyContent: "end",
-                                              }}
+                                    </>
+                                  )}
+                                </td>
+                                <td>
+                                  <ul className="download-list clearfix">
+                                    <li>
+                                      {item?.url &&
+                                        item?.url?.map((url) => {
+                                          return (
+                                            <Link
+                                              href={url.link}
+                                              target="_blank"
                                             >
-                                              {file?.name && (
-                                                <p
+                                              <div
+                                                className="icon-shape text-center "
+                                                style={{
+                                                  display: "flex",
+                                                  alignItems: "end",
+                                                  justifyContent: "end",
+                                                  marginBottom: "10px",
+                                                }}
+                                              >
+                                              {
+                                                  url?.name && (
+                                                    <p style={{
+                                                      fontSize: "16px", paddingTop: "5px",
+                                                      color: "#5a1d00", paddingRight:"8px", 
+                                                    }}>{url?.name}</p>
+                                                  )
+                                                }
+                                                <i
+                                                  className="fa fa-download"
                                                   style={{
                                                     fontSize: "16px",
-                                                    paddingTop: "5px",
                                                     color: "#5a1d00",
-                                                    paddingRight: "8px",
+                                                  }}
+                                                ></i>
+                                                {/* <p
+                                                  style={{
+                                                    fontSize: "14px",
+                                                    paddingTop: "5px",
+                                                    color: "#0d6efd",
                                                   }}
                                                 >
-                                                  {file?.name}
-                                                </p>
-                                              )}
-                                              <i
-                                                className="fa fa-download"
-                                                style={{
-                                                  fontSize: "16px",
-                                                  color: "#5a1d00",
-                                                }}
-                                              ></i>
-                                            </div>
-                                          </a>
-                                        </li>
-                                      ))}
-                                    </ul>
-                                  </td>
-                                </tr>
-                              ))}
-                            </tbody>
-                          </table>
-                        ))}
-                      </div>
-                    ) : (
-                      <div
-                        style={{
-                          alignItems: "center",
-                          display: "flex",
-                          justifyContent: "center",
-                          color: "#daad19",
-                        }}
-                      >
-                        No Records Found
-                      </div>
-                    )}
+                                                  Click Here
+                                                </p> */}
+                                              </div>
+                                            </Link>
+                                          );
+                                        })}
+                                    </li>
+                                  </ul>
+                                </td>
+                              </tr>
+                            );
+                          })}
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                 </div>
               </div>

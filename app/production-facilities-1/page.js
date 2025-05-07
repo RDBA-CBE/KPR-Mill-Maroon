@@ -32,7 +32,7 @@ export default function Certifications() {
     }
   };
 
-  const BackgroundImage =
+  const backgroundImage =
   "/assets/images/kprmill-images/About/production-facilities-banner-img.jpg";
   
   return (
