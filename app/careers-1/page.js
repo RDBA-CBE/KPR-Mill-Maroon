@@ -4,10 +4,8 @@ import { useSetState } from "@/utils/states.utils";
 import axios from "axios";
 import { useEffect } from "react";
 export default function Careers() {
-
    const [state, setState] = useSetState({
-      aboutPage: {},
-     
+      aboutPage: {},     
     });
 
   useEffect(() => {
