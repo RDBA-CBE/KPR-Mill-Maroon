@@ -20,12 +20,24 @@ export default function Home() {
   const slugData = async () => {
     try {
       const res = await axios.get(
-        `  https://file.kprmilllimited.com/kprdev/wp-json/wp/v2/pages?slug=garment`
+        "https://file.kprmilllimited.com/kprdev/wp-json/wp/v2/pages",
+        {
+          params: {
+            slug: "garment",
+            _embed: true,
+          },
+        }
       );
-
+  
       if (res?.data?.length > 0) {
+        const pageData = res.data[0];
+        const featuredImage = pageData._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
+        const pageTitle = pageData.title?.rendered;
+  
         setState({
-          garmentPage: res?.data?.[0]?.content?.rendered,
+          garmentPage: pageData.content?.rendered,
+          backgroundImage: featuredImage,
+          pageTitle: pageTitle,
         });
       } else {
         console.error("Page not found");
@@ -101,8 +113,8 @@ export default function Home() {
       <Layout
         headerStyle={2}
         footerStyle={2}
-        breadcrumbTitle="Yarn"
-        imageUrl={BannerImage}
+        breadcrumbTitle={state.pageTitle}
+        imageUrl={`${state?.backgroundImage}`}
       >
         <div dangerouslySetInnerHTML={{ __html: state.garmentPage }} />
 

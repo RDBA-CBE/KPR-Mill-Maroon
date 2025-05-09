@@ -18,12 +18,24 @@ export default function Certifications() {
   const slugData = async () => {
     try {
       const res = await axios.get(
-        `https://file.kprmilllimited.com/kprdev/wp-json/wp/v2/pages?slug=certifications`
+        "https://file.kprmilllimited.com/kprdev/wp-json/wp/v2/pages",
+        {
+          params: {
+            slug: "certifications",
+            _embed: true,
+          },
+        }
       );
-
+  
       if (res?.data?.length > 0) {
+        const pageData = res.data[0];
+        const featuredImage = pageData._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
+        const pageTitle = pageData.title?.rendered;
+  
         setState({
-          aboutPage: res?.data?.[0],
+          aboutPage: pageData,
+          backgroundImage: featuredImage,
+          pageTitle: pageTitle,
         });
       } else {
         console.error("Page not found");
@@ -109,8 +121,9 @@ export default function Certifications() {
       <Layout
         headerStyle={2}
         footerStyle={2}
-        breadcrumbTitle="Certifications"
-        imageUrl={backgroundImage}
+        breadcrumbTitle={state.pageTitle}
+        // imageUrl={backgroundImage}
+        imageUrl={`${state?.backgroundImage}`}
       >
     
     {/* <div dangerouslySetInnerHTML={{ __html: state.aboutPage?.content.rendered}} /> */}

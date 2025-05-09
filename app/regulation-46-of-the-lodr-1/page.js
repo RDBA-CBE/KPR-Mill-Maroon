@@ -7,6 +7,7 @@ import { Inverstors1_Data, Regulation_46 } from "@/utils/constant.utils";
 import InvestorsSideMenu from "@/components/elements/InvestorsSideMenu";
 import { useSetState } from "@/utils/states.utils";
 import Models from "@/src/imports/models.import";
+import axios from "axios";
 export default function Regulation46() {
 
   const [state, setState] = useSetState({
@@ -16,7 +17,38 @@ export default function Regulation46() {
     
       useEffect(() => {
         getData();
+        slugData();
       }, []);
+
+      const slugData = async () => {
+        try {
+          const res = await axios.get(
+            "https://file.kprmilllimited.com/kprdev/wp-json/wp/v2/pages",
+            {
+              params: {
+                slug: "regulation-46-of-the-lodr",
+                _embed: true,
+              },
+            }
+          );
+      
+          if (res?.data?.length > 0) {
+            const pageData = res.data[0];
+            const featuredImage = pageData._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
+            const pageTitle = pageData.title?.rendered;
+      
+            setState({
+              aboutPage: pageData.content?.rendered,
+              backgroundImage: featuredImage,
+              pageTitle: pageTitle,
+            });
+          } else {
+            console.error("Page not found");
+          }
+        } catch (error) {
+          console.log("error: ", error);
+        }
+      };
     
       const getData = async () => {
         try {
@@ -47,8 +79,8 @@ export default function Regulation46() {
       <Layout
         headerStyle={2}
         footerStyle={2}
-        breadcrumbTitle="Disclosures under Regulation 46 of the LODR"
-        imageUrl={backgroundImage}
+        breadcrumbTitle={state.pageTitle}
+        imageUrl={`${state?.backgroundImage}`}
       >
         {/* visa details section */}
         <section className="visa-details p_relative">

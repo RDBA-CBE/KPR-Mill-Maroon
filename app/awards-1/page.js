@@ -18,12 +18,24 @@ export default function Home() {
   const slugData = async () => {
     try {
       const res = await axios.get(
-        `  https://file.kprmilllimited.com/kprdev/wp-json/wp/v2/pages?slug=awards`
+        "https://file.kprmilllimited.com/kprdev/wp-json/wp/v2/pages",
+        {
+          params: {
+            slug: "awards",
+            _embed: true,
+          },
+        }
       );
-
+  
       if (res?.data?.length > 0) {
+        const pageData = res.data[0];
+        const featuredImage = pageData._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
+        const pageTitle = pageData.title?.rendered;
+  
         setState({
-          aboutPage: res?.data?.[0],
+          aboutPage: pageData,
+          backgroundImage: featuredImage,
+          pageTitle: pageTitle,
         });
       } else {
         console.error("Page not found");
@@ -75,11 +87,27 @@ export default function Home() {
       const img = data.querySelector("img");
       const year = cleanText(data.querySelector(".awards-year")?.textContent);
       const content = data.querySelector(".awards-content")
-      const title = data.querySelector(".awards-script")
-      const paragraphOne = data.querySelector(".awards-desc-1")
-      const paragraphTwo = data.querySelector(".awards-desc-2")
-      // const title = cleanText(data.querySelector(".awards-script")?.textContent);
-      // const paragraph = cleanText(data.querySelector(".awards-desc")?.textContent);
+      const paradata = data.querySelectorAll(".awards-content .paradata")
+      
+      const title = data.querySelector(".awards-content .sec-title h3")?.innerHTML
+      const paragraph = data.querySelector(".awards-content p")?.innerHTML
+      const list = data.querySelector(".awards-content ul")?.innerHTML
+      const paradataArray = Array.from(paradata).map((data)=>{
+        console.log("paradata",data);
+        
+         const head = data.querySelector(".paradata .sec-title h3")?.innerHTML
+         const para = data.querySelector(".paradata .paradata-content")?.innerHTML
+
+         return {
+          head:head || "",
+          para:para || ""
+         }
+      })
+   
+
+
+      console.log("paradataArray", paradataArray)
+      
 
       
       
@@ -89,8 +117,11 @@ export default function Home() {
         imgAlt: img?.getAttribute("alt") || "",
         content: content || "",
         title:title || null,
-        paragraphOne:paragraphOne || null ,
-        paragraphTwo:paragraphTwo || null               
+        paragraph:paragraph || null ,
+        list:list || null,
+        paradataArray:paradataArray || null
+        
+                 
       };
     });
   };
@@ -110,13 +141,14 @@ export default function Home() {
       <Layout
         headerStyle={2}
         footerStyle={2}
-        breadcrumbTitle="Awards"
-        imageUrl={BannerImage}
+        breadcrumbTitle={state.pageTitle}
+        // imageUrl={BannerImage}
+        imageUrl={`${state?.backgroundImage}`}
       >
-       <div dangerouslySetInnerHTML={{ __html: state.aboutPage?.content?.rendered}} />
+       {/* <div dangerouslySetInnerHTML={{ __html: state.aboutPage?.content?.rendered}} /> */}
 
 
-       {/* <section className="sec-title centred mt_50">
+       <section className="sec-title centred mt_50">
           <h3>KPR Group – Awards, Appreciations and Recognitions</h3>
           <div className="text" style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
             <p style={{ width: "70%", fontSize: "16px" }}>
@@ -134,9 +166,9 @@ export default function Home() {
             <div className="auto-container">
               <div className="row clearfix award-row">
                { award?.year && 
-                <div className={`col-lg-3 col-md-6 col-sm-12 content-column no-gutters title-col-${index + 1} ${index % 2 !== 0 ? "order-md-2" : ""}`}>
+                <div className={`col-lg-3 col-md-6 col-sm-12 content-column no-gutters  ${index % 2 !== 0 ? "order-md-2 title-col-2" : "title-col-1"}`}>
                   <div className="title">
-                    <h2>{award.year}</h2>
+                    <h2>{award?.year}</h2>
                   </div>
                 </div>
                 }
@@ -144,30 +176,63 @@ export default function Home() {
                 <div className={`${award?.year ? "col-lg-3 col-md-6 col-sm-12" : "col-lg-6 col-md-6 col-sm-12"}content-column no-gutters image-col ${index % 2 !== 0 ? "order-md-1" : ""}`}>
                   <div className="image-box award-image-outer">
                     <figure className="image">
-                      <img src={award.imgSrc} alt={award.imgAlt} />
+                      <img src={award?.imgSrc} alt={award?.imgAlt} />
                     </figure>
                   </div>
                 </div>
 
                 <div className={`col-lg-6 col-md-12 col-sm-12 content-column content-col no-gutters ${index % 2 !== 0 ? "order-3" : ""}`}>
-                  <div className="text mb_25 award-content-main">
-                    {award.title && (
+                <div className="content_block_two mb_25 award-content-main">
+                  <div className="text content-box p_relative d_block">
+
+                    {award?.paradataArray.length > 0 && (
+                      award?.paradataArray?.map((data)=>(
+                      <>
+                        {data?.head && (
+                        <div className="sec-title mb_10">
+                          <h3 style={{ fontSize: "20px" }} dangerouslySetInnerHTML={{__html:data?.head}}></h3>
+                        </div>
+                        )}
+                        {data?.para && ( 
+                        <div className="text" >
+                          <p  dangerouslySetInnerHTML={{__html:data?.para}}>
+                            
+                          </p>
+                        </div>
+                        )}
+                      </>
+                      ))
+                      
+                    )
+                    }
+                    
+
+                    {award?.title && award?.paradataArray?.length <= 0 ?(
                       <div className="sec-title mb_10">
-                        <h3 style={{ fontSize: "20px" }}>{award.title}</h3>
+                        <h3 style={{ fontSize: "20px" }}>{award?.title}</h3>
                       </div>
-                    )}
-                    <ul className="about-list-style clearfix">
+                    ) : null}
+
+                      <div className="text award-content-main">
+                        <ul className="about-list-style clearfix" dangerouslySetInnerHTML={{__html:award?.list}}>
+                          
+                        </ul>
+                      </div>
+
+                    {/* <ul className="about-list-style clearfix">
                       {award.items.map((item, i) => (
                         <li key={i} dangerouslySetInnerHTML={{ __html: item }} />
                       ))}
-                    </ul>
+                    </ul> */}
                   </div>
+                </div>
+                 
                 </div>
               </div>
             </div>
           </section>
         ))}
-      </section> */}
+      </section>
 
       </Layout>
     </>
