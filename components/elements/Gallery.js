@@ -9,7 +9,7 @@ const GalleryComponent = ({ data }) => {
   console.log("✌️firstData --->", firstData);
 
   const lastData = data?.slice(-1);
-  console.log("✌️lastData --->", lastData);
+  console.log("✌️lastDataa --->", lastData);
 
   return (
     <>
