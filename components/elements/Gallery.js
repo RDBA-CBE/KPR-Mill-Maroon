@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { SlideshowLightbox } from "lightbox.js-react";
-import "lightbox.js-react/dist/index.css";
+// import "lightbox.js-react/dist/index.css";
 
 const GalleryComponent = ({ data }) => {
   console.log("✌️data --->", data);
